@@ -4,8 +4,8 @@
   "description": "Red Hat Brand Website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "eleventy --serve",
-    "build": "eleventy --output=_site"
+    "start": "eleventy --serve --incremental",
+    "build": "eleventy --incremental"
   },
   "repository": {
     "type": "git",
@@ -13,13 +13,7 @@
   },
   "contributors": [
     "Benny Powers <bennyp@redhat.com>",
-    "Brian Ferry <bferry@redhat.com>",
-    "Corey Vickery <cvickery@redhat.com>",
-    "Em Nouveau <enouveau@redhat.com>",
-    "Michael Potter <mpotter@redhat.com",
-    "Wes Ruvalcaba <wruvalcaba@redhat.com>",
-    "Steven Spriggs <sspriggs@redhat.com>",
-    "Kelsey Swanson <kswanson@redhat.com>"
+    "Steven Spriggs <sspriggs@redhat.com>"
   ],
   "license": "MIT",
   "bugs": {
