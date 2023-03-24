@@ -1,0 +1,36 @@
+{
+  "name": "red-hat-brand",
+  "version": "0.0.1",
+  "description": "Red Hat Brand Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy --output=_site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedHat-UX/red-hat-brand.git"
+  },
+  "contributors": [
+    "Benny Powers <bennyp@redhat.com>",
+    "Brian Ferry <bferry@redhat.com>",
+    "Corey Vickery <cvickery@redhat.com>",
+    "Em Nouveau <enouveau@redhat.com>",
+    "Michael Potter <mpotter@redhat.com",
+    "Wes Ruvalcaba <wruvalcaba@redhat.com>",
+    "Steven Spriggs <sspriggs@redhat.com>",
+    "Kelsey Swanson <kswanson@redhat.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedHat-UX/red-hat-brand/issues"
+  },
+  "homepage": "https://github.com/RedHat-UX/red-hat-brand#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-webc": "^0.9.4",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-attrs": "^4.1.6"
+  }
+}

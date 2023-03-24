@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    
+    <link rel="stylesheet" href="/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;500;700&amp;family=Noto+Sans+JP:wght@300;500;700&amp;family=Noto+Sans+KR:wght@300;500;700&amp;family=Noto+Sans+Malayalam:wght@300;500;700&amp;family=Noto+Sans+SC:wght@300;500;700&amp;family=Noto+Sans+TC:wght@300;500;700&amp;family=Noto+Sans+Tamil:wght@300;500;700&amp;family=Noto+Sans+Thai:wght@300;500;700&amp;display=swap">
+
+    {% include "partials/importmap.njk" %}
+ 
+    <script type="module">
+      import "@rhds/elements/rh-cta/rh-cta.js";
+      import "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary.js";
+      import "@rhds/elements/rh-footer/rh-footer.js";
+      import "@rhds/elements/rh-tabs/rh-tabs.js";
+    </script>
+
+    <!-- Default bucket -->
+    {% renderTemplate "webc" %}
+		  <script type="module" @raw="getBundle('js')" webc:keep></script>
+      <style @raw="getBundle('css')" webc:keep></style>
+    {% endrenderTemplate %}
+    <link rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0-beta.34/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css">
+     <link rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0-beta.34/elements/rh-footer/rh-footer-lightdom.css">
+  </head>
+  <body>
+    {% renderTemplate "webc" %}
+      <rhb-header></rhb-header>
+    {% endrenderTemplate %}
+    {{ content | safe }}
+  </body>
+
+  {% include "partials/footer.njk" %}
+</html>

@@ -1,0 +1,169 @@
+<header>
+</header>
+<rh-navigation-secondary id="secondary-nav-component" data-analytics-region="secondary-nav-brand-standards"
+  color-palette="lighter">
+  <a href="/about/brand/standards" title="Red Hat Brand Standards" data-analytics-text="Brand Standards"
+    data-analytics-category="Brand Standards nav" slot="logo" aria-current="page">Brand Standards</a>
+  <ul slot="nav">
+    <!-- TAB 1 - Foundations -->
+    <li>
+      <rh-navigation-secondary-dropdown id="rh-navigation-secondary-dropdown-rss18l7jo" color-palette="lighter">
+        <a href="#" data-analytics-text="Foundations" data-analytics-category="Brand Standards nav" slot="link"
+          role="button" aria-expanded="false" aria-controls="rh-navigation-secondary-menu-alsbf77fn">Foundations</a>
+        <rh-navigation-secondary-menu slot="menu" id="rh-navigation-secondary-menu-alsbf77fn" layout="full-width">
+          <rh-navigation-secondary-menu-section>
+            <ul slot="links">
+              <li>
+                <a href="/about/brand/standards/history" title="Red Hat brand standards - Our history"
+                  data-analytics-text="History" data-analytics-category="Brand Standards nav|Foundations">History</a>
+              </li>
+              <li>
+                <a href="/about/brand/standards/strategy" title="Red Hat brand strategy" data-analytics-text="Strategy"
+                  data-analytics-category="Brand Standards nav|Foundations">Strategy </a>
+              </li>
+              <li>
+                <a href="/about/brand/standards/personality" title="Red Hat brand standards - Our personality"
+                  data-analytics-text="Personality"
+                  data-analytics-category="Brand Standards nav|Foundations">Personality</a>
+              </li>
+            </ul>
+          </rh-navigation-secondary-menu-section>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+
+    <!-- TAB 2 - Logos -->
+    <li>
+      <rh-navigation-secondary-dropdown id="rh-navigation-secondary-dropdown-tofbt6psg" color-palette="lighter">
+        <a href="#" data-analytics-text="Logos" data-analytics-category="Brand Standards nav" slot="link" role="button"
+          aria-expanded="false" aria-controls="rh-navigation-secondary-menu-4jbnsd8aq">Logos</a>
+        <rh-navigation-secondary-menu slot="menu" id="rh-navigation-secondary-menu-4jbnsd8aq" layout="full-width">
+          <ul>
+            <li>
+              <a href="/about/brand/standards/logo" title="Red Hat logo standards" data-analytics-text="Red Hat logo"
+                data-analytics-category="Brand Standards nav|Logos">Red&nbsp;Hat logo</a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/the-hat" title="The hat Branding Guidelines" data-analytics-text="The hat"
+                data-analytics-category="Brand Standards nav|Logos">The
+                hat</a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/red-hat-and-ibm-logos"
+                title="Red Hat and IBM - Red Hat and IBM Branding Guide | Red Hat" data-analytics-text="Red Hat and IBM"
+                data-analytics-category="Brand Standards nav|Logos">Red&nbsp;Hat and IBM </a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/endorsement-logos"
+                title="Endorsement logos - Endorsement Logo Brand Standards | Red Hat"
+                data-analytics-text="Endorsement logos" data-analytics-category="Brand Standards nav|Logos">Endorsement
+                logos</a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/co-brand-logos"
+                title="Co-Branding Logos - Co-Branding Logo Guide | Red Hat" data-analytics-text="Co-brand logos"
+                data-analytics-category="Brand Standards nav|Logos">Co-brand logos</a>
+            </li>
+            <li>
+              <a href="/redhat.com/about/brand/standards/partner-logos"
+                title="Partner Logos - Partner Logo Branding Guide | Red Hat" data-analytics-text="Partner logos"
+                data-analytics-category="Brand Standards nav|Logos">Partner logos</a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/product-logos"
+                title="Product logos - Guidelines for product logos | Red Hat" data-analytics-text="Product logos"
+                data-analytics-category="Brand Standards nav|Logos">Product logos</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/redhat.com/about/brand/standards/universal-logos"
+                title="Universal Logos - Universal Logo Branding Guide | Red Hat" data-analytics-text="Universal logos"
+                data-analytics-category="Brand Standards nav|Logos">Universal logos</a>
+            </li>
+            <li>
+              <a href="/redhat.com/about/brand/standards/initiative-logos"
+                title="Initiative Logos - Initiative Logo Branding Guide | Red Hat"
+                data-analytics-text="Initiative logos" data-analytics-category="Brand Standards nav|Logos">Initiative
+                logos</a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/certification-logos"
+                title="Certification Logos - Branding Certification Logo Guide | Red Hat"
+                data-analytics-text="Certification logos"
+                data-analytics-category="Brand Standards nav|Logos">Certification logos</a>
+            </li>
+            <li>
+              <a href="/redhat.com/about/brand/standards/DEI-community-logos"
+                title="Diversity, Equity, and Inclusion Community Logos - DEI Community Logo Guide | Red Hat"
+                data-analytics-text="DEI community logos" data-analytics-category="Brand Standards nav|Logos">DEI
+                community logos</a>
+            </li>
+            <li>
+              <a href="https://www.redhat.com/about/brand/standards/summit-logo"
+                title="Red Hat Summit Logo - Red Hat Summit Logo Branding Guide | Red Hat"
+                data-analytics-text="Red Hat Summmit logo"
+                data-analytics-category="Brand Standards nav|Logos">Red&nbsp;Hat Summit logo</a>
+            </li>
+          </ul>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+
+    <!-- TAB 3 - Visual system -->
+    <li>
+      <rh-navigation-secondary-dropdown id="rh-navigation-secondary-dropdown-ju0zfolsw" color-palette="lighter">
+        <a href="#" data-analytics-category="Brand Standards nav" data-analytics-text="Visual system" slot="link"
+          role="button" aria-expanded="false" aria-controls="rh-navigation-secondary-menu-94g6qkxvr">Visual system</a>
+        <rh-navigation-secondary-menu slot="menu" id="rh-navigation-secondary-menu-94g6qkxvr" layout="full-width">
+          <ul>
+            <li>
+              <a href="/about/brand/standards/color" title="Color - Color Branding Guide | Red Hat"
+                data-analytics-text="Color" data-analytics-category="Brand Standards nav|Visual system">Color </a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/typography" title="Typography - Typography Branding Guide | Red Hat"
+                data-analytics-text="Typography" data-analytics-category="Brand Standards nav|Visual system">Typography
+              </a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/photography" title="Photography - Photography Branding Guide | Red Hat"
+                data-analytics-text="Photography"
+                data-analytics-category="Brand Standards nav|Visual system">Photography </a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/icons" title="Icons - Icon Branding Guide | Red Hat"
+                data-analytics-text="Icons" data-analytics-category="Brand Standards nav|Visual system">Icons </a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/illustration" title="Illustration Branding Guide | Red Hat"
+                data-analytics-text="Illustration"
+                data-analytics-category="Brand Standards nav|Visual system">Illustration </a>
+            </li>
+          </ul>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+
+    <!-- TAB 4 - Expression -->
+    <li>
+      <rh-navigation-secondary-dropdown id="rh-navigation-secondary-dropdown-xphlxhri5" color-palette="lighter">
+        <a href="#" slot="link" data-analytics-category="Brand Standards nav" data-analytics-text="Expression"
+          role="button" aria-expanded="false" aria-controls="rh-navigation-secondary-menu-cjzvqp7v7">Expression</a>
+        <rh-navigation-secondary-menu slot="menu" id="rh-navigation-secondary-menu-cjzvqp7v7" layout="full-width">
+          <ul>
+            <li>
+              <a href="/about/brand/standards/applications" title="Brand Standards - Applications | Red Hat"
+                data-analytics-text="Applications" data-analytics-category="Brand Standards nav|Expression">Applications
+              </a>
+            </li>
+            <li>
+              <a href="/about/brand/standards/application" title="Brand Standards - Templates | Red Hat"
+                data-analytics-text="Templates" data-analytics-category="Brand Standards nav|Expression">Templates </a>
+            </li>
+          </ul>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+  </ul>
+</rh-navigation-secondary>

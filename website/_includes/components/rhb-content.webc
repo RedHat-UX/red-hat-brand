@@ -1,0 +1,12 @@
+<div class="content-wrapper">
+  <slot name="header"></slot>
+  <slot></slot>
+</div>
+
+
+<style>
+.content-wrapper {
+  font-size: var(--rh-font-size-code-lg, 1.125rem);
+  max-width: calc(100% * (8 / 12) - (var(--_gutter-width, 18px) / 2));
+}
+</style>

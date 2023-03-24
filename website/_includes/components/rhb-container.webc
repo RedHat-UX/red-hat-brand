@@ -1,0 +1,10 @@
+<div class="rh-container">
+  <slot></slot>
+</div>
+
+<style>
+  .rh-container {
+    max-width: 1136px;
+    margin: 0 auto;
+  }
+</style>
