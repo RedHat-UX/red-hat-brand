@@ -1,0 +1,11 @@
+<script webc:type="js">
+
+	let text;
+	if ($data.title) {
+		text = `${$data.title} | ${$data.site.title}`;
+	} else {
+		text = $data.site.title;
+	}
+
+	`<title>${text}</title>`;
+</script>

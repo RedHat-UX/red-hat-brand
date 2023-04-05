@@ -1,0 +1,13 @@
+---
+layout: layouts/backpage.webc
+title: Our personality
+tags:
+  - foundations
+---
+
+
+<rhb-band>
+  <rhb-container>
+    <h2>Personality</h2>
+  </rhb-container>
+</rhb-band>

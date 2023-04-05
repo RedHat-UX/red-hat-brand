@@ -1,0 +1,5 @@
+<script webc:type="js">
+	const base = `https://${$data.site.url}/`;
+	const canonical = new URL($data.page.url, base);
+	`<link rel="canonical" href="${canonical.toString()}">`;
+</script>

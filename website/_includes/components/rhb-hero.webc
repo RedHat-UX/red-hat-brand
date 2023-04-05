@@ -1,0 +1,31 @@
+<div class="hero-wrapper">
+  <div class="hero-image">
+    <slot name="image"></slot>
+  </div>
+  <div class="hero-content">
+    <slot name="headline"></slot>
+    <slot name="content"></slot>
+    <slot name="cta"></slot>
+  </div>
+</div>
+
+<style webc:keep webc:scoped>
+  .hero-wrapper {
+    display: grid;
+    grid-template-columns: 455px 1fr;
+    gap: var(--rh-space-2xl, 48px);
+  }
+
+  :is(h1, h2, h3, h4, h5, h6) {
+    font-weight: 400;
+  }
+
+  p {
+    font-size: var(--rh-font-size-code-lg, 1.125rem);
+  }
+
+  img {
+    width: 100%;
+  }
+
+</style>

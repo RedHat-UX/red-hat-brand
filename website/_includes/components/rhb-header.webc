@@ -1,0 +1,44 @@
+<header>
+    <a href="/">
+      <img src="/assets/images/red-hat-design-system.svg" alt="Red Hat Brand">
+    </a>
+</header>
+
+
+<style webc:keep webc:scoped>
+  header {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--rh-color-gray-90, #151515);
+    color: var(--rh-color-text-primary-on-dark, #ffffff);
+    padding: var(--rh-space-md, 8px);
+    height: 60px;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  img {
+    max-width: 136px;
+  }
+
+  @media screen and (min-width: 768px) {
+    header {
+      padding: var(--rh-space-md, 8px) var(--rh-space-xl, 24px);
+      height: 72px;
+    }
+
+    img {
+      max-width: 188px;
+    }
+  }
+
+</style>

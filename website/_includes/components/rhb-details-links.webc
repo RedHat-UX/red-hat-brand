@@ -1,0 +1,73 @@
+<script webc:setup>
+	function getItemList(collections, tag, limit=0) {
+		let result = [...collections[tag]].reverse();
+		return limit ? result.slice(0, limit) : result;
+	}
+</script>
+
+<details>
+	<summary @text="title"></summary>
+	<ul class="detail-links">
+		<li class="details-link" webc:for="item of getItemList($data.collections, tag, limit)">
+			<a :href="item.url" @raw="item.data.title"></a>
+		</li>
+	</ul>
+</details>
+
+<style webc:keep webc:scoped>
+
+	summary {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: var(--rh-spacer-lg, 16px);
+    transition: background-color .25s;
+    font-size: var(--rh-font-size-body-text-lg, 1.125rem);
+    padding: var(--rh-space-md, 8px) var(--rh-space-2xl, 32px);
+    color: var(--rh-color-text-primary-on-light, #151515);
+	}
+
+	details[open] summary {
+		background-color: var(--rh-color-gray-10, #E0E0E0);
+	}
+
+	details[open] summary::after {
+		transform: rotate(135deg);
+	}
+
+	summary::after {
+		content: "";
+    color: var(--rh-color-text-primary-on-light, #151515);
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    border-right: var(--rh-border-width-lg, 3px) solid var(--rh-color-border-strong-on-light, #151515);
+    border-top: var(--rh-border-width-lg, 3px) solid var(--rh-color-border-strong-on-light, #151515);
+	}
+
+	.details-links {
+		list-style: none;
+		padding-left: 32px;
+		margin: 0;
+	}
+
+	.details-link {
+		padding: var(--rh-spacer-lg, 16px) 0;
+	}
+
+	.details-link a {
+		display: block;
+    text-decoration: none;
+    transition: background-color .25s;
+    font-size: var(--rh-font-size-body-text-lg, 1.125rem);
+    padding: var(--rh-space-md, 8px) var(--rh-space-2xl, 32px);
+    color: var(--rh-color-text-primary-on-light, #151515);
+	}
+
+	.details-link a:hover {
+		color: var(--rh-color-text-primary-on-light, #151515);
+    background: var(--rh-color-surface-lighter, #f2f2f2);
+    box-shadow: inset var(--rh-border-width-lg, 3px) 0 0 0 var(--rh-color-border-subtle-on-light, #c7c7c7);
+	}
+</style>
