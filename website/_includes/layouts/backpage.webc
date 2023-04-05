@@ -2,4 +2,10 @@
 layout: layouts/base.webc
 ---
 
-<main @raw="content"></main>
+<div class="backpage-wrapper" @raw="content"></div>
+
+<style>
+  .backpage-wrapper {
+    padding-top: 72px;
+  }
+</style>

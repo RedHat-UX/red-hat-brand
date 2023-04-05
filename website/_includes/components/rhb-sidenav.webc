@@ -16,7 +16,7 @@
   nav {
     width: 280px;
     padding-top: 30px;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 72px);
     overflow-y: auto;
     color: var(--rh-color-gray-90, #151515);
     background: var(--rh-color-surface-lightest, #ffffff);
