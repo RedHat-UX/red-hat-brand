@@ -9,7 +9,7 @@
     padding-inline: var(--rh-spacer-lg, 16px);
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1136px) {
     .rh-container {
       padding-inline: 0;
     }
