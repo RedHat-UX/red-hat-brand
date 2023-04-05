@@ -1,0 +1,10 @@
+<script webc:setup>
+	function getItemList(collections, tag, limit=0) {
+		let result = [...collections[tag]].reverse();
+		return limit ? result.slice(0, limit) : result;
+	}
+</script>
+
+<li webc:for="item of getItemList($data.collections, tag, limit)">
+  <a :href="item.url" @raw="item.data.title"></a>
+</li>

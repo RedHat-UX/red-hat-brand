@@ -1,11 +1,12 @@
 <header>
-    <a href="/">
-      <img src="/assets/images/red-hat-design-system.svg" alt="Red Hat Brand">
-    </a>
+  <a href="/">
+    <img src="/assets/images/red-hat-design-system.svg" alt="Red Hat Brand">
+  </a>
 </header>
 
 
 <style webc:keep webc:scoped>
+
   header {
     position: fixed;
     z-index: 2;
@@ -19,6 +20,11 @@
     padding: var(--rh-space-md, 8px);
     height: 60px;
   }
+
+  :host([relative]) header {
+    position: relative;
+  }
+ 
 
   a {
     display: inline-flex;

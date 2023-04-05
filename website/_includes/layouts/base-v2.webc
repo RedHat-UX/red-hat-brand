@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta webc:keep charset="utf-8">
+	<meta webc:keep http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link webc:keep rel="shortcut icon" href="https://www.redhat.com/misc/favicon.ico" type="image/x-icon">
+	
+	<title webc:nokeep webc:is="meta-title"></title>
+	<meta webc:nokeep webc:is="meta-social">
+	<link webc:nokeep webc:is="link-canonical">
+
+	<!--
+		JSPM Generator Import Map
+		Edit URL: https://generator.jspm.io/#tY5dssIgDEb74ALchI8Uf+4C3IQLCCVVlJt0INXp6hWczviklpn6AAnhfGeyWlTV8l4dSJx4tNW+AxEM1PpBo8d/JIn7bb2uN7prlWuYdL6ibsGk06BhvtTnWBb0ji5oHRUH5eYyXJwbuJfe4MTcWJ90ONn44jaJWyuDAvXu7+OnDifVCIzlmypjLXPa69VNyRBc3RHEMamIaWULYXg3VzZwZ/lGs4uTo8/PPP6JfHYpXzF4GOb2TvEJmDhW1QGhLwwV4jHxD50qQ0/lAw
+	-->
+	<script webc:keep type="importmap">
+		{
+			"imports": {
+				"@patternfly/elements/pf-icon/icons/fab/facebook.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/facebook.js",
+				"@patternfly/elements/pf-icon/icons/fab/linkedin.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/linkedin.js",
+				"@patternfly/elements/pf-icon/icons/fab/twitter.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/twitter.js",
+				"@patternfly/elements/pf-icon/icons/fab/youtube.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/youtube.js",
+				"@patternfly/elements/pf-icon/pf-icon.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/pf-icon.js",
+				"@rhds/elements": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/rhds.min.js",
+				"@rhds/elements/rh-cta/rh-cta.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-cta/rh-cta.js",
+				"@rhds/elements/rh-footer/rh-footer-lightdom.css": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-lightdom.css",
+				"@rhds/elements/rh-footer/rh-footer.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer.js",
+				"@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-dropdown.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-dropdown.js",
+				"@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-menu-section.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-menu-section.js",
+				"@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-menu.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-menu.js",
+				"@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-overlay.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-overlay.js",
+				"@rhds/elements/rh-navigation-secondary/rh-navigation-secondary.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary.js",
+				"@rhds/elements/rh-tabs/rh-tab-panel.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-tabs/rh-tab-panel.js",
+				"@rhds/elements/rh-tabs/rh-tab.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-tabs/rh-tab.js",
+				"@rhds/elements/rh-tabs/rh-tabs.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-tabs/rh-tabs.js"
+			},
+			"scopes": {
+				"https://ga.jspm.io/": {
+					"@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/reactive-element.js",
+					"@lit/reactive-element/decorators/": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/decorators/",
+					"@patternfly/elements/": "https://ga.jspm.io/npm:@patternfly/elements@2.0.5/",
+					"@patternfly/pfe-core": "https://ga.jspm.io/npm:@patternfly/pfe-core@2.2.0/core.js",
+					"@patternfly/pfe-core/": "https://ga.jspm.io/npm:@patternfly/pfe-core@2.2.0/",
+					"@rhds/elements/rh-accordion/rh-accordion.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-accordion/rh-accordion.js",
+					"@rhds/tokens/media.js": "https://ga.jspm.io/npm:@rhds/tokens@1.0.0/js/media.js",
+					"lit": "https://ga.jspm.io/npm:lit@2.7.1/index.js",
+					"lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@3.3.1/development/lit-element.js",
+					"lit-html": "https://ga.jspm.io/npm:lit-html@2.7.1/development/lit-html.js",
+					"lit-html/": "https://ga.jspm.io/npm:lit-html@2.7.1/development/",
+					"lit/": "https://ga.jspm.io/npm:lit@2.7.1/",
+					"tslib": "https://ga.jspm.io/npm:tslib@2.5.0/tslib.es6.js"
+				},
+				"https://ga.jspm.io/npm:@patternfly/elements@2.0.1/": {
+					"lit": "https://ga.jspm.io/npm:lit@2.6.1/index.js",
+					"lit/decorators/": "https://ga.jspm.io/npm:lit@2.6.1/decorators/"
+				},
+				"https://ga.jspm.io/npm:@patternfly/elements@2.0.5/": {
+					"lit": "https://ga.jspm.io/npm:lit@2.6.1/index.js",
+					"lit/": "https://ga.jspm.io/npm:lit@2.6.1/"
+				},
+				"https://ga.jspm.io/npm:@patternfly/pfe-core@2.2.0/": {
+					"lit": "https://ga.jspm.io/npm:lit@2.6.1/index.js"
+				}
+			}
+		}
+	</script>
+
+	<script webc:keep type="module">
+		import "@rhds/elements/rh-cta/rh-cta.js";
+		import "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary.js";
+		import "@rhds/elements/rh-footer/rh-footer.js";
+		import "@rhds/elements/rh-tabs/rh-tabs.js";
+	</script>
+
+	<link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;500;700&amp;family=Noto+Sans+JP:wght@300;500;700&amp;family=Noto+Sans+KR:wght@300;500;700&amp;family=Noto+Sans+Malayalam:wght@300;500;700&amp;family=Noto+Sans+SC:wght@300;500;700&amp;family=Noto+Sans+TC:wght@300;500;700&amp;family=Noto+Sans+Tamil:wght@300;500;700&amp;family=Noto+Sans+Thai:wght@300;500;700&amp;display=swap">
+
+	<link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css">
+	<link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-lightdom.css">
+  
+  <link rel="stylesheet" href="../../../public/assets/stylesheets/base.css">
+
+  <style @raw="getBundle('css')" webc:keep></style>
+  <script @raw="getBundle('js')" webc:keep></script>
+
+</head>
+
+<body>
+	<rhb-header relative></rhb-header>
+	<div webc:nokeep webc:is="rhb-nav-secondary"></div>
+	<main @raw="content"></main>
+	<div webc:nokeep webc:is="rhb-footer"></div>
+</body>
+
+</html>

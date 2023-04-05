@@ -1,0 +1,65 @@
+<script>
+
+</script>
+
+<rh-navigation-secondary>
+  <a href="/" title="Red Hat Brand Standards" data-analytics-text="Brand Standards"
+    data-analytics-category="Brand Standards nav" slot="logo" aria-current="page">Brand Standards</a>
+  <ul slot="nav">
+    <!-- TAB 1 - Foundations -->
+    <li>
+      <rh-navigation-secondary-dropdown>
+        <a href="/foundations" slot="link">Foundations</a>
+        <rh-navigation-secondary-menu slot="menu">
+          <rh-navigation-secondary-menu-section>
+            <ul slot="links">
+              <rhb-li tag="foundations"></rhb-li>
+            </ul>
+          </rh-navigation-secondary-menu-section>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+
+    <!-- TAB 2 - Logos -->
+    <li>
+      <rh-navigation-secondary-dropdown>
+        <a href="/logos"slot="link">Logos</a>
+        <rh-navigation-secondary-menu slot="menu">
+          <rh-navigation-secondary-menu-section>
+            <ul slot="links">
+              <rhb-li tag="logos"></rhb-li>
+            </ul>
+          </rh-navigation-secondary-menu-section>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+
+    <!-- TAB 3 - Visual system -->
+    <li>
+      <rh-navigation-secondary-dropdown>
+        <a href="/visual-system" slot="link">Visual system</a>
+        <rh-navigation-secondary-menu slot="menu">
+          <rh-navigation-secondary-menu-section>
+            <ul slot="links">
+              <rhb-li tag="visual-system"></rhb-li>
+            </ul>
+          </rh-navigation-secondary-menu-section> 
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+
+    <!-- TAB 4 - Expression -->
+    <li>
+      <rh-navigation-secondary-dropdown>
+        <a href="/expression" slot="link">Expression</a>
+        <rh-navigation-secondary-menu slot="menu">
+          <rh-navigation-secondary-menu-section>
+            <ul slot="links">
+              <rhb-li tag="expression"></rhb-li>
+            </ul>
+          </rh-navigation-secondary-menu-section>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+  </ul>
+</rh-navigation-secondary>
