@@ -4,3 +4,10 @@ title: Red Hat logo
 tags: 
   - logos
 ---
+
+
+<rhb-band>
+  <rhb-container>
+    <h2 @text="title"></h2>
+  </rhb-container>
+</rhb-band>

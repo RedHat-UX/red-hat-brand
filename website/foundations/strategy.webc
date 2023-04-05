@@ -7,6 +7,6 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <h2>Strategy</h2>
+    <h2 @text="title"></h2>
   </rhb-container>
 </rhb-band>
