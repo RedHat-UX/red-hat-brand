@@ -78,7 +78,9 @@
 </head>
 
 <body>
-	<rhb-header></rhb-header>
+	<rhb-header>
+		<img src="/assets/images/red-hat-design-system.svg" alt="Red Hat Brand">
+	</rhb-header>
 	<rhb-sidenav>
 		<ul>
 			<li><rhb-details-links title="Foundations" tag="foundations"></rhb-details-links></li>
