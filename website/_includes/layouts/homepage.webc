@@ -3,9 +3,3 @@ layout: layouts/base.webc
 ---
 
 <div class="homepage-wrapper" @raw="content"></div>
-
-<style>
-  .homepage-wrapper {
-    padding-top: 72px;
-  }
-</style>
