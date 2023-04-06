@@ -5,10 +5,21 @@ module.exports = function(eleventyConfig) {
 		components: "website/_includes/components/*.webc",
 	});
 
-	eleventyConfig.addWatchTarget("website/_includes/components/*.webc");
 
 	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 	eleventyConfig.addPassthroughCopy({ public: "." });
+
+
+  eleventyConfig.setServerOptions({
+		module: "@11ty/eleventy-server-browsersync",
+
+    // Default Browsersync options shown:
+    port: 8080,
+    open: false,
+    notify: false,
+    ui: false,
+    ghostMode: false,
+  });
 
 	return {
 		dir: {
