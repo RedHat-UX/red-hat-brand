@@ -8,27 +8,17 @@
 
 <style webc:keep webc:scoped>
   header {
-    position: fixed;
-    z-index: 2;
     display: flex;
     align-items: center;
-    top: 0;
-    right: 0;
-    left: 0;
     background-color: var(--rh-color-gray-90, #151515);
     color: var(--rh-color-text-primary-on-dark, #ffffff);
     padding: var(--rh-space-md, 8px);
-    height: 60px;
+    height: 72px;
   }
-
-  :host([relative]) header {
-    position: relative;
+  .logo {
+    margin-inline-start: var(--rh-space-md, 8px);
   }
- 
-  :host([relative]) .logo {
-    margin-inline-start: var(--rh-space-2xl, 32px);
-  }
-
+  
   a {
     display: inline-flex;
     align-items: center;
@@ -43,8 +33,11 @@
   @media screen and (min-width: 768px) {
     header {
       padding: var(--rh-space-md, 8px) var(--rh-space-xl, 24px);
-      height: 72px;
     }
+
+    .logo {
+      margin-inline-start: var(--rh-space-2xl, 32px);
+    } 
 
     img,
     svg {

@@ -4,10 +4,17 @@
 </div>
 
 <style webc:keep webc:scoped>
+  
   .link-grid-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: var(--rh-space-xl, 32px);
+  }
+
+  @media screen and (min-width: 768px) {
+    .link-grid-wrapper {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
 
   a {

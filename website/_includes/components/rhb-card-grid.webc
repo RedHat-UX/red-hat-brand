@@ -4,10 +4,19 @@
 </div>
 
 <style webc:keep webc:scoped>
+
   .card-grid-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: var(--rh-space-xl, 32px);
+  }
+
+  @media screen and (min-width: 768px) {
+    .card-grid-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: var(--rh-space-xl, 32px);
+    }
   }
 
   :host([row-pad]) .card-grid-wrapper {

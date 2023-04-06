@@ -12,8 +12,20 @@
 <style webc:keep webc:scoped>
   .hero-wrapper {
     display: grid;
-    grid-template-columns: 455px 1fr;
-    gap: var(--rh-space-2xl, 48px);
+    grid-template-columns: 1fr;
+    gap: var(--rh-space-xl, 32px);
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   :is(h1, h2, h3, h4, h5, h6) {
@@ -25,6 +37,7 @@
   }
 
   img {
+    max-width: 455px;
     width: 100%;
   }
 

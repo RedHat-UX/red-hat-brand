@@ -72,14 +72,14 @@ layout: layouts/homepage.webc
     </rhb-content>
 
     <div style="padding-block: var(--rh-space-xl, 32px)">
-      <rh-tabs vertical>
+      <rh-tabs>
         <rh-tab slot="tab">Functional</rh-tab>
         <rh-tab-panel>
-          <img class="rh-image-embed-img" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
+          <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
         </rh-tab-panel>
         <rh-tab slot="tab">Expressive</rh-tab>
         <rh-tab-panel>
-          <img class="rh-image-embed-img" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
+          <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
         </rh-tab-panel>
       </rh-tabs>
     </div>
@@ -103,13 +103,13 @@ layout: layouts/homepage.webc
         <rh-cta slot="cta"><a href="/logos/certification-logos">Learn more</a></rh-cta>
       </rhb-card>
       <rhb-card bordered>
-        <img slot="image" class="rh-image-embed-img" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_page-Logo-RGB.svg" alt="Image of the Red Hat logo used on various color background." loading="lazy">
+        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_page-Logo-RGB.svg" alt="Image of the Red Hat logo used on various color background." loading="lazy">
         <h3 slot="headline">Red Hat logo updates</h3>
         <p slot="content">(March 2022) We’ve updated our Red Hat logo page with more specific information about our logo variations, using the logo on various background colors and images, and what the logo looks like in real-life applications.</p>
         <rh-cta slot="cta"><a href="/logos/logo">Learn more</a></rh-cta>
       </rhb-card>
       <rhb-card bordered>
-        <img slot="image" class="rh-image-embed-img" src="/assets/images/Notebooks-Landing_page.png" alt="Photo of Red Hat branded notebooks with the hat on the cover." loading="lazy">
+        <img slot="image" src="/assets/images/Notebooks-Landing_page.png" alt="Photo of Red Hat branded notebooks with the hat on the cover." loading="lazy">
         <h3 slot="headline">The hat page</h3>
         <p slot="content">(March 2022) We’ve created a new page that goes into detail about the hat, including how to determine when it’s appropriate to use the hat alone and how to apply the hat as artwork versus using it to represent Red Hat.</p>
         <rh-cta slot="cta"><a href="/logos/the-hat">Learn more</a></rh-cta>
@@ -118,6 +118,8 @@ layout: layouts/homepage.webc
   </rhb-container>
 </rhb-band>
 
-
-
-
+<style>
+  rh-tab-panel img {
+    max-width: 100%;
+  }
+</style>
