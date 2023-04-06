@@ -1,0 +1,23 @@
+<script webc:setup>
+	function getItemList(collections, tag, limit=0, sort="alpha", link="false") {
+		let result = [...collections[tag]].reverse().sort(function(a, b) {
+			if (sort === "alpha") {
+				if (a.data.title < b.data.title) return -1;
+				if (a.data.title > b.data.title) return 1;
+			} else if (sort === "date") {
+				return b.data.date - a.data.date;
+			}
+		});
+		return limit ? result.slice(0, limit) : result;
+	}
+</script>
+
+<div webc:nokeep webc:if="link">
+	<a webc:for="item of getItemList($data.collections, tag, limit, sort, link)" :href="item.url" @raw="item.data.title"></a>
+</div>
+<div webc:nokeep webc:else>
+	<li webc:for="item of getItemList($data.collections, tag, limit, sort)">
+		<a :href="item.url" @raw="item.data.title"></a>
+	</li>
+</div>
+

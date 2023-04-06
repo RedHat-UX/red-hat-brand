@@ -13,7 +13,7 @@
         <rh-navigation-secondary-menu slot="menu">
           <rh-navigation-secondary-menu-section>
             <ul slot="links">
-              <rhb-li tag="foundations"></rhb-li>
+              <rhb-link-list tag="foundations"></rhb-link-list>
             </ul>
           </rh-navigation-secondary-menu-section>
         </rh-navigation-secondary-menu>
@@ -27,7 +27,7 @@
         <rh-navigation-secondary-menu slot="menu">
           <rh-navigation-secondary-menu-section>
             <ul slot="links">
-              <rhb-li tag="logos"></rhb-li>
+              <rhb-link-list tag="logos"></rhb-link-list>
             </ul>
           </rh-navigation-secondary-menu-section>
         </rh-navigation-secondary-menu>
@@ -41,7 +41,7 @@
         <rh-navigation-secondary-menu slot="menu">
           <rh-navigation-secondary-menu-section>
             <ul slot="links">
-              <rhb-li tag="visual-system"></rhb-li>
+              <rhb-link-list tag="visual-system"></rhb-link-list>
             </ul>
           </rh-navigation-secondary-menu-section> 
         </rh-navigation-secondary-menu>
@@ -55,7 +55,7 @@
         <rh-navigation-secondary-menu slot="menu">
           <rh-navigation-secondary-menu-section>
             <ul slot="links">
-              <rhb-li tag="expression"></rhb-li>
+              <rhb-link-list tag="expression"></rhb-link-list>
             </ul>
           </rh-navigation-secondary-menu-section>
         </rh-navigation-secondary-menu>

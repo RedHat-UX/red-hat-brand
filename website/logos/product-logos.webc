@@ -3,6 +3,7 @@ layout: layouts/backpage.webc
 title: Product logos
 tags: 
   - logos
+  - popular
 ---
 
 <rhb-band>

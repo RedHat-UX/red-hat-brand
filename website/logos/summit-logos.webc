@@ -3,6 +3,7 @@ layout: layouts/backpage.webc
 title: Red Hat Summit Logo
 tags: 
   - logos
+  - popular
 ---
 
 <rhb-band>

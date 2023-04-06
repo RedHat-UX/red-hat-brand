@@ -27,14 +27,7 @@ layout: layouts/homepage-v2.webc
   <rhb-container>
     <rhb-link-grid>
       <h3 slot="header">Popular resources</h3>
-      <a class="rh-cta-link" href="/visual-system/icons" title="Brand - Icons" data-analytics-linktype="cta">Icons</a>
-      <a class="rh-cta-link" href="/visual-system/illustration" title="Brand - Illustration" data-analytics-linktype="cta">Illustration</a>
-      <a class="rh-cta-link" href="/visual-system/photography" title="Brand - photography" data-analytics-linktype="cta">Photography</a>
-      <a class="rh-cta-link" href="/expression/application" title="brand standards | application" data-analytics-linktype="cta">Templates</a>
-      <a class="rh-cta-link" href="/logos/summit-logo" title="Brand - summit logo" data-analytics-linktype="cta">Red Hat Summit</a>
-      <a class="rh-cta-link" href="/logos/product-logos" title="Brand standards | product logos" data-analytics-linktype="cta">Product logos</a>
-      <a class="rh-cta-link" href="/logos/red-hat-and-ibm-logos" title="Brand - Red Hat and IBM" data-analytics-linktype="cta">Red Hat and IBM</a>
-      <a class="rh-cta-link" href="/logos/universal-logos" title="Brand - Universal logos" data-analytics-linktype="cta">Team logos</a>
+      <rhb-link-list tag="popular" link="true"></rhb-link-list>
     </rhb-link-grid>
   </rhb-container>
 </rhb-band>
