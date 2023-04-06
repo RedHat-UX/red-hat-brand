@@ -10,22 +10,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 	eleventyConfig.addPassthroughCopy({ public: "." });
 
-  eleventyConfig.addCollection("foundations", function(collectionApi) {
-    return collectionApi.getFilteredByTags("foundations");
-  });
-
-	eleventyConfig.addCollection("logos", function(collectionApi) {
-    return collectionApi.getFilteredByTags("logos");
-  });
-
-	eleventyConfig.addCollection("visual-system", function(collectionApi) {
-    return collectionApi.getFilteredByTags("visual-system");
-  });
-
-	eleventyConfig.addCollection("expression", function(collectionApi) {
-    return collectionApi.getFilteredByTags("expression");
-  });
-
 	return {
 		dir: {
 			input: "website",
