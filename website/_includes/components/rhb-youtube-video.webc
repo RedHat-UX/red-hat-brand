@@ -1,32 +1,29 @@
 <script>
   const players = [];
   function onYouTubeIframeAPIReady() {
-    // Wait for the DOM to be ready
-    document.addEventListener("DOMContentLoaded", function() {
-      // get every player on page
-      const components = document.querySelectorAll('rhb-youtube-video');
-      components.forEach((component) => {
-        // get the video id from the data attribute
-        const player = component.querySelector('.player');
-       
-        const videoId = component.getAttribute('video-id');
-        const height = component.getAttribute('height') ?? 390;
-        const width = component.getAttribute('width') ?? 640;
-        // create a new YT player
-        const ytPlayer = new YT.Player(player, {
-          height: height,
-          width: width,
-          videoId: videoId,
-          playerVars: {
-            'playsinline': 0,
-            'modestbranding': 1,
-            'autoplay': 0,
-            'enablejsapi': 1,
-          }
-        });
-        players.push(ytPlayer);
+    // get every player on page
+    const components = document.querySelectorAll('rhb-youtube-video');
+    components.forEach((component) => {
+      // get the video id from the data attribute
+      const player = component.querySelector('.player');
+      
+      const videoId = component.getAttribute('video-id');
+      const height = component.getAttribute('height') ?? 390;
+      const width = component.getAttribute('width') ?? 640;
+      // create a new YT player
+      const ytPlayer = new YT.Player(player, {
+        height: height,
+        width: width,
+        videoId: videoId,
+        playerVars: {
+          'playsinline': 0,
+          'modestbranding': 1,
+          'autoplay': 0,
+          'enablejsapi': 1,
+        }
       });
-    });  
+      players.push(ytPlayer);
+    });
   }
 
   document.addEventListener("DOMContentLoaded", function() {
@@ -36,9 +33,8 @@
         const videoWrapper = event.target.closest('.video-wrapper');
         videoWrapper.classList.add('playing');
         const clickedPlayer = videoWrapper.querySelector('iframe');
-        console.log(players);
         const youtubePlayer = players.find((p) => p.getIframe() === clickedPlayer);
-        if (youtubePlayer) {
+        if (youtubePlayer && youtubePlayer instanceof YT.Player) {
           youtubePlayer.playVideo();
         }
       });
