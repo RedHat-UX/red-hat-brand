@@ -10,14 +10,13 @@
       const videoId = component.getAttribute('video-id');
       const height = component.getAttribute('height') ?? 390;
       const width = component.getAttribute('width') ?? 640;
-      const title = components.getAttribute('video-title') ?? '';
+      const title = component.getAttribute('video-title') ?? '';
 
       // create a new YT player
       const ytPlayer = new YT.Player(player, {
         height: height,
         width: width,
         videoId: videoId,
-        title: title,
         playerVars: {
           'playsinline': 1,
           'modestbranding': 1,
@@ -25,6 +24,7 @@
           'enablejsapi': 1,
         }
       });
+      ytPlayer.getIframe().setAttribute('title', title);
       players.push(ytPlayer);
     });
   }
@@ -39,6 +39,7 @@
         const youtubePlayer = players.find((p) => p.getIframe() === clickedPlayer);
         if (youtubePlayer && youtubePlayer instanceof YT.Player) {
           youtubePlayer.playVideo();
+          clickedPlayer.focus();
         }
       });
     });
