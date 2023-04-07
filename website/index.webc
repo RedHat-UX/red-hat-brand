@@ -25,16 +25,17 @@ layout: layouts/homepage.webc
 
 <rhb-band>
   <rhb-container>
-    <rhb-link-grid>
+    <rhb-grid columns="four">
       <h3 slot="header">Popular resources</h3>
-      <rhb-link-list tag="popular" link="true"></rhb-link-list>
-    </rhb-link-grid>
+
+      <rhb-link-list tag="popular" link="true" class="rh-cta-link"></rhb-link-list>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
 
-  <rhb-band>
+<rhb-band>
   <rhb-container>
-    <rhb-card-grid row-pad>
+    <rhb-grid columns="two">
       <h3 slot="header">Core brand elements</h3>
       <rhb-card full-width>
         <img slot="image" class="mt-6 img-fluid" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" alt="We always lead with Red Hat">
@@ -71,24 +72,23 @@ layout: layouts/homepage.webc
       <p>Red Hat’s brand expression is how we adapt the way we apply our brand standards to meet the needs of our customers, partners, and associates. Function comes first—all of our communications should be clear and helpful. When we want to tell a more nuanced story, we can introduce expressive elements like colors from our extended color wheel, stylized typography, illustration, and more.</p>
     </rhb-content>
 
-    <div style="padding-block: var(--rh-space-xl, 32px)">
-      <rh-tabs>
-        <rh-tab slot="tab">Functional</rh-tab>
-        <rh-tab-panel>
-          <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
-        </rh-tab-panel>
-        <rh-tab slot="tab">Expressive</rh-tab>
-        <rh-tab-panel>
-          <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
-        </rh-tab-panel>
-      </rh-tabs>
-    </div>
+    <rh-tabs>
+      <rh-tab slot="tab">Functional</rh-tab>
+      <rh-tab-panel>
+        <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
+      </rh-tab-panel>
+      <rh-tab slot="tab">Expressive</rh-tab>
+      <rh-tab-panel>
+        <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
+      </rh-tab-panel>
+    </rh-tabs>
+
   </rhb-container>
 </rhb-band>
 
 <rhb-band>
   <rhb-container>
-    <rhb-card-grid>
+    <rhb-grid columns="two">
       <h3 slot="header">What's new</h3>
       <rhb-card bordered>
         <img slot="image" src="/assets/images/Standard-Landing_Page-History_update-RGB-01.jpg" alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history." loading="lazy">
@@ -114,7 +114,7 @@ layout: layouts/homepage.webc
         <p slot="content">(March 2022) We’ve created a new page that goes into detail about the hat, including how to determine when it’s appropriate to use the hat alone and how to apply the hat as artwork versus using it to represent Red Hat.</p>
         <rh-cta slot="cta"><a href="/logos/the-hat">Learn more</a></rh-cta>
       </rhb-card>
-    </rhb-card-grid>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
 

@@ -43,3 +43,19 @@ h5 {
 h6 {
   font-size: var(--rh-font-size-heading-xs, 1.25rem);
 }
+
+.rh-cta-link {
+  display: flex;
+  width: 100%;
+  padding-block: var(--rh-space-md, 16px);
+  border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #d2d2d2);
+  border-radius: var(--rh-border-radius-default, 3px);
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.rh-cta-link:hover {
+  background-color: var(--rh-color-surface-light, #f0f0f0);
+  text-decoration: underline;
+}

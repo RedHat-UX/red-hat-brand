@@ -22,7 +22,7 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <rhb-card-grid>
+    <rhb-grid columns="two">
       <rhb-card full-width>
         <img slot="image" alt="Picture of Red Hat's first logo. A simple, bright red brimmed top hat placed above the words 'Red Hat Software.'" src="/assets/images/red-hat-history-software.png">
         <p slot="content">Red Hat's first logo appeared on an early invoice. It was a simple, bright red brimmed top hat placed above the words "Red Hat Software."</p>
@@ -31,7 +31,7 @@ tags:
         <img slot="image"  alt="Picture of Red Hat's running man logo. A modified piece of clip art of a man holding a briefcase walking while holding a red fedora on his head." src="/assets/images/red-hat-history-running-man.png">
         <p slot="content">The next logo would be the "running man" logo, as it was affectionately known. This logo was used on early ads and manuals. It was created by one of Red Hat’s engineers, who modified a piece of existing clip art.</p>
       </rhb-card>
-    </rhb-card-grid>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
 
@@ -71,7 +71,7 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <rhb-card-grid>
+    <rhb-grid columns="two">
       <rhb-card full-width>
         <img slot="image" src="/assets/images/rh_history_summit_new_orleans.jpg" alt="red hat history summit">
         <p slot="content">Held for the first time in New Orleans in 2005, Red Hat Summit is a chance for Red Hat's customers, partners, and community to learn, network, and experience all that enterprise open source has to offer.</p>
@@ -80,7 +80,7 @@ tags:
         <img slot="image" src="/assets/images/rh_history_unfakeable_linux_shirt.jpg" alt="red hat history unfakeable linux">
         <p slot="content">In 2006, Oracle released a clone of Red Hat Enterprise Linux it called "Unbreakable Linux" at Oracle OpenWorld. The next day, Red Hat distributed hundreds of T-shirts with a simple response: "Unfakeable Linux."</p>
       </rhb-card>
-    </rhb-card-grid>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
 
@@ -108,7 +108,7 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-content>
-      <rhb-youtube-video video-id="VBtTSkxNcGo" width="1139" height="641" title="New hat, same vision">
+      <rhb-youtube-video video-id="VBtTSkxNcGo" video-title="New hat, same vision">
         <img slot="poster" src="/assets/images/rh_history_new_hat_video.svg">
         <p slot="caption">
           The hat in our logo is the same fedora worn by Shadowman and is an embodiment of the trust and goodwill we’ve built with customers, partners, and the community as we’ve grown. Video duration: 0:27

@@ -13,11 +13,10 @@
 </script>
 
 <div webc:nokeep webc:if="link">
-	<a webc:for="item of getItemList($data.collections, tag, limit, sort, link)" :href="item.url" @raw="item.data.title"></a>
+	<a webc:for="item of getItemList($data.collections, tag, limit, sort, link)" :href="item.url" @raw="item.data.title" :class="`${this.class ?? ''}`"></a>
 </div>
 <div webc:nokeep webc:else>
 	<li webc:for="item of getItemList($data.collections, tag, limit, sort)">
-		<a :href="item.url" @raw="item.data.title"></a>
+		<a :href="item.url" @raw="item.data.title" :class="`${this.class ?? ''}`"></a>
 	</li>
 </div>
-
