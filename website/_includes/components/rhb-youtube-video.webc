@@ -16,7 +16,7 @@
         width: width,
         videoId: videoId,
         playerVars: {
-          'playsinline': 0,
+          'playsinline': 1,
           'modestbranding': 1,
           'autoplay': 0,
           'enablejsapi': 1,
