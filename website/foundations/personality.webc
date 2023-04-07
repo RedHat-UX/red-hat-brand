@@ -5,7 +5,6 @@ tags:
   - foundations
 ---
 
-
 <rhb-band>
   <rhb-container>
     <h2 @text="title"></h2>

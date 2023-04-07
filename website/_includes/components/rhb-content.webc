@@ -8,6 +8,7 @@
 .content-wrapper {
   font-size: var(--rh-font-size-code-lg, 1.125rem);
   max-width: 100%;
+  padding-block-end: var(--rh-space-2xl, 32px);
 }
 
 @media screen and (min-width: 768px) {

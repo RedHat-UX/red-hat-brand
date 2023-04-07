@@ -13,5 +13,4 @@
     padding-block: var(--rh-space-4x, 64px);
   }
 }
-
 </style>

@@ -1,7 +1,6 @@
 <script webc:type="js">
 	const description = $data.description ?? $data.site.description;
 	const title = $data.title ?? $data.site.title;
-
 	`<meta property="og:title" content="${title}">
 		<meta property="og:name" content="${title}">
 		<meta property="og:url" content="${$data.site.url}">

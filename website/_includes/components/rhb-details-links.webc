@@ -22,7 +22,6 @@
 </details>
 
 <style webc:keep webc:scoped>
-
 	summary {
 		list-style: none;
 		display: flex;

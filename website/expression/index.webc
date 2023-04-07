@@ -3,3 +3,9 @@ layout: layouts/backpage.webc
 title: Expression
 eleventyExcludeFromCollections: true
 ---
+
+<rhb-band>
+  <rhb-container>
+    <h2 @text="title"></h2>
+  </rhb-container>
+</rhb-band>
