@@ -1,5 +1,42 @@
-<script>
+<script webc:setup>
+function splitList(tag, chunkSize) {
+  const list = getItemList($data.collections, tag);
+  const chunked = chunkArray(list, chunkSize);
+  return buildHTMLLists(chunked);
+}
 
+function buildHTMLLists(arrays) {
+  const lists = arrays.map(array => {
+    const items = array.map(item => `<li><a href="${item.url}">${item.data.title}</a></li>`).join('');
+    return `<rh-navigation-secondary-menu-section><ul slot="links">${items}</ul></rh-navigation-secondary-menu-section>`;
+  });
+  return lists.join('');
+}
+
+function getItemList(collections, tag, limit=0, sort="alpha", link="false") {
+  let result = [...collections[tag]].reverse().sort(function(a, b) {
+    if (sort === "alpha") {
+      if (a.data.title < b.data.title) return -1;
+      if (a.data.title > b.data.title) return 1;
+    } else if (sort === "date") {
+      return b.data.date - a.data.date;
+    }
+  });
+  return limit ? result.slice(0, limit) : result;
+}
+
+function chunkArray(array, chunkSize) {
+  const subArrays = [];
+  const arrayLen = array.length;
+  let i = 0;
+  
+  while (i < arrayLen) {
+    subArrays.push(array.slice(i, i + chunkSize));
+    i += chunkSize;
+  }
+  
+  return subArrays;
+}
 </script>
 
 <rh-navigation-secondary>
@@ -25,11 +62,7 @@
       <rh-navigation-secondary-dropdown>
         <a href="/logos"slot="link">Logos</a>
         <rh-navigation-secondary-menu slot="menu">
-          <rh-navigation-secondary-menu-section>
-            <ul slot="links">
-              <rhb-link-list tag="logos"></rhb-link-list>
-            </ul>
-          </rh-navigation-secondary-menu-section>
+          <div webc:nokeep @html="splitList('logos', 7)"></div>
         </rh-navigation-secondary-menu>
       </rh-navigation-secondary-dropdown>
     </li>
