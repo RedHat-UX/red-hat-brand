@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf _site",
     "start": "npm run clean && eleventy --serve --incremental",
-    "build": "eleventy"
+    "build": "eleventy",
+    "build:importmaps": "npx jspm link --provider nodemodules ./entrypoints.js"
   },
   "repository": {
     "type": "git",

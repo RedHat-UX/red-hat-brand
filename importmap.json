@@ -1,0 +1,48 @@
+{
+  "env": [
+    "browser",
+    "development",
+    "module"
+  ],
+  "imports": {
+    "@rhds/elements/rh-blockquote/rh-blockquote.js": "./node_modules/@rhds/elements/elements/rh-blockquote/rh-blockquote.js",
+    "@rhds/elements/rh-cta/rh-cta.js": "./node_modules/@rhds/elements/elements/rh-cta/rh-cta.js",
+    "@rhds/elements/rh-footer/rh-footer.js": "./node_modules/@rhds/elements/elements/rh-footer/rh-footer.js",
+    "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary.js": "./node_modules/@rhds/elements/elements/rh-navigation-secondary/rh-navigation-secondary.js",
+    "@rhds/elements/rh-tabs/rh-tabs.js": "./node_modules/@rhds/elements/elements/rh-tabs/rh-tabs.js"
+  },
+  "scopes": {
+    "./node_modules/": {
+      "@lit/reactive-element": "./node_modules/@lit/reactive-element/development/reactive-element.js",
+      "@lit/reactive-element/decorators/": "./node_modules/@lit/reactive-element/development/decorators/",
+      "@patternfly/": "./node_modules/@patternfly/",
+      "@patternfly/pfe-core": "./node_modules/@patternfly/pfe-core/core.js",
+      "@rhds/elements/rh-accordion/rh-accordion.js": "./node_modules/@rhds/elements/elements/rh-accordion/rh-accordion.js",
+      "@rhds/tokens/media.js": "./node_modules/@rhds/tokens/js/media.js",
+      "lit": "./node_modules/@patternfly/elements/node_modules/lit/index.js",
+      "lit-element/lit-element.js": "./node_modules/lit-element/development/lit-element.js",
+      "lit-html": "./node_modules/lit-html/development/lit-html.js",
+      "lit-html/": "./node_modules/lit-html/development/",
+      "lit/": "./node_modules/lit/",
+      "lit/decorators/": "./node_modules/@patternfly/elements/node_modules/lit/decorators/",
+      "lit/directives/class-map.js": "./node_modules/@patternfly/elements/node_modules/lit/directives/class-map.js",
+      "tslib": "./node_modules/tslib/tslib.es6.js"
+    },
+    "./node_modules/@patternfly/pfe-core/": {
+      "lit": "./node_modules/@patternfly/pfe-core/node_modules/lit/index.js"
+    },
+    "./node_modules/@rhds/elements/": {
+      "lit": "./node_modules/lit/index.js",
+      "lit/": "./node_modules/lit/"
+    },
+    "https://ga.jspm.io/": {
+      "@lit/reactive-element/decorators/": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/decorators/",
+      "@patternfly/elements/": "https://ga.jspm.io/npm:@patternfly/elements@2.0.5/",
+      "lit-html/": "https://ga.jspm.io/npm:lit-html@2.7.2/development/",
+      "lit/": "https://ga.jspm.io/npm:lit@2.7.2/"
+    },
+    "https://ga.jspm.io/npm:@patternfly/elements@2.0.5/": {
+      "lit/": "https://ga.jspm.io/npm:lit@2.6.1/"
+    }
+  }
+}
