@@ -10,7 +10,7 @@ layout: layouts/homepage.webc
         src="/assets/images/Asset-Red_Hat_Standards-Landing_Page-Hero.svg" 
         alt="Brand Standards Illustration"
       >
-      <h2 slot="headline">Brand Standards</h2>
+      <h2 slot="headline">Brand Standards Testing</h2>
       <p slot="content">
         The Red Hat® brand standards are the source code of our brand. Using these brand
         standards as the starting point for all projects ensures that every interaction
