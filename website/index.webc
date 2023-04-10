@@ -38,26 +38,26 @@ layout: layouts/homepage.webc
     <rhb-grid columns="two">
       <h3 slot="header">Core brand elements</h3>
       <rhb-card full-width>
-        <img slot="image" class="mt-6 img-fluid" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" alt="We always lead with Red Hat">
+        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" alt="We always lead with Red Hat">
         <h3 slot="headline">We always lead with Red Hat.</h3>
         <rh-cta slot="cta"><a href="/foundations/strategy">Brand Strategy</a></rh-cta>
       </rhb-card>
       <rhb-card full-width>
-        <video slot="image" id="logoSpacing" class="mt-6" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
+        <video slot="image" class="mt-6" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
           <source type="video/mp4" src="/assets/videos/01_Asset-Red_Hat-Brand_Standards-Logo_and_clearspace_animation.mp4" width="100%">
         </video>
         <h3 slot="headline">Our logo is a red hat with the words Red Hat.</h3>
         <rh-cta slot="cta"><a href="/logos/logo">Red Hat logo</a></rh-cta>
       </rhb-card>
       <rhb-card full-width>
-        <video slot="image" id="coreColors" class="mt-6" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
+        <video slot="image" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
           <source type="video/mp4" src="/assets/videos/02_Asset-Red_Hat-Brand_Standards-Color_animation.mp4" width="100%">
         </video>
         <h3 slot="headline">Our core colors are red, black, and white.</h3>
         <rh-cta slot="cta"><a href="/logos/logo">Colors</a></rh-cta>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" class="mt-6 img-fluid" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg" alt="Our font family has three styles">
+        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg" alt="Our font family has three styles">
         <h3 slot="headline">Our font family has three styles.</h3>
         <rh-cta slot="cta"><a href="/logos/the-hat">Typography</a></rh-cta>
       </rhb-card>

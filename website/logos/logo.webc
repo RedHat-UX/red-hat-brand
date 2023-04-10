@@ -81,7 +81,7 @@ tags:
     <rhb-grid columns="four">
       <rhb-card>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-This%20copy-RGB.svg" alt="Horizontal email header image using the Logo version A.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Use the version of the logo that fits best in the available space.</p>
       </rhb-card>
       <rhb-card>
@@ -91,7 +91,7 @@ tags:
       </rhb-card>
       <rhb-card>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-Not_this-3%20copy-RGB.jpg" alt="Red Hat logo used on a web card with proper clear space and margins around the elements.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Use appropriate margins around the logo.</p>
       </rhb-card>
       <rhb-card>
@@ -229,7 +229,7 @@ tags:
     <rhb-card full-width style="display: block; background-color: var(--rh-color-surface-lighter, #f2f2f2); text-align: center; padding: var(--rh-spacer-xl, 24px);">
       <h3 slot="headline">Red Hat Trademarks</h3>
       <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Aside from the Red Hat logo, our trademarks include the Red Hat wordmark and the names of certain products, services, and technologies. Using our trademarks correctly in documentation, web pages, marketing materials, and collateral is as important as using the logo correctly.</p>
-      <rh-cta variant="primary" slot="cta">Learn More</rh-cta>
+      <rh-cta variant="primary" slot="cta"><a href="https://www.redhat.com/en/about/trademark-guidelines-and-policies"></a>Learn More</rh-cta>
     </rhb-card>
   </rhb-container>
 </rhb-band>
