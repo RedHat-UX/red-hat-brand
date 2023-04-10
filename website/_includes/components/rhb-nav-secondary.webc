@@ -29,12 +29,10 @@ function chunkArray(array, chunkSize) {
   const subArrays = [];
   const arrayLen = array.length;
   let i = 0;
-  
   while (i < arrayLen) {
     subArrays.push(array.slice(i, i + chunkSize));
     i += chunkSize;
   }
-  
   return subArrays;
 }
 </script>
