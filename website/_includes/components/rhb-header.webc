@@ -1,0 +1,47 @@
+<header>
+  <div class="logo">
+    <a href="https://redhat.com/">
+      <slot></slot>
+    </a>
+  </div>
+</header>
+
+<style webc:keep webc:scoped>
+  header {
+    display: flex;
+    align-items: center;
+    background-color: var(--rh-color-gray-90, #151515);
+    color: var(--rh-color-text-primary-on-dark, #ffffff);
+    padding: var(--rh-space-md, 8px);
+    height: 72px;
+  }
+  .logo {
+    margin-inline-start: var(--rh-space-md, 8px);
+  }
+  
+  a {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  img, 
+  svg {
+    max-width: 136px;
+  }
+
+  @media screen and (min-width: 768px) {
+    header {
+      padding: var(--rh-space-md, 8px) var(--rh-space-xl, 24px);
+    }
+
+    .logo {
+      margin-inline-start: var(--rh-space-2xl, 32px);
+    } 
+
+    img,
+    svg {
+      max-width: 188px;
+    }
+  }
+</style>

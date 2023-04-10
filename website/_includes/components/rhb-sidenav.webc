@@ -1,0 +1,31 @@
+<div class="sidenav-wrapper">
+  <nav>
+    <slot></slot>
+  </nav>
+</div>
+
+<style webc:keep webc:scoped>
+  .sidenav-wrapper {
+    position: fixed;
+    top: 72px;
+    bottom: 0;
+    left: 0;
+    height: calc(100vh-72px);
+  }
+
+  nav {
+    width: 280px;
+    padding-top: 30px;
+    height: calc(100vh - 72px);
+    overflow-y: auto;
+    color: var(--rh-color-gray-90, #151515);
+    background: var(--rh-color-surface-lightest, #ffffff);
+    border-right: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #c7c7c7);
+  }
+
+  nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>

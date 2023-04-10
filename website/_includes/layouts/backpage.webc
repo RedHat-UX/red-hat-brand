@@ -1,0 +1,5 @@
+---
+layout: layouts/base.webc
+---
+
+<div class="backpage-wrapper" @raw="content"></div>

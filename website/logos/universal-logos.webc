@@ -1,0 +1,13 @@
+---
+layout: layouts/backpage.webc
+title: Universal logos
+tags: 
+  - logos
+  - popular
+---
+
+<rhb-band>
+  <rhb-container>
+    <h2 @text="title"></h2>
+  </rhb-container>
+</rhb-band>

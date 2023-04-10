@@ -1,0 +1,130 @@
+<script>
+  const players = [];
+  function onYouTubeIframeAPIReady() {
+    // get every player on page
+    const components = document.querySelectorAll('rhb-youtube-video');
+    components.forEach((component) => {
+      // get the video id from the data attribute
+      const player = component.querySelector('.player');
+      
+      const videoId = component.getAttribute('video-id');
+      const height = component.getAttribute('height') ?? 390;
+      const width = component.getAttribute('width') ?? 640;
+      const title = component.getAttribute('video-title') ?? '';
+
+      // create a new YT player
+      const ytPlayer = new YT.Player(player, {
+        height: height,
+        width: width,
+        videoId: videoId,
+        playerVars: {
+          'playsinline': 1,
+          'modestbranding': 1,
+          'autoplay': 0,
+          'enablejsapi': 1,
+        }
+      });
+      ytPlayer.getIframe().setAttribute('title', title);
+      players.push(ytPlayer);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const playButtons = document.querySelectorAll('.video-play-button');
+    playButtons.forEach((button) => {
+      button.addEventListener('click', (event) => {
+        const videoWrapper = event.target.closest('.video-wrapper');
+        videoWrapper.classList.add('playing');
+        const clickedPlayer = videoWrapper.querySelector('iframe');
+        const youtubePlayer = players.find((p) => p.getIframe() === clickedPlayer);
+        if (youtubePlayer && youtubePlayer instanceof YT.Player) {
+          youtubePlayer.playVideo();
+          clickedPlayer.focus();
+        }
+      });
+    });
+  });
+</script>
+
+<script webc:setup>
+  function randomId() {
+    return Math.random().toString(36).substr(2, 9);
+  }
+</script>
+
+<div class="video-wrapper" >
+  <button class="video-play-button">
+    <div class="play-button-overlay"></div>
+    <slot name="poster"></slot>
+  </button>
+  <div class="player-wrapper">
+    <div :id="randomId()" class="player"></div>
+  </div>
+  <div class="caption">
+    <slot name="caption"></slot>
+  </div>
+</div>
+
+<style webc:keep webc:scoped>
+  button {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border: none;
+    background: transparent
+  }
+
+  .play-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: rgba(37,37,39,0.7);
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .play-button-overlay::after {
+    box-sizing: border-box;
+    height: 8px;
+    width: 8px;
+    border-style: solid;
+    border-width: 12px 0 10px 21px;
+    border-color: transparent transparent transparent #fff;
+    margin-left: 5px;
+    content: ' ';
+  }
+
+  .player-wrapper {
+    display: block;
+    padding: 0 0 56.25%;
+    height: 0;
+    position: relative;
+  }
+
+  .video-wrapper:not(.playing) .player-wrapper {
+    display: none;
+  }
+
+  .player {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .video-wrapper.playing button {
+    display: none;
+  }
+
+  .caption {
+    font-size: var(--rh-font-size-body-text-sm, 0.875rem);
+  }
+</style>
