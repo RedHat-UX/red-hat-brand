@@ -39,10 +39,9 @@ function splitList(tag, chunkSize, sort) {
 }
 </script>
 
-<rh-navigation-secondary>
-  <a href="/" title="Red Hat Brand Standards" data-analytics-text="Brand Standards"
-    data-analytics-category="Brand Standards nav" slot="logo" aria-current="page">Brand Standards</a>
-  <ul slot="nav">
+<rh-navigation-secondary role="navigation">
+  <a href="/" slot="logo" title="Red Hat Brand Standards">Brand Standards</a>
+  <ul slot="nav" aria-label="main">
     <!-- TAB 1 - Foundations -->
     <li>
       <rh-navigation-secondary-dropdown>
