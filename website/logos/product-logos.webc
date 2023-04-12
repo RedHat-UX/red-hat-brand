@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Product logos
+order: 60
 tags: 
   - logos
   - popular

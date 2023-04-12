@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
-title: Strategy
+title: Brand Strategy
+order: 10
 tags:
   - foundations
 ---
