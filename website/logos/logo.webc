@@ -130,7 +130,7 @@ tags:
     <rhb-grid columns="two">
       <rhb-card>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Image-This-1-RGB.jpg" alt="Image of a woman using her computer with the Red Hat logo added in the upper left where it is on a clear background." >
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Place the logo in an area with a clean and simple background.</p>
       </rhb-card>
       <rhb-card>
@@ -140,7 +140,7 @@ tags:
       </rhb-card>
       <rhb-card>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Image-This-2-RGB.jpg" alt="Image of a building with the Red Hat logo placed in the bottom right corner where it is clear and has good contrast against the white background.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Ensure that the logo is easy to read and has sufficient contrast against background colors.</p>
       </rhb-card>
       <rhb-card>
