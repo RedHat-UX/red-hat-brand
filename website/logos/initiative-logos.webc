@@ -1,6 +1,6 @@
 ---
 layout: layouts/backpage.webc
-title: Red Hat initiative logos
+title: Initiative logos
 tags: 
   - logos
 ---
@@ -8,5 +8,20 @@ tags:
 <rhb-band>
   <rhb-container>
     <h2 @text="title"></h2>
+    <rhb-content>
+      <p>Initiative logos are an extension of our flexible logo system. They use a graphic&nbsp;in the style of our standard icons that is specific to the initiative’s mission and goals. Since they don’t include the fedora icon, they must always be used with the Red Hat® logo. They will also need more design support and resources over the life of the program than our other logo styles need.</p> 
+      <rh-cta><a href="https://drive.google.com/drive/folders/1YyWKkuhKb-_l0FTlxEXT9tq5QF6PZHP-?usp=sharing"> Download available initiative logos</a></rh-cta>
+    </rhb-content>
+  
+  </rhb-container>
+</rhb-band>
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/Brand_standards-Red_Hat-Initiative_Logos-Clearspace-RGB-2.svg" alt="Example of an initiative logo with proper clear space">
+        <p slot="content">Clear space is the area around the logo that should not have text, distracting graphics, or other logos. The clear space for initiative logos is at least the height of the letter "e" in the word "Red."</p>
+      </rhb-card>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
