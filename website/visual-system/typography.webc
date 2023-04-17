@@ -7,6 +7,28 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <h2 @text="title"></h2>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>The words we choose are an important part of our brand voice, but so is the way those words look. The way our words look is established by the fonts that we use and the way that we use them, also known as typography. The Red Hat® font family was designed for the Red Hat brand by type designer <a href="https://mckltype.com/" target="_blank">Jeremy Mickel</a> in collaboration with our design teams.&nbsp;</p>
+      <p>In our font family, each character is made up of perfect circles and straight, even lines. The effect is a geometric, rational, and engineered font with human touches inspired by our brand’s history. The open feeling of the individual letters balances the tight spacing in between letters.</p>
+      <img src="/assets/images/BrandStandards-Typography-ASSETS-FontFamily-Feature.svg" alt="Red Hat font family hero image">
+      <p>Our fonts are open licensed under the SIL International license and are available for anyone to download and use. To use our fonts, you can: access them preloaded in <a href="https://www.redhat.com/en/about/brand/standards/application" target="_blank">templates</a>, download and install them from&nbsp;<a href="https://github.com/RedHatOfficial/RedHatFont" target="_blank">GitHub</a>, use them as <a href="https://ux.redhat.com/foundations/typography/" target="_blank">web type</a>, add them to your <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> options, or find them pre-installed on Red Hat-issued computers.</p>
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card>
+        <img slot="image" src="/assets/images/BrandStandards-Typography-ASSETS-This1.svg" alt="Red Hat materials using Red Hat fonts">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
+        <p slot="content">Download our Red Hat fonts to create Red Hat materials.</p>
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/BrandStandards-Typography-ASSETS-NotThis1.svg" alt="Red Hat materials using Red Hat fonts">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
+        <p slot="content">Do not use other fonts for Red Hat materials.</p>
+      </rhb-card>
+    </rhb-grid>
+
+
+
   </rhb-container>
 </rhb-band>
