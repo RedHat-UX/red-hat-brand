@@ -23,6 +23,7 @@
   "homepage": "https://github.com/RedHat-UX/red-hat-brand#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-bundle": "^1.0.4",
     "@11ty/eleventy-plugin-webc": "^0.11.0",
     "@11ty/eleventy-server-browsersync": "^1.0.2"
   }

@@ -90,9 +90,9 @@
 
   <script webc:keep src="https://www.youtube.com/iframe_api"></script>
 
-  <style @raw="getBundle('css')" webc:keep></style>
-  <script @raw="getBundle('js')" webc:keep></script>
-
+	<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep>
+	<script :src="getBundleFileUrl('js')" webc:keep></script>
+  
   </head>
 
   <body>
