@@ -1,16 +1,15 @@
-<div class="hero-wrapper">
-  <div class="hero-image">
-    <slot name="image"></slot>
-  </div>
-  <div class="hero-content">
-    <slot name="headline"></slot>
-    <slot name="content"></slot>
-    <slot name="cta"></slot>
-  </div>
+<div class="hero-image">
+  <slot name="image"></slot>
+</div>
+<div class="hero-content">
+  <slot name="headline"></slot>
+  <slot name="content"></slot>
+  <slot name="cta"></slot>
 </div>
 
-<style webc:keep webc:scoped>
-  .hero-wrapper {
+
+<style webc:scoped>
+  :host {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--rh-space-xl, 32px);
@@ -23,7 +22,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    .hero-wrapper {
+    :host {
       grid-template-columns: 1fr 1fr;
     }
   }

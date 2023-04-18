@@ -33,7 +33,7 @@
     const playButtons = document.querySelectorAll('.video-play-button');
     playButtons.forEach((button) => {
       button.addEventListener('click', (event) => {
-        const videoWrapper = event.target.closest('.video-wrapper');
+        const videoWrapper = event.target.closest('.wrapper');
         videoWrapper.classList.add('playing');
         const clickedPlayer = videoWrapper.querySelector('iframe');
         const youtubePlayer = players.find((p) => p.getIframe() === clickedPlayer);
@@ -46,26 +46,21 @@
   });
 </script>
 
-<script webc:setup>
-  function randomId() {
-    return Math.random().toString(36).substr(2, 9);
-  }
-</script>
 
-<div class="video-wrapper" >
+<div class="wrapper" >
   <button class="video-play-button">
     <div class="play-button-overlay"></div>
     <slot name="poster"></slot>
   </button>
   <div class="player-wrapper">
-    <div :id="randomId()" class="player"></div>
+    <div class="player"></div>
   </div>
   <div class="caption">
     <slot name="caption"></slot>
   </div>
 </div>
 
-<style webc:keep webc:scoped>
+<style webc:scoped>
   button {
     display: inline-block;
     position: relative;
@@ -108,7 +103,7 @@
     position: relative;
   }
 
-  .video-wrapper:not(.playing) .player-wrapper {
+  .wrapper:not(.playing) .player-wrapper {
     display: none;
   }
 
@@ -120,7 +115,7 @@
     position: absolute;
   }
 
-  .video-wrapper.playing button {
+  .wrapper.playing button {
     display: none;
   }
 
