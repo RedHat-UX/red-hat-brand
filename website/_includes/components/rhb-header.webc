@@ -15,6 +15,7 @@
     padding: var(--rh-space-md, 8px);
     height: 72px;
   }
+  
   .logo {
     margin-inline-start: var(--rh-space-md, 8px);
   }
