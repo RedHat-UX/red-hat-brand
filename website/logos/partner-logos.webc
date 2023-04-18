@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Partner logos
+order: 50
 tags: 
   - logos
 ---

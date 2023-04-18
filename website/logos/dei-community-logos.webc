@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: DEI Community Logos
+order: 100
 tags: 
   - logos
 ---

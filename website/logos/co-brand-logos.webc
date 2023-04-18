@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Co-brand logos
+order: 40
 tags: 
   - logos
 ---
