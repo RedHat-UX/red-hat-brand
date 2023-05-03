@@ -72,7 +72,7 @@ layout: layouts/homepage.webc
       <p>Red Hat’s brand expression is how we adapt the way we apply our brand standards to meet the needs of our customers, partners, and associates. Function comes first—all of our communications should be clear and helpful. When we want to tell a more nuanced story, we can introduce expressive elements like colors from our extended color wheel, stylized typography, illustration, and more.</p>
     </rhb-content>
 
-    <rh-tabs>
+    <rh-tabs vertical>
       <rh-tab slot="tab">Functional</rh-tab>
       <rh-tab-panel>
         <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
