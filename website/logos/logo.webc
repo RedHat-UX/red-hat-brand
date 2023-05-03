@@ -204,22 +204,22 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-card>
+      <rhb-image-with-text>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy-RGB_0.svg" alt="Screenshot of a browser window showing the hat used as the favicon for the Red Hat website.">
         <p slot="content">For small spaces where the logo can’t fit, like a favicon, you can use the hat. <a href="/the-hat">Read more about using the hat alone.</a></p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy%202-RGB.jpg" alt="Photograph of a coffee tumbler with Red Hat logo B version printed on the front.">
         <p slot="content">The stacked logo with large type (Logo B) makes the best use of the available space on this travel mug.</a></p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy%203-RGB.jpg" alt="Photograph of the north side of Red Hat Tower in downtown Raleigh, NC, featuring the Red Hat logo version A">
         <p slot="content">The space on top of Red Hat Tower is wide and narrow, so we chose a horizontal logo. We also needed our name to be visible from far away, so we chose the version with large type (Logo A).</a></p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
         <img slot="image" src="/assets/images/1019_RH_OBP_Outro_CC_Black_SFX%20copy_0.jpg" alt="Screenshot of the Red Hat video outro, featuring the Red Hat logo and Creative Commons icons.">
         <p slot="content">In video, we use an animated version of the Red Hat logo for outros. <a href="https://docs.google.com/presentation/d/1EDo4PA69x14OVBkpN0YK20dzmFPdYMnCxqNV-OcWLc8/edit#slide=id.g7f31431ecd_0_0">Read more in the Red Hat video&nbsp;standards.</a></p>
-      </rhb-card>
+      </rhb-image-with-text>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
