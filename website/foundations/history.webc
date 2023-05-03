@@ -1,13 +1,14 @@
 ---
 layout: layouts/backpage.webc
-title: Our history
+title: History
+order: 0
 tags:
   - foundations
 ---
 
 <rhb-band>
   <rhb-container>
-    <h2 @text="title"></h2>
+    <h2>Our History</h2>
 
     <rhb-content>
       <h3>1993-1999</h3>

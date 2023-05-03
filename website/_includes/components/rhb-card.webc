@@ -1,19 +1,17 @@
-<div class="card-wrapper">
-  <slot name="image"></slot>
-  <div class="card-content">
-    <slot name="headline"></slot>
-    <slot name="content"></slot>
-    <slot name="cta"></slot>
-  </div>
+<slot name="image"></slot>
+<div class="card-content">
+  <slot name="headline"></slot>
+  <slot name="content"></slot>
+  <slot name="cta"></slot>
 </div>
 
-<style webc:keep webc:scoped>
-  .card-wrapper {
+<style webc:scoped>
+  :host {
     display: flex;
     flex-direction: column;
   }
 
-  :host([bordered]) .card-wrapper {
+  :host([bordered]) {
     border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #d2d2d2);
   }
 

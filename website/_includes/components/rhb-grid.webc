@@ -1,10 +1,10 @@
 <slot name="header"></slot>
-<div class="grid-wrapper">
+<div class="wrapper">
   <slot></slot>
 </div>
 
 <style webc:scoped>
-.grid-wrapper {
+.wrapper {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: var(--rh-space-xl, 32px);
@@ -15,44 +15,44 @@
 }
 
 @media screen and (min-width: 768px) {
-  .grid-wrapper {
+  :host .wrapper {
     grid-template-columns: repeat(12, 1fr);
     grid-column-start: auto;
   }
   
-  :host([columns="two"]) .grid-wrapper > *:nth-child(n) {
+  :host[columns="two"] .wrapper > *:nth-child(n) {
     grid-column: span 6;
   }
   
-  :host([columns="two"][offset-right]) .grid-wrapper > *:nth-child(n) {
+  :host[columns="two"][offset-right] .wrapper > *:nth-child(n) {
     grid-column: initial;
     grid-column-end: span 8;
   }
 
-  :host([columns="two"][offset-right]) .grid-wrapper > *:nth-child(2n) {
+  :host[columns="two"][offset-right] .wrapper > *:nth-child(2n) {
     grid-column-end: span 4;
   }
   
-  :host([columns="two"][offset-left]) .grid-wrapper > *:nth-child(n) {
+  :host[columns="two"][offset-left] .wrapper > *:nth-child(n) {
     grid-column: initial;
     grid-column-end: span 4;
   }
 
-  :host([columns="two"][offset-left]) .grid-wrapper > *:nth-child(2n) {
+  :host[columns="two"][offset-left] .wrapper > *:nth-child(2n) {
     grid-column-end: span 8;
   }  
 
-  :host([columns="three"]) .grid-wrapper > *:nth-child(n) {
+  :host[columns="three"] .wrapper > *:nth-child(n) {
     grid-column: span 4;
   }
   
-  :host([columns="four"]) .grid-wrapper > *:nth-child(n) {
+  :host[columns="four"] .wrapper > *:nth-child(n) {
     grid-column: span 6;
   }
 }
 
 @media screen and (min-width: 992px) {
-  :host([columns="four"]) .grid-wrapper > *:nth-child(n) {
+  :host[columns="four"] .wrapper > *:nth-child(n) {
     grid-column: span 3;
   }
 }

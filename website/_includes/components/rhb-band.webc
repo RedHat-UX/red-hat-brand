@@ -1,15 +1,14 @@
-<div class="rh-band">
-  <slot></slot>
-</div>
+<slot></slot>
 
-<style webc:keep webc:scoped>
-.rh-band {
+<style webc:scoped>
+:host {
+  display: block;
   width: 100%;
   padding-block: var(--rh-space-lg, 16px);
 }
 
 @media screen and (min-width: 768px) {
-  .rh-band {
+  :host {
     padding-block: var(--rh-space-4x, 64px);
   }
 }

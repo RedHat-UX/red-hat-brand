@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Typography
+order: 10
 tags:
   - visual-system
 ---
