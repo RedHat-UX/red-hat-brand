@@ -1,9 +1,8 @@
 ---
 layout: layouts/backpage.webc
-title: Typography
-order: 10
+title: Color
 tags:
-  - visual-system
+  - design-language
 ---
 
 <rhb-band>

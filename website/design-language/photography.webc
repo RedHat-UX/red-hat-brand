@@ -1,0 +1,238 @@
+---
+layout: layouts/backpage.webc
+title: Photography
+tags:
+  - design-language
+  - popular
+---
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>Red Hat® photos capture the spirit of their subjects in authentic and meaningful ways. Through photography, we add context and depth to our messages. Every photo, no matter its type, serves the same purpose: to tell a true, coherent, and compelling story. </p>
+      <p>Photography is best used when you want to highlight the human experience, a specific customer, partner, or associate, or when you need to visually represent an abstract concept for a technology or industry.</p>
+    </rhb-content>
+  
+  <rhb-grid columns="three">
+    <rhb-image-with-text>
+      <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-01-100.jpg" alt="Customer portrait photo">
+    </rhb-image-with-text>
+    <rhb-image-with-text>
+      <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-02-100.jpg" alt="Custom stock photo">
+    </rhb-image-with-text>
+    <rhb-image-with-text>
+      <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-03-100.jpg" alt="Purchased stock photo">
+    </rhb-image-with-text>
+    <rhb-image-with-text>
+      <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-04-100.jpg" alt="Red Hat event photo">
+    </rhb-image-with-text>
+    <rhb-image-with-text>
+      <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-05-100.jpg" alt="Red Hat custom stock photo">
+    </rhb-image-with-text>
+    <rhb-image-with-text>
+      <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-06-100.jpg" alt="Red Hat photojournalism photo">
+    </rhb-image-with-text>
+  </rhb-grid>
+
+    <p>CTA goes here</p>
+    <rh-cta slot="cta"><a href=https://drive.google.com/drive/folders/1Ju4hRf5GXamJl57jKREoTlcmGQzJ_GMp?usp></a>Access Red Hat's Photography Library</a></rh-cta>
+  </rhb-container>
+</rhb-band>
+
+
+
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Attributes of a Red Hat photo</h4>
+      <p>Our photography should inspire openness, authenticity, helpfulness, and bravery. We can achieve this goal with photos that are confident, realistic, and thoughtful. Take and choose photos that are true to Red Hat’s personality by making sure the photo:</p>
+    </rhb-content>
+        <rhb-grid columns="two" offset-right>
+          <rhb-card flush-top>
+            <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-01-100.jpg" alt="Red Hat photo that reflects brand attributes">
+          </rhb-card>
+          <rhb-content flush-top>
+            <ul>
+            <li>Captures the spirit of the subject in an authentic and meaningful way.</li>
+            <li>Captures life as it exists for our associates, customers, and partners.</li>
+            <li>Is properly composed.</li>
+            <li>Has appropriate color balance.</li>
+            <li>Is not overly stylized and does not use overlay graphics.</li>
+            <li>Does not depict stereotypes.</li>
+            <li>Maintains a global perspective.</li>
+            <li>Features a setting that is authentic to the story and subject of the image.</li>
+          </ul>
+        </rhb-content>
+        </rhb-grid>
+        <rhb-grid columns="two">
+          <rhb-image-with-text>
+            <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-03-100.jpg" alt="Red Hat photo with a person as the subject">
+            <p slot="content">Features a Red Hatter or a model that represents our associates and company culture accurately.</p>
+          </rhb-image-with-text>
+          <rhb-image-with-text>
+            <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-02-100.jpg" alt="Red Hat photo with a person focused on an activity">
+            <p slot="content">Focuses on an activity if a person is in the photo but is not the subject of the photo.</p>
+          </rhb-image-with-text>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+  
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Types of photography</h4>
+      <p>If we want to create an emotional ad, promote our brand in a press release, or grow excitement around an upcoming event, we need different types of photography. This includes event photography, portraits, photojournalism, stock, and associate photography.</p>
+    </rhb-content>
+    <rh-tabs vertical>
+      <rh-tab slot="tab">Events</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <rhb-image-with-text>
+          <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock%20copy-100.jpg" alt="alt text goes here">
+          </rhb-image-with-text>
+          <rhb-content>
+            <h6>Event photography</h6>
+            <p>Event photography should match the color and tone of the event. In general, use the light that is available to you, and include minimal corrections and coloring if necessary.
+          
+            When shooting photography at an event, it is important to capture wide shots that showcase the environment, like the expo hall at Red Hat Summit.</p>
+          </rhb-content>
+          <rhb-image-with-text>
+            <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Events-02-100.jpg" alt="alt text goes here">
+            </rhb-image-with-text>
+            <rhb-content>
+              <h6>Attendee photography</h6>
+              <p>It is also important to capture tighter photographs that highlight attendees interacting and participating throughout the event.</p>
+            </rhb-content>
+        </rhb-grid>
+      </rh-tab-panel>
+      
+
+      <rh-tab slot="tab">Portraits</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <rhb-image-with-text>
+          <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Portraits-01-100.jpg" alt="alt text goes here">
+          </rhb-image-with-text>
+          <rhb-content>
+            <h6>Employee headshots</h6>
+            <p>Employee headshots are taken in a studio with a solid background and studio lighting to highlight the subject’s personality instead of the environment.</p>
+          </rhb-content>
+          <rhb-image-with-text>
+            <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Portraits-02-100.jpg" alt="alt text goes here">
+            </rhb-image-with-text>
+            <rhb-content>
+              <h6>Customer photography</h6>
+              <p>Photos of our customers should be shot in their environments to capture their personalities and add depth to their stories.</p>
+            </rhb-content>
+        </rhb-grid>
+      </rh-tab-panel>
+
+      <rh-tab slot="tab">Photo journalism</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <rhb-image-with-text>
+          <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Photojournalism-01-100.jpg" alt="alt text goes here">
+          </rhb-image-with-text>
+          <rhb-content>
+            <h6>Customer stories</h6>
+            <p>These photos show our customers’ journeys with our technologies and often depict a change in the culture of their companies. We want to document what life is like for customers in their daily environments.</p>
+          </rhb-content>
+          <rhb-image-with-text>
+            <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Photojournalism-02-100.jpg" alt="alt text goes here">
+            </rhb-image-with-text>
+            <rhb-content>
+              <h6>Life at Red Hat</h6>
+              <p>These photos document a moment in time using as much available light as possible. They might show our employees at work, documenting their everyday roles at Red Hat or their volunteer work.</p>
+            </rhb-content>
+        </rhb-grid>
+      </rh-tab-panel>
+
+      <rh-tab slot="tab">Stock</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <rhb-image-with-text>
+          <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock-100.jpg" alt="alt text goes here">
+          </rhb-image-with-text>
+          <rhb-content>
+            <h6>Purchased stock</h6>
+            <p>Stock photos are licensed through stock photography agencies. Look for royalty-free photos without licensing restrictions that don’t feature people as the subject of the photo, and make sure you know what you are buying.</p>
+          </rhb-content>
+          <rhb-image-with-text>
+            <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Custom-stock-100.jpg" alt="alt text goes here">
+            </rhb-image-with-text>
+            <rhb-content>
+              <h6>Custom stock</h6>
+              <p>Custom stock photos are specific to Red Hat, and feature a Red Hatter, customer, or partner (or a model that represents them and our company culture accurately). A custom photo can show our customers using Red Hat technology or highlight our branded stickers and swag.</p>
+            </rhb-content>
+        </rhb-grid>
+      </rh-tab-panel>
+
+      <rh-tab slot="tab">Associate</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <rhb-image-with-text>
+          <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Associate-100.jpg" alt="alt text goes here">
+          </rhb-image-with-text>
+          <rhb-content>
+            <h6>Associate photography</h6>
+            <p>When it comes to authentic photography at Red Hat, the best photos often come from our associates. When taking photos to submit to The Show or the Brand and Creative Team, keep these guidelines in mind to make sure your photos are high quality and easy for the team to use.</p>
+            <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1Ls0B5HDmRdW5Ug9DUilUKSHfgxrOjRueLsgxiJD5t14/edit?usp=sharing"></a>Associate photography guidelines</a></rh-cta>
+          </rhb-content>
+        </rhb-grid>
+      </rh-tab-panel>
+
+    </rh-tabs>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Using photography at Red Hat</h4>
+    </rhb-content>
+ 
+    <rhb-grid columns="two">
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-In_use-01-100.jpg" alt="alt text goes here">
+        <p slot="content">Photography is often featured in web headers and cards on redhat.com to add a human element to our products and offerings.</p>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-In_use-02-100.jpg" alt="alt text goes here">
+        <p slot="content">Photography works well in presentations when we’re highlighting the experience of a customer, partner, associate, or industry.</p>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-This-1-100.jpg" alt="alt text goes here">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Take and choose photos that are authentic and true to Red Hat’s personality.</p>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-1-100.jpg" alt="alt text goes here">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not take or choose photos that feel staged.</p>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-This-2-100.jpg" alt="alt text goes here">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Take and choose photos that are free of overlays or additional graphic elements.</p>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/visual-system/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-2-100.jpg" alt="alt text goes here">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not overlay or add additional elements onto Red Hat photos.</p>
+      </rhb-image-with-text>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container class="background-color-subtle">
+      <h3 style="text-align:center">Taking photos at Red Hat</h3>
+      <p style="text-align:center">Looking for more technical guidelines on how to take photos for Red Hat? You’ve landed in the right spot.</p>
+      <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1Ls0B5HDmRdW5Ug9DUilUKSHfgxrOjRueLsgxiJD5t14/edit?usp=sharing"></a>Associate photography guidelines</a></rh-cta>
+    </rhb-container>
+</rhb-band>
+
+
+   

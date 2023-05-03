@@ -69,11 +69,11 @@ function splitList(tag, chunkSize, sort) {
     <!-- TAB 3 - Visual system -->
     <li>
       <rh-navigation-secondary-dropdown>
-        <a href="/visual-system" slot="link">Visual system</a>
+        <a href="/design-language" slot="link">Design language</a>
         <rh-navigation-secondary-menu slot="menu">
           <rh-navigation-secondary-menu-section>
             <ul slot="links">
-              <rhb-link-list tag="visual-system" sort="order"></rhb-link-list>
+              <rhb-link-list tag="design-language" sort="order"></rhb-link-list>
             </ul>
           </rh-navigation-secondary-menu-section> 
         </rh-navigation-secondary-menu>
