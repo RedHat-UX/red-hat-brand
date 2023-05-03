@@ -1,18 +1,21 @@
-<div class="content-wrapper">
-  <slot name="header"></slot>
+<slot name="header"></slot>
+<div class="content">
   <slot></slot>
 </div>
 
-
-<style  webc:keep webc:scoped>
-.content-wrapper {
-  font-size: var(--rh-font-size-code-lg, 1.125rem);
+<style webc:scoped>
+:host {
+  display: block;
   max-width: 100%;
   padding-block-end: var(--rh-space-2xl, 32px);
 }
 
+.content {
+  font-size: var(--rh-font-size-code-lg, 1.125rem);
+}
+
 @media screen and (min-width: 768px) {
-  .content-wrapper {
+  :host {
     /*magic grid math */
     max-width: calc(100% * (8 / 12) - (var(--_gutter-width, 18px) / 2));
   }

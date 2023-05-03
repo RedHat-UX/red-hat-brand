@@ -1,9 +1,9 @@
 ---
 layout: layouts/backpage.webc
-title: Icons
-tags:
-  - visual-system
-  - popular
+title: Certification logos
+order: 90
+tags: 
+  - logos
 ---
 
 <rhb-band>

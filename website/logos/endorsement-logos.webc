@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Endorsement logos
+order: 30
 tags: 
   - logos
 ---

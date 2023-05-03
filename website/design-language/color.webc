@@ -1,9 +1,8 @@
 ---
 layout: layouts/backpage.webc
-title: Illustration
+title: Color
 tags:
-  - visual-system
-  - popular
+  - design-language
 ---
 
 <rhb-band>

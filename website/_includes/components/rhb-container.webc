@@ -1,16 +1,15 @@
-<div class="rh-container">
-  <slot></slot>
-</div>
+<slot></slot>
 
-<style webc:keep webc:scoped>
-  .rh-container {
+<style webc:scoped>
+  :host {
+    display: block;
     max-width: 1136px;
     margin: 0 auto;
     padding-inline: var(--rh-spacer-lg, 16px);
   }
 
   @media screen and (min-width: 1136px) {
-    .rh-container {
+    :host {
       padding-inline: 0;
     }
   }
