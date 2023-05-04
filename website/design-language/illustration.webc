@@ -8,6 +8,53 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <h2 @text="title"></h2>
-  </rhb-container>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>Illustration is an eye-catching medium that tells a story in a way that photography, technical diagrams, and icons cannot. Illustrations work well across applications, like presentations, web pages, animations, and motion graphics. We use illustrations to tell conceptual, open stories and describe nuanced ideas in an authentic way.</p>
+     </rhb-content>
+
+      <rhb-grid columns="two">
+        <rhb-card flush-top>
+          <img slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Diagram-01-RGB.svg" alt="Illustration of a man at his computer with an illustrated background metaphorically representative of an open hybrid cloud environment">
+        </rhb-card>
+        <rhb-card flush-top>
+          <div slot="content" webc:nokeep>
+            <p><strong>Active, not passive.</strong></p>
+            <p>Red Hat’s illustration style implies movement and activity. Illustrated people are realistic and dynamic, not oversimplified or static.</p>
+            <p><strong>Intentional, not superficial</strong></p>
+            <p>Our style is refined and thoughtfully designed to complement the complex nature of our products. They’re approachable, but not cartoonish or childlike.</p>
+            <p><strong>Informative, not decorative.</strong></p>
+            <p>Red Hat® illustrations are more than eye-catching. They should complement and enhance the message they’re paired with and tell a story about our technology or our customer’s business.</p>
+            <p><strong>Open, not closed.</strong></p>
+            <p>With diverse people and diverse thoughts, the best ideas come from everywhere. We include a broad range of people and environments that go beyond the traditional enterprise technology cliches.</p>
+          </div>
+        </rhb-card>
+      </rhb-grid>
+
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1pJNpi7myXRIQb6zF83YhtZ753STdRjYb3CPbbAIcdJs/edit?usp=sharing"></a>Access illustration repository</a></rh-cta></p>
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1Ft09upnBwXmtuZSjwrn2I0hHAJuEKWZDdfm2-XAsG00/edit?usp=sharing"></a>Learn more about creating illustrations for Red Hat</a></rh-cta></p>
+
+      <rhb-content>
+        <h2>Types of Illustration</h2>
+        <p>Red Hat has two types of illustrations: mini-spot illustrations and spot illustrations. Mini-spot illustrations are 1-color and work well in smaller spaces. Spot illustrations use a larger color palette and represent more complex concepts or narratives.</p>
+      </rhb-content>
+  
+      <rhb-grid columns="two">
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-minispot.svg" alt="alt text goes here">
+          <p slot="content" style="text-align:center"><strong>Minispot illustrations</strong></p>
+        </rhb-card>
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-spot.svg" alt="alt text goes here">
+          <p slot="content" style="text-align:center"><strong>Spot illustrations</strong></p>
+        </rhb-card>
+      </rhb-grid>
+
+      <rhb-content>
+        <h4>Mini-spot illustrations</h4>
+        <p>Mini-spot illustrations convey a single concept to support a headline or copy. They are slightly more complex than icons, and they always use our 1-color red palette with a dot texture.</p>
+      </rhb-content>
+
+  </rhb-container>  
 </rhb-band>
+
