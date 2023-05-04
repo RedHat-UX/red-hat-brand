@@ -181,14 +181,14 @@ tags:
 <rhb-band>
   <rhb-container>
 <rhb-grid columns="two">
-  <rhb-card bordered>
+  <rhb-card bordered flex>
     <img slot="image" src="/assets/images/visual-system/typography-page/BrandStandards-Typography-ASSETS-FunctionalType.svg" alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.">
     <h3 slot="headline">Functional type</h3>
     <p slot="content">Functional type conveys information and is often found in presentations, letterheads, templates, and collateral.</p>
     <p slot="content">Functional type is readable, legible, and straightforward. Its letters are not edited or moved around. It can be small and informative, like a paragraph explaining technical information; and it can be bold and assertive, like a big headline.</p>
     <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/15c1n1MTqIXIROqRR2FTrfESqAdh7ucavQ795qN-igdU/edit?usp=sharing">Learn more about functional type</a></rh-cta>
   </rhb-card>
-  <rhb-card bordered>
+  <rhb-card bordered flex>
     <img slot="image" src="/assets/images/visual-system/typography-page/BrandStandards-Typography-ASSETS-ExpressiveType.svg" alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.">
     <h3 slot="headline">Expressive type</h3>
     <p slot="content">Type can be more than informational—it can also be used to grab attention, emphasize an idea, or add to the literal meaning of words. Expressive typography uses stylized type in a way that is more like image than text. It evokes a feeling or emotion in a way that a block of type does not.</p>
