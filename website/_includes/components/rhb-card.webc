@@ -9,6 +9,7 @@
   :host {
     display: flex;
     flex-direction: column;
+    font-size: var(--rh-font-size-code-lg, 1.125rem);
   }
 
   :host([bordered]) {
