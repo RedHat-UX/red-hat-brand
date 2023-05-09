@@ -19,14 +19,14 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-image-with-text>
+      <rhb-card full-width>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Brand_standards-Red_Hat-Initiative_Logos-Clearspace-RGB-2.svg" alt="An initiative logo with a diagram surrounding it depicting minimum clear space.">
         <p slot="content">Clear space is the area around the logo that should not have text, distracting graphics, or other logos. The clear space for initiative logos is at least the height of the letter "e" in the word "Red."</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-Clearspace-Red_Hat_Logo-RGB-2.svg" alt="An initiative logo with the Red Hat logo underneath. Between them is a diagram showing minimum spacing required between them.">
         <p slot="content">Whenever an initiative logo is used, the Red Hat logo should always be included nearby. Clear space between the two logos should be at least the height of the letter "e" in the initiative logo, but the size of the Red Hat logo can change.</p>
-      </rhb-image-with-text>
+      </rhb-card>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -34,28 +34,27 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-image-with-text>
+      <rhb-card>
         <img slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-Reverse_color-RGB-1.svg" alt="Full color initiative logo with white text and a red icon.">
-      </rhb-image-with-text>
-      <rrhb-image-with-text>
+      </rhb-card>
+      <rhb-card>
         <img slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-Standard_color-RGB-1.svg" alt="Full color initiative logo with black text and a red icon.">
-      </rhb-image-with-text>
+      </rhb-card>
     </rhb-grid>
     <rhb-grid columns="three">
-      <rhb-image-with-text>
+      <rhb-card>
         <img slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-One_color_white-RGB-1.svg" alt="One-color initiative logo with white text and a white icon.">
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card>
         <img slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-One_color_red-RGB-1.svg" alt="One-color initiative logo with red text and a red icon.">
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card>
         <img slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-One_color_black-RGB-1.svg"alt="One-color initiative logo with black text and a black icon.">
-      </rhb-image-with-text>
+      </rhb-card>
     </rhb-grid>
     <rhb-content>
       <p>Initiative logos are produced in 2 full color versions: standard and reverse. They are also produced in 3 one-color versions: red, white, and black.</p> 
     </rhb-content>
-  </rhb-container>
 </rhb-band>
 
 <rhb-band>
@@ -63,26 +62,39 @@ tags:
     <h4>Who should use an initiative logo?</h4>
     <rhb-content>
       <p>The Brand and Creative team recommends initiative logos to accommodate only the needs of specific established programs or groups.</p>
-    <rhb-content>
+    </rhb-content>
+  </rhb-container>
   <rhb-container>
-</rhb-band>
-
-<rhb-band>
-  <rhb-container>
-    <rhb-content>
-      <h5>Initiative logos will be considered for:</h5>
-      <ul>
-        <li>Programs or groups that facilitate expression and community globally inside and outside of Red Hat.</li>
-        <li>Groups that promote active Red Hat initiatives.</li>
-        <li>Programs or groups that increase familiarity and positive sentiment with the Red Hat brand, both internally and externally.</li>
-        <li>Groups that engage with Red Hat communities, partners, or customers in unique ways.</li>
-      </ul>
-    <rhb-content>
-  <rhb-container>
-</rhb-band>
-
-<rhb-band>
-  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <div slot="content" webc:nokeep>
+          <rhb-stylized-list yes>
+        <h5>Initiative logos will be considered for</h5>
+        <ul>
+          <li>Programs or groups that facilitate expression and community globally inside and outside of Red Hat.</li>
+          <li>Groups that promote active Red Hat initiatives.</li>
+          <li>Programs or groups that increase familiarity and positive sentiment with the Red Hat brand, both internally and externally.</li>
+          <li>Groups that engage with Red Hat communities, partners, or customers in unique ways.</li>
+        </ul>
+        </div>
+      </rhb-stylized-list>
+      </rhb-card>
+      <rhb-card full-width>
+        <div slot="content" webc:nokeep>
+          <rhb-stylized-list no>
+        <h5>Initiative logos will not be considered for</h5>
+        <ul>
+          <li>A Red Hat team, department, or product. These groups should use a <a href="https://www.redhat.com/en/redhat.com/about/brand/standards/universal-logos">universal logo</a>.</li>
+          <li>A Red Hat product or service. These follow our product branding strategy.</li>
+          <li>Groups that need to add a sub-program or other supporting text, like a region, to their logo.</li>
+        </ul>
+      </rhb-stylized-list>
+        </div>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+  </rhb-container>
+    <rhb-container>
     <rhb-content>
       <p>If you feel that your group meets the qualifications for an initiative logo, reach out to <a href="mailto: brand@redhat.com">brand@redhat.com</a> for more information.</p> 
     </rhb-content>
@@ -95,22 +107,22 @@ tags:
   <rhb-container>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-image-with-text>
+      <rhb-card full-width>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-Social_example.png" alt="Social media post that features a pattern, the Red Hat logo, and the Red Hat Innovation Awards 2022 initiative logo.">
         <p slot="content">Use initiative logos with other Red Hat brand elements like illustrations and patterns for visual interest, but always maintain proper clear space between the logo and other elements.</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-Slide_example-RGB.png" alt="Presentation slide that features the Red Hat Innovators in the Open initiative logo in the top left and the Red Hat logo in the lower right corner.">
         <p slot="content">When including an initiative logo on a digital application, always include the Red Hat logo somewhere on the layout.</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-Shirt_mockup.jpg" alt="Photography of a t-shirt with the Red Hat Open Studio Community inititiave logo on the sleeve and the Red Hat logo on the neck area.">
         <p slot="content">On swag or other multisided applications, we include the Red Hat logo in a separate imprint area as needed.</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-DEI_Logos-RGB.svg" alt="Examples of Red Hat Diversity, Equity, and Inclusion initiative logos.">
         <p slot="content">Diversity, Equity, and Inclusion (DEI) communities use initiative logos with color to represent their people and cultures. Other initiatives do not use colors beyond red. <a href="https://www.redhat.com/en/redhat.com/about/brand/standards/DEI-community-logos">Learn more about DEI community logos.</a></p>
-      </rhb-image-with-text>
+      </rhb-card>
     </rhb-grid>
   </rhb-container>
 </rhb-band>

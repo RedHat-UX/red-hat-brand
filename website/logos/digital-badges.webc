@@ -26,13 +26,20 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card bordered>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-1-RGB.svg" alt="Example of two digital badges with a diagram showing appropriate clear space.">
+        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-1-RGB.svg" alt="">
+        <div slot="content" webc:nokeep>
         <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing"> View existing Red Hat digital badges on Credly</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-"> How to share your digital badges</a></rh-cta>
+        </div>
       </rhb-card>
       <rhb-card class="border-sm border-subtle">
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="Example of two digital badges with a diagram showing appropriate clear space.">
-        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing"> View existing Red Hat digital badges on Credly</a></rh-cta>
-        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing"> This is a second CTA</a></rh-cta>
+        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="">
+        <div slot="content" webc:nokeep>
+          <rh-cta slot="cta"><a href="https://www.redhat.com/en/about/digital-credential-program"> Learn more about the Red Hat Digital Credentialing program</a></rh-cta>
+          <p></p>
+          <rh-cta slot="cta"><a href="https://source.redhat.com/groups/public/gcs_asociates_success_enablement/global_enablement/red_hat_digital_credentialing_program">Request a digital badge for your program</a></rh-cta>
+        </div>
       </rhb-card>
     </rhb-grid>
   </rhb-container>
@@ -48,140 +55,144 @@ tags:
     <rhb-container>
       <rh-tabs>
         
-        <rh-tab slot="tab">Standard digital badges</rh-tab>
+        <rh-tab slot="tab">Standard</rh-tab>
         <rh-tab-panel>
           <rhb-grid columns="three">
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Background-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Background-RGB.svg" alt="Diagram of a standard digital badge highlighting the dark gray outline and gray background.">
               <div slot="headline"><span class="font-lg"><strong>Background and icon</strong></span></div>
               <p slot="content">Regardless of the height or content of the badge, standard digital badges always have a gray background with curved corners, surrounded by a darker gray outline.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Icons-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Icons-RGB.svg" alt="Four icons that represent knowledge development, awards, contribution and impact, and program membership.">
               <div slot="headline"><span class="font-lg"><strong>Icons</strong></span></div>
               <p slot="content">The icon used in the upper right of each standard digital badge denotes the type of credential the badge represents and always appears in black. Learn more about the types of digital credentials.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Type-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Type-RGB.svg" alt="Diagram highlighting the text in Red Hat Display Medium font on a standard digital badge.">
               <div slot="headline"><span class="font-lg"><strong>Typography</strong></span></div>
               <p slot="content">For maximum legibility, all text is typed in Red Hat Display at the same point size.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_1-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_1-RGB.svg" alt="Example digital badge with a black secondary box.">
               <div slot="headline"><span class="font-lg"><strong>Default color</strong></span></div>
               <p slot="content">For an individual badge, the default color for the secondary box is black.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_2-RGB_0.png" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_2-RGB_0.png" alt="Three example badges with secondary boxes in three shadres of red.">
               <div slot="headline"><span class="font-lg"><strong>Tiers or levels</strong></span></div>
               <p slot="content">For badges that represent tiers or levels, like Ready, Advanced, and Premier, the secondary box can be set to shades of red.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_3-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_3-RGB.svg" alt="Example digital badge with a gold secondary box.">
               <div slot="headline"><span class="font-lg"><strong>Programs with existing brand kits</strong></span></div>
               <p slot="content">If the program represented by the digital badge has an existing brand kit, a color from the program color palette can be used for the secondary box.</p>
             </rhb-image-with-text>
           </rhb-grid>
         </rh-tab-panel>
 
-        <rh-tab slot="tab">Red Hat Certification digital badges</rh-tab>
+        <rh-tab slot="tab">Red Hat Certification</rh-tab>
         <rh-tab-panel>
           <rhb-grid columns="three">
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Background-RGB.svg" alt="Diagram of a Red Hat Certification digital badge highlighting the dark gray outline and black background.">
+              <div slot="headline"><span class="font-lg"><strong>Background and outline</strong></span></div>
               <p slot="content">Regardless of the height or content of the badge, <a href="https://www.redhat.com/en/services/training-and-certification">Red Hat Certification</a> badges always have a black background with curved corners, surrounded by a gray outline.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Icon-RGB.svg" alt="Icon representing certification.">
+              <div slot="headline"><span class="font-lg"><strong>Icon</strong></span></div>
               <p slot="content">Red Hat Certification badges always use the same icon in the upper left corner of the badge. The icon is always white.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Type-RGB.svg" alt="Diagram highlighting the text in Red Hat Display Medium and Bold font on a Red Hat Certification digital badge.">
+              <div slot="headline"><span class="font-lg"><strong>Typography</strong></span></div>
               <p slot="content">Red Hat Certification badges always use the same icon in the upper left corner of the badge. The icon is always white.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="Stuff">
+              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Color_1-RGB.svg" alt="Example digital badge with a red secondary box.">
+              <div slot="headline"><span class="font-lg"><strong>Color</strong></span></div>
               <p slot="content">Red Hat Certification badges always use the same icon in the upper left corner of the badge. The icon is always white.</p>
             </rhb-image-with-text>
           </rhb-grid>
         </rh-tab-panel>
 
-      </rh-tabs>
-    </rhb-container>
-  </rhb-band>
+    </rh-tabs>
+  </rhb-container>
+</rhb-band>
 
-  <rhb-band>
-    <rhb-container>
-      <rhb-grid columns="two" offset-left>
-        <rhb-card flush-top>
-          <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Rover_badges-RGB.svg" alt="Stuff">
-        </rhb-card>
-        <rhb-card flush-top>
-          <h3 slot="headline">Are digital badges the same as Rover badges?</h3>
-          <p slot="content" class="font-lg">Digital badges on Credly are available for Red Hat associates, customers, partners, and certified professionals. Rover badges, which recognize company-internal awards and achievements, are only available for Red Hat associates and should only be used within the Rover interface.</p>
-          <rh-cta slot="cta"><a href="https://source.redhat.com/groups/public/rover/rover_wiki/rover__people_recognition_and_badges">Learn more about Rover badges</a></rh-cta>
-        </rhb-card>
-      </rhb-grid>
-    </rhb-container>
-  </rhb-band>
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two" offset-left>
+      <rhb-card flush-top>
+        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Rover_badges-RGB-2023-01.svg" alt="Six example rover badges.">
+      </rhb-card>
+      <rhb-card flush-top>
+        <h3 slot="headline">Are digital badges the same as Rover badges?</h3>
+        <p slot="content" class="font-lg">Digital badges on Credly are available for Red Hat associates, customers, partners, and certified professionals. Rover badges, which recognize company-internal awards and achievements, are only available for Red Hat associates and should only be used within the Rover interface.</p>
+        <rh-cta slot="cta"><a href="https://source.redhat.com/groups/public/rover/rover_wiki/rover__people_recognition_and_badges">Learn more about Rover badges</a></rh-cta>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
 
-  <rhb-band>
-    <rhb-container>
-      <rhb-content>
-        <h4>Digital badges in use</h4>
-        <p>Digital badges appear in the Credly interface and can also be shared on websites, social media profiles, or email signatures as a verifiable way to showcase achievements. They should always be used without modifications in a way that properly represents the achievement.</p>
-      </rhb-content>
-    </rhb-container>
-    <rhb-container>
-    <rhb-grid columns="two">
-        <rhb-image-with-text>
-          <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-1-RGB.svg" alt="Stuff">
-          <p slot="content">On a personal website or blog, use the full digital badge image with proper clear space. Embed the badge using Credly’s instructions so others can verify the achievement.</p>        
-        </rhb-image-with-text>
-        <rhb-image-with-text>
-          <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-2-RGB.svg" alt="Stuff">
-          <p slot="content">On a personal website or blog, use the full digital badge image with proper clear space. Embed the badge using Credly’s instructions so others can verify the achievement.</p>        
-        </rhb-image-with-text>
-        <rhb-image-with-text>
-          <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-3-RGB.svg" alt="Stuff">
-          <p slot="content">On a personal website or blog, use the full digital badge image with proper clear space. Embed the badge using Credly’s instructions so others can verify the achievement.</p>        
-        </rhb-image-with-text>
-        <rhb-image-with-text>
-          <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-4-RGB.svg" alt="Stuff">
-          <p slot="content">On a personal website or blog, use the full digital badge image with proper clear space. Embed the badge using Credly’s instructions so others can verify the achievement.</p>        
-        </rhb-image-with-text>
-      </rhb-grid>
-    </rhb-container>
-  </rhb-band>
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Digital badges in use</h4>
+      <p>Digital badges appear in the Credly interface and can also be shared on websites, social media profiles, or email signatures as a verifiable way to showcase achievements. They should always be used without modifications in a way that properly represents the achievement.</p>
+    </rhb-content>
+  </rhb-container>
+  <rhb-container>
+  <rhb-grid columns="two">
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-2-RGB.svg" alt="Two digital badges on a personal website.">
+        <p slot="content">In an email signature, ensure that the badge has proper clear space and is large enough for the text to be legible. <a href="https://support.credly.com/hc/en-us/articles/360021221691-Can-I-attach-my-badge-to-my-email-signature-">Link the image to your verification page on Credly</a> so others can verify the achievements.</p>
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-1-RGB.svg" alt="A digital badge shared on a social media platform.">
+        <p slot="content">On a personal website or blog, use the full digital badge image with proper clear space. <a href="https://support.credly.com/hc/en-us/articles/360043782632-How-can-I-embed-my-badge-in-a-website-">Embed the badge using Credly’s instructions</a> so others can verify the achievement.</p>        
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-3-RGB.svg" alt="Two digital badges in an email signature.">
+        <p slot="content">Credly works with popular social and professional networking platforms. <a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Follow Credly’s instructions</a> to share a digital badge to a LinkedIn profile or other social media.</p>  
+      </rhb-image-with-text>
+      <rhb-image-with-text>
+        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-4-RGB.svg" alt="A certificate showcasing a digital badge that was earned.">
+        <p slot="content">Digital badges are available as <a href="https://support.credly.com/hc/en-us/articles/360026639872-Can-I-download-my-badge-certificate-">downloadable certificates on Credly</a>. Certificates include an image of the digital badge and can be printed as a physical record of the achievement.</p>
+      </rhb-image-with-text>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
 
-  <rhb-band>
-    <rhb-container>
-      <rhb-grid columns="four">
-        <rhb-this-not-this>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-1-This-RGB.svg" alt="Red Hat Innovation Awards 2020 logo.">
-          <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-          <p slot="content">Work with the Brand and Creative team to create an initiative logo that fits your program.</p>
-        </rhb-this-not-this>
-        <rhb-this-not-this>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-1-Not_this-RGB.svg" alt="An example of a fake initiative logo created outside of our standards.">
-          <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-          <p slot="content">Do not create an initiative logo on your own, even if you use Red Hat icons.</p>
-        </rhb-this-not-this>
-        <rhb-this-not-this>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-2-This-RGB.svg" alt="Red Hat Live logo.">
-          <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-          <p slot="content">If you scale the logo, the elements should be grouped and scaled together.</p>
-        </rhb-this-not-this>
-        <rhb-this-not-this>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-2-Not_this-RGB.svg" alt="An example of the Red Hat Live logo with a manipulated icon.">
-          <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-          <p slot="content">Do not modify the logo or scale pieces independently.</p>
-        </rhb-this-not-this>
-      </rhb-grid>
-    </rhb-container>
-    <rhb-container>
-      <h4>Privacy Notice for Digital Credentialing</h4>
-      <p class="font-xs">Red Hat leverages the services of Credly, a 3rd party data processor authorized by Red Hat and located in the United States, to assist in the administration of the Red Hat Digital Credentialing program. In order to issue you a Red Hat Digital Badge, your personal information (such as name, email address, location and digital badge earned) will be shared with Credly. You will receive an email notification from Credly with instructions for claiming the digital badge. Your personal information is used to issue your digital badge and for program reporting and operational purposes. It will be handled in a manner consistent with Red Hat privacy practices. The Red Hat Privacy Statement can be viewed here. Red Hat employees can view the Red Hat Employee Privacy Statement on Red Hat’s internal website under the Legal Policies page.</p>
-      <p class="font-xs">Please note that to use Credly’s services, you will need to sign up and create an account with Credly, and in doing so, you will be asked to agree to Credly’s privacy policy and terms of use which will apply to your use of Credly’s website. Visit credly.com/privacy to view Credly’s privacy policy or email privacy@credly.com. The privacy policy describes how Credly treats the information you and Red Hat share with them. Credly’s privacy policy also describes how to exercise data subject rights.</p>
-    </rhb-container>
-  </rhb-band>
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-1-RGB.svg" alt="A digital badge that has been squished vertically.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not stretch or distort digital badges. Always resize the image proportionally if resizing is necessary.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-2-RGB.svg" alt="A digital badge that has been cropped on the sides.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not crop or alter the shape of digital badges.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-3-RGB.svg" alt="A digital badge with a partner's logo pasted on top.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not add other logos, badges, text, or other elements to digital badges.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-4-RGB.png" alt="A digital badge with a drop shadow.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not add any additional bounding shape or effects, like drop shadows, to digital badges.</p>
+      </rhb-this-not-this>
+    </rhb-grid>
+  </rhb-container>
+  <rhb-container>
+    <h4>Privacy Notice for Digital Credentialing</h4>
+    <p class="font-xs">Red Hat leverages the services of <a href="https://www.credly.com/organizations/red-hat-inc/badges">Credly</a>, a 3rd party data processor authorized by Red Hat and located in the United States, to assist in the administration of the Red Hat Digital Credentialing program. In order to issue you a Red Hat Digital Badge, your personal information (such as name, email address, location and digital badge earned) will be shared with Credly. You will receive an email notification from Credly with instructions for claiming the digital badge. Your personal information is used to issue your digital badge and for program reporting and operational purposes. It will be handled in a manner consistent with Red Hat privacy practices. The Red Hat Privacy Statement can be viewed <a href="https://www.redhat.com/en/about/privacy-policy">here</a> . Red Hat employees can view the Red Hat Employee Privacy Statement on Red Hat’s internal website under the Legal Policies page.</p>
+    <p class="font-xs">Please note that to use Credly’s services, you will need to sign up and create an account with <a href="https://www.credly.com/organizations/red-hat-inc/badges">Credly</a>, and in doing so, you will be asked to agree to Credly’s privacy policy and terms of use which will apply to your use of Credly’s website. Visit <a href="http://credly.com/privacy">credly.com/privacy</a> to view Credly’s privacy policy or email <a href="mailto:privacy@credly.com">privacy@credly.com</a>. The privacy policy describes how Credly treats the information you and Red Hat share with them. Credly’s privacy policy also describes how to exercise data subject rights.</p>
+  </rhb-container>
+</rhb-band>
