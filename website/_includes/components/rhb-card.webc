@@ -9,7 +9,7 @@
   :host {
     display: flex;
     flex-direction: column;
-    font-size: var(--rh-font-size-code-lg, 1.125rem);
+    font-size: var(--rh-font-size-body-text-lg, 1.125rem);
   }
 
   :host([bordered]) {
@@ -21,11 +21,12 @@
   }
 
   .card-content {
-   margin: var(--rh-space-xl, 32px); 
+   margin: var(--rh-space-xl, 32px);
   }
 
   :host([full-width]) .card-content {
     margin: 0;
+    padding-block-start: var(--rhspace-lg, 24px);
   }
 
   :host([flush-top]) .card-content {
