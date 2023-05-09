@@ -9,7 +9,11 @@
   :host {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     font-size: var(--rh-font-size-body-text-lg, 1.125rem);
+=======
+    font-size: var(--rh-font-size-code-lg, 1.125rem);
+>>>>>>> main
   }
 
   :host([bordered]) {
