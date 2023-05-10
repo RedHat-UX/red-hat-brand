@@ -9,11 +9,7 @@
   :host {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     font-size: var(--rh-font-size-body-text-lg, 1.125rem);
-=======
-    font-size: var(--rh-font-size-code-lg, 1.125rem);
->>>>>>> main
   }
 
   :host([bordered]) {
@@ -36,6 +32,15 @@
   :host([flush-top]) .card-content {
     margin-top: 0;
   }
+
+  :host([flush-left]) .card-content {
+    margin-left: 0;
+  }
+
+  :host([vertical-center]) .card-content{
+    margin: auto;
+   
+}
 
   :is(h1,h2,h3,h4,h5,h6) {
     margin-block-start: 0;

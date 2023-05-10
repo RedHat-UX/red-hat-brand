@@ -92,10 +92,10 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="two" offset-left>
-      <rhb-card>
+      <rhb-card vertical-center>
         <img slot="image" src="/assets/images/design-language/typography-page/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Alignment.svg" alt="Mini-spot illustration representing alignment">
       </rhb-card>
-      <rhb-card>
+      <rhb-card vertical-center>
         <h3 slot="headline">What about variable fonts?</h3>
         <p slot="content" class="font-lg">
           The variable version of our fonts includes weight as a variable option, and are best used on web properties to decrease load times. When using variable fonts, stick to the named weights (regular, bold, etc.) for consistency across applications. If your desktop app doesn’t support variable fonts, use the traditional version instead.
