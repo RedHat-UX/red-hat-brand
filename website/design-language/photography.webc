@@ -225,11 +225,13 @@ tags:
 </rhb-band>
 
 <rhb-band>
-  <rhb-container class="background-color-subtle">
-      <h3 style="text-align:center">Taking photos at Red Hat</h3>
-      <p style="text-align:center">Looking for more technical guidelines on how to take photos for Red Hat? You’ve landed in the right spot.</p>
-      <rh-cta variant="primary"><a href="https://docs.google.com/presentation/d/1PpShMxM1NavtUWrYUno9bUnBu74UMHtqJUZ8nAEfPWI/edit?usp=sharing">Learn more</a></rh-cta>
-    </rhb-container>
+  <rhb-container>
+    <rhb-card full-width style="display: block; background-color: var(--rh-color-surface-lighter, #f2f2f2); text-align: center; padding: var(--rh-spacer-xl, 24px);">
+      <h3 slot="headline">Taking photos at Red Hat</h3>
+      <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Looking for more technical guidelines on how to take photos for Red Hat? You’ve landed in the right spot.</p>
+      <rh-cta variant="primary" slot="cta"><a href="https://docs.google.com/presentation/d/1PpShMxM1NavtUWrYUno9bUnBu74UMHtqJUZ8nAEfPWI/edit?usp=sharing"></a>Learn More</rh-cta>
+    </rhb-card>
+  </rhb-container>
 </rhb-band>
 
 

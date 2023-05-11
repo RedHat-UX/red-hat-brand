@@ -33,6 +33,15 @@
     margin-top: 0;
   }
 
+  :host([flush-left]) .card-content {
+    margin-left: 0;
+  }
+
+  :host([vertical-center]) .card-content{
+    margin: auto;
+   
+}
+
   :is(h1,h2,h3,h4,h5,h6) {
     margin-block-start: 0;
     margin-block-end: var(--rh-space-lg, 16px);
