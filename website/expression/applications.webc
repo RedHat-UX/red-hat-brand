@@ -10,5 +10,84 @@ tags:
 <rhb-band>
   <rhb-container>
     <h2 @text="title"></h2>
+    <rhb-content margin-bottom="xl">
+      <p>Red Hat offers a wealth of resources for each of its brand applications, from writing and video to social media and collateral. Here, you’ll find links to relevant resources in each of these areas.</p>
+      <p>A quick note: Most of the assets listed below will require a sign-in or passcode to an existing Red Hat® account. These assets are intended for Red Hat associates and partner agencies only.</p>
+    </rhb-content>
+    <rhb-grid columns="two" margin-bottom="xl" offset-left>
+      <rhb-card flush-top full-width>
+        <div slot="content" webc:nokeep>
+        <h3 slot="headline">Writing</h3>
+        <p slot="content">
+          Our voice is very much a part of what makes us Red Hat. Use these resources to bring out the Red Hat voice in everything you write.
+        </p>
+        <rh-cta slot="cta"><a href="https://source.redhat.com/departments/marketing/marketing-content-team/marketing_content_team_wiki/writer_resources_list">Writing resources list</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://docs.google.com/document/d/1QXGyiuYcbzVCbqSSbSxVOE_-pGdEdArHEsp-fTgjEno/edit">Content type guide</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://docs.google.com/spreadsheets/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/edit#gid=1259317633">Product and solution names</a></rh-cta>
+      </div>
+      </rhb-card>
+      <rhb-card flush-top>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Writing-RGB.jpg" alt="Red Hat Mono weights and styles">
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="three">
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Video-RGB.jpg" alt="">
+        <div slot="content" webc:nokeep>
+        <h3>Video</h3>  
+        <p>Our goal with video is to tell authentic stories about Red Hat and our customers while helping to simplify complex technologies. These standards help lead the way.</p>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1EDo4PA69x14OVBkpN0YK20dzmFPdYMnCxqNV-OcWLc8/edit#slide=id.g7f31431ecd_0_0">Video standards</a></rh-cta>
+        </div>
+      </rhb-card>
+
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Social-Media-RGB.png" alt="">
+        <div slot="content" webc:nokeep>
+        <h3>Social media</h3>  
+        <p>The social media team amplifies the Red Hat brand and offers a consistent user experience through creative, strategic, data-driven processes.</p>
+        <rh-cta slot="cta"><a href="https://source.redhat.com/departments/legal/globallegalcompliance/compliance_wiki/social_media_guidelines">General social media guidelines</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://source.redhat.com/groups/public/social-media-at-red-hat/resources/special_guidelines_for_red_hat_associates_who_participate_in_social_media_on_behalf_of_red_hat">Special guidelines for branded accounts</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1G-H6s7J7E50hDriGC1XEcKNNV3UKYUrqPRLZ-ysbiag/edit?usp=drive_web&ouid=108898529831901589523">Design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Diagrams-RGB.png" alt="">
+        <div slot="content" webc:nokeep>
+        <h3>Diagrams</h3>
+        <p>Our diagrams aim to convey complex technical concepts more clearly and effectively. These guidelines, templates, and standards offer a strong visual language on which to build.</p>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1_Zk87czkR1l_IQopTRaAMTlJ_DEGE3XK8SbttqAdnig/edit#slide=id.g547716335e_0_260">Working with technical diagrams</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/1DZfTYEKz9SvQaLSjmaR-Jcdt2UqlxgWu">Diagram templates</a></rh-cta>
+        </div>
+      </rhb-card>
+
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Animation-RGB.jpg" alt="">
+        <div slot="content" webc:nokeep>
+        <h3>Animation</h3>  
+        <p>With our animations, we attempt to visualize complex technologies in simpler, more relatable ways to give them more meaning while also conveying emotion and imagination.</p>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1W9VjGQC42j0tgVsuDhd6Y8negDfgk5c2WGfMIl_AgHc/edit?usp=sharing">Animation standards</a></rh-cta>
+        </div>
+      </rhb-card>
+
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Marketplace-RGB.png" alt="">
+        <div slot="content" webc:nokeep>
+        <h3>Red Hat Marketplace</h3>  
+        <p>Use these guidelines to create content and assets that represent Red Hat Marketplace, a centralized location for buying and deploying container-based software across clouds.</p>
+        <rh-cta slot="cta"><a href="https://www.redhat.com/en/about/brand/standards/red-hat-marketplace">Marketplace standards</a></rh-cta>
+        </div>
+      </rhb-card>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
