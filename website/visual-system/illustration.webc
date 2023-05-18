@@ -1,0 +1,213 @@
+---
+layout: layouts/backpage.webc
+title: Illustration
+tags:
+  - design-language
+  - popular
+---
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>Illustration is an eye-catching medium that tells a story in a way that photography, technical diagrams, and icons cannot. Illustrations work well across applications, like presentations, web pages, animations, and motion graphics. We use illustrations to tell conceptual, open stories and describe nuanced ideas in an authentic way.</p>
+     </rhb-content>
+
+      <rhb-grid columns="two">
+        <rhb-card flush-top>
+          <img slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Diagram-01-RGB.svg" alt="Illustration of a man at his computer with an illustrated background metaphorically representative of an open hybrid cloud environment">
+        </rhb-card>
+        <rhb-card flush-top>
+          <div slot="content" webc:nokeep>
+            <p><strong>Active, not passive.</strong></p>
+            <p>Red Hat’s illustration style implies movement and activity. Illustrated people are realistic and dynamic, not oversimplified or static.</p>
+            <p><strong>Intentional, not superficial</strong></p>
+            <p>Our style is refined and thoughtfully designed to complement the complex nature of our products. They’re approachable, but not cartoonish or childlike.</p>
+            <p><strong>Informative, not decorative.</strong></p>
+            <p>Red Hat® illustrations are more than eye-catching. They should complement and enhance the message they’re paired with and tell a story about our technology or our customer’s business.</p>
+            <p><strong>Open, not closed.</strong></p>
+            <p>With diverse people and diverse thoughts, the best ideas come from everywhere. We include a broad range of people and environments that go beyond the traditional enterprise technology cliches.</p>
+          </div>
+        </rhb-card>
+      </rhb-grid>
+
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1pJNpi7myXRIQb6zF83YhtZ753STdRjYb3CPbbAIcdJs/edit?usp=sharing"></a>Access illustration repository</a></rh-cta></p>
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1Ft09upnBwXmtuZSjwrn2I0hHAJuEKWZDdfm2-XAsG00/edit?usp=sharing"></a>Learn more about creating illustrations for Red Hat</a></rh-cta></p>
+
+      <rhb-content>
+        <h2>Types of Illustration</h2>
+        <p>Red Hat has two types of illustrations: mini-spot illustrations and spot illustrations. Mini-spot illustrations are 1-color and work well in smaller spaces. Spot illustrations use a larger color palette and represent more complex concepts or narratives.</p>
+      </rhb-content>
+  
+      <rhb-grid columns="two">
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-minispot.svg" alt="alt text goes here">
+          <p slot="content" style="text-align:center"><strong>Minispot illustrations</strong></p>
+        </rhb-card>
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-spot.svg" alt="alt text goes here">
+          <p slot="content" style="text-align:center"><strong>Spot illustrations</strong></p>
+        </rhb-card>
+      </rhb-grid>
+
+      <rhb-content>
+        <h4>Mini-spot illustrations</h4>
+        <p>Mini-spot illustrations convey a single concept to support a headline or copy. They are slightly more complex than icons, and they always use our 1-color red palette with a dot texture.</p>
+      </rhb-content>
+
+      <rhb-grid columns="two">
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-In_use-01-RGB.jpg" alt="Global Fortune 500 mini-spot illustration social card example">
+          <p slot="content">Mini-spot illustrations work well in smaller spaces that might be too large for, or require more detail than, an icon alone.</p>
+        </rhb-card>
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-In_use-02-RGB.jpg" alt="T-shirt with mini-spot illustration artwork">
+          <p slot="content">Mini-spot illustrations also work well in instances where colors are limited.</p>
+        </rhb-card>
+      </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-01-RGB.svg" alt="Mini-spot illustration">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use mini-spot illustrations as provided.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-01-RGB.svg" alt="Mini-spot illustration being distorted and filled in with other colors">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not distort, combine, add colors to, or modify existing mini-spot illustrations.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-02-RGB.svg" alt="Mini-spot illustration at a legible size">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use mini-spot illustrations at a size where all of the details are legible.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-02-RGB.svg" alt="Mini-spot illustration being used in place of an icon in a social card">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not use mini-spot illustrations in place of icons.</p>
+      </rhb-card>
+    </rhb-grid>
+
+    <rhb-grid columns="four">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-03-RGB.svg" alt="Mini-spot illustration">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use a mini-spot illustration as an independent element to tell a complete story.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-03-RGB.svg" alt="Mini-spot illustration layered with standard icons">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not layer or combine multiple types of illustrations or icons into one visual.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-04-RGB.svg" alt="three mini-spot illustrations used on a presentation slide">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Be consistent with the type of illustration you’re using in a given application.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-04-RGB.svg" alt="Two mini-spot illustrations and one spot illustration being used on a presentation slide">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not unintentionally use more than one type of illustration per application.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Spot illustrations</h4>
+      <p>Spot illustrations help to convey complex ideas or stories at a larger scale than mini-spot illustrations. They use a stylized color palette, rather than a realistic one, built from our core colors and colors are added from our extended color wheel if necessary.</p>
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-Core_color-RGB.svg" alt="Cloud/Kubernetes illustration in Red Hat's core colors">
+        <div slot="content" webc:nokeep>
+          <p slot="content"><strong>Core color illustrations</strong></p>
+          <p slot="content">Illustrations that are created from our core color palette are ideal for most brand illustrations. We use colors with strong contrast to create depth and dimension.</p>
+       </div>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-Extended_color-RGB.svg" alt="Automation playbook illustration using colors from Red Hat's extended color wheel">
+        <div slot="content" webc:nokeep>
+          <p slot="content"><strong>Extended color illustrations</strong></p>
+          <p slot="content">Illustrations that are created using our extended color wheel are ideal for bold illustrations that draw attention. They always use red as an accent, which ensures that illustrations still look like Red Hat.</p>
+       </div>
+      </rhb-card>
+    </rhb-grid>
+</rhb-container>
+</rhb-band>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-01-RGB.svg" alt="Spot illustration">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use spot illustrations as provided.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-01-RGB.svg" alt="Spot illustration being distorted">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not distort, combine, add colors to, or modify existing spot illustrations.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use spot illustrations at a size where all of the details are legible.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not use spot illustrations in place of icons.</p>
+      </rhb-card>
+    </rhb-grid>
+
+    <rhb-grid columns="four">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-03-RGB.svg" alt="Spot illustration">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use a spot illustration as an independent element to tell a complete story.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-03-RGB.svg" alt="Spot illustration layered with standard icons and mini-spot illustrations">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not layer or combine multiple types of illustrations or icons into one visual.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-04-RGB.svg" alt="Three spot illustrations used on a presentation slide">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Be consistent with the type of illustration you’re using in a given application.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-04-RGB.svg" alt="Two spot illustrations and one mini-spot illustration being used on a presentation slide">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not unintentionally use more than one type of illustration per application.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card flush-top flush-left>
+        <div slot="content" webc:nokeep>
+          <p><strong>Representation in illustrations</strong></p>
+          <p>Considering diversity, equity, and inclusion is a significant part of our process for creating illustrations. We make sure our illustrations are reviewed by others—designers, peers, and Red Hat Diversity, Equity, and Inclusion communities. To be intentional and thoughtful, we allow time to research, listen, and adjust. With our illustrations, we aim to uplift those who have been marginalized for their appearance, ability, or identity.</p>
+          <p>Our illustrations depict a diverse community by reflecting the world as it truly exists. We use photos of real people as a source for our illustrations—not our own ideas of people–to prevent unintentional biases and stereotypes.</p>
+        </div>
+      </rhb-card>
+      <rhb-card flush-top>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_Standards-Illustration-Representation.svg" alt="4 examples of diverse representation within Red Hat's illustration style">
+      </rhb-card>
+  </rhb-container>
+</rhb-band>

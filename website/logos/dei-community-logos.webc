@@ -8,6 +8,207 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <h2 @text="title"></h2>
+    <rhb-content>
+    <h2>Diversity, Equity, and Inclusion (DEI) community logos</h2>
+      <p>At Red Hat, DEI communities are associate-led groups that help their community members and allies to build stronger internal and external networks through social, educational, and outreach activies.</p>
+      <p>DEI communities use logos based on our <a href="brand.redhat.com">initiative logos</a> with additional colors to represent their vibrant people and cultures. They are only provided on recommendation of the Brand and Creative team, and should always be used with the Red Hat® logo.</p>
+    </rhb-content>
+  </rhb-container>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Mental_Health_and_Neurodiversity-Clear_space-01.svg" alt="The Red Hat Mental Health and Neurodiversity logo with a diagram surrounding it depicting minimum clear space.">
+        <p slot="content">Clear space is the area around the logo that should not have text, distracting graphics, or other logos. The clear space for DEI community logos is at least the height of the letter "e" in the word "Red."</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-RH_logo_clear_space-RGB.svg" alt="The Red Hat Military Verterans community logo with the Red Hat logo below.">
+        <p slot="content">Whenever a DEI community logo is used, the Red Hat logo should always be included nearby. Clear space at least the height of the letter "e" in the DEI logo, but the size of the Red Hat logo can change.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-Standard_color-RGB.svg" alt="Red Hat B.U.I.L.D. logo with black text and a full color icon.">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-Reverse_color_1-RGB.svg" alt="Red Hat B.U.I.L.D. logo with white text and a full color icon.">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-Two-color_Standard-RGB.svg" alt="Red Hat B.U.I.L.D. logo with black text and a red icon.">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-Two-color_Reverse-RGB.svg" alt="Red Hat B.U.I.L.D. logo with white text and a red icon.">
+      </rhb-card>
+    </rhb-grid>
+    <rhb-grid columns="three">
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-One-color_White-RGB.svg" alt="Red Hat B.U.I.L.D. logo with white text and a white icon.">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-One-color_Red-RGB.svg" alt="Red Hat B.U.I.L.D. logo with red text and a red icon.">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-DEI_Community_Logos-One-color_Black-RGB.svg"alt="Red Hat B.U.I.L.D. logo with black text and a black icon.">
+      </rhb-card>
+    </rhb-grid>
+    <rhb-content>
+      <p>DEI community logos are produced in 2 full color versions: standard and reverse. They are also produced in two-color and one-color versions.</p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <h4>Current DEI communities</h4>
+    <rhb-grid columns="three">
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Asian_Network-RGB.svg" alt="Red Hat Asian Network">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://source.redhat.com/communitiesatredhat/diversity_and_inclusion/asian_network">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1KZ2imsDslXhgzuDtZ7sPWhld5MNuDdlU50UUlCaZ4Gw/edit?usp=sharing">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-BUILD-RGB.svg" alt="Red Hat Blacks United in Leadership and Diversity (B.U.I.L.D.)">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Diverse_Abilities-RGB.svg" alt="Red Hat Diverse Abilities">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Neurodiversity.svg" alt="Red Hat Mental Health and Neurodiversity">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Military_Veterans-RGB.svg" alt="Red Hat Military Veterans">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Native_and_Indigenous-RGB.svg" alt="Red Hat Native and Indigenous">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Pride-RGB.svg" alt="Red Hat Pride">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Unidos-RGB.svg" alt="Red Hat Unidos">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card bordered>
+        <img slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Womens_Leadership-RGB.svg" alt="Red Hat Women's Leadership Community">
+        <div slot="content" webc:nokeep>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing">Learn about the community</a></rh-cta>
+        <p></p>
+        <rh-cta slot="cta"><a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Community design guidelines</a></rh-cta>
+        </div>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <h4>DEI community logos in use</h4>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/Artboard 17 copy 4.svg" alt="The Red Hat Mental Health and Neurodiversity logo on a slide with the Red Hat logo in the lower corner.">
+        <p slot="content">When including a DEI community logo on a digital application, always include the Red Hat logo somewhere nearby.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Shirt_example-RGB.jpg" alt="A t-shirt with the Red Hat Military veterans logo on the back and then Red Hat logo on the right sleeve.">
+        <p slot="content">On swag and other multisided applications, we include the Red Hat logo in a separate imprint area as needed.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Guidelines_example-2-RGB.png" alt="The Red Hat Asian Network logo used correctly in one-color red, beside the logo used incorrectly in one-color white.">
+        <p slot="content">Some DEI communities have guidance around the use of color and other elements because of potential cultural implications. Be sure to review the community-specific guidelines before using a logo.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/Brand_standards-Red_Hat-Initiative_Logos-Chapter_example-RGB.svg" alt="The Red Hat Diverse Abilities logo with the placeholder text 'Chapter Name' underneath.">
+        <p slot="content">For DEI communities that have regional or specialized chapters, the chapter name can be added to the logo. Any addition to a DEI community logo should be approved by the Brand and Creative team.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-1-This_1-RGB.svg" alt="Red Hat Native and Indigenous logo.">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use your full DEI community logo as it is provided.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-1-Not_this_1-RGB.svg" alt="The Red Hat Native and Indigenous community icon alone.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not use the icon alone. It may not be recognizable to everyone without context.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-2-This_1-RGB.svg" alt="Red Hat Unidos logo.">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Keep all logo elements proportional to each other.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-2-Not_this_1-RGB.svg" alt="The Red Hat Unidos logo with the icon stretched.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not disproportionately scale individual logo elements.</p>
+      </rhb-this-not-this>
+
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-3-This_1-RGB.svg" alt="The Red Hat Pride logo with the Red Hat logo below.">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Always use DEI community logos with the Red Hat logo nearby.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-3-Not_this_1-RGB.svg" alt="The Red Hat logo co-branded with the Red Hat Pride community logo.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not co-brand DEI community logos with another logo.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-4-This_1-RGB.svg" alt="Red Hat Women's Leadership community logo with purple and black in the icon.">
+        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
+        <p slot="content">Use your DEI community logo as provided without modifying colors.</p>
+      </rhb-this-not-this>
+      <rhb-this-not-this>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-4-Not_this_1-RGB.svg" alt="Red Hat Women's Leadership community logo with green and orange in the icon.">
+        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+        <p slot="content">Do not change the colors in your DEI community logo. The colors were chosen intentionally.</p>
+      </rhb-this-not-this>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
