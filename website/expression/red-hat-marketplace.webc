@@ -193,15 +193,15 @@ tags:
         </rhb-card>
         <rhb-card flush-top>
             <div slot="content" webc:nokeep>
-            <p><strong>Illustration properties</strong></p>
-            <img slot="image" width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_A.svg">
-            <p>Use light blues to build a majority of the illustration. For objects in the scene, use shades of blue or black rather than realistic colors to create depth and shadows.</p>
-            <img slot="image" width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_B.svg">
-            <p>Use white to add details without cluttering the illustration.</p>
-            <img slot="image" width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_C.svg">
-            <p>Use Red Hat red for limited pops of color to highlight important parts of the illustration.</p>
-            <img slot="image" width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_D.svg">
-            <p>Use tints and shades of red and black for skin and hair. Illustrations should be inclusive of our diverse audience.</p>
+              <p><strong>Illustration properties</strong></p>
+              <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_A.svg">
+              <p>Use light blues to build a majority of the illustration. For objects in the scene, use shades of blue or black rather than realistic colors to create depth and shadows.</p>
+              <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_B.svg">
+              <p>Use white to add details without cluttering the illustration.</p>
+              <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_C.svg">
+              <p>Use Red Hat red for limited pops of color to highlight important parts of the illustration.</p>
+              <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_D.svg">
+              <p>Use tints and shades of red and black for skin and hair. Illustrations should be inclusive of our diverse audience.</p>
             </div>
         </rhb-card>
     </rhb-grid>
