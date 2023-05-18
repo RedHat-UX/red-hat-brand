@@ -11,10 +11,9 @@ tags:
     <rhb-content>
     <h2>Our Personality</h2>
       <p>Brands, like people, have their own personalities. The Red Hat® brand is open, authentic, helpful, and brave. Every interaction with Red Hat should reflect these core traits.</p>
-      <div slot="content" webc:nokeep>
-      <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1Rnq0KspGcyn46Vi9VKUR6GM9bir9lCr60KRYFq_ZgBM/edit?usp=sharing">Go more in-depth about using these personality traits in design</a></rh-cta>
-      </div>
-    </rhb-content>
+
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1Rnq0KspGcyn46Vi9VKUR6GM9bir9lCr60KRYFq_ZgBM/edit?usp=sharing"></a>Go more in-depth about using these personality traits in design</a></rh-cta></p>
+    </rhb-content>    
 
     <rh-tabs>
       <rh-tab slot="tab">Open</rh-tab>
