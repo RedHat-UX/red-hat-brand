@@ -168,47 +168,46 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="four">
-      <rhb-this-not-this>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-1-This_1-RGB.svg" alt="Red Hat Native and Indigenous logo.">
         <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use your full DEI community logo as it is provided.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+      
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-1-Not_this_1-RGB.svg" alt="The Red Hat Native and Indigenous community icon alone.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use the icon alone. It may not be recognizable to everyone without context.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-2-This_1-RGB.svg" alt="Red Hat Unidos logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-        <p slot="content">Keep all logo elements proportional to each other.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-2-Not_this_1-RGB.svg" alt="The Red Hat Unidos logo with the icon stretched.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-        <p slot="content">Do not disproportionately scale individual logo elements.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
 
-      <rhb-this-not-this>
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-2-This_1-RGB.svg" alt="Red Hat Unidos logo.">
+        <p slot="content">Keep all logo elements proportional to each other.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-2-Not_this_1-RGB.svg" alt="The Red Hat Unidos logo with the icon stretched.">
+        <p slot="content">Do not disproportionately scale individual logo elements.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-3-This_1-RGB.svg" alt="The Red Hat Pride logo with the Red Hat logo below.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Always use DEI community logos with the Red Hat logo nearby.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-3-Not_this_1-RGB.svg" alt="The Red Hat logo co-branded with the Red Hat Pride community logo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not co-brand DEI community logos with another logo.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-4-This_1-RGB.svg" alt="Red Hat Women's Leadership community logo with purple and black in the icon.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use your DEI community logo as provided without modifying colors.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/DEI-community-logos/This-not-this/Brand_standards-Red_Hat-Initiative_Logos-4-Not_this_1-RGB.svg" alt="Red Hat Women's Leadership community logo with green and orange in the icon.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not change the colors in your DEI community logo. The colors were chosen intentionally.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>

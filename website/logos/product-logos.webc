@@ -111,47 +111,46 @@ tags:
   <rhb-container>
   <rhb-container>
     <rhb-grid columns="four">
-      <rhb-this-not-this>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-This1-RGB_2.svg" alt="Red Hat Enterprise Linux 8 logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use version numbers for major product releases.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis1-RGB.svg" alt="Red Hat Enterprise Linux 8.1 logo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-        <p slot="content">Do not add version numbers for minor or "dot" releases.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-This2-RGB_0.svg" alt="Red Hat CoreOS logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-        <p slot="content">Use product logos to represent our products and solutions.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis2-RGB_0.svg" alt="An outdated CoreOS logo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-        <p slot="content">Do not use legacy product or project logos to represent enterprise products.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
 
-      <rhb-this-not-this>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis1-RGB.svg" alt="Red Hat Enterprise Linux 8.1 logo.">
+        <p slot="content">Do not add version numbers for minor or "dot" releases.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-This2-RGB_0.svg" alt="Red Hat CoreOS logo.">
+        <p slot="content">Use product logos to represent our products and solutions.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis2-RGB_0.svg" alt="An outdated CoreOS logo.">
+        <p slot="content">Do not use legacy product or project logos to represent enterprise products.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-This3.svg" alt="The Red Hat Virtualization full color logo with black text, on a light gray background.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use dark color logos on light backgrounds, and vice versa.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-NotThis3.svg" alt="The Red Hat Virtualization full color logo with white text, on a light gray background.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use a product logo on a background that is too light or dark, obscuring visibility.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-This4-RGB.svg" alt="Red Hat Integration logo.">
         <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use the logo as provided, with the Red Hat icon and product name together.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis4-RGB.svg" alt="The Red Hat Integration logo with the hat removed.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use the product name without the Red Hat icon.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>

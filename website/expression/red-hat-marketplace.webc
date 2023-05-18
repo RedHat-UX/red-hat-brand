@@ -3,275 +3,369 @@ layout: layouts/backpage.webc
 title: Red Hat Marketplace
 order: 0
 tags:
-  - expression
-  - popular
+- expression
+- popular
 ---
 
 <rhb-band>
   <rhb-container>
     <h2>Red Hat Marketplace brand guidelines</h2>
-        <rhb-content>
-            <p>These guidelines are designed to help writers and designers create content and assets for Red Hat® Marketplace, a centralized location for trying, buying, and managing certified enterprise software for container-based environments in public clouds and on-premise.</p>
-        </rhb-content>
-    </rhb-container>
-  </rhb-band>
-
-<rhb-band>
-<rhb-container>
-    <rhb-grid columns="two">
-    <rhb-card bordered>
-        <img slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Tone_and_Voice.svg" alt="">
-        <div slot="content" webc:nokeep>
-        <h4 slot="headline">Tone and voice</h4>
-        <p slot="content">At Red Hat, we want to be a technology company that stands out for our direct, honest, and reliable communications. Consistency across our web properties helps our audience understand what Red Hat stands for and what to expect from our content. Red Hat Marketplace is no different. Use Red Hat’s voice and tone, not IBM’s.</p>
-        <rh-cta slot="cta"><a href="https://docs.google.com/document/d/1pbFcwFa5I26FlY1F_AiI70HXqrFJ4UU6vQXqOh1Zl34/edit#heading=h.66y4kqbj468a">See the Red Hat Marketplace messaging guide</a></rh-cta>
-        </div>
-    </rhb-card>
-    <rhb-card class="border-sm border-subtle">
-        <img slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-UX_design.svg" alt="">
-        <div slot="content" webc:nokeep>
-            <h4 slot="headline">User experience</h4>
-            <p slot="content">All Red Hat web properties follow Red Hat’s digital design system guidelines. When creating web elements like layouts, buttons, and links, follow these guidelines to ensure consistency across our web pages.</p>
-            <rh-cta slot="cta"><a href="https://ux.redhat.com/">Read more about UX at Red Hat</a></rh-cta>
-            </div>
-    </rhb-card>
-    </rhb-grid>
-</rhb-container>
-</rhb-band>
-
-<rhb-band>
-    <rhb-container>
-        <h4>Logo variation and clear space</h4>
-        <rhb-content>  
-            <p>Available in both horizontal and stacked layouts, the Red Hat Marketplace logo follows the Red Hat universal logo format. Clear space is the area around the logo that should not have text, distracting graphics, or other logos. This space ensures that nothing interferes with the visual impact of the logo.</p>
-            <rh-cta><a href="https://drive.google.com/drive/folders/1KYaKbIJz6ozjq2WifSSHmRuNjj1owJWU">Download Red Hat Marketplace logos</a></rh-cta>
-        </rhb-content>
-
-<rh-tabs centered>
-    <rh-tab slot="tab">Standard logo</rh-tab>
-    <rh-tab-panel>
-      <rhb-grid columns="two">
-        <div class="panel-content">
-        <h6>Standard logo</h6>
-        <p>When promoting Red Hat Marketplace, always use the version of the logo with the “Operated by IBM” endorsement. If you’re not sure which logo to use, default to this version.</p>
-        <p>The clear space should be at least the height of the letter “e” in the word “Red” all the way around the logo.</p>
-        </div>
-        <img src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Clearspace-RGB.svg" alt="Red Hat logo diagram showing the best spacing for spaces that are wider than they are tall">
-      </rhb-grid> 
-    </rh-tab-panel>
-    <rh-tab slot="tab">Interface logo</rh-tab>
-    <rh-tab-panel>
-      <rhb-grid columns="two">
-        <div class="panel-content">
-          <h4>Logo B</h4>
-          <p><strong>Logo B fits best in spaces that are more square.</strong> The hat and wordmark are the same size as they are in logo A, but they’re stacked instead of side by side.</p>
-          <p>The clear space should be at least the height of the letter "e" all the way around the logo.</p>
-        </div>
-        <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoB-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for spaces that are more square">
-      </rhb-grid> 
-    </rh-tab-panel>
-    <rh-tab slot="tab">Marketplace Select logo</rh-tab>
-    <rh-tab-panel>
-      <rhb-grid columns="two">
-        <div class="panel-content">
-          <h4>Logo C</h4>
-          <p><strong>Logo C should only be used for large-scale signage.</strong> The combination of small text and a stacked layout is ideal for making the most of larger square spaces, like signage.</p>
-          <p>The clear space should be at least twice the height of the letter "e" all the way around the logo.</p>
-        </div>
-        <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoD-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for large scale signage">
-      </rhb-grid> 
-    </rh-tab-panel>
-  </rh-tabs>
-</rhb-container>
-</rhb-band>
-
-<rhb-band>
-    <rhb-container>
-        <rhb-content>
-            <h4>Red Hat Marketplace partner button</h4>
-            <p>Partners can use the "Available on Red Hat Marketplace" buttons to let customers know that a product is available on Red Hat Marketplace. These buttons can be used on web pages, promotional images, and other partner-branded materials to take users directly to Red Hat Marketplace.</p>
-        </rhb-content>
-        <rhb-container>
-            <img src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Partner_Button.svg" alt="Diagram of two Red Hat Marketplace partner buttons calling out">
-        </rhb-container>
-        <rhb-content>
-            <p><rh-cta><a href="https://redhat-partner.highspot.com/items/5ea6e1f9429d7b3eff307fc3?lfrm=srp.0">Red Hat Marketplace partner standards</a></rh-cta></p>
-            <p><rh-cta><a href="https://ibm.ent.box.com/s/b7ih6xvlewccof4plvvp9oli09y9wrmv">Download Red Hat Marketplace partner buttons</a></rh-cta></p>
-        </rhb-content>
-    </rhb-container>
-</rhb-band>
-
-<rhb-band>
-    <rhb-container>
-        <h4>Red Hat Marketplace logo in use</h4>
-        <rhb-grid columns="four">
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-This-1-RGB.svg" alt="Red Hat Innovation Awards 2020 logo.">
-              <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-              <p slot="content">Use the Red Hat Marketplace logo as provided.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-1-RGB.svg" alt="An example of a fake initiative logo created outside of our standards.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Do not rearrange parts of the logo.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-2-RGB.svg" alt="Red Hat Live logo.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Do not change the size of the IBM endorsement.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-3-RGB.svg" alt="An example of the Red Hat Live logo with a manipulated icon.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Do not add the IBM 8-bar logo to the Red Hat Marketplace logo.</p>
-            </rhb-this-not-this>
-      
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-This-2-RGB.svg" alt="The Red Hat Craft Fair logo with the Red Hat logo below it with proper spacing between them.">
-              <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-              <p slot="content">Use the Red Hat Marketplace logo alone without other logos or branding.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-4-RGB.svg" alt="A co-brand logo combining the Red Hat logo and the Red Hat Craft Fair logo.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Do not use additional Red Hat, IBM, or co-brand logos with the Red Hat Marketplace logo.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-5-RGB.svg" alt="Red Hat Open Studio Community logo.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Do not co-brand the Red Hat Marketplace logo with another logo. Use the Red Hat or IBM logo instead.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-6-RGB.svg" alt="Red Hat Open Studio Community logo with color added to the icon.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Do not use the Red Hat Marketplace logo with a Red Hat business partner logo. Choose one.</p>
-            </rhb-this-not-this>
-        </rhb-grid>
-    </rhb-container>
-</rhb-band>
-
-<rhb-band>
-    <rhb-container>
-      <rhb-content>
-        <h4>Design language</h4>
-        <p>The overall feel of Red Hat Marketplace should be light and airy, with a focus on usability. Layouts should be simple and straightforward, with plenty of white space.</p>
-      </rhb-content>
-    </rhb-container>
-    <rhb-container>
-    <rhb-grid columns="two">
-        <rhb-card full-width>
-          <img slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Typograhy.svg" alt="Red Hat Display in four weights.">
-          <h6 slot="headline">Typography</h6>
-          <p slot="content">Red Hat Marketplace uses the Red Hat Display and Red Hat Text typefaces used across the Red Hat brand. Use Red Hat Display for large text like headers and Red Hat Text for small text like quotes and body copy.</p>
-        </rhb-card>
-        <rhb-card full-width>
-          <img slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Icons.svg" alt="A digital badge shared on a social media platform.">
-          <h6 slot="headline">Icons</h6>
-          <p slot="content">Use icons in small spaces to illustrate concepts that don’t need a full illustration. For large icons (30-100px), use the Red Hat standard icons. For smaller interface icons (less than 20px), use icons from the Carbon Design System.</p>        
-        </rhb-card>
-        <rhb-card full-width>
-          <img slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Interface_color.svg" alt="Two digital badges in an email signature.">
-          <h6 slot="headline">Color in the interface</h6>
-          <p slot="content">Colors in the interface For links and other interface elements, use colors from the Red Hat digital design system. These specific color values have been chosen to meet accessibility standards and should be consistent across Red Hat web properties. Light blues are a key part of the visual system but should come from illustrations, not from user interface (UI) or background elements.</p>
-        </rhb-card>
-        <rhb-card full-width>
-          <img slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Marketing_color.svg" alt="A certificate showcasing a digital badge that was earned.">
-          <h6 slot="headline">Color in illustration and marketing</h6>
-          <p slot="content">Illustrations should be predominately light blues with dark blue and black shadows, plus Red Hat red as an accent color, pulled from the Red Hat color palette. Use illustrations in the interface to introduce shades of blue.</p>
-        </rhb-card>
-      </rhb-grid>
-    </rhb-container>
-    <rhb-container>
-        <h6>Illustration</h6>
-        <rhb-content>
-            <p>Use illustrations to add character, interest, and a human element to pages. Illustrations should tell a story and should complement and enhance the content they accompany. Red Hat Marketplace illustrations use the Red Hat illustration style and focus on using shades of light blue and white. Dark blue, black, and limited pops of red are used to create shadows, contrast, and highlights.</p>
-            <rh-cta>Download Red Hat Marketplace illustrations</rh-cta>
-        </rhb-content>
-      <rhb-grid columns="two">
-        <rhb-card flush-top>
-          <img slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-Diagram-RGB.svg">
-        </rhb-card>
-        <div style="padding: var(--rh-space-md, 16px)">
-          <p><strong>Illustration properties</strong></p>
-          <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_A.svg">
-          <p>Use light blues to build a majority of the illustration. For objects in the scene, use shades of blue or black rather than realistic colors to create depth and shadows.</p>
-          <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_B.svg">
-          <p>Use white to add details without cluttering the illustration.</p>
-          <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_C.svg">
-          <p>Use Red Hat red for limited pops of color to highlight important parts of the illustration.</p>
-          <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_D.svg">
-          <p>Use tints and shades of red and black for skin and hair. Illustrations should be inclusive of our diverse audience.</p>
-        </div>
-      </rhb-grid>
-    </rhb-container>
-</rhb-band>
-
-  <rhb-band>
-    <rhb-container>
-        <rhb-grid columns="three">
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-This-RGB.svg" alt="Red Hat Innovation Awards 2020 logo.">
-              <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-              <p slot="content">Use light blues and white with details in black and red for Red Hat Marketplace illustrations.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-Not_this-1-RGB.svg" alt="An example of a fake initiative logo created outside of our standards.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Don’t use red or other Red Hat brand colors for the majority of the illustration. Use red for highlights and important details.</p>
-            </rhb-this-not-this>
-            <rhb-this-not-this>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-Not_this-2-RGB.svg" alt="Red Hat Live logo.">
-              <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-              <p slot="content">Don’t use other colors from the Red Hat or IBM color palettes in Red Hat Marketplace illustrations.</p>
-            </rhb-this-not-this>
-        </rhb-grid>
-    </rhb-container>
-</rhb-band>
-
-<rhb-band>
-    <rhb-container>
-    <h4>Red Hat Marketplace brand in use</h4>
     <rhb-content>
-        <p>These elements come together to create a consistent brand and visual identity for Red Hat Marketplace that reflects the Red Hat brand. These elements can be used across applications beyond the website like advertisements, social media, and branded merchandise (swag).</p>
+      <p>These guidelines are designed to help writers and designers create content and assets for Red Hat® Marketplace,
+        a centralized location for trying, buying, and managing certified enterprise software for container-based
+        environments in public clouds and on-premise.</p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card bordered>
+        <img slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Tone_and_Voice.svg"
+          alt="">
+        <div slot="content" webc:nokeep>
+          <h4 slot="headline">Tone and voice</h4>
+          <p slot="content">At Red Hat, we want to be a technology company that stands out for our direct, honest, and
+            reliable communications. Consistency across our web properties helps our audience understand what Red Hat
+            stands for and what to expect from our content. Red Hat Marketplace is no different. Use Red Hat’s voice and
+            tone, not IBM’s.</p>
+          <rh-cta slot="cta"><a
+              href="https://docs.google.com/document/d/1pbFcwFa5I26FlY1F_AiI70HXqrFJ4UU6vQXqOh1Zl34/edit#heading=h.66y4kqbj468a">See
+              the Red Hat Marketplace messaging guide</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card class="border-sm border-subtle">
+        <img slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-UX_design.svg"
+          alt="">
+        <div slot="content" webc:nokeep>
+          <h4 slot="headline">User experience</h4>
+          <p slot="content">All Red Hat web properties follow Red Hat’s digital design system guidelines. When creating
+            web elements like layouts, buttons, and links, follow these guidelines to ensure consistency across our web
+            pages.</p>
+          <rh-cta slot="cta"><a href="https://ux.redhat.com/">Read more about UX at Red Hat</a></rh-cta>
+        </div>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <h4>Logo variation and clear space</h4>
+    <rhb-content>
+      <p>Available in both horizontal and stacked layouts, the Red Hat Marketplace logo follows the Red Hat universal
+        logo format. Clear space is the area around the logo that should not have text, distracting graphics, or other
+        logos. This space ensures that nothing interferes with the visual impact of the logo.</p>
+      <rh-cta><a href="https://drive.google.com/drive/folders/1KYaKbIJz6ozjq2WifSSHmRuNjj1owJWU">Download Red Hat
+          Marketplace logos</a></rh-cta>
+    </rhb-content>
+
+    <rh-tabs centered>
+      <rh-tab slot="tab">Standard logo</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <div class="panel-content">
+            <h6>Standard logo</h6>
+            <p>When promoting Red Hat Marketplace, always use the version of the logo with the “Operated by IBM”
+              endorsement. If you’re not sure which logo to use, default to this version.</p>
+            <p>The clear space should be at least the height of the letter “e” in the word “Red” all the way around the
+              logo.</p>
+          </div>
+          <img
+            src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Clearspace-RGB.svg"
+            alt="Red Hat logo diagram showing the best spacing for spaces that are wider than they are tall">
+        </rhb-grid>
+      </rh-tab-panel>
+      <rh-tab slot="tab">Interface logo</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <div class="panel-content">
+            <h4>Logo B</h4>
+            <p><strong>Logo B fits best in spaces that are more square.</strong> The hat and wordmark are the same size
+              as they are in logo A, but they’re stacked instead of side by side.</p>
+            <p>The clear space should be at least the height of the letter "e" all the way around the logo.</p>
+          </div>
+          <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoB-clearspace.svg"
+            alt="Red Hat logo diagram showing the best spacing for spaces that are more square">
+        </rhb-grid>
+      </rh-tab-panel>
+      <rh-tab slot="tab">Marketplace Select logo</rh-tab>
+      <rh-tab-panel>
+        <rhb-grid columns="two">
+          <div class="panel-content">
+            <h4>Logo C</h4>
+            <p><strong>Logo C should only be used for large-scale signage.</strong> The combination of small text and a
+              stacked layout is ideal for making the most of larger square spaces, like signage.</p>
+            <p>The clear space should be at least twice the height of the letter "e" all the way around the logo.</p>
+          </div>
+          <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoD-clearspace.svg"
+            alt="Red Hat logo diagram showing the best spacing for large scale signage">
+        </rhb-grid>
+      </rh-tab-panel>
+    </rh-tabs>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Red Hat Marketplace partner button</h4>
+      <p>Partners can use the "Available on Red Hat Marketplace" buttons to let customers know that a product is
+        available on Red Hat Marketplace. These buttons can be used on web pages, promotional images, and other
+        partner-branded materials to take users directly to Red Hat Marketplace.</p>
     </rhb-content>
     <rhb-container>
-        <rhb-grid columns="two">
-            <rhb-card full-width>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Shirt_mockup-554.png" alt="Two digital badges on a personal website.">
-                <p slot="content">Social media posts should incorporate the Red Hat Marketplace logo with the “Operated by IBM” endorsement and utilize other elements of the visual system like illustrations.</p>
-            </rhb-card>
-            <rhb-card full-width>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Tweet-554.png" alt="A digital badge shared on a social media platform.">
-                <p slot="content">Swag should be simple and include the Red Hat Marketplace logo with the “Operated by IBM” endorsement.</p>        
-            </rhb-card>
-        </rhb-grid>
+      <img
+        src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Partner_Button.svg"
+        alt="Diagram of two Red Hat Marketplace partner buttons calling out">
     </rhb-container>
-</rhb-container>
+    <rhb-content>
+      <p><rh-cta><a href="https://redhat-partner.highspot.com/items/5ea6e1f9429d7b3eff307fc3?lfrm=srp.0">Red Hat
+            Marketplace partner standards</a></rh-cta></p>
+      <p><rh-cta><a href="https://ibm.ent.box.com/s/b7ih6xvlewccof4plvvp9oli09y9wrmv">Download Red Hat Marketplace
+            partner buttons</a></rh-cta></p>
+    </rhb-content>
+  </rhb-container>
 </rhb-band>
 
 <rhb-band>
+  <rhb-container>
+    <h4>Red Hat Marketplace logo in use</h4>
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-This-1-RGB.svg"
+          alt="Red Hat Innovation Awards 2020 logo.">
+          <p slot="content">Use the Red Hat Marketplace logo as provided.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-1-RGB.svg"
+          alt="An example of a fake initiative logo created outside of our standards.">
+          <p slot="content">Do not rearrange parts of the logo.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-2-RGB.svg"
+          alt="Red Hat Live logo.">
+          <p slot="content">Do not change the size of the IBM endorsement.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-3-RGB.svg"
+          alt="An example of the Red Hat Live logo with a manipulated icon.">
+          <p slot="content">Do not add the IBM 8-bar logo to the Red Hat Marketplace logo.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-This-2-RGB.svg"
+          alt="The Red Hat Craft Fair logo with the Red Hat logo below it with proper spacing between them.">
+          <p slot="content">Use the Red Hat Marketplace logo alone without other logos or branding.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-4-RGB.svg"
+          alt="A co-brand logo combining the Red Hat logo and the Red Hat Craft Fair logo.">
+          <p slot="content">Do not use additional Red Hat, IBM, or co-brand logos with the Red Hat Marketplace logo.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-5-RGB.svg"
+          alt="Red Hat Open Studio Community logo.">
+          <p slot="content">Do not co-brand the Red Hat Marketplace logo with another logo. Use the Red Hat or IBM logo
+            instead.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Logo_in_use-Not_this-6-RGB.svg"
+          alt="Red Hat Open Studio Community logo with color added to the icon.">
+          <p slot="content">Do not use the Red Hat Marketplace logo with a Red Hat business partner logo. Choose one.</p>
+      </rhb-recommend>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Design language</h4>
+      <p>The overall feel of Red Hat Marketplace should be light and airy, with a focus on usability. Layouts should be
+        simple and straightforward, with plenty of white space.</p>
+    </rhb-content>
+  </rhb-container>
+  
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Typograhy.svg"
+          alt="Red Hat Display in four weights.">
+        <h6 slot="headline">Typography</h6>
+        <p slot="content">Red Hat Marketplace uses the Red Hat Display and Red Hat Text typefaces used across the Red
+          Hat brand. Use Red Hat Display for large text like headers and Red Hat Text for small text like quotes and
+          body copy.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Icons.svg"
+          alt="A digital badge shared on a social media platform.">
+        <h6 slot="headline">Icons</h6>
+        <p slot="content">Use icons in small spaces to illustrate concepts that don’t need a full illustration. For
+          large icons (30-100px), use the Red Hat standard icons. For smaller interface icons (less than 20px), use
+          icons from the Carbon Design System.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Interface_color.svg"
+          alt="Two digital badges in an email signature.">
+        <h6 slot="headline">Color in the interface</h6>
+        <p slot="content">Colors in the interface For links and other interface elements, use colors from the Red Hat
+          digital design system. These specific color values have been chosen to meet accessibility standards and should
+          be consistent across Red Hat web properties. Light blues are a key part of the visual system but should come
+          from illustrations, not from user interface (UI) or background elements.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Image-Brand_standards-Red_Hat_Marketplace-Marketing_color.svg"
+          alt="A certificate showcasing a digital badge that was earned.">
+        <h6 slot="headline">Color in illustration and marketing</h6>
+        <p slot="content">Illustrations should be predominately light blues with dark blue and black shadows, plus Red
+          Hat red as an accent color, pulled from the Red Hat color palette. Use illustrations in the interface to
+          introduce shades of blue.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+
+  <rhb-container>
+    <h6>Illustration</h6>
+    <rhb-content>
+      <p>Use illustrations to add character, interest, and a human element to pages. Illustrations should tell a story
+        and should complement and enhance the content they accompany. Red Hat Marketplace illustrations use the Red Hat
+        illustration style and focus on using shades of light blue and white. Dark blue, black, and limited pops of red
+        are used to create shadows, contrast, and highlights.</p>
+      <rh-cta>Download Red Hat Marketplace illustrations</rh-cta>
+    </rhb-content>
+    <rhb-grid columns="two">
+      <rhb-card flush-top>
+        <img slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-Diagram-RGB.svg">
+      </rhb-card>
+      <div style="padding: var(--rh-space-md, 16px)">
+        <p><strong>Illustration properties</strong></p>
+        <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_A.svg">
+        <p>Use light blues to build a majority of the illustration. For objects in the scene, use shades of blue or
+          black rather than realistic colors to create depth and shadows.</p>
+        <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_B.svg">
+        <p>Use white to add details without cluttering the illustration.</p>
+        <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_C.svg">
+        <p>Use Red Hat red for limited pops of color to highlight important parts of the illustration.</p>
+        <img width="30px" height="30px" src="/assets/images/expression/applications/red-hat-marketplace-2/Dot_D.svg">
+        <p>Use tints and shades of red and black for skin and hair. Illustrations should be inclusive of our diverse
+          audience.</p>
+      </div>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="three">
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+        src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-This-RGB.svg"
+        alt="Red Hat Innovation Awards 2020 logo.">
+        <p slot="content">Use light blues and white with details in black and red for Red Hat Marketplace illustrations.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+        src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-Not_this-1-RGB.svg"
+        alt="An example of a fake initiative logo created outside of our standards.">
+        <p slot="content">Don’t use red or other Red Hat brand colors for the majority of the illustration. Use red for
+          highlights and important details.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Illustration-Not_this-2-RGB.svg"
+          alt="Red Hat Live logo.">
+          <p slot="content">Don’t use other colors from the Red Hat or IBM color palettes in Red Hat Marketplace
+            illustrations.</p>
+      </rhb-recommend>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <h4>Red Hat Marketplace brand in use</h4>
+    <rhb-content>
+      <p>These elements come together to create a consistent brand and visual identity for Red Hat Marketplace that
+        reflects the Red Hat brand. These elements can be used across applications beyond the website like
+        advertisements, social media, and branded merchandise (swag).</p>
+    </rhb-content>
     <rhb-container>
-        <rhb-grid columns="four">
-            <rhb-this-not-this>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Tote_bag-This-262.png" alt="The Red Hat Craft Fair logo with the Red Hat logo below it with proper spacing between them.">
-                <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-                <p slot="content">Use the Red Hat Marketplace logo alone without other logos or branding.</p>
-                </rhb-this-not-this>
-                <rhb-this-not-this>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Tote_bag-Not_This-262.png" alt="A co-brand logo combining the Red Hat logo and the Red Hat Craft Fair logo.">
-                <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-                <p slot="content">Do not use additional Red Hat, IBM, or co-brand logos with the Red Hat Marketplace logo.</p>
-                </rhb-this-not-this>
-                <rhb-this-not-this>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Notebook-This-262.png" alt="Red Hat Open Studio Community logo.">
-                <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-                <p slot="content">Do not co-brand the Red Hat Marketplace logo with another logo. Use the Red Hat or IBM logo instead.</p>
-                </rhb-this-not-this>
-                <rhb-this-not-this>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Notebook-Not_This-262.png" alt="Red Hat Open Studio Community logo with color added to the icon.">
-                <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-                <p slot="content">Do not use the Red Hat Marketplace logo with a Red Hat business partner logo. Choose one.</p>
-                </rhb-this-not-this>
-        </rhb-grid>
+      <rhb-grid columns="two">
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image"
+            src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Shirt_mockup-554.png"
+            alt="Two digital badges on a personal website.">
+          <p slot="content">Social media posts should incorporate the Red Hat Marketplace logo with the “Operated by
+            IBM” endorsement and utilize other elements of the visual system like illustrations.</p>
+        </rhb-card>
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image"
+            src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Tweet-554.png"
+            alt="A digital badge shared on a social media platform.">
+          <p slot="content">Swag should be simple and include the Red Hat Marketplace logo with the “Operated by IBM”
+            endorsement.</p>
+        </rhb-card>
+      </rhb-grid>
     </rhb-container>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Tote_bag-This-262.png"
+          alt="The Red Hat Craft Fair logo with the Red Hat logo below it with proper spacing between them.">
+          <p slot="content">Use the Red Hat Marketplace logo alone without other logos or branding.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Tote_bag-Not_This-262.png"
+          alt="A co-brand logo combining the Red Hat logo and the Red Hat Craft Fair logo.">
+          <p slot="content">Do not use additional Red Hat, IBM, or co-brand logos with the Red Hat Marketplace logo.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Notebook-This-262.png"
+          alt="Red Hat Open Studio Community logo.">
+        <p slot="content">Do not co-brand the Red Hat Marketplace logo with another logo. Use the Red Hat or IBM logo
+            instead.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/expression/applications/red-hat-marketplace-2/Brand_Standards-Marketplace-Notebook-Not_This-262.png"
+          alt="Red Hat Open Studio Community logo with color added to the icon.">
+        <p slot="content">Do not use the Red Hat Marketplace logo with a Red Hat business partner logo. Choose one.</p>
+      </rhb-recommend>
+    </rhb-grid>
+  </rhb-container>
 </rhb-band>

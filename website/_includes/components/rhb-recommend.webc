@@ -1,0 +1,62 @@
+<template webc:is="style" webc:root="override">
+  <div class="recommend-wrapper">
+    <slot name="image"></slot>
+    <div class="content-container">
+      <slot name="headline">
+        <script webc:type="js">
+          if(webc.attributes.hasOwnProperty('no')) {
+            `<div class="flex-center danger">
+              <pf-icon icon="circle-xmark" size="md"></pf-icon> 
+              <span class="font-xl">Not this</span>
+            </div>`
+          } else {
+            `<div class="flex-center success">
+              <pf-icon icon="circle-check" size="md"></pf-icon> 
+              <span class="font-xl">This</span>
+            </div>`
+          }
+        </script>
+      </slot>
+      <slot name="content"></slot>
+      <slot name="cta"></slot>
+    </div>
+  </div>
+</template>
+
+<style webc:scoped>
+  :host {
+    display: flex;
+    flex-direction: column;
+  }
+
+  :host([bordered]) {
+    border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #d2d2d2);
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .content-container {
+   margin: var(--rh-space-xl, 32px); 
+  }
+
+  :host([full-width]) .content-container {
+    margin: 0;
+  }
+
+  :host([flush-top]) .content-container {
+    margin-top: 0;
+  }
+
+  :is(h1,h2,h3,h4,h5,h6) {
+    margin-block-start: 0;
+    margin-block-end: var(--rh-space-lg, 16px);
+    font-size: var(--rh-font-size-heading-sm, 1.5rem);
+  }
+
+  :host([full-width]) .content-container :is(h1,h2,h3,h4,h5,h6) {
+    margin: 0 0 var(--rh-space-md, 8px) 0;
+    padding-block-start: var(--rh-space-2xl, 32px);
+  }
+</style>
