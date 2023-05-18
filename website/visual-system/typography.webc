@@ -28,22 +28,18 @@ tags:
     </rhb-content>
 
     <rhb-grid columns="two">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img slot="image"
           src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-This1.svg"
           alt="Red Hat materials using Red Hat fonts">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span
-            class="font-xl">This</span></div>
         <p slot="content">Download our Red Hat fonts to create Red Hat materials.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image"
           src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-NotThis1.svg"
           alt="Red Hat materials using Red Hat fonts">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span
-            class="font-xl">Not this</span></div>
         <p slot="content">Do not use other fonts for Red Hat materials.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -170,22 +166,18 @@ tags:
     </rhb-content>
 
     <rhb-grid columns="two">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
           src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_This_0.svg"
           alt="Red Hat materials using Red Hat fonts">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span
-            class="font-xl">This</span></div>
         <p slot="content">Always use sentence case in Red Hat materials, even for headlines.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
           src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_NotThis.svg"
           alt="Red Hat materials using Red Hat fonts">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span
-            class="font-xl">Not this</span></div>
         <p slot="content">Do not use all caps or title case.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -201,22 +193,18 @@ tags:
     </rhb-content>
 
     <rhb-grid columns="two">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
           src="/assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_This.svg"
           alt="Red Hat materials using Red Hat fonts">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span
-            class="font-xl">This</span></div>
         <p slot="content">Use 1 treatment to create hierarchy or emphasis.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
           src="/assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_NotThis.svg"
           alt="Red Hat materials using Red Hat fonts">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span
-            class="font-xl">Not this</span></div>
         <p slot="content">Do not use more than 1 type of emphasis at a time.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -235,7 +223,7 @@ tags:
       <rhb-band>
         <rhb-recommend>
           <img class="border-sm border-subtle" slot="image"
-            src="/assets/images/visual-system/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-This.svg"
+            src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-This.svg"
             alt="Red Hat materials using Red Hat fonts">
           <p slot="content">Use a lot of white space and minimal text, and leave a margin.</p>
         </rhb-recommend>
@@ -244,7 +232,7 @@ tags:
       <rhb-band>
         <rhb-recommend no>
           <img class="border-sm border-subtle" slot="image"
-            src="/assets/images/visual-system/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-NotThis.svg"
+            src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-NotThis.svg"
             alt="Red Hat materials using Red Hat fonts">
           <p slot="content">Do not crowd a small space with a lot of text or eliminate a margin to create space for
             text.</p>
