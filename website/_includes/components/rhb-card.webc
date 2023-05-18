@@ -16,7 +16,7 @@
     border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #d2d2d2);
   }
 
-  img {
+  :host > img {
     width: 100%;
   }
 
@@ -26,7 +26,7 @@
 
   :host([full-width]) .card-content {
     margin: 0;
-    padding-block-start: var(--rhspace-lg, 24px);
+    padding-block-start: var(--rh-space-lg, 24px);
   }
 
   :host([flush-top]) .card-content {
