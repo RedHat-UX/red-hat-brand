@@ -168,26 +168,25 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="four">
-      <rhb-this-not-this>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-1-RGB.svg" alt="A digital badge that has been squished vertically.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not stretch or distort digital badges. Always resize the image proportionally if resizing is necessary.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+      
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-2-RGB.svg" alt="A digital badge that has been cropped on the sides.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not crop or alter the shape of digital badges.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-3-RGB.svg" alt="A digital badge with a partner's logo pasted on top.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not add other logos, badges, text, or other elements to digital badges.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-4-RGB.png" alt="A digital badge with a drop shadow.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not add any additional bounding shape or effects, like drop shadows, to digital badges.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
   <rhb-container>

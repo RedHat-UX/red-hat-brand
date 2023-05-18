@@ -130,68 +130,65 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="four">
-      <rhb-this-not-this>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-1-This-RGB.svg" alt="Red Hat Innovation Awards 2020 logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Work with the Brand and Creative team to create an initiative logo that fits your program.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-1-Not_this-RGB.svg" alt="An example of a fake initiative logo created outside of our standards.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not create an initiative logo on your own, even if you use Red Hat icons.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-2-This-RGB.svg" alt="Red Hat Live logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">If you scale the logo, the elements should be grouped and scaled together.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-2-Not_this-RGB.svg" alt="An example of the Red Hat Live logo with a manipulated icon.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not modify the logo or scale pieces independently.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
 
-      <rhb-this-not-this>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-3-This-RGB.svg" alt="The Red Hat Craft Fair logo with the Red Hat logo below it with proper spacing between them.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Always use initiative logos with the Red Hat logo separately nearby.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-3-Not_this-RGB.svg" alt="A co-brand logo combining the Red Hat logo and the Red Hat Craft Fair logo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-        <p slot="content">Do not co-brand initiative logos with another logo.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-4-This-RGB.svg" alt="Red Hat Open Studio Community logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
-        <p slot="content">Use your initiative logo in the color versions that were provided.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-4-Not_this-RGB.svg" alt="Red Hat Open Studio Community logo with color added to the icon.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
-        <p slot="content">Do not use a color other than red, unless the logo is for a DEI community.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
 
-      <rhb-this-not-this>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-3-Not_this-RGB.svg" alt="A co-brand logo combining the Red Hat logo and the Red Hat Craft Fair logo.">
+        <p slot="content">Do not co-brand initiative logos with another logo.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-4-This-RGB.svg" alt="Red Hat Open Studio Community logo.">
+        <p slot="content">Use your initiative logo in the color versions that were provided.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-4-Not_this-RGB.svg" alt="Red Hat Open Studio Community logo with color added to the icon.">
+        <p slot="content">Do not use a color other than red, unless the logo is for a DEI community.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-5-This-RGB.svg" alt="Red Hat Innovators in the Open logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use the initiative logo only in the layouts provided.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-5-Not_this-RGB.svg" alt="Red Hat Innovators in the Open logo with the text Latin America Region added below.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not add extra text or other elements to the logo.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-6-This-RGB.svg" alt="Red Hat University logo.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use the text and icon together as provided without any modifications.</p>
-      </rhb-this-not-this>
-      <rhb-this-not-this>
+      </rhb-recommend>
+
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/initiative-logos-page/Brand_standards-Red_Hat-Initiative_Logos-6-Not_this-RGB.svg" alt="The Red Hat University logo with the icon replaced with a different illustration style.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not replace the icon with another style of illustration or another element.</p>
-      </rhb-this-not-this>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
