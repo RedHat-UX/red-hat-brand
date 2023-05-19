@@ -29,26 +29,22 @@ tags:
     </rhb-content>
 
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-This-RGB.svg" alt="The hat alone in full color">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use the hat as it is provided in full color or one of our core colors.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-Not_this-1-RGB.svg" alt="The hat stretched horizontally">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Never stretch or distort the hat.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-Not_this-2-RGB.svg" alt="Shadowman's hat from the previous, outdated Red Hat logo">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Never replace the hat with a legacy logo or another hat.</p>
-      </rhb-card>
-      <rhb-card full-width>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-Not_this-3-RGB.jpg" alt="An illustrated woman in blue wearing the hat on her head">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-Not_this-3-RGB.jpg" alt="An illustrated woman in blue wearing the hat on her head.">
         <p slot="content">Never place the hat on a person, character, thing, or another logo.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -80,26 +76,22 @@ tags:
     </rhb-grid>
 
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Functional-This-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used alone in full color as the profile image.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use the full hat without modifications to represent Red Hat.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Functional-Not_this-1-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat cropped outside of the circular profile photo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use a cropped or modified version of the hat when representing Red Hat.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Funcational-Not_this-2-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used in one-color black for the profile photo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use the hat in any color other than red when representing Red Hat.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Functional-Not_this-3-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used backwards as the profile photo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Never flip or distort the hat.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -128,26 +120,22 @@ tags:
     </rhb-grid>
 
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-This-RGB.svg" alt="A pattern of gray hats on a darker gray background">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">In a pattern, always use the hat alone in one of our core colors.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-Not_this-1-RGB.svg" alt="A pattern of blue hats on a gray background">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use the hat in a color outside of our core color palette.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-Not_this-2-RGB.svg" alt="A pattern of gray hats on a darker gray background, but some hats are flipped horizontally">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not distort or change the orientation of the hat.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-Not_this-3-RGB.svg" alt="A pattern of gray hats and standard icons on a darker gray background">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use the hat in a pattern of standard icons or other visuals.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
 
     <rhb-content>
@@ -167,26 +155,22 @@ tags:
     </rhb-grid>
 
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-This-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, gray hat in the background.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use the hat as key art without modifications to the shape.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-Not_this-1-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, gray hat in the background, but the two pieces of the hat have been split apart.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not change the shape of the hat or move pieces of it independently of each other.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-Not_this-2-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, teal hat in the background.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use the hat in colors outside of our core color palette.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-Not_this-3-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, gray hat in the background along with an icon pattern.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use the hat as key art on an otherwise busy design.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
 
     <rhb-content>

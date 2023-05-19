@@ -1,5 +1,5 @@
-<template webc:is="style" webc:root="override">
-  <div class="recommend-wrapper">
+<template webc:is="script" webc:root="override">
+  <div class="recommend-wrapper" @attributes="({no, bordered, flushTop})">
     <slot name="image"></slot>
     <div class="content-container">
       <slot name="headline">
@@ -23,40 +23,32 @@
   </div>
 </template>
 
-<style webc:scoped>
-  :host {
+<style>
+  .recommend-wrapper {
     display: flex;
     flex-direction: column;
   }
 
-  :host([bordered]) {
+  .recommend-wrapper[bordered] {
     border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #d2d2d2);
   }
 
-  img {
+  .recommend-wrapper > img {
     width: 100%;
   }
 
   .content-container {
-   margin: var(--rh-space-xl, 32px); 
+    margin: var(--rh-space-md, 8px) 0; 
   }
 
-  :host([full-width]) .content-container {
-    margin: 0;
-  }
-
-  :host([flush-top]) .content-container {
+  .recommend-wrapper[flushtop] .content-container {
     margin-top: 0;
   }
 
   :is(h1,h2,h3,h4,h5,h6) {
     margin-block-start: 0;
     margin-block-end: var(--rh-space-lg, 16px);
+    margin-inline: 0;
     font-size: var(--rh-font-size-heading-sm, 1.5rem);
-  }
-
-  :host([full-width]) .content-container :is(h1,h2,h3,h4,h5,h6) {
-    margin: 0 0 var(--rh-space-md, 8px) 0;
-    padding-block-start: var(--rh-space-2xl, 32px);
   }
 </style>

@@ -200,26 +200,22 @@ tags:
         <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-In_use-02-100.jpg" alt="alt text goes here">
         <p slot="content">Photography works well in presentations when we’re highlighting the experience of a customer, partner, associate, or industry.</p>
       </rhb-card>
-      <rhb-card full-width>
+      <rhb-recommend>
         <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-This-1-100.jpg" alt="alt text goes here">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Take and choose photos that are authentic and true to Red Hat’s personality.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-1-100.jpg" alt="alt text goes here">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not take or choose photos that feel staged.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend>
         <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-This-2-100.jpg" alt="alt text goes here">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Take and choose photos that are free of overlays or additional graphic elements.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-2-100.jpg" alt="alt text goes here">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not overlay or add additional elements onto Red Hat photos.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>

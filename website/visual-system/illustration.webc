@@ -71,49 +71,41 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-01-RGB.svg" alt="Mini-spot illustration">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use mini-spot illustrations as provided.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-01-RGB.svg" alt="Mini-spot illustration being distorted and filled in with other colors">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not distort, combine, add colors to, or modify existing mini-spot illustrations.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-02-RGB.svg" alt="Mini-spot illustration at a legible size">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use mini-spot illustrations at a size where all of the details are legible.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-02-RGB.svg" alt="Mini-spot illustration being used in place of an icon in a social card">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use mini-spot illustrations in place of icons.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
 
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-03-RGB.svg" alt="Mini-spot illustration">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use a mini-spot illustration as an independent element to tell a complete story.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-03-RGB.svg" alt="Mini-spot illustration layered with standard icons">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not layer or combine multiple types of illustrations or icons into one visual.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-04-RGB.svg" alt="three mini-spot illustrations used on a presentation slide">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Be consistent with the type of illustration you’re using in a given application.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-04-RGB.svg" alt="Two mini-spot illustrations and one spot illustration being used on a presentation slide">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not unintentionally use more than one type of illustration per application.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -149,49 +141,41 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-01-RGB.svg" alt="Spot illustration">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use spot illustrations as provided.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-01-RGB.svg" alt="Spot illustration being distorted">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not distort, combine, add colors to, or modify existing spot illustrations.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use spot illustrations at a size where all of the details are legible.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not use spot illustrations in place of icons.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
 
     <rhb-grid columns="four">
-      <rhb-card full-width>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-03-RGB.svg" alt="Spot illustration">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use a spot illustration as an independent element to tell a complete story.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-03-RGB.svg" alt="Spot illustration layered with standard icons and mini-spot illustrations">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not layer or combine multiple types of illustrations or icons into one visual.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-04-RGB.svg" alt="Three spot illustrations used on a presentation slide">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Be consistent with the type of illustration you’re using in a given application.</p>
-      </rhb-card>
-      <rhb-card full-width>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-04-RGB.svg" alt="Two spot illustrations and one mini-spot illustration being used on a presentation slide">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="md"></pf-icon> <span class="font-xl">Not this</span></div>
         <p slot="content">Do not unintentionally use more than one type of illustration per application.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
