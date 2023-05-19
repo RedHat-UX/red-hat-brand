@@ -1,5 +1,5 @@
 <template webc:is="script" webc:root="override">
-  <div class="recommend-wrapper" @attributes="({no, bordered, fullWidth, flushTop})">
+  <div class="recommend-wrapper" @attributes="({no, bordered, flushTop})">
     <slot name="image"></slot>
     <div class="content-container">
       <slot name="headline">
@@ -38,11 +38,7 @@
   }
 
   .content-container {
-   margin: var(--rh-space-xl, 32px); 
-  }
-
-  .recommend-wrapper[fullwidth] .content-container {
-    margin: 0;
+    margin: var(--rh-space-md, 8px) 0; 
   }
 
   .recommend-wrapper[flushtop] .content-container {
@@ -52,11 +48,7 @@
   :is(h1,h2,h3,h4,h5,h6) {
     margin-block-start: 0;
     margin-block-end: var(--rh-space-lg, 16px);
+    margin-inline: 0;
     font-size: var(--rh-font-size-heading-sm, 1.5rem);
-  }
-
-  .recommend-wrapper[fullwidth] .content-container :is(h1,h2,h3,h4,h5,h6) {
-    margin: 0 0 var(--rh-space-md, 8px) 0;
-    padding-block-start: var(--rh-space-2xl, 32px);
   }
 </style>
