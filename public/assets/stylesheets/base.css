@@ -64,7 +64,7 @@ h6 {
 .border-radius-pill { border-radius: var(--rh-border-radius-pill, 64px); }
 
 .background-color-subtle { background-color: var(--rh-color-surface-lighter, #f2f2f2); }
-.background-color-red { background-color: var(--rh-color-surface-lighter, #ee0000); }
+.background-color-brand-red-on-light { background-color: var(--rh-color-brand-red-on-light, #ee0000); }
 
 .rh-cta-link {
   display: flex;
