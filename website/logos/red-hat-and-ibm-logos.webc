@@ -9,6 +9,173 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <h2 @text="title"></h2>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>In 2019, Red Hat was acquired by IBM as part of the largest software deal in history. While Red Hat is now owned by IBM, we remain a wholly distinct entity with our own independent brand, culture, and industry partnerships. We remain true to our identity when we are thoughtful about how IBM and Red Hat appear together and separately.</p>
+      <p><rh-cta variant="primary" slot="cta"><a href="https://pnt.redhat.com/pnt/p-12575105/IBM_RH_Co_Bra...es_v09_KC.pdf"></a>Learn more about Red Hat and IBM</rh-cta></p>
+    </rhb-content>
+
+    <rhb-content>
+      <h4>Co-branding with IBM</h4>
+      <p>When considering co-branding, the most ideal option is to keep Red Hat neutral. Most of the time, the Red Hat and IBM brands should be used separately. When we need to specifically discuss our partnership with IBM, we use co-branded logos. In some instances, both brands benefit in ways they wouldn’t otherwise through co-creation. These situations are rare and should be handled collaboratively by both brand teams.</p>    
+    </rhb-content>
+
+    <rhb-grid columns="three">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_Red_Hat.svg" alt="alt text goes here">
+        <p slot="content">Start with the Red Hat® logo. Most of the time, Red Hat communications and projects should use the Red Hat logo alone.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_RH_IBM_Co-brand.svg" alt="alt text goes here">
+        <p slot="content">When our main goal is to communicate our partnership with IBM, the co-brand logo is the best choice.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets-Marketplace.svg" alt="alt text goes here">
+        <p slot="content">Co-creation is handled by both brands when both can offer a distinct product or service that wouldn’t be possible alone.</p>
+      </rhb-card>
+    </rhb-grid>
   </rhb-container>
 </rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Using co-branded logos</h4>
+      <p>Use co-branded logos only when you are talking about the Red Hat and IBM partnership. The rest of the time, use the Red Hat and IBM brands and logos separately.</p>    
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_RH_IBM.svg" alt="alt text goes here">
+        <p slot="content">Standard Red Hat and IBM co-brand logo, for Red Hat use only.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_IBM_RH.svg" alt="alt text goes here">
+        <p slot="content">Standard IBM and Red Hat co-brand logo, for IBM use only.</p>
+      </rhb-card>
+    </rhb-grid>
+
+    <rhb-grid columns="four">
+      <rhb-card>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_RH_IBM-Standard.svg" alt="alt text goes here">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_RH_IBM-Reverse.svg" alt="alt text goes here">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_RH_IBM-White.svg" alt="alt text goes here">
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_RH_IBM-Black.svg" alt="alt text goes here">
+      </rhb-card>
+    </rhb-grid>
+
+    <rhb-content>
+      <p>Red Hat and IBM co-brand logos are produced in standard and reverse full-color versions, as well as in 1-color versions in white, red, and black.</p>
+      <p><rh-cta><a href="https://drive.google.com/drive/folders/1mS6UkS3YhHwcKxl-7ngP7912FOfkrG6X"></a>Download approved co-brand logos</a></rh-cta></p>    
+    </rhb-content>
+
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Red Hat and IBM co-brand applications</h4>
+      <p>The co-brand logo should be used in specific instances when the Red Hat and IBM partnership has an equal focus. If the focus is on our partnership, we can use the co-brand logo in applications like presentation templates, video outros, and event spaces.</p>    
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/BrandStandards-Logo-RH_IBM-ASSETS-Cobrand_Presentation@2x.png" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>Presentations</h5>
+          <p slot="content">Red Hat presentations that talk about our IBM partnership should use a co-brand version of our corporate presentation template, and they should follow all standard Red Hat presentation template guidelines.</p>
+        </div>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_Cobrand_Video-Outro.svg" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>Video outros</h5>
+          <p slot="content">In the outro sequences for partnership-related videos that are hosted on Red Hat channels, we use an animated version of the co-brand logo in which the Red Hat logo leads.</p>
+        </div>   
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards-Red_Hat_and_IBM-Event-IBM.png" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>IBM event booths</h5>
+          <p slot="content">In an IBM event booth, use the Red Hat logo to represent Red Hat products and technologies.</p>
+        </div> 
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_Event-RH.svg" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>Red Hat event booths</h5>
+          <p slot="content">Red Hat-sponsored booths use Red Hat branding and event guidance.</p>
+        </div> 
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Co-branded swag</h4>
+      <p>Do not create joint Red Hat and IBM swag for use internally or externally, including at events. At joint events, offer Red Hat swag. Red Hat and IBM employees can purchase Red Hat swag from the <a href="https://store.ecompanystore.com/redhat/Shop/#/">Cool Stuff Store</a> and IBM swag from the <a href="https://logostore-globalid.us/">IBM Merchandise store</a>.</p>    
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h4>Red Hat and IBM co-brand in use</h4>
+      <p>Do not alter the Red Hat or IBM logo. Use the corporate, endorsement, or co-brand logo that is appropriate to the specific situation. Both organizations must approve new co-brand ideas.</p>    
+    </rhb-content>
+
+    <rhb-grid columns="three">
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis1.svg" alt="alt text goes here">
+        <p slot="content">Do not combine logos.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis2.svg" alt="alt text goes here">
+        <p slot="content">Do not create custom logo lockups.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis3.svg" alt="alt text goes here">
+        <p slot="content">Do not create gradients to signify red and blue coming together.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis4.svg" alt="alt text goes here">
+        <p slot="content">Do not replace Red Hat colors and fonts with IBM colors and fonts.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis5.svg" alt="alt text goes here">
+        <p slot="content">Do not create vertical or stacked lockups.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis6.svg" alt="alt text goes here">
+        <p slot="content">Do not use the fedora icon alone in a lockup.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis7.svg" alt="alt text goes here">
+        <p slot="content">Do not place the logos in bounding shapes or containers.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_NotThis8.svg" alt="alt text goes here">
+        <p slot="content">DDo not apply other colors or gradients to the logos.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards-Red_Hat_and_IBM-NotThis9-V3_NotThis9.svg" alt="alt text goes here">
+        <p slot="content">Do not create custom lockups using subbrands or product logos.</p>
+      </rhb-recommend>
+    </rhb-grid>
+
+  </rhb-container>
+</rhb-band>
+
+    
+
+
