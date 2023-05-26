@@ -8,6 +8,107 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <h2 @text="title"></h2>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>Co-branding shows a partnership between Red Hat and another company and represents an exchange of credibility between brands. We use co-branded logos where both brands have ownership, like a collaborative whitepaper or presentation related to our partnership.</p>
+      <p>Before you use a co-branded logo, it is your responsibility to obtain and understand the right permissions from Red Hat and the partner or customer.</p>
+      <p>Carefully follow the standards for using a partner’s logo just as you would for Red Hat’s. The partner’s brand standards are usually available upon request.</p>
+      <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/b-376558/Partner_Cobrands"></a>Download co-brand logos</rh-cta></p>
+      <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/p-14152325/Guide-Red_Hat...and_Logos.pdf"></a>Learn more about creating co-brand logos</rh-cta></p>
+    </rhb-content>
+ 
+    <rhb-content>
+      <h4>Lockup options</h4>
+      <p>There are 4 lockup possibilities with co-branded logos, and the lockups you create depend on the shape of the partner’s logo and its brand standards. There might be only 1 version that works with both logos, or all 4 could be options. Create as many versions as you need.</p>
+    </rhb-content>
+    
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img class="background-color-subtle" slot="image" src="/assets/images/logos/co-brand-logos/Brand_Standards-Red_Hat-Lockup_A-RGB.svg" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>Lockup A: Horizontal lockup</h5>
+          <p slot="content">Place Red Hat® logo version A next to a long, horizontal partner logo.</p>
+        </div>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="background-color-subtle" slot="image" src="/assets/images/logos/co-brand-logos/Brand_Standards-Red_Hat-Lockup_B-RGB.svg" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>Lockup B: Horizontal stacked lockup</h5>
+          <p slot="content">Place Red Hat logo version A above a long, horizontal partner logo.</p>
+        </div>          
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="background-color-subtle" slot="image" src="/assets/images/logos/co-brand-logos/Brand_Standards-Red_Hat-Lockup_C-RGB_1.svg" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>Lockup C: Vertical lockup</h5>
+          <p slot="content">Place Red Hat logo version B next to a stacked or square partner logo. Use lockup C when the partner’s logo is square or stacked.</p>
+        </div>          
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="background-color-subtle" slot="image" src="/assets/images/logos/co-brand-logos/Brand_Standards-Red_Hat-Lockup_D-RGB_0.svg" alt="alt text goes here">
+        <div slot="content" webc:nokeep>
+          <h5>Lockup D: Icon lockup</h5>
+          <p slot="content">Place the Red Hat icon next to the partner icon. Use lockup D only when it is already clear that the content is produced or endorsed by Red Hat and only if the partner gives permission for its icon to be used alone. If you use the full partner logo, you must also use the full Red Hat logo.</p>
+        </div>          
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+
+    <rhb-content>
+      <h4>Logo wall</h4>
+      <p>Co-branding works best with 2 equal partners. If more than 3 parties are involved—or if the relationship among them is not equal—try using another treatment instead, like a logo wall. </p>
+    </rhb-content>
+
+    <img src="/assets/images/logos/co-brand-logos/Brand_Standards-Red_Hat-Logo_Wall-RGB.svg" alt="alt text goes here">
+
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+
+    <rhb-content>
+      <h4>Co-brand logos in use</h4>
+    </rhb-content>
+
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/co-brand-logos/BrandStandards-Logo-Cobrand_Logos-ASSETS_this1.svg" alt="alt text goes here">
+        <p slot="content">Co-brand with the parent brand of other companies.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/co-brand-logos/BrandStandards-Logo-Cobrand_Logos-ASSETS_notthis1.svg" alt="alt text goes here">
+        <p slot="content">Do not co-brand with specific products or divisions of other companies.</p>
+      </rhb-recommend>
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/co-brand-logos/BrandStandards-Logo-Cobrand_Logos-ASSETS_this2.svg" alt="alt text goes here">
+        <p slot="content">Use the Red Hat logo to co-brand.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/co-brand-logos/BrandStandards-Logo-Cobrand_Logos-ASSETS_notthis2.svg" alt="alt text goes here">
+        <p slot="content">Do not use product logos in co-brands.</p>
+      </rhb-recommend>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+   
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/co-brand-logos/Brand_Standards-Red_Hat-Example1-RGB_0.svg" alt="alt text goes here">
+        <p slot="content">Almost anything can be co-branded for partner use. Most campaign materials, like banner ads and collateral, are available to our partners through the Red Hat Partner Connect portal.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/co-brand-logos/BrandStandards-Logo-Cobrand_Logos-ASSETS%20%281%29_Example2.png" alt="alt text goes here">
+        <p slot="content">Red Hat uses co-brand logos in videos to indicate partnerships, collaboration, or customer success stories.</p>       
+      </rhb-card>
+    </rhb-grid>
+
   </rhb-container>
 </rhb-band>
