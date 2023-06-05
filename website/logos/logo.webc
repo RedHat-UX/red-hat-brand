@@ -108,7 +108,7 @@ tags:
   <rhb-container>
     <rhb-content>
       <h3>Background variations</h3>
-      <p>When the logo has color behind it, the first priority is visibility. Switch the color of the wordmark accordingly. Black type is best for light backgrounds, while white type is best for dark backgrounds. You can learn more about color contrast in <a href="https://docs.google.com/presentation/d/1SAmWeXEKKJWoMrji5ZBzPnUz66eeyET2kaMdIHYNG00/edit?usp=sharing" target="_blank">Visual Accessibility at Red Hat</a>.</p>
+      <p>When the logo has color behind it, the first priority is visibility. Switch the color of the wordmark accordingly. Black type is best for light backgrounds, while white type is best for dark backgrounds. You can learn more about color contrast in <a href="https://docs.google.com/presentation/d/1SAmWeXEKKJWoMrji5ZBzPnUz66eeyET2kaMdIHYNG00/edit?usp=sharing" target="_blank" rel="noreferrer nofollow">Visual Accessibility at Red Hat</a>.</p>
     </rhb-content>
     <rhb-grid columns="four">
       <img src="/assets/images/Brand_Standars-Red_Hat-_color_on-black.svg" alt="Red Hat logo on black background">
