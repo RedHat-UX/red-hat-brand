@@ -18,13 +18,13 @@ tags:
     <p>Our brand platform is the compass that guides everything we say and do. Three statements make up our brand platform: our position, our promise, and our mantra.</p>
     </rhb-content>
     <rhb-grid columns="three">
-      <rhb-card class="background-color-red">
+      <rhb-card class="background-color-brand-red-on-light">
         <h4 slot="headline" style="color:#FFFFFF">Enterprise technology that connects</h4>
       </rhb-card>
-      <rhb-card class="background-color-red">
+      <rhb-card class="background-color-brand-red-on-light">
         <h4 slot="headline" style="color:#FFFFFF">An open, hybrid approach to technology that gives you the freedom and flexibility to choose your own vision</h4>
       </rhb-card>
-      <rhb-card class="background-color-red">
+      <rhb-card class="background-color-brand-red-on-light">
         <h4 slot="headline" style="color:#FFFFFF">The power of open</h4>
       </rhb-card>
       <rhb-card full-width>
