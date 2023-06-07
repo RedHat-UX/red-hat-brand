@@ -1,0 +1,14 @@
+---
+layout: layouts/backpage.webc
+title: Product icons
+tags:
+  - design-language
+---
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>Product icons represent our products and technologies in small spaces such as marketplaces, catalogs, browser tabs, and favicons. Product icons are designed to work well at small sizes and are intentionally simple, but can be adapted for use as artwork in marketing materials and collateral. They should never be used as a product logo or without the context of the Red Hat brand.</p>
+      <img class="border-sm border-subtle" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-Hero-example.svg" alt="Examples of product icons in both the product icon and service icon styles">
+    </rhb-content>
