@@ -93,7 +93,6 @@ tags:
         <p slot="content">Do not scale UI icons to use as decorative artwork.</p>
       </rhb-recommend>
     </rhb-grid>
-
   </rhb-container>
 </rhb-band>
 
@@ -106,6 +105,5 @@ tags:
         <p slot="content"><em>This icon is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>. If you redistribute this icon, Red Hat should be given attribution. For individual uses, such as a diagram or presentation, attribution is optional.</em></p>
       </div>
     </rhb-card>
-     
   </rhb-container>
 </rhb-band>
