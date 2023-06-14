@@ -109,12 +109,11 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-content>
-      <rhb-youtube-video video-id="VBtTSkxNcGo" video-title="New hat, same vision">
-        <img slot="poster" src="/assets/images/rh_history_new_hat_video.svg">
+      <rhb-youtube videoid="VBtTSkxNcGo" poster="/assets/images/rh_history_new_hat_video.svg">
         <p slot="caption">
           The hat in our logo is the same fedora worn by Shadowman and is an embodiment of the trust and goodwill we’ve built with customers, partners, and the community as we’ve grown. Video duration: 0:27
         </p>
-      </rhb-youtube-video>
+      </rhb-youtube>
     </rhb-content>
   </rhb-container>
 </rhb-band>
