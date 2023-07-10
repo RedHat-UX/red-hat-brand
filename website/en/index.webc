@@ -1,0 +1,18 @@
+---
+layout: "templates/index.webc"
+translations:
+  hero:
+    image: 
+      alt: Brand Standards Illustration
+    headline: Brand Standards
+    content: | 
+      The Red Hat® brand standards are the source code of our brand. Using these brand standards as the starting point for all 
+      projects ensures that every interaction with Red Hat reflects our brand personality, aligns to our brand strategy, and uses
+      a consistent visual language. Through consistency we create an authentic relationship and credibility with our customers, 
+      partners, and contributors.
+    cta: Learn about our brand personality
+  popularResources:
+    header: Popular resources
+---
+
+

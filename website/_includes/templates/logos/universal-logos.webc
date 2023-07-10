@@ -1,0 +1,154 @@
+---
+layout: layouts/backpage.webc
+---
+
+<rhb-band>
+  <rhb-container>
+    <h2 @text="title"></h2>
+    <rhb-content>
+      <p>Universal logos give Red Hat® groups a unified visual identity that makes it easy to identify an official group, team, tool, or program as official and different from our products. If you need a logo for something that doesn’t fit in the other logo categories, start with a universal logo.</p>
+    </rhb-content>
+    <rhb-container>
+      <img src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_Clearspace-standard.svg" alt="Example Universal logo with diagram showing that minimum clear space is the size of the 'e' in the word red.">
+    </rhb-container>
+    <rhb-content>
+      <p>Universal logo, minimum clear space</p>
+    </rhb-content>
+    <rhb-grid columns="two">
+      <img class="border-sm border-subtle" src="/assets/images/logos/universal-logos/Asset-Red_Hat-Univ_logos-Standard-RGB_0.svg" alt="Univeral logo with a red hat and black text on a white background.">
+      <img src="/assets/images/logos/universal-logos/Asset-Red_Hat-Univ_logos-Reverse-RGB_0.svg" alt="Universal logo with a red hat and white text on a black background.">
+    </rhb-grid>
+    <rhb-grid columns="three">
+      <img src="/assets/images/logos/universal-logos/Asset-Red_Hat-Univ_logos-White-RGB_0.svg" alt="One-color universal logo with white details on a red background.">
+      <img src="/assets/images/logos/universal-logos/Asset-Red_Hat-Univ_logos-Red-RGB_0.svg" alt="One-color universal logo with red details on a black background.">
+      <img src="/assets/images/logos/universal-logos/Asset-Red_Hat-Univ_logos-Black-RGB_0.svg" alt="One-color universal logo with black details on a light gray background.">
+    </rhb-grid>
+    <rhb-content>
+      <p>Universal logos are produced in standard and reverse full-color versions, as well as 1-color versions in white, red, and black.</p>
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1-ZNJenGFgTzYxCvRMLtl0Q7lYJQTHwX9CbS743FJATE/edit#slide=id.g102154f9c17_0_6957">Learn more about creating universal logos</a></rh-cta></p>
+      <p><rh-cta><a href="https://drive.google.com/drive/folders/1k7htdxAVA2bym7tUT_9IeItaEdpVa4qu?usp=sharing">View our universal logo repository</a></rh-cta></p>
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1-ZNJenGFgTzYxCvRMLtl0Q7lYJQTHwX9CbS743FJATE/edit#slide=id.g102154f9c17_0_6957">Request a univeral logo</a></rh-cta></p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <h3>A template built for flexibility</h3>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <div slot="content" webc:nokeep>
+          <p>All universal logos are built on a template which places the words "Red Hat" first, followed by a group name written in bold. We utilize descriptive naming to differentiate between teams, tools, and programs.</p>
+          <p>Names should be professional and customer-facing, and must include an identifying descriptor like Red Hat Technical Account Manager or Red Hat Certification Team.</p>
+          <p>Contact <a href="mailto: naming@redhat.com">naming@redhat.com</a> to ensure that the name of your group meets all of the existing requirements before requesting a new universal logo.</p>
+        </div>
+      </rhb-card>
+      <rhb-card>
+        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-Univ_logos-Naming-RGB_0.svg" alt="Universal logos with approved names, representing Red Hat Technical Account Manager and Red Hat Certification Team">
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-subprograms-RGB.svg" alt="Red Hat Level Up Program universal logo with the sub-group name Compass typed in smaller text underneath.">
+        <h4 slot="headline">What if my group has a sub-program?</h4>
+        <p slot="content">Complex programs can use universal logos that include the name of sub-programs instead of creating new universal logos for each initiative. If you need a universal logo that includes a sub-program, the Brand and Creative team can provide that version for you.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-one_line-RGB.svg" alt="Red Hat Partner Connect logo with all text on one line.">
+        <h4 slot="headline">What if I need to use my logo in an interface?</h4>
+        <p slot="content">Horizontal versions of our universal logo should only be used in the headers of online interfaces or tools. If you need to use your logo in the header of an online interface or tool, the Brand and Creative team can provide a horizontal version of the universal logo.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <h3>Universal logos in use</h3>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-001-RGB_0.png" alt="Screenshot of a presentation slide featuring the Red Hat Open Studio: Brand Experience universal logo in the top left.">
+        <p slot="content">Red Hat Open Studio: Brand Experience uses a universal logo in their presentations.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-002-RGB.png" alt="Social media image with Red Hat User Groups written in our font with the Red Hat logo below it.">
+        <p slot="content">Not every group or program needs a logo, or needs to use their logo in every context. Another option is to use the program name as a headline, accompanied by the Red Hat logo.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-003-RGB.png" alt="Screenshot of Red Hat Marketplace showing the one line Marketplace universal logo in the website navigation menu.">
+        <p slot="content">Red Hat Marketplace uses a horizontal version of the universal logo, which fits in the header of its website.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" class="border-sm border-subtle" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-001 copy-RGB.png" alt="A t-shirt and coffee cup featuring the Red Hat Telco Team universal logo.">
+        <p slot="content">The Red Hat Telco team prints its universal logo on swag to represent its team.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_This1.svg"
+          alt="The Red Hat Cares universal logo.">
+          <p slot="content">Use the universal logo as it is provided.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_NotThis1.svg"
+          alt="The Red Hat Cares universal logo with the hat replaced by a heart icon.">
+          <p slot="content">Do not replace the hat with another element.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_This2.svg"
+          alt="The Red Hat Events Team universal logo.">
+        <p slot="content">Ensure your team or program name is approved by the Naming and Legal teams.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_NotThis2.svg"
+          alt="A universal logo that says Red Hat Party Squad.">
+        <p slot="content">Do not create your own team or program name that hasn't been approved by the Naming and Legal teams.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_This3.svg"
+          alt="The Red Hat Certification Team universal logo.">
+          <p slot="content">Keep all logo elements proportional to each other.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_NotThis3.svg"
+          alt="A lockup with the hat and the text Red Hat Certification Team in random point sizes and weights.">
+          <p slot="content">Do not disproportionately scale individual logo elements.</p>
+      </rhb-recommend>
+
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_This4.svg"
+          alt="The Red Hat Safety Warden universal logo.">
+        <p slot="content">Always use universal logos independently.</p>
+      </rhb-recommend>
+
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image"
+          src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_NotThis4.svg"
+          alt="The Red Hat Safety Warden universal logo co-branded with an example partner logo.">
+        <p slot="content">Do not co-brand universal logos.</p>
+      </rhb-recommend>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>

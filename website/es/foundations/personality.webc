@@ -1,0 +1,7 @@
+---
+layout: templates/foundations/personality.webc
+title: Personality
+order: 20
+tags:
+  - foundations
+---

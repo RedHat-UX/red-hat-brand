@@ -1,0 +1,7 @@
+---
+layout: templates/foundations/strategy.webc
+title: Strategy
+order: 10
+tags:
+  - foundations
+---

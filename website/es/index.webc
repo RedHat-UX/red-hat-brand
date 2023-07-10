@@ -1,0 +1,15 @@
+---
+layout: "templates/index.webc"
+translations:
+  hero:
+    image: 
+      alt: Ilustración de estándares de marca
+    headline: Criterios representativos de la marca
+    content: | 
+      Los criterios representativos de Red Hat® son el código fuente de nuestra marca. Los utilizamos en todos los proyectos, de manera que cualquier interacción con Red Hat refleje la personalidad de nuestra marca, se ajuste a nuestra estrategia y emplee un lenguaje visual coherente. La uniformidad nos aporta credibilidad y nos permite desarrollar una relación auténtica con los clientes, los partners y los colaboradores.
+    cta: Obtenga más información sobre la personalidad de nuestra marca
+  popularResources:
+    header: Recursos conocidos    
+---
+
+

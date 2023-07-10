@@ -1,97 +1,109 @@
 <script webc:setup>
-function getItemList(collections, tag, limit=0, sort="alpha", link="false") {
-  let result = [...collections[tag]].reverse().sort(function(a, b) {
-    if (sort === "alpha") {
-      if (a.data.title < b.data.title) return -1;
-      if (a.data.title > b.data.title) return 1;
-    } else if (sort === "date") {
-      return b.data.date - a.data.date;
-    } else if (sort === "order") {
-      return a.data.order - b.data.order;
-    }
-  });
-  return limit ? result.slice(0, limit) : result;
-}
+  const {i18n} = await import('../../node_modules/eleventy-plugin-i18n/i18n.js');
 
-function chunkArray(array, chunkSize) {
-  const subArrays = [];
-  const arrayLen = array.length;
-  let i = 0;
-  while (i < arrayLen) {
-    subArrays.push(array.slice(i, i + chunkSize));
-    i += chunkSize;
+  function getItemList(collections, tag, limit=0, sort="alpha", link="false") {
+    const collectionCopy = [...collections[tag]];
+    const filteredByLanguageCopy = [...collectionCopy.filter(a => {
+      // return only pages from the collection that are of the current pages language
+      return a.data.page.lang === $data.page.lang
+    })];
+    let result = filteredByLanguageCopy.reverse().sort(function(a, b) {
+      if (sort === "alpha") {
+        if (a.data.title < b.data.title) return -1;
+        if (a.data.title > b.data.title) return 1;
+      } else if (sort === "date") {
+        return b.data.date - a.data.date;
+      } else if (sort === "order") {
+        return a.data.order - b.data.order;
+      }
+    });
+    return limit ? result.slice(0, limit) : result;
   }
-  return subArrays;
-}
+  
+  function chunkArray(array, chunkSize) {
+    const subArrays = [];
+    const arrayLen = array.length;
+    let i = 0;
+    while (i < arrayLen) {
+      subArrays.push(array.slice(i, i + chunkSize));
+      i += chunkSize;
+    }
+    return subArrays;
+  }
+  
+  function buildHTMLLists(arrays) {
+    const lists = arrays.map(array => {
+      const items = array.map(item => {
+        return `<li><a href="${item.data.page.url}">${item.data.title}</a></li>`;
+      }).join('');
+      return `<rh-navigation-secondary-menu-section><ul slot="links">${items}</ul></rh-navigation-secondary-menu-section>`;
+    });
+    return lists.join('');  
+  }
+  
+  function splitList(tag, chunkSize, sort) {
+    const list = getItemList($data.collections, tag, 0, sort);
+    const chunked = chunkArray(list, chunkSize);
+    return buildHTMLLists(chunked);
+  }
 
-function buildHTMLLists(arrays) {
-  const lists = arrays.map(array => {
-    const items = array.map(item => `<li><a href="${item.url}">${item.data.title}</a></li>`).join('');
-    return `<rh-navigation-secondary-menu-section><ul slot="links">${items}</ul></rh-navigation-secondary-menu-section>`;
-  });
-  return lists.join('');  
-}
-
-function splitList(tag, chunkSize, sort) {
-  const list = getItemList($data.collections, tag, 0, sort);
-  const chunked = chunkArray(list, chunkSize);
-  return buildHTMLLists(chunked);
-}
 </script>
+  
+<template webc:type="11ty" 11ty:type="njk">
+  <rh-navigation-secondary role="navigation">
+    <a href="/" slot="logo" title="Red Hat Brand Standards">Brand Standards</a>
+    <ul slot="nav" aria-label="main">
+      <!-- TAB 1 - Foundations -->
+      <li>
+        <rh-navigation-secondary-dropdown>
+          <a href="{{ "/foundations" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.foundations' | i18n({}, $data.page.lang) }}</a>
+          <rh-navigation-secondary-menu slot="menu">
+            <rh-navigation-secondary-menu-section>
+              <ul slot="links">
+                <rhb-link-list tag="foundations" sort="order"></rhb-link-list>
+              </ul>
+            </rh-navigation-secondary-menu-section>
+          </rh-navigation-secondary-menu>
+        </rh-navigation-secondary-dropdown>
+      </li>
 
-<rh-navigation-secondary role="navigation">
-  <a href="/" slot="logo" title="Red Hat Brand Standards">Brand Standards</a>
-  <ul slot="nav" aria-label="main">
-    <!-- TAB 1 - Foundations -->
-    <li>
-      <rh-navigation-secondary-dropdown>
-        <a href="/foundations" slot="link">Foundations</a>
-        <rh-navigation-secondary-menu slot="menu">
-          <rh-navigation-secondary-menu-section>
-            <ul slot="links">
-              <rhb-link-list tag="foundations" sort="order"></rhb-link-list>
-            </ul>
-          </rh-navigation-secondary-menu-section>
-        </rh-navigation-secondary-menu>
-      </rh-navigation-secondary-dropdown>
-    </li>
+      <!-- TAB 2 - Logos -->
+      <li>
+        <rh-navigation-secondary-dropdown>
+          <a href="{{ "/logos" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.logos' | i18n({}, $data.page.lang) }}</a>
+          <rh-navigation-secondary-menu slot="menu">
+            <div webc:nokeep @html="splitList('logos', 7, 'order')"></div>
+          </rh-navigation-secondary-menu>
+        </rh-navigation-secondary-dropdown>
+      </li>
 
-    <!-- TAB 2 - Logos -->
-    <li>
-      <rh-navigation-secondary-dropdown>
-        <a href="/logos"slot="link">Logos</a>
-        <rh-navigation-secondary-menu slot="menu">
-          <div webc:nokeep @html="splitList('logos', 7, 'order')"></div>
-        </rh-navigation-secondary-menu>
-      </rh-navigation-secondary-dropdown>
-    </li>
+      <!-- TAB 3 - Visual system -->
+      <li>
+        <rh-navigation-secondary-dropdown>
+          <a href="{{ "/design-language" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.visualSystem' | i18n({}, $data.page.lang) }}</a>
+          <rh-navigation-secondary-menu slot="menu">
+            <rh-navigation-secondary-menu-section>
+              <ul slot="links">
+                <rhb-link-list tag="visual-system" sort="order"></rhb-link-list>
+              </ul>
+            </rh-navigation-secondary-menu-section> 
+          </rh-navigation-secondary-menu>
+        </rh-navigation-secondary-dropdown>
+      </li>
 
-    <!-- TAB 3 - Visual system -->
-    <li>
-      <rh-navigation-secondary-dropdown>
-        <a href="/design-language" slot="link">Design language</a>
-        <rh-navigation-secondary-menu slot="menu">
-          <rh-navigation-secondary-menu-section>
-            <ul slot="links">
-              <rhb-link-list tag="design-language" sort="order"></rhb-link-list>
-            </ul>
-          </rh-navigation-secondary-menu-section> 
-        </rh-navigation-secondary-menu>
-      </rh-navigation-secondary-dropdown>
-    </li>
-
-    <!-- TAB 4 - Expression -->
-    <li>
-      <rh-navigation-secondary-dropdown>
-        <a href="/expression" slot="link">Expression</a>
-        <rh-navigation-secondary-menu slot="menu">
-          <rh-navigation-secondary-menu-section>
-            <ul slot="links">
-              <rhb-link-list tag="expression" sort="order"></rhb-link-list>
-            </ul>
-          </rh-navigation-secondary-menu-section>
-        </rh-navigation-secondary-menu>
-      </rh-navigation-secondary-dropdown>
-    </li>
-  </ul>
-</rh-navigation-secondary>
+      <!-- TAB 4 - Expression -->
+      <li>
+        <rh-navigation-secondary-dropdown>
+          <a href="{{ "/expression" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.expression' | i18n({}, $data.page.lang) }}</a>
+          <rh-navigation-secondary-menu slot="menu">
+            <rh-navigation-secondary-menu-section>
+              <ul slot="links">
+                <rhb-link-list tag="expression" sort="order"></rhb-link-list>
+              </ul>
+            </rh-navigation-secondary-menu-section>
+          </rh-navigation-secondary-menu>
+        </rh-navigation-secondary-dropdown>
+      </li>
+    </ul>
+  </rh-navigation-secondary>
+</template>
