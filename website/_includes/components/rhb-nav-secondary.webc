@@ -51,7 +51,7 @@
   
 <template webc:type="11ty" 11ty:type="njk">
   <rh-navigation-secondary role="navigation">
-    <a href="/" slot="logo" title="Red Hat Brand Standards">Brand Standards</a>
+    <a href="{{ "/" | locale_url($data.page.lang) }}" slot="logo" title="{{ 'navigation.logo.titleAttribute' | i18n({}, $data.page.lang) }}">{{ 'navigation.logo.text' | i18n({}, $data.page.lang) }}</a>
     <ul slot="nav" aria-label="main">
       <!-- TAB 1 - Foundations -->
       <li>
