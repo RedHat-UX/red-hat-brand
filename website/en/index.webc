@@ -1,6 +1,7 @@
 ---
 layout: "templates/index.webc"
 translations:
+
   hero:
     image: 
       alt: Brand Standards Illustration
@@ -11,8 +12,84 @@ translations:
       a consistent visual language. Through consistency we create an authentic relationship and credibility with our customers, 
       partners, and contributors.
     cta: Learn about our brand personality
+
   popularResources:
     header: Popular resources
----
+
+  coreBrandElements:
+    header: Core brand elements
+    cards: 
+      lead:
+        header: We always lead with Red Hat.
+        image: 
+          alt: We always lead with Red Hat
+        cta: Brand Strategy
+      logo:
+        header: Our logo is a red hat with the words Red Hat.
+        cta: Red Hat logo
+      colors:
+        header: Our core colors are red, black, and white.
+        cta: Colors
+      typography:
+        header: Our font family has three styles.
+        image: 
+          alt: Our font family has three styles
+        cta: Typography
+        
+  brandExpression:
+    header: Brand Expression
+    content: | 
+      Red Hat’s brand expression is how we adapt the way we apply our brand standards to meet the needs of our customers, 
+      partners, and associates. Function comes first—all of our communications should be clear and helpful. When we want 
+      to tell a more nuanced story, we can introduce expressive elements like colors from our extended color wheel, stylized 
+      typography, illustration, and more.
+    tabs:
+      functional:
+        tab: Functional
+        panel:
+          image: 
+            alt: Examples of functional brand expression at Red Hat  
+      expressive:
+        tab: Expressive
+        panel:
+          image: 
+            alt: Examples of expressive brand expression at Red Hat
+
+  whatsNew:
+    header: What's new
+    cards:
+      history:
+        image:
+          alt: Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.
+        header: History page updates
+        content: |
+          (February 2023) We’ve updated our history page to include more details, including information about the 
+          Open Brand Project, the IBM acquisition, and recent leadership changes.
+        cta: Learn more
+      badges:
+        image:
+          alt: Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.
+        header: Digital badges page
+        content: |
+          (May 2022) We’ve created a new page for Red Hat digital badges–shareable and verifiable credentials issued through 
+          our partner, Credly.
+        cta: Learn more 
+      logoUpdates:
+        image:
+          alt: Image of the Red Hat logo used on various color background
+        header: Red Hat logo updates
+        content: |
+          (March 2022) We’ve updated our Red Hat logo page with more specific information about our logo variations, using the 
+          logo on various background colors and images, and what the logo looks like in real-life applications.
+        cta: Learn more       
+      theHat:
+        image:
+          alt: Photo of Red Hat branded notebooks with the hat on the cover.
+        header: The hat page
+        content: |
+          (March 2022) We’ve created a new page that goes into detail about the hat, including how to determine when it’s 
+          appropriate to use the hat alone and how to apply the hat as artwork versus using it to represent Red Hat.
+        cta: Learn more 
+--- 
 
 
