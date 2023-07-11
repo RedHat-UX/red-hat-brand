@@ -54,10 +54,12 @@ h6 {
 .border-sm { border-style: solid; border-width: var(--rh-border-width-sm, 1px); }
 .border-md { border-style: solid; border-width: var(--rh-border-width-md, 2px); }
 .border-lg { border-style: solid; border-width: var(--rh-border-width-lg, 3px); }
+.border-xl { border-style: solid; border-width: var(--rh-border-width-lg, 10px); }
 
 .border-subtle { border-color: var(--rh-color-border-subtle-on-light, #c7c7c7); }
 .border-strong { border-color: var(--rh-color-border-strong-on-light, #151515); }
 .border-interactive { border-color: var(--rh-color-border-interactive-on-light, #0066cc); }
+.border-update { border-color: var(--rh-color-gold-400, #efff2e); }
 
 .border-radius-sharp { border-radius: var(--rh-border-radius-sharp, 0); }
 .border-radius { border-radius: var(--rh-border-radius-default, 3px); }
