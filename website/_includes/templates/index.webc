@@ -2,118 +2,110 @@
 layout: layouts/homepage.webc
 ---
 
-<template webc:type="11ty" 11ty:type="liquid">
-  <rhb-band>
-    <rhb-container>
-      <rhb-hero>
-        <img 
-          slot="image" 
-          src="/assets/images/Asset-Red_Hat_Standards-Landing_Page-Hero.svg" 
-          alt="{{ translations.hero.image.alt }}"
-        >
-        <h2 slot="headline">{{ translations.hero.headline }}</h2>
-        <p slot="content">
-          {{ translations.hero.content }}
-        </p>
-        <rh-cta slot="cta"><a href="{{ "/foundations/personality" | locale_url }}">{{ translations.hero.cta }}</a></rh-cta>
-      </rhb-hero>
-    </rhb-container>
-  </rhb-band>
+<script webc:setup>
+  function translate(content, lang) {
+    return locale_url(content, lang);
+  }
+</script>
 
-  <rhb-band>
-    <rhb-container>
-      <rhb-grid columns="four">
-        <h3 slot="header">{{ translations.popularResources.header }}</h3>
-        <rhb-link-list tag="popular" link="true" class="rh-cta-link"></rhb-link-list>
-      </rhb-grid>
-    </rhb-container>
-  </rhb-band>
+<rhb-band>
+  <rhb-container>
+    <rhb-hero>
+      <img 
+        slot="image" 
+        src="/assets/images/Asset-Red_Hat_Standards-Landing_Page-Hero.svg" 
+        :alt="$data.translations.hero.image.alt"
+      >
+      <h2 slot="headline" @html="$data.translations.hero.headline"></h2>
+      <p slot="content" @html="$data.translations.hero.content"></p>
+      <rh-cta slot="cta">
+        <a :href="translate($data.translations.hero.cta.link, $data.page.lang)" @html="$data.translations.hero.cta.content"></a>
+      </rh-cta>
+    </rhb-hero>
+  </rhb-container>
+</rhb-band>
 
-  <rhb-band>
-    <rhb-container>
-      <rhb-grid columns="two">
-        <h3 slot="header">{{ translations.coreBrandElements.header }}</h3>
-        <rhb-card full-width>
-          <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" alt="{{ translations.coreBrandElements.cards.lead.image.alt }}">
-          <h3 slot="headline">{{ translations.coreBrandElements.cards.lead.header }}</h3>
-          <rh-cta slot="cta"><a href="{{ "/foundations/strategy" | locale_url }}">{{ translations.coreBrandElements.cards.lead.cta }}</a></rh-cta>
-        </rhb-card>
-        <rhb-card full-width>
-          <video slot="image" class="mt-6" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
-            <source type="video/mp4" src="/assets/videos/01_Asset-Red_Hat-Brand_Standards-Logo_and_clearspace_animation.mp4" width="100%">
-          </video>
-          <h3 slot="headline">{{ translations.coreBrandElements.cards.logo.header }}</h3>
-          <rh-cta slot="cta"><a href={{ "/logos/logo" | locale_url }}">{{ translations.coreBrandElements.cards.logo.cta }}</a></rh-cta>
-        </rhb-card>
-        <rhb-card full-width>
-          <video slot="image" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
-            <source type="video/mp4" src="/assets/videos/02_Asset-Red_Hat-Brand_Standards-Color_animation.mp4" width="100%">
-          </video>
-          <h3 slot="headline">{{ translations.coreBrandElements.cards.colors.header }}</h3>
-          <rh-cta slot="cta"><a href="{{ "/logos/logo"| locale_url }}">{{ translations.coreBrandElements.cards.colors.cta }}</a></rh-cta>
-        </rhb-card>
-        <rhb-card full-width>
-          <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg" alt="{{ translations.coreBrandElements.cards.typography.image.alt }}">
-          <h3 slot="headline">{{ translations.coreBrandElements.cards.typography.header }} </h3>
-          <rh-cta slot="cta"><a href="{{ "/logos/the-hat"| locale_url }}">{{ translations.coreBrandElements.cards.typography.cta }}</a></rh-cta>
-        </rhb-card>
-      </rhb-card-grid>
-    </rhb-container>
-  </rhb-band> 
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <h3 slot="header" @html="$data.translations.popularResources.header"></h3>
+      <rhb-link-list tag="popular" link="true" class="rh-cta-link"></rhb-link-list>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
 
-  <rhb-band>
-    <rhb-container>
-      <rhb-content>
-        <h3>{{ translations.brandExpression.header }}</h3>
-        <p>{{ translations.brandExpression.content }}</p>
-      </rhb-content>
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <h3 slot="header" @html="$data.translations.coreBrandElements.header"></h3>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" :alt="$data.translations.coreBrandElements.cards.lead.image.alt">
+        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.lead.header"></h3>
+        <rh-cta slot="cta">
+          <a :href="translate($data.translations.coreBrandElements.cards.lead.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.lead.cta.content"></a>
+        </rh-cta>
+      </rhb-card>
+      <rhb-card full-width>
+        <video slot="image" class="mt-6" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
+          <source type="video/mp4" src="/assets/videos/01_Asset-Red_Hat-Brand_Standards-Logo_and_clearspace_animation.mp4" width="100%">
+        </video>
+        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.logo.header"></h3>
+        <rh-cta slot="cta">
+          <a :href="translate($data.translations.coreBrandElements.cards.logo.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.logo.cta.content"></a>
+        </rh-cta>
+      </rhb-card>
+      <rhb-card full-width>
+        <video slot="image" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
+          <source type="video/mp4" src="/assets/videos/02_Asset-Red_Hat-Brand_Standards-Color_animation.mp4" width="100%">
+        </video>
+        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.colors.header"></h3>
+        <rh-cta slot="cta">
+          <a :href="translate($data.translations.coreBrandElements.cards.colors.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.colors.cta.content"></a>
+        </rh-cta>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg" :alt="$data.translations.coreBrandElements.cards.typography.image.alt">
+        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.typography.header"></h3>
+        <rh-cta slot="cta">
+          <a :href="translate($data.translations.coreBrandElements.cards.typography.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.typography.cta.content"></a>
+        </rh-cta>
+      </rhb-card>
+    </rhb-card-grid>
+  </rhb-container>
+</rhb-band> 
 
-      <rh-tabs vertical>
-        <rh-tab slot="tab">{{ translations.brandExpression.tabs.functional.tab }}</rh-tab>
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h3 @html="$data.translations.brandExpression.header"></h3>
+      <p @html="$data.translations.brandExpression.content"></p>
+    </rhb-content>
+
+    <rh-tabs vertical>
+      <div webc:nokeep webc:for="tab of $data.translations.brandExpression.tabs">
+        <rh-tab slot="tab" @html="tab.tab"></rh-tab>
         <rh-tab-panel>
-          <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="{{ translations.brandExpression.tabs.functional.panel.image.alt }}" loading="lazy">
+          <img :src="tab.panel.image.src" :alt="tab.panel.image.alt">
         </rh-tab-panel>
-        <rh-tab slot="tab">{{ translations.brandExpression.tabs.expressive.tab }}</rh-tab>
-        <rh-tab-panel>
-          <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="{{ translations.brandExpression.tabs.expressive.panel.image.alt }}" loading="lazy">
-        </rh-tab-panel>
-      </rh-tabs>
+      </div>
+    </rh-tabs>
+  </rhb-container>
+</rhb-band>
 
-    </rhb-container>
-  </rhb-band>
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <h3 slot="header" @html="$data.translations.whatsNew.header"></h3>
+      <rhb-card bordered webc:for="card of $data.translations.whatsNew.cards">
+        <img slot="image" :src="card.image.src" :alt="card.image.alt">
+        <h3 slot="headline" @html="card.header"></h3>
+        <p slot="content" @html="card.content"></p>
+        <rh-cta slot="cta"><a :href="translate(card.cta.link, $data.page.lang)" @html="card.cta.content"></a></rh-cta>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
 
-  <rhb-band>
-    <rhb-container>
-      <rhb-grid columns="two">
-        <h3 slot="header">{{ translations.whatsNew.header }}</h3>
-        <rhb-card bordered>
-          <img slot="image" src="/assets/images/Standard-Landing_Page-History_update-RGB-01.jpg" alt="{{ translations.whatsNew.cards.history.image.alt }}" loading="lazy">
-          <h3 slot="headline">{{ translations.whatsNew.cards.history.header }}</h3>
-          <p slot="content">{{ translations.whatsNew.cards.history.content }}</p>
-          <rh-cta slot="cta"><a href="/foundations/history">{{ translations.whatsNew.cards.history.cta }}</a></rh-cta>
-        </rhb-card>
-        <rhb-card bordered>
-          <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Artboard-01.svg" alt="{{ translations.whatsNew.cards.badges.image.alt }}" loading="lazy">
-          <h3 slot="headline">{{ translations.whatsNew.cards.badges.header }}</h3>
-          <p slot="content">{{ translations.whatsNew.cards.badges.content }}</p>
-          <rh-cta slot="cta"><a href="/logos/certification-logos">{{ translations.whatsNew.cards.badges.cta }}</a></rh-cta>
-        </rhb-card>
-        <rhb-card bordered>
-          <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_page-Logo-RGB.svg" alt="{{ translations.whatsNew.cards.logoUpdates.image.alt }}" loading="lazy">
-          <h3 slot="headline">{{ translations.whatsNew.cards.logoUpdates.header }}</h3>
-          <p slot="content">{{ translations.whatsNew.cards.logoUpdates.content }}</p>
-          <rh-cta slot="cta"><a href="/logos/logo">{{ translations.whatsNew.cards.logoUpdates.cta }}</a></rh-cta>
-        </rhb-card>
-        <rhb-card bordered>
-          <img slot="image" src="/assets/images/Notebooks-Landing_page.png" alt="{{ translations.whatsNew.cards.theHat.image.alt }}" loading="lazy">
-          <h3 slot="headline">{{ translations.whatsNew.cards.theHat.header }}</h3>
-          <p slot="content">{{ translations.whatsNew.cards.theHat.content }}</p>
-          <rh-cta slot="cta"><a href="/logos/the-hat">{{ translations.whatsNew.cards.theHat.cta }}</a></rh-cta>
-        </rhb-card>
-      </rhb-grid>
-    </rhb-container>
-  </rhb-band>
-</template>
 
 <style>
   rh-tab-panel img {

@@ -1,5 +1,6 @@
 ---
 layout: "templates/index.webc"
+title: Estándares de marca
 translations:
   hero:
     image: 
@@ -10,7 +11,9 @@ translations:
       proyectos, de manera que cualquier interacción con Red Hat refleje la personalidad de nuestra marca, se ajuste
       a nuestra estrategia y emplee un lenguaje visual coherente. La uniformidad nos aporta credibilidad y nos 
       permite desarrollar una relación auténtica con los clientes, los partners y los colaboradores.
-    cta: Obtenga más información sobre la personalidad de nuestra marca
+    cta: 
+      content: Obtenga más información sobre la personalidad de nuestra marca
+      link: /foundations/personality
   
   popularResources:
     header: Recursos conocidos
@@ -22,18 +25,26 @@ translations:
         header: Siempre comenzamos con Red Hat.
         image: 
           alt: We always lead with Red Hat
-        cta: Estrategia de marca
+        cta: 
+          content: Estrategia de marca
+          link: /foundations/strategy
       logo:
         header: Nuestro logotipo consiste en un sombrero rojo y las palabras Red Hat.
-        cta: Logotipo de Red Hat
+        cta: 
+          content: Logotipo de Red Hat
+          link: /logos/the-hat
       colors:
         header: Nuestros colores principales son el rojo, el negro y el blanco.
-        cta: Colores
+        cta: 
+          content: Colores
+          link: /visual-system/color
       typography:
         header: Utilizamos tres estilos de tipografía.
         image: 
           alt: Our font family has three styles
-        cta: Tipografía
+        cta: 
+          content: Tipografía
+          link: /visual-system/typography
         
   brandExpression:
     header: La expresión de la marca
@@ -43,52 +54,60 @@ translations:
       deben ser claras y útiles. Cuando buscamos transmitir una idea con más matices, utilizamos elementos expresivos, como 
       nuestra paleta de colores ampliada, fuentes estilizadas, ilustraciones y más.
     tabs:
-      functional:
-        tab: Funcional
+      - tab: Funcional
         panel:
           image: 
+            src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg
             alt: Examples of functional brand expression at Red Hat  
-      expressive:
-        tab: Expresiva
+      - tab: Expresiva
         panel:
           image: 
+            src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg
             alt: Examples of expressive brand expression at Red Hat
 
   whatsNew:
     header: Novedades
     cards:
-      history:
+      - header: History page updates
         image:
+          src: /assets/images/Standard-Landing_Page-History_update-RGB-01.jpg
           alt: Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.
-        header: History page updates
         content: |
           (February 2023) We’ve updated our history page to include more details, including information about the 
           Open Brand Project, the IBM acquisition, and recent leadership changes.
-        cta: Learn more
-      badges:
+        cta: 
+          content: Learn more
+          link: /foundations/history
+      - header: Digital badges page
         image:
+          src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Artboard-01.svg
           alt: Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.
-        header: Digital badges page
         content: |
           (May 2022) We’ve created a new page for Red Hat digital badges–shareable and verifiable credentials issued through 
           our partner, Credly.
-        cta: Learn more 
-      logoUpdates:
+        cta: 
+          content: Learn more 
+          link: /logos/certification-logos
+      - header: Red Hat logo updates
         image:
+          src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_page-Logo-RGB.svg
           alt: Image of the Red Hat logo used on various color background
-        header: Red Hat logo updates
         content: |
           (March 2022) We’ve updated our Red Hat logo page with more specific information about our logo variations, using the 
           logo on various background colors and images, and what the logo looks like in real-life applications.
-        cta: Learn more       
-      theHat:
+        cta: 
+          content: Learn more
+          link: /logos/logo
+      - header: The hat page
         image:
+          src: /assets/images/Notebooks-Landing_page.png
           alt: Photo of Red Hat branded notebooks with the hat on the cover.
-        header: The hat page
         content: |
           (March 2022) We’ve created a new page that goes into detail about the hat, including how to determine when it’s 
           appropriate to use the hat alone and how to apply the hat as artwork versus using it to represent Red Hat.
-        cta: Learn more     
+        cta: 
+          content: Learn more
+          link: /logos/the-hat
 ---
 
 
