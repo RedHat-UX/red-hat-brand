@@ -1,0 +1,109 @@
+---
+layout: layouts/backpage.webc
+---
+
+<rhb-band>
+  <rhb-container>
+    <h2 @html="$data.translations.section1.header"></h2>
+    <rhb-content>
+      <h3 @html="$data.translations.section1.content.header"></h3>
+      <p webc:for="paragraph of $data.translations.section1.content.paragraphs" @html="paragraph"></p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width webc:for="card of $data.translations.section1.cards">
+        <img slot="image" :alt="card.image.alt" :src="card.image.src">
+        <p slot="content" @html="card.content"></p>
+      </rhb-card>        
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <p webc:for="paragraph of $data.translations.section1.content2.paragraphs" @html="paragraph"></p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width webc:for="card of $data.translations.section1.cards2">
+        <img slot="image" :alt="card.image.alt" :src="card.image.src">
+        <p slot="content" @html="card.content"></p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h3 @html="$data.translations.section2.header"></h3>
+      <p webc:for="paragraph of $data.translations.section2.content.paragraphs" @html="paragraph"></p>
+      <rh-blockquote>
+        <p @html="$data.translations.section2.content.blockquote.content"></p>
+        <span slot="author" @html="$data.translations.section2.content.blockquote.author"></span>
+      </rh-blockquote>        
+      <p webc:for="paragraph of $data.translations.section2.content.paragraphs2" @html="paragraph"></p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width webc:for="card of $data.translations.section2.cards">
+        <img slot="image" :alt="card.image.alt" :src="card.image.src">
+        <p slot="content" @html="card.content"></p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h3 @html="$data.translations.section3.header"></h3>
+      <p webc:for="paragraph of $data.translations.section3.content.paragraphs" @html="paragraph"></p>
+      <rh-blockquote>
+        <p @html="$data.translations.section3.content.blockquote.content"></p>
+        <span slot="author" @html="$data.translations.section3.content.blockquote.author"></span>
+      </rh-blockquote>        
+      <p webc:for="paragraph of $data.translations.section3.content.paragraphs2" @html="paragraph"></p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band> 
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <rhb-youtube-video video-id="VBtTSkxNcGo" video-title="New hat, same vision">
+        <img slot="poster" src="/assets/images/rh_history_new_hat_video.svg">
+        <p slot="caption" @html="$data.translations.section3.content.video.caption"></p>
+      </rhb-youtube-video>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h3 @html="$data.translations.section4.header"></h3>
+      <p webc:for="paragraph of $data.translations.section4.paragraphs" @html="paragraph">&nbsp;</p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<style>
+  rh-blockquote {
+    display: block;
+    padding-block: var(--rh-space-2xl, 32px);
+  }
+</style>

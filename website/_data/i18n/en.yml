@@ -1,0 +1,11 @@
+lang: en
+translations:
+  navigation:
+    logo:
+      text: Brand Standards 
+      titleAttribute: Red Hat Brand Standards
+    links:
+      foundations: Foundations
+      logos: Logos
+      visualSystem: Visual System
+      expression: Expression

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html :lang="$data.page.lang.toString()">
   <head>
   <meta webc:keep charset="utf-8">
   <meta webc:keep http-equiv="x-ua-compatible" content="ie=edge">

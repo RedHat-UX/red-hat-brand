@@ -1,0 +1,97 @@
+---
+layout: layouts/backpage.webc
+---
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>Combining these elements gives you a fresh, clean, flexible visual system without being too closely tied to the past. We can unify products and services; give internal teams, projects, and programs a crisp, consistent look; and have fun with our brand as we evolve.</p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two" margin-bottom="xl">
+      <h3 slot="header">Collateral templates</h3>
+      <rhb-card flush-top flush-left>
+        <div slot="content" webc:nokeep>
+        <p slot="content">We have guidelines and templates for each collateral type, including datasheets, whitepapers, and FAQs. Standard formats mean more efficient content creation and translation, as well as more accurate content tracking.</p>
+        <p slot="content"><em>Agencies, contractors, and associates can download logos and brand assets using their assigned Red Hat login.</em></p>
+        <p slot="content"><em>If you do not have a login, ask your Red Hat point of contact to provide what you need directly.</em></p>
+        <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/b-7581233/Collateral_templates">Download design templates</a></rh-cta></p>
+        <p><rh-cta slot="cta"><a href="/en/resources">See them in action in our resource library</a></rh-cta></p>
+        </div>
+      </rhb-card>
+      <rhb-card flush-top>
+        <img slot="image" src="/assets/images/expression/templates/Brand-Standards_PERSONALITY_Collateral_0.png" alt="alt text goes here">
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two" margin-bottom="xl">
+      <h3 slot="header">Presentation templates</h3>
+      <rhb-card flush-top flush-left>
+        <div slot="content" webc:nokeep>
+        <p slot="content">From Red Hat® Summit keynotes to conference-room sales meetings, Red Hat presentations should be informative and professional and should represent our brand well. The content must be meaningful and relevant to our audiences. Our stories should be clear and compelling.</p>
+        <p slot="content">Following our templates is the first step toward creating a meaningful, engaging presentation.</p>
+        <p slot="content"><em>Agencies, contractors, and associates can download logos and brand assets using their assigned Red Hat login.</em></p>
+        <p slot="content"><em>If you do not have a login, ask your Red Hat point of contact to provide what you need directly.</em></p>
+        <rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/b-486106/Presentationtemplates">Access presentation templates</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card flush-top>
+        <img slot="image" src="/assets/images/expression/templates/Brand-Standards_PERSONALITY_Presentation_0.png" alt="alt text goes here">
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two" margin-bottom="xl">
+      <h3 slot="header">Business cards and stationery</h3>
+      <rhb-card flush-top flush-left>
+        <div slot="content" webc:nokeep>
+        <p slot="content">Red Hat’s corporate stationery includes everything needed for professional communication, including letterhead, business cards, envelopes, and note cards.</p>
+        <p slot="content">When ordering stationery, always use our global supplier.</p>
+        <p slot="content"><em>Agencies, contractors, and associates can download logos and brand assets using their assigned Red Hat login.</em></p>
+        <p slot="content"><em>If you do not have a login, ask your Red Hat point of contact to provide what you need directly.</em></p>
+        <p><rh-cta slot="cta"><a href="https://redhat.worksmartsuite.com/Login.aspx">Order letterhead, business cards, and note cards</a></rh-cta></p>
+        <p><rh-cta slot="cta"><a href="https://docs.google.com/document/d/1zd-VgOG21slkOEP9mTYRQSB9PrfK6ltaXKonaE49gcM/edit?usp=sharing">Access U.S. letter-sized letterhead templates</a></rh-cta></p>
+        <p><rh-cta slot="cta"><a href="https://docs.google.com/document/d/1Trb73DmQzkBs-dChEr2X8Yhnj71vWIrUdptBhevGz-I/edit?usp=sharing">Access A4 letterhead templates</a></rh-cta></p>
+        <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/b-328402/Letterhead">Download LibreOffice letterhead templates</a></rh-cta></p>
+        </div>
+      </rhb-card>
+      <rhb-card flush-top>
+        <img slot="image" src="/assets/images/expression/templates/Brand-Standards_APPLICATION_Assets_Business-Card.png" alt="alt text goes here">
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="two" margin-bottom="xl">
+      <h3 slot="header">Email signatures</h3>
+      <rhb-card flush-top flush-left>
+        <div slot="content" webc:nokeep>
+        <p slot="content">How you represent yourself digitally is as important as having a professional business card. Your email signature should help the recipient identify who you are, what you do, and how to get in touch with you.</p>
+        <p slot="content">Your email signature also represents both you and Red Hat. Depending on your role, it could be someone’s first interaction with our brand.</p>
+        <p slot="content"><em>Agencies, contractors, and associates can download logos and brand assets using their assigned Red Hat login.</em></p>
+        <p slot="content"><em>If you do not have a login, ask your Red Hat point of contact to provide what you need directly.</em></p>
+        <rh-cta slot="cta"><a href="http://red.ht/signature">Generate your email signature</a></rh-cta>
+        </div>
+      </rhb-card>
+      <rhb-card flush-top>
+        <img slot="image" src="/assets/images/expression/templates/Brand-Standards_APPLICATION_Assets_Email-signature.png" alt="alt text goes here">
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+    

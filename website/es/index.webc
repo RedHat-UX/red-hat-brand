@@ -1,0 +1,94 @@
+---
+layout: "templates/index.webc"
+translations:
+  hero:
+    image: 
+      alt: Ilustración de estándares de marca
+    headline: Criterios representativos de la marca
+    content: | 
+      Los criterios representativos de Red Hat® son el código fuente de nuestra marca. Los utilizamos en todos los 
+      proyectos, de manera que cualquier interacción con Red Hat refleje la personalidad de nuestra marca, se ajuste
+      a nuestra estrategia y emplee un lenguaje visual coherente. La uniformidad nos aporta credibilidad y nos 
+      permite desarrollar una relación auténtica con los clientes, los partners y los colaboradores.
+    cta: Obtenga más información sobre la personalidad de nuestra marca
+  
+  popularResources:
+    header: Recursos conocidos
+
+  coreBrandElements:
+    header: Elementos principales de la marca
+    cards: 
+      lead:
+        header: Siempre comenzamos con Red Hat.
+        image: 
+          alt: We always lead with Red Hat
+        cta: Estrategia de marca
+      logo:
+        header: Nuestro logotipo consiste en un sombrero rojo y las palabras Red Hat.
+        cta: Logotipo de Red Hat
+      colors:
+        header: Nuestros colores principales son el rojo, el negro y el blanco.
+        cta: Colores
+      typography:
+        header: Utilizamos tres estilos de tipografía.
+        image: 
+          alt: Our font family has three styles
+        cta: Tipografía
+        
+  brandExpression:
+    header: La expresión de la marca
+    content: | 
+      La expresión de la marca Red Hat consiste en adaptar la aplicación de los criterios representativos para satisfacer 
+      las necesidades de los clientes, los partners y el personal. Nuestra prioridad es que las comunicaciones sean funcionales: 
+      deben ser claras y útiles. Cuando buscamos transmitir una idea con más matices, utilizamos elementos expresivos, como 
+      nuestra paleta de colores ampliada, fuentes estilizadas, ilustraciones y más.
+    tabs:
+      functional:
+        tab: Funcional
+        panel:
+          image: 
+            alt: Examples of functional brand expression at Red Hat  
+      expressive:
+        tab: Expresiva
+        panel:
+          image: 
+            alt: Examples of expressive brand expression at Red Hat
+
+  whatsNew:
+    header: Novedades
+    cards:
+      history:
+        image:
+          alt: Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.
+        header: History page updates
+        content: |
+          (February 2023) We’ve updated our history page to include more details, including information about the 
+          Open Brand Project, the IBM acquisition, and recent leadership changes.
+        cta: Learn more
+      badges:
+        image:
+          alt: Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.
+        header: Digital badges page
+        content: |
+          (May 2022) We’ve created a new page for Red Hat digital badges–shareable and verifiable credentials issued through 
+          our partner, Credly.
+        cta: Learn more 
+      logoUpdates:
+        image:
+          alt: Image of the Red Hat logo used on various color background
+        header: Red Hat logo updates
+        content: |
+          (March 2022) We’ve updated our Red Hat logo page with more specific information about our logo variations, using the 
+          logo on various background colors and images, and what the logo looks like in real-life applications.
+        cta: Learn more       
+      theHat:
+        image:
+          alt: Photo of Red Hat branded notebooks with the hat on the cover.
+        header: The hat page
+        content: |
+          (March 2022) We’ve created a new page that goes into detail about the hat, including how to determine when it’s 
+          appropriate to use the hat alone and how to apply the hat as artwork versus using it to represent Red Hat.
+        cta: Learn more     
+---
+
+

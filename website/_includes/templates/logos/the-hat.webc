@@ -1,0 +1,200 @@
+---
+layout: layouts/backpage.webc
+---
+
+<rhb-band>
+  <rhb-container>
+    <h2 @text="title"></h2>
+    <rhb-grid columns="two" offset-right>
+      <rhb-card flush-left flush-top>
+        <div slot="content" webc:nokeep>
+    <p>When we need to represent Red Hat in a small space, or when the context of the Red Hat® brand is already clear, we can use the hat separately from <a href="/en/about/brand/standards/logo">the Red Hat logo</a>.</p>
+    <p>Clear space around the hat should be approximately the height of the brim. Clear space is the area around the hat that should not have text, distracting graphics, or other logos.</p>  
+    <p><rh-cta><a href="https://drive.google.com/drive/folders/1dtl_rz3CZwn05Y45iUtODMJWyJMGcwpu?usp=sharing"></a>Red Hat associates can download the hat here</a></rh-cta></p>
+    <p><rh-cta><a href="/en/about/brand/standards/logo"></a>Learn more about the Red Hat logo</a></rh-cta></p>
+  </div>
+  </rhb-card>
+  <rhb-card flush-top>
+    <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Clear_space-RGB.svg" alt="Diagram of minimum clear space around the hat, measured using circles that are the size of the hat band.">
+  </rhb-card>
+    </rhb-grid>  
+
+    <rhb-content>
+      <h3>General guidance</h3>
+      <p>Regardless of how the hat is being used, make sure the hat is being used correctly and that we're protecting our trademarks.</p>
+    </rhb-content>
+
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-This-RGB.svg" alt="The hat alone in full color">
+        <p slot="content">Use the hat as it is provided in full color or one of our core colors.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-Not_this-1-RGB.svg" alt="The hat stretched horizontally">
+        <p slot="content">Never stretch or distort the hat.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-Not_this-2-RGB.svg" alt="Shadowman's hat from the previous, outdated Red Hat logo">
+        <p slot="content">Never replace the hat with a legacy logo or another hat.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-General-Not_this-3-RGB.jpg" alt="An illustrated woman in blue wearing the hat on her head.">
+        <p slot="content">Never place the hat on a person, character, thing, or another logo.</p>
+      </rhb-recommend>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h3>Functional use of the hat</h3>
+      <p>How we use the hat depends on what it represents in the design. When we use the hat to represent Red Hat in lieu of the full logo, the hat should always appear in red.</p>
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Favicon_example-RGB.svg" alt="Screenshot of a browser window showing the hat used as the favicon for the Red Hat website.">
+        <p slot="content">The hat can be used in very small spaces where a full logo might not fit, like a favicon, but it should never be smaller than 16px (0.22in/5.5mm) tall. It’s alone here, so it’s full color.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Twitter_example-RGB.svg?itok=-3wNtfgk" alt="Example of a tweet from the corporate Red Hat twitter account, which uses the hat alone for the profile picture.">
+        <p slot="content">The hat can be used in a profile image or avatar when it’s clear that it’s an official Red Hat account, like our corporate Twitter account.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Business_card_example-RGB.jpg" alt="Image of the front and back of the Red Hat business card design, which has the hat alone on the front.">
+        <p slot="content">The hat is used alone on the front of our business cards because it’s clear from the text and the logo on the back that the card is from Red Hat.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Hat_lobby_1.jpg" alt="Photograph of the Red Hat Tower lobby featuring a large hat on the wall.">
+        <p slot="content">After the launch of our new logo in 2019, we placed a large hat inside the lobby of our corporate headquarters. The full Red Hat logo is displayed behind the reception desk in the lobby.</p>
+      </rhb-card>
+    </rhb-grid>
+
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Functional-This-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used alone in full color as the profile image.">
+        <p slot="content">Use the full hat without modifications to represent Red Hat.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Functional-Not_this-1-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat cropped outside of the circular profile photo.">
+        <p slot="content">Do not use a cropped or modified version of the hat when representing Red Hat.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Funcational-Not_this-2-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used in one-color black for the profile photo.">
+        <p slot="content">Do not use the hat in any color other than red when representing Red Hat.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Functional-Not_this-3-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used backwards as the profile photo.">
+        <p slot="content">Never flip or distort the hat.</p>
+      </rhb-recommend>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h3>Expressive use of the hat</h3>
+      <p>When we use the hat as a decorative element, the full Red Hat logo should always be nearby. The hat can be used in any of <a href="/en/about/brand/standards/color-old">our core colors</a> (tints and shades of red, black, or white) and it may be cropped off the page or used as a pattern.</p>
+    </rhb-content>
+
+    <rhb-content>
+      <h4>Using the hat as a pattern</h4>
+      <p>The hat can be used as a pattern in any of <a href="/en/about/brand/standards/color-old">our core color palette</a>. The full Red Hat logo should always be visible nearby.</p>    
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Key_art_example-2%20copy-RGB_0.jpg" alt="A pattern of hats in black and dark gray with a Red Hat logo on top.">
+        <p slot="content">For the launch of the new Red Hat logo in 2019, we created device wallpapers using a pattern of hats.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Key_art_example-2-RGB.jpg" alt="Photograph of a person wearing a t-shirt featuring a pattern of hats.">
+        <p slot="content">A pattern of hats can be used on swag like this t-shirt found on the Red Hat Cool Stuff Store.</p>
+      </rhb-card>
+    </rhb-grid>
+
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-This-RGB.svg" alt="A pattern of gray hats on a darker gray background">
+        <p slot="content">In a pattern, always use the hat alone in one of our core colors.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-Not_this-1-RGB.svg" alt="A pattern of blue hats on a gray background">
+        <p slot="content">Do not use the hat in a color outside of our core color palette.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-Not_this-2-RGB.svg" alt="A pattern of gray hats on a darker gray background, but some hats are flipped horizontally">
+        <p slot="content">Do not distort or change the orientation of the hat.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Expressive_pattern-Not_this-3-RGB.svg" alt="A pattern of gray hats and standard icons on a darker gray background">
+        <p slot="content">Do not use the hat in a pattern of standard icons or other visuals.</p>
+      </rhb-recommend>
+    </rhb-grid>
+
+    <rhb-content>
+      <h4>Using the hat as key art</h4>
+      <p>The hat can be used as key art on a design in the foreground or background, as long as the full Red Hat logo is visible nearby.</p>
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Notebooks.png" alt="Photo of Red Hat branded notebooks with the hat on the cover.">
+        <p slot="content">The hat is used as key art on the cover of this notebook, used large and wrapped around the back side.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art_example-1-RGB.svg" alt="Social media image with a black background and a dark gray hat cropped off the right side">
+        <p slot="content">The hat is used as key art as part of the background in this social media graphic.</p>
+      </rhb-card>
+    </rhb-grid>
+
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-This-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, gray hat in the background.">
+        <p slot="content">Use the hat as key art without modifications to the shape.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-Not_this-1-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, gray hat in the background, but the two pieces of the hat have been split apart.">
+        <p slot="content">Do not change the shape of the hat or move pieces of it independently of each other.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-Not_this-2-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, teal hat in the background.">
+        <p slot="content">Do not use the hat in colors outside of our core color palette.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Key_art-Not_this-3-RGB.svg" alt="Full color Red Hat logo sitting on top of an enlarged, gray hat in the background along with an icon pattern.">
+        <p slot="content">Do not use the hat as key art on an otherwise busy design.</p>
+      </rhb-recommend>
+    </rhb-grid>
+
+    <rhb-content>
+      <h4>Using the hat in/as a frame</h4>
+      <p>Sometimes we place the hat inside of a frame or use it as a frame for other artwork. This technique is used in limited circumstances when the context of the Red Hat brand is very clear.</p>
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Frame-1-RGB.svg" alt="alt text goes here">
+        <p slot="content">The hat can be used inside of a bounding shape or frame to create depth, like in the expressive type in this social media post, when the full Red Hat logo is visible.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Frame-2-RGB.svg" alt="Lines of code used inside of the hat as a bounding shape.">
+        <p slot="content">The hat can be used as a bounding shape or frame for an image or pattern when the full Red Hat is visible and the shape of the hat is preserved. Do you have your own ideas for the hat as a bounding shape? Share with the Brand and Creative team.</p>
+      </rhb-card>
+    </rhb-grid>
+
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-card full-width style="display: block; text-align: center; padding: var(--rh-spacer-xl, 24px);">
+      <h3 slot="headline">Red Hat Trademarks</h3>
+      <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Aside from the Red Hat logo and hat, our trademarks include the Red Hat wordmark and the names of certain products, services, and technologies. Using our trademarks correctly in documentation, web pages, marketing materials, and collateral is as important as using the logo correctly.</p>
+      <rh-cta variant="primary" slot="cta"><a href="/en/about/trademark-guidelines-and-policies"></a>Learn More</rh-cta>
+    </rhb-card>
+  </rhb-container>
+</rhb-band>
+

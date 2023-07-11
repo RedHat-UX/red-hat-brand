@@ -1,0 +1,176 @@
+---
+layout: templates/foundations/history.webc
+title: Historia
+order: 0
+tags:
+  - foundations
+translations:
+  section1: 
+    header: Nuestra historia
+    content:
+      header: 1993-1999
+      paragraphs: 
+          - |
+            Red Hat® Inc. surgió cuando un pequeño empresario y un genio de la informática se conocieron en una conferencia 
+            sobre tecnología. Marc Ewing era el especialista en informática que trabajaba para poner en marcha su propia 
+            distribución de Linux® en CD desde su hogar en Raleigh, Carolina del Norte, y para solucionar los problemas y 
+            corregir los errores relacionados con ella.
+          - |
+            Bob Young era el empresario que vendía productos informáticos por catálogo desde su hogar en Connecticut y se 
+            dio cuenta de que había crecido el interés por Linux, así que comenzó a comprar los CD que había desarrollado 
+            Ewing. Young agotó las ventas tantas veces que Ewing y él decidieron unirse para crear Red Hat Software en 1995, 
+            y Young fungió como director ejecutivo.
+          - | 
+            El nombre de la marca surgió a partir de una anécdota de Ewing en el laboratorio de informática de la universidad 
+            a la que asistía. Usaba una gorra roja Cornell Lacrosse que pertenecía a su abuelo, y la gente solía decir: 
+            "si necesitas ayuda, busca al chico de la gorra roja".
+    cards:
+      - image:
+          src: /assets/images/red-hat-history-software.png
+          alt: |
+            Picture of Red Hat's first logo. A simple, bright red brimmed top hat placed above the words 'Red Hat Software.'
+        content: |
+          El primer logotipo de Red Hat apareció en las primeras facturas, era un simple sombrero de copa alta de color rojo 
+          brillante que estaba ubicado sobre la frase "Red Hat Software".
+      - image:
+          src: /assets/images/red-hat-history-running-man.png
+          alt: | 
+            Picture of Red Hat's running man logo. A modified piece of clip art of a man holding a briefcase walking while 
+            holding a red fedora on his head.
+        content: |
+          Al siguiente logotipo se lo conocía cariñosamente como el "hombre que corre". Este logotipo se usó en los primeros 
+          anuncios y manuales. Para crearlo, uno de los ingenieros de Red Hat modificó una imagen prediseñada.
+    cards2:
+      - image: 
+          src: /assets/images/red-hat-history-first-shadowman.png
+          alt: Red Hat history first shadowman
+        content: |
+          A medida que Red Hat crecía, era cada vez más importante registrar el logotipo como marca comercial. Blank diseñó el 
+          primer logotipo de Shadowman en 1996, el cual apareció públicamente por primera vez en 1997..
+      - image:
+          src: /assets/images/red-hat-history-shadowman.png
+          alt: Red Hat history software
+        content: |
+          Cuando Red Hat se lanzó al público en el año 1999 con una 
+          <a href="https://www.wired.com/1999/08/red-hat-stock-soars-high-higher/">oferta pública inicial (IPO) sin precedentes</a>, 
+          fue un suceso tan notable que confirmó la confianza inquebrantable de la empresa en el poder del open source. Se actualizó 
+          el diseño de Shadowman, y se comenzó a utilizar una fuente más profesional para escribir Red Hat.     
+    content2:
+      paragraphs:
+        - |
+          En lugar de proteger los secretos comerciales y registrar las patentes de productos costosos, Red Hat adoptó un 
+          enfoque muy distinto para los sistemas de software: brindar una distribución estable y accesible del sistema 
+          operativo denominado Linux, el cual no solo evoluciona permanentemente, sino que también lo desarrolla la comunidad.
+        - |
+          En Red Hat, se consideraba que la colaboración abierta era la mejor manera de crear un sistema de software. Se veían 
+          como rebeldes que revolucionarían el sector tecnológico cerrado y monopólico, y esta mirada se representó en la creación 
+          del logotipo de Shadowman.
+        - |
+          Era un superhéroe, un rebelde y un detective privado que reflejaba la primera estrategia comercial de Red Hat: sortear 
+          los obstáculos impuestos por las empresas de tecnologías propietarias para introducir el open source en los centros de datos.
+  section2:
+    header: 2000-2006
+    content: 
+      paragraphs:
+        - |
+          Durante varios años, los comercios minoristas vendieron Red Hat Linux en cajas, junto con las copias de Microsoft Windows y 
+          Lotus Notes. Tal como sucedía con otras empresas de software, cada seis meses se lanzaba una nueva versión con la esperanza 
+          de que los clientes la adquirieran para obtener las funciones nuevas. Si bien el modelo de desarrollo era innovador, el 
+          modelo empresarial no lo era.
+        - |
+          En 2001, Red Hat dejó de distribuir Red Hat Linux en cajas, que era su fuente de ingresos principal, y presentó una edición 
+          empresarial que se vendería mediante suscripciones, lo cual confirmó una vez más su confianza en el open source.
+        - |
+          Red Hat Enterprise Linux se convirtió en el producto estrella de la empresa, una oferta para los centros de datos más exigentes 
+          del mundo. La versión comunitaria del sistema operativo Linux, disponible sin costo, pasaría a desarrollarse y recibir soporte 
+          con un nuevo nombre: Fedora.
+        - |
+          Matthew Szulik, en aquel momento director ejecutivo y promotor incansable del open source, confiaba en que Red Hat revolucionaría 
+          el sector tecnológico. En 2006, elaboró lo que se convertiría en la visión de la empresa:
+      blockquote:
+        content: | 
+          <strong>Queremos ser la empresa tecnológica más importante del siglo XXI</strong> y fortalecer la estructura social con nuestras acciones, 
+          democratizando el contenido y la tecnología de forma permanente.
+        author: Raison d’être" de Red Hat, 2006
+      paragraphs2:
+        - | 
+          El éxito de Red Hat Enterprise Linux provocó el crecimiento constante y participaciones e inversiones en otras comunidades open 
+          source. A medida que esas comunidades creaban tecnologías nuevas, la empresa agregaba más características y funciones para 
+          expandir su cartera de productos. Algunos de los momentos más importantes son la primera Red Hat Summit en 2005 y la respuesta 
+          "Linux: imposible de imitar" en el evento Oracle OpenWorld en 2006.
+    cards:
+      - image:
+          src: /assets/images/rh_history_summit_new_orleans.jpg
+          alt: Red Hat history Summit
+        content: | 
+          El evento Red Hat Summit, que se llevó a cabo por primera vez en 2005 en Nueva Orleans, se presenta como la oportunidad para 
+          que los clientes, la comunidad y los partners de Red Hat adquieran conocimiento, establezcan conexiones y conozcan todos los 
+          beneficios del open source empresarial. 
+      - image:
+          src: /assets/images/rh_history_unfakeable_linux_shirt.jpg
+          alt: Red Hat history Unfakeable Linux
+        content: | 
+          En 2006, Oracle lanzó en el evento Oracle OpenWorld una copia exacta de Red Hat Enterprise Linux llamada "Unbreakable Linux" 
+          (Linux: imposible de infringir). Al día siguiente, Red Hat distribuyó cientos de camisetas con una sencilla inscripción a 
+          modo de respuesta: "Unfakeable Linux" (Linux: imposible de imitar).
+  section3:
+    header: 2007-2018
+    content:
+      paragraphs: 
+        - |
+          En 2007, Jim Whitehurst fue nombrado presidente y director ejecutivo de Red Hat. En 2009, introdujo una nueva declaración de 
+          misión colaborativa, en la que daba a conocer al mundo no solo la dedicación de Red Hat a la tecnología de open source, sino 
+          también al enfoque open source:
+      blockquote:
+        content: |
+          Queremos generar cambios en las comunidades de clientes, colaboradores y partners, y crear una mejor tecnología con el 
+          <strong>enfoque open source</strong>.
+        author: Declaración de misión de Red Hat, 2009
+      paragraphs2:
+        - |
+          En 2012, Red Hat se convirtió en la primera empresa de tecnología de open source en obtener ingresos superiores a USD 1000 
+          millones. En 2016, sus ingresos superaron los USD 2000 millones.
+        - |
+          El crecimiento enorme de la empresa y la gran expansión de su cartera de productos provocó la actualización del logotipo y 
+          los sistemas de marca. Red Hat ya no era un "agente secreto" y rebelde del cambio, sino el proveedor de soluciones open 
+          source empresarial líder en el mundo.
+        - |
+          En 2018, el <a href="https://www.redhat.com/es/about/our-brand/open-brand-project">Open Brand Project</a> inició el proceso 
+          de creación del <a href="https://www.redhat.com/es/about/brand/standards/logo">logotipo de Red Hat</a> que se utiliza en la 
+          actualidad: es un sombrero rojo brillante, audaz y claro que refleja de la mejor manera posible la imagen abierta, inclusiva, 
+          auténtica y servicial de la empresa y su reputación de transparencia.
+      video:
+        caption: |
+          El sombrero de nuestro logotipo es el mismo que usa Shadowman, y es una personificación de la confianza y la buena voluntad 
+          que hemos desarrollado con los clientes, los partners y la comunidad a medida que crecemos. Duración del video: 0:27
+  section4:
+    header: Desde 2019 hasta la actualidad
+    paragraphs: 
+      - |
+        En 2019, IBM y Red Hat se asociaron para <a href="https://techcrunch.com/2018/10/28/biggest-software-acquisition/">una de las 
+        adquisiciones de software más grandes la historia</a>. El cambio impulsó las iniciativas de Red Hat para implementar las 
+        innovaciones open source en un rango más amplio de empresas y expandirse para satisfacer las necesidades de soluciones de nube 
+        híbrida que ofrezcan flexibilidad y agilidad. Sin embargo, la esencia de la empresa no ha cambiado, y opera como una filial 
+        independiente que se guía por los mismos valores y principios que siempre caracterizaron su marca.
+      - |
+        A principios de 2020, se designó a Paul Cormier como el nuevo presidente y director ejecutivo de Red Hat. Su liderazgo 
+        consolidó a la empresa como líder del sector y allanó el camino para la innovación abierta que es el centro de la estrategia 
+        de nube híbrida abierta de Red Hat.
+      - |
+        En julio de 2022, Matt Hicks remplazó a Cormier como presidente y director ejecutivo. Anteriormente, Hicks tuvo la función de 
+        vicepresidente ejecutivo de Productos y Tecnologías, donde se encargó de toda la estrategia y el diseño de los productos de 
+        Red Hat. Cuenta con más de 25 años de experiencia en Linux e ingeniería informática, visión para el sector y perspicacia para 
+        los negocios. Además, es reconocido por su trabajo con los clientes y los partners para resolver los desafíos de la TI de 
+        última generación con el open source.
+      - |
+        En más de 25 años, Red Hat pasó de ser una empresa pequeña que funcionaba desde un hogar, a convertirse en el principal 
+        proveedor de soluciones empresariales open source del mundo. Hoy en día, más del 
+        <a href="https://fortune.com/ranking/fortune500/">90 % de las empresas de la lista Fortune 500</a> confían en Red Hat, y 
+        personas de todo el mundo utilizan sus productos y soluciones.
+      - |
+        Red Hat comenzó con la base revolucionaria de Red Hat Enterprise Linux y ha creado una amplia cartera de productos que abarca 
+        una stack de TI moderna y completa: infraestructura de la nube híbrida, middleware, integraciones ágiles, desarrollo de 
+        aplicaciones en la nube, y soluciones de gestión y automatización. Como siempre, todas iniciativas siguen adoptando el 
+        enfoque open source.
+---
+

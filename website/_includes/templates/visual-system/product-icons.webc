@@ -1,0 +1,129 @@
+---
+layout: layouts/backpage.webc
+---
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>Product icons represent our products and technologies in small spaces such as marketplaces, catalogs, browser tabs, and favicons. Product icons are designed to work well at small sizes and are intentionally simple, but can be adapted for use as artwork in marketing materials and collateral. They should never be used as a product logo or without the context of the Red Hat brand.</p>
+      <img class="border-sm border-subtle" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-Hero-example.svg" alt="Examples of product icons in both the product icon and service icon styles">
+      <p><rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/1azsrdyF8CtmqNG55D29IzL6Ap8aRlAGM?usp=sharing">Download product icons</a></rh-cta></p>
+      <p><rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1T1qe4W065agHilKsIfY8CwCsCRv1GnXUdNr6s5sm2nA/edit?usp=sharing">Learn how to create product icons</a></rh-cta></p>
+    </rhb-content>
+
+
+    <rhb-grid columns="two">
+      <rhb-content>
+        <h4>Product icons are</h4>
+        <ul>
+          <li>Used to represent products in user interfaces.</li>
+          <li>Used as favicons in product interfaces or browser tabs.</li>
+          <li>Used in diagrams or infographics to represent products.</li>
+          <li>Adapted to use as artwork on swag or marketing materials.</li>
+        </ul>      
+      </rhb-content>
+      <rhb-content>
+        <h4>Product icons are not</h4>
+        <ul>
+        <li>Used in product logos.</li>
+        <li>Exchangeable with the red hat icon.</li>
+        <li>Used without the context of the Red Hat brand (i.e., with the full product name in plain text, a Red Hat or product logo, or within a Red Hat-branded interface).</li>
+      </ul>
+    </rhb-content>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    
+    <rhb-content>
+      <h3>Product icon styles</h3>
+      <p>Our product icon system includes 2 styles. One for products (with a SKU) that we sell, and one for all other technology offerings. This helps users better understand our product portfolio and lets them easily find the technology that they’re looking for in marketplaces and catalogs.</p>
+    </rhb-content>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img class="background-color-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-product_icon_style-example.svg" alt="an example of a product icon in Red Hat's product icon style">
+        <h4 slot="headline">Product icon style</h4>
+        <p slot="content">Products with a SKU are represented by a red-and-white icon inside a solid, black, rounded square. Key elements are highlighted in red.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img class="background-color-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-service_icon_style-example.svg" alt="service icon style">
+        <h4 slot="headline">Service icon style</h4>
+        <p slot="content">All other technologies, including services, features, components, plug-ins, and operators are represented by a black-and-red icon inside a black, outlined, rounded square with a white background. Key elements are highlighted in red.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    
+    <h3>Product icons in use</h3>
+
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-01.png" alt="A screenshot of Red Hat Marketplace featuring two Red Hat offerings represented by product icons">
+        <h4 slot="headline">Marketplaces and catalogs</h4>
+        <p slot="content">Product icons should primarily be used to represent our products and technologies in highly visual user interfaces such as marketplaces, catalogs, and product environments.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-02.png" alt="An example of using a product icon as a favicon in a browser tab">
+        <h4 slot="headline">Favicons and browser tabs</h4>
+        <p slot="content">Product icons can also be used as favicons in browser tabs or within the navigation of a product interface. However, they should always be used in the context of the Red Hat brand (with a full Red Hat logo or product logo somewhere nearby).</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-03.png" alt="Example of a product icon being used in a topology diagram">
+        <h4 slot="headline">Diagrams</h4>
+        <p slot="content">Product icons can be used to represent products and technologies in diagrams like topology views within product interfaces, technical diagrams within product documentation, or in infographics that support product initiatives.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-04.png" alt="Example of a product icon adapted and used as artwork in a social graphic">
+        <h4 slot="headline">Adapted for artwork</h4>
+        <p slot="content">Product icons can be used to make artwork to support a marketing initiative, like on swag or on a social media graphic. Unlike icons, which should be consistent over time and across applications, artwork can be flexible and change. <a href="https://docs.google.com/presentation/d/1whA3V3DsrMWj76cP3hO2hcgCsTwNq7XkYnGWZ4Ej7Ww/edit?usp=sharing" target="_blank">Learn more about artwork</a>.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
+    <rhb-grid columns="four">
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-this-01.svg" alt="A product icon and product logo being used in separate imprint areas">
+        <p slot="content">Use product icons as separate and distinct elements from logos.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-not_this-01.svg" alt="Example of what not to do when using product icons and logos together">
+        <p slot="content">Do not merge product icons and logos together by replacing the red hat icon.</p>
+      </rhb-recommend>
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-this-02.png" alt="Example of product icons being used correctly in context of the Red Hat brand">
+        <p slot="content">Use product icons in the context of the Red Hat brand.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-not_this-02.png" alt="Example of product icons being used incorrectly without the context of the Red Hat brand">
+        <p slot="content">Do not use product icons without the context of the Red Hat brand.</p>
+      </rhb-recommend>
+      <rhb-recommend>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-this-03.svg" alt="Red Hat AMQ product icon in the product icon style">
+        <p slot="content">Use the product icons as provided.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-not_this-03.svg" alt="Example of incorrectly scaling and altering the colors of elements of a product icon">
+        <p slot="content">Do not alter the colors or scale parts of the icon independently of each other.</p>
+      </rhb-recommend>
+      <rhb-recommend>
+        <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-this-04.png" alt="A product icon in the product icon style on a black background with a white drop shadow to add separation from the background">
+        <p slot="content">Add a tasteful drop shadow when using the product icon style on black backgrounds.</p>
+      </rhb-recommend>
+      <rhb-recommend no>
+        <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-not_this-04.svg" alt="Example of incorrectly adding an outline to the product icon style to create separation on a black background">
+        <p slot="content">Do not add an outline to the product icon style for use on black backgrounds.</p>
+      </rhb-recommend>
+    </rhb-grid>
+
+  </rhb-container>
+</rhb-band>
