@@ -1,12 +1,13 @@
-# Default
-[[redirects]]
-  from = "/*"
-  to = "/en/:splat"
-  status = 200
-
 # Redirect for end-user’s browser preference override
 [[redirects]]
   from = "/*"
   to = "/es/:splat"
   status = 302
   conditions = {Language = ["es"]}  
+
+# Default
+[[redirects]]
+  from = "/*"
+  to = "/en/:splat"
+  status = 200
+
