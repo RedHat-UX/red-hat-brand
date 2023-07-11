@@ -66,7 +66,7 @@ tags:
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Social-RGB.png">
+        <img class="border-xl border-update" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Social-RGB.png">
         <p slot="content">We have different social media accounts for different parts of our business, but all accounts use the Red Hat logo in their avatars and account headers.</p>
       </rhb-card>
       <rhb-card full-width>
