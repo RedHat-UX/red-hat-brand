@@ -49,13 +49,17 @@ tags:
     <rhb-grid columns="two">
       <rhb-card full-width>
         <img class="background-color-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-product_icon_style-example.svg" alt="an example of a product icon in Red Hat's product icon style">
-        <h4 slot="headline">Product icon style</h4>
+        <div slot="content" webc:nokeep>
+        <p slot="content"><strong>Product icon style</strong></p>
         <p slot="content">Products with a SKU are represented by a red-and-white icon inside a solid, black, rounded square. Key elements are highlighted in red.</p>
+      </div>
       </rhb-card>
       <rhb-card full-width>
         <img class="background-color-subtle" slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-service_icon_style-example.svg" alt="service icon style">
-        <h4 slot="headline">Service icon style</h4>
+        <div slot="content" webc:nokeep>
+        <p slot="content"><strong>Service icon style</strong></p>
         <p slot="content">All other technologies, including services, features, components, plug-ins, and operators are represented by a black-and-red icon inside a black, outlined, rounded square with a white background. Key elements are highlighted in red.</p>
+      </div>
       </rhb-card>
     </rhb-grid>
   </rhb-container>
@@ -69,23 +73,31 @@ tags:
     <rhb-grid columns="two">
       <rhb-card full-width>
         <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-01.png" alt="A screenshot of Red Hat Marketplace featuring two Red Hat offerings represented by product icons">
-        <h4 slot="headline">Marketplaces and catalogs</h4>
+        <div slot="content" webc:nokeep>
+        <p slot="content"><strong>Marketplaces and catalogs</strong></p>
         <p slot="content">Product icons should primarily be used to represent our products and technologies in highly visual user interfaces such as marketplaces, catalogs, and product environments.</p>
+        </div>
       </rhb-card>
       <rhb-card full-width>
         <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-02.png" alt="An example of using a product icon as a favicon in a browser tab">
-        <h4 slot="headline">Favicons and browser tabs</h4>
+        <div slot="content" webc:nokeep>
+        <p slot="content"><strong>Favicons and browser tabs</strong></p>
         <p slot="content">Product icons can also be used as favicons in browser tabs or within the navigation of a product interface. However, they should always be used in the context of the Red Hat brand (with a full Red Hat logo or product logo somewhere nearby).</p>
+      </div>
       </rhb-card>
       <rhb-card full-width>
         <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-03.png" alt="Example of a product icon being used in a topology diagram">
-        <h4 slot="headline">Diagrams</h4>
+        <div slot="content" webc:nokeep>
+        <p slot="content"><strong>Diagrams</strong></p>
         <p slot="content">Product icons can be used to represent products and technologies in diagrams like topology views within product interfaces, technical diagrams within product documentation, or in infographics that support product initiatives.</p>
+      </div>
       </rhb-card>
       <rhb-card full-width>
         <img slot="image" src="/assets/images/design-language/product-icons/BrandStandards-Red_Hat-Product_Icons-in_use-example-04.png" alt="Example of a product icon adapted and used as artwork in a social graphic">
-        <h4 slot="headline">Adapted for artwork</h4>
+        <div slot="content" webc:nokeep>
+        <p slot="content"><strong>Adapted for artwork</strong></p>
         <p slot="content">Product icons can be used to make artwork to support a marketing initiative, like on swag or on a social media graphic. Unlike icons, which should be consistent over time and across applications, artwork can be flexible and change. <a href="https://docs.google.com/presentation/d/1whA3V3DsrMWj76cP3hO2hcgCsTwNq7XkYnGWZ4Ej7Ww/edit?usp=sharing" target="_blank">Learn more about artwork</a>.</p>
+      </div>
       </rhb-card>
     </rhb-grid>
   </rhb-container>
