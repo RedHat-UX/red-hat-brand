@@ -1,13 +1,15 @@
 <script webc:setup>
   const {i18n} = await import('../../node_modules/eleventy-plugin-i18n/i18n.js');
 
-  function getItemList(collections, tag, limit=0, sort="alpha", link="false") {
-    const collectionCopy = [...collections[tag]];
-    const filteredByLanguageCopy = [...collectionCopy.filter(a => {
+  function filterCollectionByLanguage(collection, lang) {
+    return [...collection.filter(a => {
       // return only pages from the collection that are of the current pages language
-      return a.data.page.lang === $data.page.lang
+      return a.data.page.lang === lang
     })];
-    let result = filteredByLanguageCopy.reverse().sort(function(a, b) {
+  }
+
+  function sortByOrder(collection, sort) {
+    return collection.sort(function(a, b) {
       if (sort === "alpha") {
         if (a.data.title < b.data.title) return -1;
         if (a.data.title > b.data.title) return 1;
@@ -17,6 +19,15 @@
         return a.data.order - b.data.order;
       }
     });
+  }
+
+  function getItemList(collections, tag, lang, limit=0, sort="alpha", link="false") {
+    const collectionCopy = [...collections[tag]];
+    const filteredByLanguageCopy = filterCollectionByLanguage(collectionCopy, lang);
+
+    let result = filteredByLanguageCopy.reverse();
+    result = sortByOrder(result, sort);
+
     return limit ? result.slice(0, limit) : result;
   }
   
@@ -30,21 +41,16 @@
     }
     return subArrays;
   }
-  
-  function buildHTMLLists(arrays) {
-    const lists = arrays.map(array => {
-      const items = array.map(item => {
-        return `<li><a href="${item.data.page.url}">${item.data.title}</a></li>`;
-      }).join('');
-      return `<rh-navigation-secondary-menu-section><ul slot="links">${items}</ul></rh-navigation-secondary-menu-section>`;
-    });
-    return lists.join('');  
+    
+  function splitList(tag, chunkSize, sort, lang) {
+    const list = getItemList($data.collections, tag, lang, 0, sort);
+    return chunkArray(list, chunkSize);
   }
-  
-  function splitList(tag, chunkSize, sort) {
-    const list = getItemList($data.collections, tag, 0, sort);
-    const chunked = chunkArray(list, chunkSize);
-    return buildHTMLLists(chunked);
+
+  function navList(collection, sort, lang) {
+    let result = filterCollectionByLanguage(collection, lang);
+    result = sortByOrder(result, sort);
+    return result;
   }
 
 </script>
@@ -53,56 +59,29 @@
   <rh-navigation-secondary role="navigation">
     <a href="{{ "/" | locale_url($data.page.lang) }}" slot="logo" title="{{ 'navigation.logo.titleAttribute' | i18n({}, $data.page.lang) }}">{{ 'navigation.logo.text' | i18n({}, $data.page.lang) }}</a>
     <ul slot="nav" aria-label="main">
-      <!-- TAB 1 - Foundations -->
-      <li>
+
+      <li webc:for="navItem of navList($data.collections.mainNav, 'order', $data.page.lang)">
         <rh-navigation-secondary-dropdown>
-          <a href="{{ "/foundations" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.foundations' | i18n({}, $data.page.lang) }}</a>
-          <rh-navigation-secondary-menu slot="menu">
-            <rh-navigation-secondary-menu-section>
+          <a href="#" slot="link" @html="navItem.data.title"></a>
+          <rh-navigation-secondary-menu slot="menu">           
+            <div webc:nokeep webc:if="navItem.data.collection === 'logos'">
+              <div webc:nokeep webc:for="list of splitList(navItem.data.collection, 7, 'order', $data.page.lang)">
+                <rh-navigation-secondary-menu-section >
+                  <ul slot="links">
+                    <li webc:for="item of list">
+                      <a :href="item.data.page.url" @html="item.data.title"></a>
+                    </li>
+                  </ul>
+                </rh-navigation-secondary-menu-section> 
+              </div>
+            </div>
+            <rh-navigation-secondary-menu-section webc:else>
               <ul slot="links">
-                <rhb-link-list tag="foundations" sort="order"></rhb-link-list>
+                <rhb-link-list webc:nokeep :tag="navItem.data.collection" @html="navItem.collection" sort="order"></rhb-link-list>
               </ul>
             </rh-navigation-secondary-menu-section>
           </rh-navigation-secondary-menu>
-        </rh-navigation-secondary-dropdown>
-      </li>
-
-      <!-- TAB 2 - Logos -->
-      <li>
-        <rh-navigation-secondary-dropdown>
-          <a href="{{ "/logos" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.logos' | i18n({}, $data.page.lang) }}</a>
-          <rh-navigation-secondary-menu slot="menu">
-            <div webc:nokeep @html="splitList('logos', 7, 'order')"></div>
-          </rh-navigation-secondary-menu>
-        </rh-navigation-secondary-dropdown>
-      </li>
-
-      <!-- TAB 3 - Visual system -->
-      <li>
-        <rh-navigation-secondary-dropdown>
-          <a href="{{ "/design-language" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.visualSystem' | i18n({}, $data.page.lang) }}</a>
-          <rh-navigation-secondary-menu slot="menu">
-            <rh-navigation-secondary-menu-section>
-              <ul slot="links">
-                <rhb-link-list tag="visual-system" sort="order"></rhb-link-list>
-              </ul>
-            </rh-navigation-secondary-menu-section> 
-          </rh-navigation-secondary-menu>
-        </rh-navigation-secondary-dropdown>
-      </li>
-
-      <!-- TAB 4 - Expression -->
-      <li>
-        <rh-navigation-secondary-dropdown>
-          <a href="{{ "/expression" | locale_url($data.page.lang) }}" slot="link">{{ 'navigation.links.expression' | i18n({}, $data.page.lang) }}</a>
-          <rh-navigation-secondary-menu slot="menu">
-            <rh-navigation-secondary-menu-section>
-              <ul slot="links">
-                <rhb-link-list tag="expression" sort="order"></rhb-link-list>
-              </ul>
-            </rh-navigation-secondary-menu-section>
-          </rh-navigation-secondary-menu>
-        </rh-navigation-secondary-dropdown>
+        </rh-navigation-secondary-dropdown> 
       </li>
     </ul>
   </rh-navigation-secondary>

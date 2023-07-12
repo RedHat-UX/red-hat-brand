@@ -1,7 +1,10 @@
 ---
 layout: layouts/backpage.webc
 title: Foundations
-eleventyExcludeFromCollections: true
+collection: foundations
+order: 1
+tags: 
+  - mainNav
 ---
 
 <rhb-band>

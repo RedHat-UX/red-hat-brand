@@ -1,6 +1,9 @@
 ---
 layout: layouts/backpage.webc
-eleventyExcludeFromCollections: true
+collection: expression
+order: 4
+tags: 
+  - mainNav
 ---
 
 <rhb-band>

@@ -1,11 +1,13 @@
 <script webc:setup>
-  function getItemList($data, tag, limit=0, sort="alpha") {
-    const collectionCopy = [...$data.collections[tag]];
-    const filteredByLanguageCopy = [...collectionCopy.filter(a => {
+  function filterCollectionByLanguage(collection, lang) {
+    return [...collection.filter(a => {
       // return only pages from the collection that are of the current pages language
-      return a.data.page.lang === $data.page.lang
+      return a.data.page.lang === lang
     })];
-    let result = filteredByLanguageCopy.reverse().sort(function(a, b) {
+  }
+
+  function sortByOrder(collection, sort) {
+    return collection.sort(function(a, b) {
       if (sort === "alpha") {
         if (a.data.title < b.data.title) return -1;
         if (a.data.title > b.data.title) return 1;
@@ -15,11 +17,20 @@
         return a.data.order - b.data.order;
       }
     });
+  }
+
+  function getItemList(collections, tag, lang, limit=0, sort="alpha", link="false") {
+    const collectionCopy = [...collections[tag]];
+    const filteredByLanguageCopy = filterCollectionByLanguage(collectionCopy, lang);
+
+    let result = filteredByLanguageCopy.reverse();
+    result = sortByOrder(result, sort);
+
     return limit ? result.slice(0, limit) : result;
   }
 
-	function build(collection, tag, limit, sort, link, klass) {
-		const list = getItemList(collection, tag, limit, sort);
+	function build($data, tag, limit, sort, link, klass) {
+		const list = getItemList($data.collections, tag, $data.page.lang, 0, sort);
 		const items = list.map(item => {
 			let html = `<a href="${item.data.page.url}" class="${klass ?? ''}">${item.data.title}</a>`;
 			if (link !== "true") {

@@ -1,7 +1,10 @@
 ---
 layout: layouts/backpage.webc
-title: Visiual system
-eleventyExcludeFromCollections: true
+title: Visual system
+collection: visual-system
+order: 3
+tags: 
+  - mainNav
 ---
 
 <rhb-band>

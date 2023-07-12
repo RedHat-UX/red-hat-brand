@@ -4,8 +4,4 @@ translations:
     logo:
       text: Estándares de marca 
       titleAttribute: Red Hat Estándares de marca
-    links:
-      foundations: Cimientos
-      logos: Logotipos
-      visualSystem: Sistema visual
-      expression: Expresión
+      link: "/"
