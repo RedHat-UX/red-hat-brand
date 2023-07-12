@@ -8,10 +8,10 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <h2>Our History</h2>
+    <h2>Our history</h2>
 
     <rhb-content>
-      <h3>1993-1999</h3>
+      <h4>1993-1999</h4>
       <p>Red Hat® Inc. began when a small businessman met a geek at a tech conference. Marc Ewing was the geek—hacking, debugging, and spinning his own distribution of Linux® on CDs from his home in Raleigh, North Carolina. </p>
 
       <p>Bob Young was the businessman—running a computer supply catalog business out of his home in Connecticut. He noticed a growing interest in Linux, so he began to buy Ewing’s CDs. Young sold out of them so many times that he and Ewing joined forces, and Red Hat Software was born in 1995, with Young as CEO.</p>
@@ -25,11 +25,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" alt="Picture of Red Hat's first logo. A simple, bright red brimmed top hat placed above the words 'Red Hat Software.'" src="/assets/images/red-hat-history-software.png">
+        <img slot="image" alt="A red top hat with the text Red Hat underneath." src="/assets/images/foundations/history/red-hat-history-software.png">
         <p slot="content">Red Hat's first logo appeared on an early invoice. It was a simple, bright red brimmed top hat placed above the words "Red Hat Software."</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image"  alt="Picture of Red Hat's running man logo. A modified piece of clip art of a man holding a briefcase walking while holding a red fedora on his head." src="/assets/images/red-hat-history-running-man.png">
+        <img slot="image"  alt="A modified piece of clip art of a man holding a briefcase walking while holding a red fedora on his head." src="/assets/images/foundations/history/red-hat-history-running-man.png">
         <p slot="content">The next logo would be the "running man" logo, as it was affectionately known. This logo was used on early ads and manuals. It was created by one of Red Hat’s engineers, who modified a piece of existing clip art.</p>
       </rhb-card>
     </rhb-grid>
@@ -40,9 +40,7 @@ tags:
   <rhb-container>
     <rhb-content>
       <p>Instead of protecting trade secrets and filing patents for expensive proprietary products, Red Hat took a radically different approach to software: a stable, accessible distribution of a constantly evolving, community-developed operating system called Linux.</p>
-
       <p>Red Hat believed that open collaboration was the best way to create software. It saw itself as an upstart charging the gates of a closed, monopolistic technology industry, and this view was represented in the creation of the Shadowman logo.</p>
-      
       <p>Part superhero, part rebel, and part private detective, Shadowman captured much of Red Hat’s early market strategy—sneaking past the barriers built by proprietary technology companies and bringing open source into datacenters.</p>
     </rhb-content>
   </rhb-container>
@@ -50,8 +48,23 @@ tags:
 
 <rhb-band>
   <rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card full-width>
+        <img slot="image" alt="The Shadowman icon with the text redhat beside it in a red type-writer-style font." src="/assets/images/foundations/history/red-hat-history-first-shadowman.png">
+        <p slot="content">As Red Hat grew, it became vital for the logo to be able to be registered as a trademark. The first Shadowman logo was created by Blank in 1996 and made its first public appearance in 1997.</p>
+      </rhb-card>
+      <rhb-card full-width>
+        <img slot="image"  alt="The Shadowman icon with the text redhat beside it in Myriad Pro font." src="/assets/images/foundations/history/red-hat-history-shadowman.png">
+        <p slot="content">When Red Hat went public in 1999 with <a href="https://www.wired.com/1999/08/red-hat-stock-soars-high-higher/">a record-setting IPO</a>, this newsworthy success validated Red Hat’s unwavering belief and trust in the power of open source. Shadowman was updated to "clean up" the icon and Red Hat was spelled in a more professional font.</p>
+      </rhb-card>
+    </rhb-grid>
+  </rhb-container>
+</rhb-band>
+
+<rhb-band>
+  <rhb-container>
     <rhb-content>
-      <h3>2000-2006</h3>
+      <h4>2000-2006</h4>
       <p>For many years, Red Hat Linux was a boxed product sold alongside Microsoft Windows and Lotus Notes in retail stores. Like other software companies, Red Hat released a new version every six months or so—hoping customers would buy it for the new features. While the development model was innovative, the business model wasn’t.&nbsp;</p>
 
       <p>In 2001, Red Hat stopped the distribution of boxed Red Hat Linux, its primary source of revenue. Instead, affirming its trust in open source once again, Red Hat introduced an enterprise edition that would be sold on a subscription basis.&nbsp;</p>
@@ -61,7 +74,7 @@ tags:
       <p>Matthew Szulik, then CEO and a tireless open source evangelist, believed in Red Hat’s role as a catalyst for change in the technology industry. In 2006, he charted what would become Red Hat’s vision:</p>
 
       <rh-blockquote>
-        <p>To be the defining technology company of the 21st century, and through our actions, strengthen the social fabric by continually democratizing content and technology.</p>
+        <p><strong>To be the defining technology company of the 21st century</strong>, and through our actions, strengthen the social fabric by continually democratizing content and technology.</p>
         <span slot="author">Red Hat raison d'etre, 2006</span>
       </rh-blockquote>
 
@@ -74,11 +87,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/rh_history_summit_new_orleans.jpg" alt="red hat history summit">
-        <p slot="content">Held for the first time in New Orleans in 2005, Red Hat Summit is a chance for Red Hat's customers, partners, and community to learn, network, and experience all that enterprise open source has to offer.</p>
+        <img slot="image" src="/assets/images/foundations/history/rh_history_summit_new_orleans.jpg" alt="Red Hat New Orleans 2005 Summit advertisement.">
+        <p slot="content">Held for the first time in New Orleans in 2005, <a href="https://www.redhat.com/en/summit">Red Hat Summit</a> is a chance for Red Hat's customers, partners, and community to learn, network, and experience all that enterprise open source has to offer.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/rh_history_unfakeable_linux_shirt.jpg" alt="red hat history unfakeable linux">
+        <img slot="image" src="/assets/images/foundations/history/rh_history_unfakeable_linux_shirt.jpg" alt="Red t-shirt with Shadowman and the text Unfakeable Linux.">
         <p slot="content">In 2006, Oracle released a clone of Red Hat Enterprise Linux it called "Unbreakable Linux" at Oracle OpenWorld. The next day, Red Hat distributed hundreds of T-shirts with a simple response: "Unfakeable Linux."</p>
       </rhb-card>
     </rhb-grid>
@@ -88,7 +101,7 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-content>
-      <h3>2007-2018</h3>
+      <h4>2007-2018</h4>
       <p>Jim Whitehurst became President and CEO of Red Hat in 2007. He initiated a new collaborative mission statement in 2009 that told the world not only of Red Hat’s dedication to open source but also to the open source way:</p>
 
       <rh-blockquote>
@@ -100,7 +113,7 @@ tags:
 
       <p>The company’s tremendous growth and expanding portfolio precipitated an update of the corporate logo and brand systems. Red Hat was no longer an upstart "secret agent" of change, but the world’s leading provider of enterprise open source solutions.</p>
       
-      <p>In 2018, the <a href="https://redhat.com/en/about/our-brand/open-brand-project">Open Brand Project</a> began the process of creating <a href="https://redhat.com/en/about/brand/standards/logo">the Red Hat logo</a> used today: an unambiguous, bold, bright red fedora that best reflects the company’s reputation of openness, inclusivity, authenticity, and helpfulness.</p>
+      <p>In 2018, the <a href="https://redhat.com/en/about/our-brand/open-brand-project">Open Brand Project</a> began the process of creating <a href="/logos/logo">the Red Hat logo</a> used today: an unambiguous, bold, bright red fedora that best reflects the company’s reputation of openness, inclusivity, authenticity, and helpfulness.</p>
       
     </rhb-content>
   </rhb-container>
@@ -110,7 +123,7 @@ tags:
   <rhb-container>
     <rhb-content>
       <rhb-youtube-video video-id="VBtTSkxNcGo" video-title="New hat, same vision">
-        <img slot="poster" src="/assets/images/rh_history_new_hat_video.svg">
+        <img slot="poster" src="/assets/images/foundations/history/rh_history_new_hat_video.svg">
         <p slot="caption">
           The hat in our logo is the same fedora worn by Shadowman and is an embodiment of the trust and goodwill we’ve built with customers, partners, and the community as we’ve grown. Video duration: 0:27
         </p>
@@ -122,7 +135,7 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-content>
-      <h3>2019-Today</h3>
+      <h4>2019-Today</h4>
       <p>In 2019, Red Hat and IBM joined forces in <a href="https://techcrunch.com/2018/10/28/biggest-software-acquisition/">one of the largest software acquisitions in history</a>. The move aided Red Hat’s efforts to bring open source innovation to an even broader range of organizations and scale to meet the need for hybrid cloud solutions that deliver true choice and agility. But Red Hat is still Red Hat, operating as an independent subsidiary, guided by the same values and principles that have always guided its brand.&nbsp;</p>
 
       <p>In early 2020, Paul Cormier was named President and CEO of Red Hat. His leadership solidified the company as an industry leader and paved the way for the open innovation that is at the heart of Red Hat’s open hybrid cloud strategy.</p>
