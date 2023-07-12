@@ -110,7 +110,7 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Key_art_example-2%20copy-RGB_0.jpg" alt="A pattern of hats in black and dark gray with a Red Hat logo on top.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Key_art_example-2%20copy-RGB_0.jpg" alt="A pattern of hats in black and dark gray with a Red Hat logo on top.">
         <p slot="content">For the launch of the new Red Hat logo in 2019, we created device wallpapers using a pattern of hats.</p>
       </rhb-card>
       <rhb-card full-width>

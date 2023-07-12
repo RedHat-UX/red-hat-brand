@@ -15,7 +15,7 @@ tags:
 
       <rhb-grid columns="two">
         <rhb-card flush-top>
-          <img slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Diagram-01-RGB.svg" alt="Illustration of a man at his computer with an illustrated background metaphorically representative of an open hybrid cloud environment">
+          <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Diagram-01-RGB.svg" alt="Illustration of a man at his computer with an illustrated background metaphorically representative of an open hybrid cloud environment">
         </rhb-card>
         <rhb-card flush-top>
           <div slot="content" webc:nokeep>
@@ -41,11 +41,11 @@ tags:
   
       <rhb-grid columns="two">
         <rhb-card full-width>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-minispot.svg" alt="alt text goes here">
+          <img class="border-xl border-update" class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-minispot.svg" alt="alt text goes here">
           <p slot="content" style="text-align:center"><strong>Minispot illustrations</strong></p>
         </rhb-card>
         <rhb-card full-width>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-spot.svg" alt="alt text goes here">
+          <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Red_Hat-Illustration-spot.svg" alt="alt text goes here">
           <p slot="content" style="text-align:center"><strong>Spot illustrations</strong></p>
         </rhb-card>
       </rhb-grid>
@@ -57,11 +57,11 @@ tags:
 
       <rhb-grid columns="two">
         <rhb-card full-width>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-In_use-01-RGB.jpg" alt="Global Fortune 500 mini-spot illustration social card example">
+          <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-In_use-01-RGB.jpg" alt="Global Fortune 500 mini-spot illustration social card example">
           <p slot="content">Mini-spot illustrations work well in smaller spaces that might be too large for, or require more detail than, an icon alone.</p>
         </rhb-card>
         <rhb-card full-width>
-          <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-In_use-02-RGB.jpg" alt="T-shirt with mini-spot illustration artwork">
+          <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Example-In_use-02-RGB.jpg" alt="T-shirt with mini-spot illustration artwork">
           <p slot="content">Mini-spot illustrations also work well in instances where colors are limited.</p>
         </rhb-card>
       </rhb-grid>
@@ -72,38 +72,35 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-01-RGB.svg" alt="Mini-spot illustration">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-01-RGB.svg" alt="Mini-spot illustration">
         <p slot="content">Use mini-spot illustrations as provided.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-01-RGB.svg" alt="Mini-spot illustration being distorted and filled in with other colors">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-01-RGB.svg" alt="Mini-spot illustration being distorted and filled in with other colors">
         <p slot="content">Do not distort, combine, add colors to, or modify existing mini-spot illustrations.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-02-RGB.svg" alt="Mini-spot illustration at a legible size">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-02-RGB.svg" alt="Mini-spot illustration at a legible size">
         <p slot="content">Use mini-spot illustrations at a size where all of the details are legible.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-02-RGB.svg" alt="Mini-spot illustration being used in place of an icon in a social card">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-02-RGB.svg" alt="Mini-spot illustration being used in place of an icon in a social card">
         <p slot="content">Do not use mini-spot illustrations in place of icons.</p>
       </rhb-recommend>
-    </rhb-grid>
-
-    <rhb-grid columns="four">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-03-RGB.svg" alt="Mini-spot illustration">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-03-RGB.svg" alt="Mini-spot illustration">
         <p slot="content">Use a mini-spot illustration as an independent element to tell a complete story.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-03-RGB.svg" alt="Mini-spot illustration layered with standard icons">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-03-RGB.svg" alt="Mini-spot illustration layered with standard icons">
         <p slot="content">Do not layer or combine multiple types of illustrations or icons into one visual.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-04-RGB.svg" alt="three mini-spot illustrations used on a presentation slide">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-this-04-RGB.svg" alt="three mini-spot illustrations used on a presentation slide">
         <p slot="content">Be consistent with the type of illustration you’re using in a given application.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-04-RGB.svg" alt="Two mini-spot illustrations and one spot illustration being used on a presentation slide">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Minispot-not_this-04-RGB.svg" alt="Two mini-spot illustrations and one spot illustration being used on a presentation slide">
         <p slot="content">Do not unintentionally use more than one type of illustration per application.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -142,38 +139,35 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-01-RGB.svg" alt="Spot illustration">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-01-RGB.svg" alt="Spot illustration">
         <p slot="content">Use spot illustrations as provided.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-01-RGB.svg" alt="Spot illustration being distorted">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-01-RGB.svg" alt="Spot illustration being distorted">
         <p slot="content">Do not distort, combine, add colors to, or modify existing spot illustrations.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
         <p slot="content">Use spot illustrations at a size where all of the details are legible.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-02-RGB.svg" alt="Spot illustration being used in place of an icon">
         <p slot="content">Do not use spot illustrations in place of icons.</p>
       </rhb-recommend>
-    </rhb-grid>
-
-    <rhb-grid columns="four">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-03-RGB.svg" alt="Spot illustration">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-03-RGB.svg" alt="Spot illustration">
         <p slot="content">Use a spot illustration as an independent element to tell a complete story.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-03-RGB.svg" alt="Spot illustration layered with standard icons and mini-spot illustrations">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-03-RGB.svg" alt="Spot illustration layered with standard icons and mini-spot illustrations">
         <p slot="content">Do not layer or combine multiple types of illustrations or icons into one visual.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-04-RGB.svg" alt="Three spot illustrations used on a presentation slide">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-this-04-RGB.svg" alt="Three spot illustrations used on a presentation slide">
         <p slot="content">Be consistent with the type of illustration you’re using in a given application.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-04-RGB.svg" alt="Two spot illustrations and one mini-spot illustration being used on a presentation slide">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_standards-Illustration-Spot-not_this-04-RGB.svg" alt="Two spot illustrations and one mini-spot illustration being used on a presentation slide">
         <p slot="content">Do not unintentionally use more than one type of illustration per application.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -191,7 +185,7 @@ tags:
         </div>
       </rhb-card>
       <rhb-card flush-top>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_Standards-Illustration-Representation.svg" alt="4 examples of diverse representation within Red Hat's illustration style">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/illustration-page/Asset-Brand_Standards-Illustration-Representation.svg" alt="4 examples of diverse representation within Red Hat's illustration style">
       </rhb-card>
   </rhb-container>
 </rhb-band>
