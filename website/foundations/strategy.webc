@@ -47,7 +47,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two" offset-left>
       <rhb-card>
-        <img slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Platform-Minispot-RGB.svg" alt="Six example rover badges.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Platform-Minispot-RGB.svg" alt="Six example rover badges.">
       </rhb-card>
       <rhb-card>
         <h2 slot="headline">The essence of our platform</h2>
@@ -66,11 +66,11 @@ tags:
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Social-RGB.png">
+        <img slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Social-RGB.png">
         <p slot="content">We have different social media accounts for different parts of our business, but all accounts use the Red Hat logo in their avatars and account headers.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" class="border-sm border-subtle" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Product_icons-RGB.png">
+        <img class="border-xl border-update" slot="image" class="border-sm border-subtle" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Product_icons-RGB.png">
         <p slot="content">In small contexts where the Red Hat logo does not fit, like with <a href="https://www.redhat.com/en/about/brand/standards/icons/product-icons">product icons</a>, we use the text to make it clear that the offering or content is from Red Hat.</p>
       </rhb-card>
       <rhb-card full-width>
@@ -78,7 +78,7 @@ tags:
         <p slot="content">External initiatives or programs that have their own name or look and feel, like our podcasts, always include the full Red Hat logo on any asset so that it’s clear that it’s coming from Red Hat.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Endorsement-RGB.png">
+        <img class="border-xl border-update" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Endorsement-RGB.png">
         <p slot="content">Open source communities that are created or supported by Red Hat use an <a href="https://www.redhat.com/en/about/brand/standards/endorsement-logos">endorsement logo</a> so that it’s clear to community members and contributors that Red Hat supports the project.</p>
       </rhb-card>
     </rhb-grid>

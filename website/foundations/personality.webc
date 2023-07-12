@@ -40,11 +40,23 @@ tags:
           <p slot="content">We use airy layouts with plenty of white space.</p>
         </rhb-card>
       </rhb-grid>
+   
+      <rhb-grid columns="two">
+        <rhb-card full-width>
+          <img class="border-xl border-update" slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Open1.png" alt="alt text goes here">
+            <p slot="content">Our latest brand campaign messaging positions Red Hat as a leader in open source and continues to amplify and defend open source principles on behalf of our customers and communities.</p>
+        </rhb-card>
+        <rhb-card full-width>
+          <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Open2_0.png" alt="alt text goes here">
+          <p slot="content">In this social media graphic, we used an airy layout with plenty of white space to convey our open personality.</p>
+        </rhb-card>
+      </rhb-grid>
+    
       </rh-tab-panel>
       <rh-tab slot="tab">Authentic</rh-tab>
       <rh-tab-panel>
         <rhb-content>
-          <h2>Open</h2>
+          <h2>Authentic</h2>
           <p>We never pretend to be anything we’re not.</p>
           <p>Internally, we are true to ourselves, our values, and our culture. In public, we’re honest and direct. We’re not flashy or boastful, and we don’t promise more than we can deliver. We don’t understate bad news or overstate good news. We avoid spin. With Red Hat, what you see is what you get.</p>
           <p>Like our home state of North Carolina, our motto is esse quam videri: to be, rather than to seem.</p>
@@ -66,7 +78,19 @@ tags:
             <img slot="image" src="/assets/images/foundations/personality/authentic_straightforward.svg" alt="alt text goes here">
             <p slot="content">We keep our designs straightforward and direct.</p>
           </rhb-card>
-        </rhb-grid>      
+        </rhb-grid> 
+     
+        <rhb-grid columns="two">
+          <rhb-card full-width>
+            <img slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Authentic1.png" alt="Red illustration of a desktop computer and a messy desk, featuring the Red Hat YouTube show Ask an OpenShift Admin.">
+              <p slot="content">We use illustrations to highlight authentic situations, technologies, and environments that our audiences experience.</p>
+          </rhb-card>
+          <rhb-card full-width>
+            <img slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Authentic2-2021.png" alt="Two men speaking to each other at a table in the office, one wearing a Red Hat sweater.">
+            <p slot="content">Our photographs always highlight real customers, partners, and associates. We give them space to tell their own authentic stories.</p>
+          </rhb-card>
+        </rhb-grid>
+
       </rh-tab-panel>
       <rh-tab slot="tab">Helpful</rh-tab>
       <rh-tab-panel>
@@ -92,7 +116,19 @@ tags:
             <img slot="image" src="/assets/images/foundations/personality/helpful_communicate.svg" alt="alt text goes here">
             <p slot="content">We communicate in an approachable, friendly, and informative way.</p>
           </rhb-card>
-        </rhb-grid>       
+        </rhb-grid>   
+      
+        <rhb-grid columns="two">
+          <rhb-card full-width>
+            <img class="border-xl border-update" slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Helpful1.png" alt="alt text goes here">
+              <p slot="content">We developed a series of isometric illustrations to help customers and partners understand how our technologies work together and bring value to their business.</p>
+          </rhb-card>
+          <rhb-card full-width>
+            <img class="border-xl border-update" slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Helpful2_0.png" alt="alt text goes here">
+            <p slot="content"><a href="/en/open-source-stories/colab">Co.Lab</a> is a Red Hat initiative that helps children explore open source principles and aims to inspire them to use these principles in their own communities.</p>
+          </rhb-card>
+        </rhb-grid>
+
       </rh-tab-panel>
       <rh-tab slot="tab">Brave</rh-tab>
       <rh-tab-panel>
@@ -118,23 +154,21 @@ tags:
             <img slot="image" src="/assets/images/foundations/personality/brave_reevaluate.svg" alt="alt text goes here">
             <p slot="content">We’re not afraid to reevaluate what we’ve done to make sure it’s working as intended.</p>
           </rhb-card>
-        </rhb-grid>       
+        </rhb-grid> 
+    
+        <rhb-grid columns="two">
+          <rhb-card full-width>
+            <img slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Brave1.png" alt="Screenshot of Red Hat approach to hybrid cloud webpage.">
+              <p slot="content">Our thought leadership web pages, <a href="/en/topics/cloud/open-hybrid-cloud-approach">like this one</a>, explore the ways that new technologies are impacting the world and demonstrate these concepts through bold 3D, abstract, and interactive visuals.</p>
+          </rhb-card>
+          <rhb-card full-width>
+            <img slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Brave2.png" alt="Social media ad from Red Hat Enterprise Linux 8 campaign in 2019.">
+            <p slot="content">When we launched Red Hat Enterprise Linux 8, our promotional graphics used a bold typographic treatment centered around the ‘8’ while maintaining white space and legibility.</p>
+          </rhb-card>
+        </rhb-grid>
+
     </rh-tab-panel>
     </rh-tabs>
   </rhb-container>
 </rhb-band>
 
-<rhb-band>
-<rhb-container>
-    <rhb-grid columns="two">
-      <rhb-card full-width>
-        <img slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Open1.png" alt="alt text goes here">
-          <p slot="content">Our latest brand campaign messaging positions Red Hat as a leader in open source and continues to amplify and defend open source principles on behalf of our customers and communities.</p>
-      </rhb-card>
-      <rhb-card full-width>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Open2_0.png" alt="alt text goes here">
-        <p slot="content">In this social media graphic, we used an airy layout with plenty of white space to convey our open personality.</p>
-      </rhb-card>
-    </rhb-grid>
-  </rhb-container>
-</rhb-band>
