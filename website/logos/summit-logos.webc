@@ -53,15 +53,15 @@ tags:
   </rhb-content>
   <rhb-grid columns="three">
     <rhb-card full-width>
-      <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use1.svg" alt="A presentation slide with the Red Hat Summit logo in the upper left and the Red Hat logo in the lower right.">
+      <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use1.svg" alt="A presentation slide with the Red Hat Summit logo in the upper left and the Red Hat logo in the lower right.">
       <p slot="content">Using the Red Hat Summit logo and Red Hat logo in opposite corners works well for materials like presentation slides, handouts, and marketing collateral.</p>
     </rhb-card full-width>
     <rhb-card>
-      <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use2.svg" alt="A t-shirt with the Red Hat Summit logo on the front and the Red Hat logo on the back.">
+      <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use2.svg" alt="A t-shirt with the Red Hat Summit logo on the front and the Red Hat logo on the back.">
       <p slot="content">For t-shirts, use one logo on the pocket and the other on the back or sleeve, or incorporate one of the logos into the t-shirt graphic.</p>
     </rhb-card>
     <rhb-card full-width>
-      <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use3.svg" alt="The Red Hat Summit logo with the Red Hat logo below.">
+      <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use3.svg" alt="The Red Hat Summit logo with the Red Hat logo below.">
       <p slot="content">For swag that has only one imprint area, use both logos with enough space between them to avoid cramping the visuals. The Red Hat Summit logo is typically larger than the Red Hat logo.</p>
     </rhb-card>
   </rhb-grid>
@@ -71,19 +71,19 @@ tags:
     <rhb-container>
   <rhb-grid columns="four">
     <rhb-recommend>
-      <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_this1 (1).svg" alt="The Red Hat Summit logo.">
+      <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_this1 (1).svg" alt="The Red Hat Summit logo.">
       <p slot="content">Always use the Red Hat Summit logo as provided.</p>
     </rhb-recommend>
     <rhb-recommend no>
-      <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_notthis1 (1).svg" alt="The Red Hat Summit logo skewed to the right.">
+      <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_notthis1 (1).svg" alt="The Red Hat Summit logo skewed to the right.">
       <p slot="content">Always use the Red Hat Summit logo as provided.</p>
     </rhb-recommend>
     <rhb-recommend>
-      <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_this2 (1).svg" alt="The Red Hat Summit logo with the Red Hat logo underneath.">
+      <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_this2 (1).svg" alt="The Red Hat Summit logo with the Red Hat logo underneath.">
       <p slot="content">Always use the Red Hat Summit logo as provided.</p>
     </rhb-recommend>
     <rhb-recommend no>
-      <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_notthis2 (1)_0.svg" alt="The Red Hat Summit logo with the Red Hat logo too close to it.">
+      <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_notthis2 (1)_0.svg" alt="The Red Hat Summit logo with the Red Hat logo too close to it.">
       <p slot="content">Always use the Red Hat Summit logo as provided.</p>
     </rhb-recommend>
   </rhb-grid>
@@ -98,7 +98,7 @@ tags:
         <p slot="content">Items like this t-shirt can be taken out of our branded environment, so it’s important that the Red Hat logo and Summit logo are both included.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/red-hat-summit-logo/Brand_Standards-Logo-Red_Hat-Summit-ASSETS-example2-RGB (1).png" alt="Booths at Red Hat Summit that feature the Red Hat logo.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/Brand_Standards-Logo-Red_Hat-Summit-ASSETS-example2-RGB (1).png" alt="Booths at Red Hat Summit that feature the Red Hat logo.">
         <p slot="content">In event spaces the Red Hat brand is emphasized throughout the entire experience. Here the Red Hat Summit logo can be placed on applications individually, since the Red Hat logo will always be nearby.</p>
       </rhb-card>
     </rhb-grid>
