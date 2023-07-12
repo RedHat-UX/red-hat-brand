@@ -97,3 +97,7 @@ h6 {
 .danger {
   color: #a30000; /* WARNING: non-token value */
 }
+
+rhb-band + rhb-band {
+  padding-block-start: 0px !important;
+}
