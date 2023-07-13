@@ -32,38 +32,28 @@ layout: layouts/homepage.webc
   <rhb-container>
     <rhb-grid columns="two">
       <h3 slot="header" @html="$data.translations.coreBrandElements.header"></h3>
-      <rhb-card full-width>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" :alt="$data.translations.coreBrandElements.cards.lead.image.alt">
-        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.lead.header"></h3>
-        <rh-cta slot="cta">
-          <a :href="locale_url($data.translations.coreBrandElements.cards.lead.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.lead.cta.content"></a>
-        </rh-cta>
-      </rhb-card>
-      <rhb-card full-width>
-        <video slot="image" class="mt-6" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
-          <source type="video/mp4" src="/assets/videos/01_Asset-Red_Hat-Brand_Standards-Logo_and_clearspace_animation.mp4" width="100%">
-        </video>
-        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.logo.header"></h3>
-        <rh-cta slot="cta">
-          <a :href="locale_url($data.translations.coreBrandElements.cards.logo.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.logo.cta.content"></a>
-        </rh-cta>
-      </rhb-card>
-      <rhb-card full-width>
-        <video slot="image" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
-          <source type="video/mp4" src="/assets/videos/02_Asset-Red_Hat-Brand_Standards-Color_animation.mp4" width="100%">
-        </video>
-        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.colors.header"></h3>
-        <rh-cta slot="cta">
-          <a :href="locale_url($data.translations.coreBrandElements.cards.colors.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.colors.cta.content"></a>
-        </rh-cta>
-      </rhb-card>
-      <rhb-card full-width>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg" :alt="$data.translations.coreBrandElements.cards.typography.image.alt">
-        <h3 slot="headline" @html="$data.translations.coreBrandElements.cards.typography.header"></h3>
-        <rh-cta slot="cta">
-          <a :href="locale_url($data.translations.coreBrandElements.cards.typography.cta.link, $data.page.lang)" @html="$data.translations.coreBrandElements.cards.typography.cta.content"></a>
-        </rh-cta>
-      </rhb-card>
+
+      <div webc:nokeep webc:for="card of $data.translations.coreBrandElements.cards">
+        <div webc:if="card.variant === 'video'">
+          <rhb-card full-width>
+            <video slot="image" :poster="card.video.poster" muted autoplay loop playsinline>
+              <source :src="card.video.src" type="video/mp4">
+            </video>
+            <h3 slot="headline" @html="card.header"></h3>
+            <p slot="content" @html="card.content"></p>
+            <rh-cta slot="cta"><a :href="locale_url(card.cta.link, $data.page.lang)" @html="card.cta.content"></a></rh-cta>
+          </rhb-card>
+        </div>
+        <div webc:else>
+          <rhb-card full-width>
+            <img slot="image" :src="card.image.src" :alt="card.image.alt">
+            <h3 slot="headline" @html="card.header"></h3>
+            <p slot="content" @html="card.content"></p>
+            <rh-cta slot="cta"><a :href="locale_url(card.cta.link, $data.page.lang)" @html="card.cta.content"></a></rh-cta>
+          </rhb-card>
+        </div>
+      </div>
+      
     </rhb-card-grid>
   </rhb-container>
 </rhb-band> 

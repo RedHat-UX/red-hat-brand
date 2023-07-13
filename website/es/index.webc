@@ -21,27 +21,33 @@ translations:
   coreBrandElements:
     header: Elementos principales de la marca
     cards: 
-      lead:
-        header: Siempre comenzamos con Red Hat.
+      - header: Siempre comenzamos con Red Hat.
         image: 
-          alt: We always lead with Red Hat
+          src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg
+          alt: We always lead with Red Hat        
         cta: 
           content: Estrategia de marca
           link: /foundations/strategy
-      logo:
-        header: Nuestro logotipo consiste en un sombrero rojo y las palabras Red Hat.
+      - header: Nuestro logotipo consiste en un sombrero rojo y las palabras Red Hat.
+        variant: video        
+        video: 
+          poster: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg
+          src: /assets/videos/01_Asset-Red_Hat-Brand_Standards-Logo_and_clearspace_animation.mp4
         cta: 
           content: Logotipo de Red Hat
           link: /logos/the-hat
-      colors:
-        header: Nuestros colores principales son el rojo, el negro y el blanco.
+      - header: Nuestros colores principales son el rojo, el negro y el blanco.
+        variant: video        
+        video:
+          poster: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg
+          src: /assets/videos/02_Asset-Red_Hat-Brand_Standards-Color_animation.mp4 
         cta: 
           content: Colores
           link: /visual-system/color
-      typography:
-        header: Utilizamos tres estilos de tipografía.
-        image: 
-          alt: Our font family has three styles
+      - header: Utilizamos tres estilos de tipografía.
+        image:
+          src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg
+          alt: Our font family has three styles         
         cta: 
           content: Tipografía
           link: /visual-system/typography

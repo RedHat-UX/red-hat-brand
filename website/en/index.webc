@@ -20,28 +20,34 @@ translations:
 
   coreBrandElements:
     header: Core brand elements
-    cards: 
-      lead:
-        header: We always lead with Red Hat.
-        image: 
+    cards:
+      - header: We always lead with Red Hat.
+        image:
+          src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg
           alt: We always lead with Red Hat
         cta: 
           content: Brand Strategy
           link: /foundations/strategy
-      logo:
-        header: Our logo is a red hat with the words Red Hat.
+      - header: Our logo is a red hat with the words Red Hat.
+        variant: video
+        video:
+          poster: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg
+          src: /assets/videos/01_Asset-Red_Hat-Brand_Standards-Logo_and_clearspace_animation.mp4
         cta: 
           content: Red Hat logo
           link: /logos/the-hat
-      colors:
-        header: Our core colors are red, black, and white.
+      - header: Our core colors are red, black, and white.
+        variant: video      
+        video:
+          poster: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg
+          src: /assets/videos/02_Asset-Red_Hat-Brand_Standards-Color_animation.mp4
         cta: 
           content: Colors
           link: /visual-system/color
-      typography:
-        header: Our font family has three styles.
-        image: 
-          alt: Our font family has three styles
+      - header: Our font family has three styles.
+        image:
+          src: /assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg
+          alt: Our font family has three styles       
         cta: 
           content: Typography
           link: /visual-system/typography
