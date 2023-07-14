@@ -5,8 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf _site",
-    "start": "npm run clean && rollup -c rollup.config.js && eleventy --serve --incremental",
-    "build": "rollup -c rollup.config.js && eleventy"
+    "bundle": "rollup -c rollup.config.js",
+    "start": "npm run clean && npm run bundle && eleventy --serve --incremental",
+    "build": "npm run bundle && eleventy"
   },
   "type": "module",
   "repository": {
