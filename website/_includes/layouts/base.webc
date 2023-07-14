@@ -37,6 +37,7 @@
         "@rhds/elements/rh-tabs/rh-tab-panel.js": "https://ga.jspm.io/npm:@rhds/elements@1.1.0/elements/rh-tabs/rh-tab-panel.js",
         "@rhds/elements/rh-tabs/rh-tab.js": "https://ga.jspm.io/npm:@rhds/elements@1.1.0/elements/rh-tabs/rh-tab.js",
         "@rhds/elements/rh-tabs/rh-tabs.js": "https://ga.jspm.io/npm:@rhds/elements@1.1.0/elements/rh-tabs/rh-tabs.js"
+
       },
       "scopes": {
         "https://ga.jspm.io/": {
@@ -64,7 +65,8 @@
         }
       }
     }
-    </script>
+  </script>
+
   <!-- ES Module Shims: Import maps polyfill for modules browsers without import maps support (Safari 16.3) -->
   <script webc:keep async src="https://ga.jspm.io/npm:es-module-shims@1.5.1/dist/es-module-shims.js" crossorigin="anonymous"></script>
       
@@ -75,6 +77,7 @@
     import "@rhds/elements/rh-footer/rh-footer-universal.js";
     import "@rhds/elements/rh-tabs/rh-tabs.js";
     import "@rhds/elements/rh-blockquote/rh-blockquote.js";
+    import "lite-youtube-embed";
   </script>
 
   <link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;500;700&amp;family=Noto+Sans+JP:wght@300;500;700&amp;family=Noto+Sans+KR:wght@300;500;700&amp;family=Noto+Sans+Malayalam:wght@300;500;700&amp;family=Noto+Sans+SC:wght@300;500;700&amp;family=Noto+Sans+TC:wght@300;500;700&amp;family=Noto+Sans+Tamil:wght@300;500;700&amp;family=Noto+Sans+Thai:wght@300;500;700&amp;display=swap">
