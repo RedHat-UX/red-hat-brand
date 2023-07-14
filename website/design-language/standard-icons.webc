@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Standard icons
+order: 40
 tags:
   - design-language
 ---
