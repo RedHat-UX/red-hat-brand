@@ -31,9 +31,6 @@ module.exports = function(eleventyConfig) {
     notify: false,
     ui: false,
     ghostMode: false,
-  });
-
-  eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, bs) {
         bs.addMiddleware('*', (req, res) => {
@@ -47,8 +44,6 @@ module.exports = function(eleventyConfig) {
       }
     }
   });
-
-  
 
 	return {
 		dir: {
