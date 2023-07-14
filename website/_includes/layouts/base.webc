@@ -14,7 +14,7 @@
     JSPM Generator Import Map
     Edit URL: https://generator.jspm.io/#rZNBbsQgDEWz6BV6hC4hyZwgl+gBIDgTGmKnYGaUVa9eqCKNRupEQcoCjK33P8jIH29V9f5TVZ/Ilh2YqlsUM3gc3FqDgxmQQ3eRjWzrZRC2J6zzFupB6bR60EST/AplQmdxAmOxWMh3m+Fi3UqRo4aDui3+0X404cG1spXNv8Xaj0I76qfvSAzP2SujTPWstrBHDZRs/OMknL2ObGiWfShQRbQ38EG5krv2WFQ3e1VsCUWA1DKj/PqqLoynxdAdTzM81IQix6SNOc3l056ZTU8zo/SBTq1n+e35sNJhi2JRCO4gfBALmXOWQWzTKWDWYLpGpmn8BQ2Lb3iZBA
   -->
-  <script type="importmap">
+  <script webc:keep type="importmap">
     {
       "imports": {
         "@patternfly/elements/pf-icon/icons/fab/facebook.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/facebook.js",
