@@ -5,18 +5,18 @@
 <div class="try">
   <h2>Or, try some of our popular topics:</h2>
   <div class="try-grid">
-    <rh-cta variant="brick"><a href="#">APIs</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Automation</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Cloud</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Containers</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Devops</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Digital Transformation</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Integration</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Linux</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Microservices</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Middleware</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Security</a></rh-cta>
-    <rh-cta variant="brick"><a href="#">Virtualization</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/api">APIs</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/automation">Automation</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/cloud">Cloud</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/containers-v1-old">Containers</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/devops">Devops</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/digital-transformation">Digital Transformation</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/integration">Integration</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/linux">Linux</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/microservices">Microservices</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/middleware">Middleware</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/security">Security</a></rh-cta>
+    <rh-cta variant="brick"><a href="https://www.redhat.com/en/topics/virtualization">Virtualization</a></rh-cta>
   </div>
 </div>
 
