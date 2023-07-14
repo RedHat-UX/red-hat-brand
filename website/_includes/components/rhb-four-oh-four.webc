@@ -1,0 +1,102 @@
+<div class="card">
+  <slot></slot>
+</div>
+
+<div class="try">
+  <h2>Or, try some of our popular topics:</h2>
+  <div class="try-grid">
+    <rh-cta variant="brick"><a href="#">APIs</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Automation</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Cloud</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Containers</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Devops</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Digital Transformation</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Integration</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Linux</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Microservices</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Middleware</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Security</a></rh-cta>
+    <rh-cta variant="brick"><a href="#">Virtualization</a></rh-cta>
+  </div>
+</div>
+
+<div class="all">
+  <rh-cta variant="secondary"><a href="#">See all topics</a></rh-cta>
+</div>
+
+
+<style webc:scoped>
+  :host {
+    display: block;
+    padding-block-start: var(--rh-space-2xl, 32px);
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: var(--rh-font-size-heading-sm, 1.5rem);
+    color: var(--_status-header-color, #7d1007); /* WARNING: not a recognized token value */
+  }
+
+  h3 {
+    font-size: var(--rh-font-size-heading-xl, 2.5rem);
+  }
+
+  .card {
+    display: block;
+    text-align: center;
+    background-color: var(--rh-color-surface-lighter, #f2f2f2);
+    padding: var(--rh-space-4xl, 64px);
+  }
+
+  .try {
+    display: block;
+    text-align: center;
+    padding-block: var(--rh-space-2xl, 32px);
+  }
+
+  .try h2 {
+    font-size: var(--rh-font-size-heading-md, 1.75rem);
+    color: var(--rh-color-text-primary-on-light, #151515);
+    text-transform: none;
+  }
+
+  .try-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--rh-space-md, 16px);
+    padding-block: var(--rh-space-2xl, 32px);
+  }
+
+  .try-grid rh-cta,
+  .try-grid rh-cta::part(container) {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .all {
+    display: flex;
+    justify-content: center;
+    padding: var(--rh-space-2xl, 32px);
+  }
+
+  @media screen and (min-width: 567px) {
+    .try-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .try-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: var(--rh-space-2xl, 32px);
+      padding-block: var(--rh-space-4xl, 64px);
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .try-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+</style>
