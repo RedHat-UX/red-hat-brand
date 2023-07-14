@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Technology icons
+order: 50
 tags:
   - design-language
 ---

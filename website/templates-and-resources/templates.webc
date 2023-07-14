@@ -1,9 +1,9 @@
 ---
 layout: layouts/backpage.webc
 title: Templates
-order: 10
+order: 0
 tags:
-  - expression
+  - templates-and-resources
 ---
 
 <rhb-band>
