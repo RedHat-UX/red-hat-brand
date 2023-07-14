@@ -59,7 +59,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-subprograms-RGB.svg" alt="Red Hat Level Up Program universal logo with the sub-group name Compass typed in smaller text underneath.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-subprograms-RGB.svg" alt="Red Hat Level Up Program universal logo with the sub-group name Compass typed in smaller text underneath.">
         <h4 slot="headline">What if my group has a sub-program?</h4>
         <p slot="content">Complex programs can use universal logos that include the name of sub-programs instead of creating new universal logos for each initiative. If you need a universal logo that includes a sub-program, the Brand and Creative team can provide that version for you.</p>
       </rhb-card>
@@ -77,11 +77,11 @@ tags:
     <h3>Universal logos in use</h3>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-001-RGB_0.png" alt="Screenshot of a presentation slide featuring the Red Hat Open Studio: Brand Experience universal logo in the top left.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-001-RGB_0.png" alt="Screenshot of a presentation slide featuring the Red Hat Open Studio: Brand Experience universal logo in the top left.">
         <p slot="content">Red Hat Open Studio: Brand Experience uses a universal logo in their presentations.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-002-RGB.png" alt="Social media image with Red Hat User Groups written in our font with the Red Hat logo below it.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-002-RGB.png" alt="Social media image with Red Hat User Groups written in our font with the Red Hat logo below it.">
         <p slot="content">Not every group or program needs a logo, or needs to use their logo in every context. Another option is to use the program name as a headline, accompanied by the Red Hat logo.</p>
       </rhb-card>
       <rhb-card full-width>
@@ -89,7 +89,7 @@ tags:
         <p slot="content">Red Hat Marketplace uses a horizontal version of the universal logo, which fits in the header of its website.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" class="border-sm border-subtle" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-001 copy-RGB.png" alt="A t-shirt and coffee cup featuring the Red Hat Telco Team universal logo.">
+        <img class="border-xl border-update" slot="image" class="border-sm border-subtle" src="/assets/images/logos/universal-logos/Asset-Red_Hat-In_use-001 copy-RGB.png" alt="A t-shirt and coffee cup featuring the Red Hat Telco Team universal logo.">
         <p slot="content">The Red Hat Telco team prints its universal logo on swag to represent its team.</p>
       </rhb-card>
     </rhb-grid>
@@ -142,14 +142,14 @@ tags:
       </rhb-recommend>
 
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image"
+        <img class="border-xl border-update" slot="image"
           src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_This4.svg"
           alt="The Red Hat Safety Warden universal logo.">
         <p slot="content">Always use universal logos independently.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image"
+        <img class="border-xl border-update" slot="image"
           src="/assets/images/logos/universal-logos/BrandStandards-Logo-Universal_Logos-ASSETS_NotThis4.svg"
           alt="The Red Hat Safety Warden universal logo co-branded with an example partner logo.">
         <p slot="content">Do not co-brand universal logos.</p>

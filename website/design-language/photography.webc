@@ -15,24 +15,12 @@ tags:
     </rhb-content>
   
   <rhb-grid columns="three">
-    <rhb-card full-width>
-      <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-01-100.jpg" alt="Customer portrait photo">
-    </rhb-card>
-    <rhb-card full-width>
-      <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-02-100.jpg" alt="Custom stock photo">
-    </rhb-card>
-    <rhb-card full-width>
-      <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-03-100.jpg" alt="Purchased stock photo">
-    </rhb-card>
-    <rhb-card full-width>
-      <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-04-100.jpg" alt="Red Hat event photo">
-    </rhb-card>
-    <rhb-card full-width>
-      <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-05-100.jpg" alt="Red Hat custom stock photo">
-    </rhb-card>
-    <rhb-card full-width>
-      <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-06-100.jpg" alt="Red Hat photojournalism photo">
-    </rhb-card>
+      <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-01-100.jpg" alt="Customer portrait photo">
+      <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-02-100.jpg" alt="Custom stock photo">
+      <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-03-100.jpg" alt="Purchased stock photo">
+      <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-04-100.jpg" alt="Red Hat event photo">
+      <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-05-100.jpg" alt="Red Hat custom stock photo">
+      <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-06-100.jpg" alt="Red Hat photojournalism photo">
   </rhb-grid>
 
     <rh-cta><a href=https://drive.google.com/drive/folders/1Ju4hRf5GXamJl57jKREoTlcmGQzJ_GMp?usp></a>Access Red Hat's Photography Library</a></rh-cta>
@@ -151,7 +139,7 @@ tags:
       <rh-tab-panel>
         <rhb-grid columns="two">
           <rhb-card full-width>
-          <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock-100.jpg" alt="alt text goes here">
+          <img class="border-xl border-update" slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock-100.jpg" alt="alt text goes here">
           </rhb-card>
           <rhb-content>
             <h6>Purchased stock</h6>

@@ -87,28 +87,28 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/BrandStandards-Logo-RH_IBM-ASSETS-Cobrand_Presentation@2x.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-and-ibm/BrandStandards-Logo-RH_IBM-ASSETS-Cobrand_Presentation@2x.png" alt="alt text goes here">
         <div slot="content" webc:nokeep>
           <h5>Presentations</h5>
           <p slot="content">Red Hat presentations that talk about our IBM partnership should use a co-brand version of our corporate presentation template, and they should follow all standard Red Hat presentation template guidelines.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_Cobrand_Video-Outro.svg" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_Cobrand_Video-Outro.svg" alt="alt text goes here">
         <div slot="content" webc:nokeep>
           <h5>Video outros</h5>
           <p slot="content">In the outro sequences for partnership-related videos that are hosted on Red Hat channels, we use an animated version of the co-brand logo in which the Red Hat logo leads.</p>
         </div>   
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards-Red_Hat_and_IBM-Event-IBM.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards-Red_Hat_and_IBM-Event-IBM.png" alt="alt text goes here">
         <div slot="content" webc:nokeep>
           <h5>IBM event booths</h5>
           <p slot="content">In an IBM event booth, use the Red Hat logo to represent Red Hat products and technologies.</p>
         </div> 
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_Event-RH.svg" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-and-ibm/Brand_Standards_RH-IBM_Assets_Event-RH.svg" alt="alt text goes here">
         <div slot="content" webc:nokeep>
           <h5>Red Hat event booths</h5>
           <p slot="content">Red Hat-sponsored booths use Red Hat branding and event guidance.</p>

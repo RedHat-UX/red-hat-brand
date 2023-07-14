@@ -125,7 +125,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two" offset-left>
       <rhb-card flush-top>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Rover_badges-RGB-2023-01.svg" alt="Six example rover badges.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Rover_badges-RGB-2023-01.svg" alt="Six example rover badges.">
       </rhb-card>
       <rhb-card flush-top>
         <h3 slot="headline">Are digital badges the same as Rover badges?</h3>
