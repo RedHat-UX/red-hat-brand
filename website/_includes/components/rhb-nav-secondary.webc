@@ -66,28 +66,39 @@ function splitList(tag, chunkSize, sort) {
       </rh-navigation-secondary-dropdown>
     </li>
 
-    <!-- TAB 3 - Visual system -->
+    <!-- TAB 3 - Design language -->
     <li>
       <rh-navigation-secondary-dropdown>
         <a href="/design-language" slot="link">Design language</a>
         <rh-navigation-secondary-menu slot="menu">
-          <rh-navigation-secondary-menu-section>
-            <ul slot="links">
-              <rhb-link-list tag="design-language" sort="order"></rhb-link-list>
-            </ul>
+          <div webc:nokeep @html="splitList('design-language', 4, 'order')"></div>
           </rh-navigation-secondary-menu-section> 
         </rh-navigation-secondary-menu>
       </rh-navigation-secondary-dropdown>
     </li>
 
-    <!-- TAB 4 - Expression -->
+    <!-- TAB 4 - Handbooks -->
     <li>
       <rh-navigation-secondary-dropdown>
-        <a href="/expression" slot="link">Expression</a>
+        <a href="/handbooks" slot="link">Handbooks</a>
         <rh-navigation-secondary-menu slot="menu">
           <rh-navigation-secondary-menu-section>
             <ul slot="links">
-              <rhb-link-list tag="expression" sort="order"></rhb-link-list>
+              <rhb-link-list tag="handbooks" sort="order"></rhb-link-list>
+            </ul>
+          </rh-navigation-secondary-menu-section>
+        </rh-navigation-secondary-menu>
+      </rh-navigation-secondary-dropdown>
+    </li>
+
+    <!-- TAB 5 - Templates and resources -->
+    <li>
+      <rh-navigation-secondary-dropdown>
+        <a href="/templates-and-resources" slot="link">Templates and resources</a>
+        <rh-navigation-secondary-menu slot="menu">
+          <rh-navigation-secondary-menu-section>
+            <ul slot="links">
+              <rhb-link-list tag="templates-and-resources" sort="order"></rhb-link-list>
             </ul>
           </rh-navigation-secondary-menu-section>
         </rh-navigation-secondary-menu>

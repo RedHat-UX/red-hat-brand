@@ -1,8 +1,9 @@
 ---
 layout: layouts/backpage.webc
-title: Typography
+title: Fonts and typography
+order: 10
 tags:
-- design-language
+  - design-language
 ---
 
 <rhb-band>
@@ -129,7 +130,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two" offset-left>
       <rhb-card vertical-center>
-        <img slot="image"
+        <img class="border-xl border-update" slot="image"
           src="/assets/images/design-language/typography-page/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Alignment.svg"
           alt="Mini-spot illustration representing alignment">
       </rhb-card>
@@ -222,7 +223,7 @@ tags:
     <rhb-grid columns="two">
       <rhb-band>
         <rhb-recommend>
-          <img class="border-sm border-subtle" slot="image"
+          <img class="border-xl border-update" slot="image"
             src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-This.svg"
             alt="Red Hat materials using Red Hat fonts">
           <p slot="content">Use a lot of white space and minimal text, and leave a margin.</p>
@@ -231,7 +232,7 @@ tags:
 
       <rhb-band>
         <rhb-recommend no>
-          <img class="border-sm border-subtle" slot="image"
+          <img class="border-xl border-update" slot="image"
             src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-NotThis.svg"
             alt="Red Hat materials using Red Hat fonts">
           <p slot="content">Do not crowd a small space with a lot of text or eliminate a margin to create space for
@@ -297,7 +298,7 @@ tags:
           communicate to our customers, partners, and associates while looking and feeling like Red Hat.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image"
+        <img class="border-xl border-update" slot="image"
           src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Artboard%20178%20copy.svg"
           alt="Social media graphic using expressive type">
         <p slot="content">Expressive type is used successfully as imagery in support of the functional type in this

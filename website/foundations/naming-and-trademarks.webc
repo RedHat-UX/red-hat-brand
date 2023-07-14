@@ -1,0 +1,19 @@
+---
+layout: layouts/backpage.webc
+title: Naming and trademarks
+order: 30
+tags: 
+  - foundations
+---
+
+<rhb-band>
+  <rhb-container>
+    <rhb-content>
+      <h2 @text="title"></h2>
+      <p>In 2019, <a href="https://www.redhat.com/en/about/press-releases/ibm-closes-landmark-acquisition-red-hat-34-billion-defines-open-hybrid-cloud-future">Red Hat® was acquired by IBM</a> as part of the largest software deal in history. While Red Hat is now owned by IBM, we remain a wholly distinct entity with our own independent brand, culture, and industry partnerships. We remain true to our identity when we are thoughtful about how IBM and Red Hat appear together and separately. When we appear together on branded materials, we co-brand with IBM in the same way that we co-brand with all Red Hat partners.</p>
+      <rh-cta><a href="logos/co-brand-logos">Learn more about co-branding</a></rh-cta>
+      <p><rh-cta><a href="logos/co-brand-logos">View the Red Hat partner handbook</a></rh-cta></p>
+      <p><rh-cta><a href="https://www.ibm.com/brand/experience-guides/redhat/">View the IBM and Red Hat Experience Guide (IBM ID required)</a></rh-cta></p>
+    </rhb-content>
+  </rhb-container>
+</rhb-band>

@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Color
+order: 0
 tags:
   - design-language
 ---
@@ -28,7 +29,7 @@ tags:
         <p slot="content">Use a white or neutral background that is open and not cluttered with too many design elements. Spacious and open designs help the most important elements of our message stand out.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core_example-2-RGB.svg" alt="">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core_example-2-RGB.svg" alt="">
         <p slot="content">Red Hat red is one of our most recognizable brand assets. Always use Red Hat red as the main accent in your color palette to make sure your design looks and feels like Red Hat.</p>
       </rhb-card>
     </rhb-grid>
@@ -150,7 +151,7 @@ tags:
       </rhb-card>
       <rhb-card full-width>
         <div slot="content" webc:nokeep>
-        <img slot="image" src="/assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Use_blue_purple_carefully-RGB.svg" alt="">
+        <img class="border-xl border-update" slot="image" src="/assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Use_blue_purple_carefully-RGB.svg" alt="">
         <p slot="content"><strong>Use blue and purple thoughtfully</strong></p>
         <p slot="content">Purple and blue could unintentionally symbolize our relationship with IBM. When you use them, be mindful that the Red Hat brand should always be independent.</p>
         </div>
@@ -198,7 +199,7 @@ tags:
     </rhb-content>
     <rhb-grid columns="two" margin-bottom="xl">
       <rhb-card flush-top>
-        <img slot="image"
+        <img class="border-xl border-update" slot="image"
           src="/assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Presentation-RGB.png"
           alt="Red Hat Display weights and styles">
       </rhb-card>
