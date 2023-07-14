@@ -23,14 +23,14 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-image-with-text>
+      <rhb-card full-width>
         <img slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-Clearspace_standard-RGB.svg" alt="Diagram showing appropriate clear space around the Red Hat Enterprise Linux logo, measured with the letter 'e' from the word Red Hat.">
         <p slot="content">Standard product logo, minimum clear space</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-Clearspace_variant-RGB.svg" alt="Diagram showing appropriate clear space around the Red Hat Enterprise Linux Atomic Host logo, measured with the letter 'e' from the word Red Hat.">
         <p slot="content">Product logo with variant, minimum clear space</p>
-      </rhb-image-with-text>
+      </rhb-card>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -60,54 +60,59 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-image-with-text>
+      <rhb-card full-width>
         <img class="background-color-subtle" slot="image" src="/assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ASSETS_Version_numbers.svg" alt="Red Hat Enterprise Linux 8 logo.">
         <p slot="content">Add version numbers only for major releases</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img class="background-color-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-Stacked_logos-RGB.svg" alt="Red Hat Enterprise Linux logo with Linux stacked below Enterprise.">
         <p slot="content">Longer product names may have horizontal and stacked logo versions. The stacked versions fit better in vertical spaces.</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img class="background-color-subtle" slot="image" src="/assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-One_line.svg" alt="Red Hat Enterprise Linux logo on one line.">
         <p slot="content">Only use one-line logos for product interfaces where the product logo is too tall, or if space is limited. <a href="https://docs.google.com/presentation/d/123J-JkhRTzloY2NoD2HAcKv1FHKxRDe-j3FGeyu0c6E/edit?usp=sharing">Learn more about UI branding.</a></p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img class="background-color-subtle" slot="image" src="/assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-Written_out.svg" alt="Red Hat Enterprise Linux name written in the Red Hat font.">
         <p slot="content">If the product logo is too tall, or space is limited, for any application aside from the product UI, write out the product name and use a Red Hat logo in a separate imprint area.</p>
-      </rhb-image-with-text>
+      </rhb-card>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
 
 <rhb-band>
   <rhb-container>
-    <h4>Product logos vs. product icons</h4>
+    <h4>Product logos versus technology icons</h4>
     <rhb-content>
-      <p>Product logos use the Red Hat brand, capital letters, and a product logo, whereas components or features do not use the Red Hat name and aren’t capitalized. Product, components, features, or other offerings can use a product icon to distinguish them in catalogs and marketplaces, or to be adapted as artwork in marketing materials.</p>
-      <rh-cta><a href="https://docs.google.com/presentation/d/1bHiy-UZ6WREJ8EjjR76RCZJpu4Qpnd2-76vs909_99k/edit?usp=sharing">Learn more about product icons and artwork</a></rh-cta>
-    <rhb-content>
-  <rhb-container>
-</rhb-band>
-
-<rhb-band>
+      <p>Products have both a product logo and a technology icon. Which visual to use when representing the product depends on the context and the size of the space available.</p>
+      <rh-cta><a href="/design-language/technology-icons">Learn more about technology icons</a></rh-cta>
+    </rhb-container>
+    </rhb-container>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-image-with-text>
+      <rhb-card full-width>
+        <div slot="content" webc:nokeep>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductLogo-Example.svg" alt="Red Hat Ansible Automation Platform logo.">
-        <p slot="content">Product logos consist of the Red Hat logo and the product name spelled out. They create instant recognition for our parent brand and the product.</p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+        <p slot="content"><strong>Product logos</strong></p>
+        <p slot="content">Product logos incorporate the Red Hat logo and the full name of the product. When you’re representing a single product and you have the space, use a product logo. They create instant recognition for our parent brand and the product.</p>
+      </div>
+      </rhb-card>
+      <rhb-card full-width>
+        <div slot="content" webc:nokeep>
         <img class="border-xl border-update" slot="image" src="/assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductIcon-Example.svg" alt="Red Hat Ansible Automation Platform product icon.">
-        <p slot="content">Product icons consist of a visual metaphor encased in a bounding shape. They can be developed for any Red Hat offering that needs to be visualized at a small scale where a product logo would not fit.</p>
-      </rhb-image-with-text>
+        <p slot="content"><strong>Technology icons</strong></p>
+        <p slot="content">In a space that’s too small for a product logo, or when you’re referring to multiple Red Hat products at the same time, use a technology icon. This avoids squished logos and visual clutter that might be created by using too many product logos in one layout.</p>
+      </div>
+      </rhb-card>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
 
 <rhb-band>
   <rhb-container>
+    <rhb-content>
     <h4>Product logos in use</h4>
+  </rhb-content>
   <rhb-container>
   <rhb-container>
     <rhb-grid columns="four">
@@ -149,7 +154,7 @@ tags:
 
       <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis4-RGB.svg" alt="The Red Hat Integration logo with the hat removed.">
-        <p slot="content">Do not use the product name without the Red Hat icon.</p>
+        <p slot="content">Do not remove the hat icon from the product logo.</p>
       </rhb-recommend>
     </rhb-grid>
   </rhb-container>
