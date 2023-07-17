@@ -11,19 +11,15 @@
   <link webc:nokeep webc:is="link-canonical">
 
   <link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;500;700&amp;family=Noto+Sans+JP:wght@300;500;700&amp;family=Noto+Sans+KR:wght@300;500;700&amp;family=Noto+Sans+Malayalam:wght@300;500;700&amp;family=Noto+Sans+SC:wght@300;500;700&amp;family=Noto+Sans+TC:wght@300;500;700&amp;family=Noto+Sans+Tamil:wght@300;500;700&amp;family=Noto+Sans+Thai:wght@300;500;700&amp;display=swap">
-
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css">
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-lightdom.css">
 
+  <link rel="stylesheet" href="../../../public/assets/stylesheets/red-hat-font.css">
   <link rel="stylesheet" href="../../../public/assets/stylesheets/base.css">
-
-  <script webc:keep src="https://www.youtube.com/iframe_api"></script>
-
 	<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep>
 
   <script type="module" src="/assets/javascript/bundle.js" webc:keep></script>
-
-	<script :src="getBundleFileUrl('js')" webc:keep></script>
+  <script :src="getBundleFileUrl('js')" webc:keep></script>
   
   </head>
 
