@@ -36,7 +36,7 @@ tags:
       <rhb-card class="border-sm border-subtle">
         <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="">
         <div slot="content" webc:nokeep>
-          <rh-cta slot="cta"><a href="https://www.redhat.com/en/about/digital-credential-program"> Learn more about the Red Hat Digital Credentialing program</a></rh-cta>
+          <rh-cta slot="cta"><a href="https://www.redhat.com/en/about/digital-credential-program">Learn more about the Red Hat Digital Credentialing program</a></rh-cta>
           <p></p>
           <rh-cta slot="cta"><a href="https://source.redhat.com/groups/public/gcs_asociates_success_enablement/global_enablement/red_hat_digital_credentialing_program">Request a digital badge for your program</a></rh-cta>
         </div>

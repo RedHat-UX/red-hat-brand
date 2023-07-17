@@ -15,7 +15,7 @@ tags:
         <img slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Clearspace.svg" alt="endorsement logo with minimum clear space">
         <p slot="content">Endorsement logo, minimum clear space</p>
       </rhb-card>
-      <p><rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/10-es2EWQzuI0yVtQGsyBpm-qcBbHTaAo?usp=sharing"></a>Download endorsement logos</rh-cta></p>
+      <p><rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/10-es2EWQzuI0yVtQGsyBpm-qcBbHTaAo?usp=sharing">Download endorsement logos</a></rh-cta></p>
     </rhb-content>
 
     <rhb-content>

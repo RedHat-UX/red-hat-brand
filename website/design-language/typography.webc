@@ -61,8 +61,7 @@ tags:
           sizes, it has more of our brand personality and voice, with even strokes, tight spacing, and tall, open
           letterforms. If you do not know which font to use, default to Red Hat Display.
         </p>
-        <rh-cta slot="cta"><a href="https://fonts.google.com/specimen/Red+Hat+Display?query=red%20hat">Download Red Hat
-            Display</a></rh-cta>
+        <rh-cta slot="cta"><a href="https://fonts.google.com/specimen/Red+Hat+Display?query=red%20hat">Download Red Hat Display</a></rh-cta>
       </rhb-card>
     </rhb-grid>
 
@@ -81,8 +80,7 @@ tags:
           <p>To increase readability at small sizes, Red Hat Text has more height difference between the upper- and
             lowercase letters, more space between narrower characters, and more variation in the line weight.</p>
         </div>
-        <rh-cta slot="cta"><a href="https://fonts.google.com/specimen/Red+Hat+Text?query=red%20hat">Download Red Hat
-            Display</a></rh-cta>
+        <rh-cta slot="cta"><a href="https://fonts.google.com/specimen/Red+Hat+Text?query=red%20hat">Download Red Hat Display</a></rh-cta>
       </rhb-card>
     </rhb-grid>
 
@@ -99,8 +97,7 @@ tags:
           only be used when demonstrating code snippets in our communications and specifications, or as a stylistic
           approach for a more technical audience, like the Red Hat Developer Program or Command Line Heroes.
         </p>
-        <rh-cta slot="cta"><a href="https://fonts.google.com/specimen/Red+Hat+Mono?query=red%20hat">Download Red Hat
-            Mono</a></rh-cta>
+        <rh-cta slot="cta"><a href="https://fonts.google.com/specimen/Red+Hat+Mono?query=red%20hat">Download Red Hat Mono</a></rh-cta>
       </rhb-card>
     </rhb-grid>
 
@@ -260,8 +257,7 @@ tags:
             assertive, like a big headline.</p>
         </div>
         <rh-cta slot="cta"><a
-            href="https://docs.google.com/presentation/d/15c1n1MTqIXIROqRR2FTrfESqAdh7ucavQ795qN-igdU/edit?usp=sharing">Learn
-            more about functional type</a></rh-cta>
+            href="https://docs.google.com/presentation/d/15c1n1MTqIXIROqRR2FTrfESqAdh7ucavQ795qN-igdU/edit?usp=sharing">Learn more about functional type</a></rh-cta>
       </rhb-card>
       <rhb-card bordered>
         <img slot="image"
@@ -276,8 +272,7 @@ tags:
             customization more complicated.</p>
         </div>
         <rh-cta slot="cta"><a
-            href="https://docs.google.com/presentation/d/16p6Zb-559byIcDv3mALeHxYqrxSt5IUM2eu51rls4WI/edit?usp=sharing">Learn
-            more about expressive type</a></rh-cta>
+            href="https://docs.google.com/presentation/d/16p6Zb-559byIcDv3mALeHxYqrxSt5IUM2eu51rls4WI/edit?usp=sharing">Learn more about expressive type</a></rh-cta>
       </rhb-card>
     </rhb-grid>
   </rhb-container>

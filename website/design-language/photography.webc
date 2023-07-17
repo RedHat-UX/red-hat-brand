@@ -24,7 +24,7 @@ tags:
       <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-06-100.jpg" alt="Red Hat photojournalism photo">
   </rhb-grid>
 
-    <rh-cta><a href=https://drive.google.com/drive/folders/1Ju4hRf5GXamJl57jKREoTlcmGQzJ_GMp?usp></a>Access Red Hat's Photography Library</a></rh-cta>
+    <rh-cta><a href=https://drive.google.com/drive/folders/1Ju4hRf5GXamJl57jKREoTlcmGQzJ_GMp?usp>Access Red Hat's Photography Library</a></rh-cta>
   </rhb-container>
 </rhb-band>
 
@@ -214,7 +214,7 @@ tags:
     <rhb-card full-width style="display: block; background-color: var(--rh-color-surface-lighter, #f2f2f2); text-align: center; padding: var(--rh-spacer-xl, 24px);">
       <h3 slot="headline">Taking photos at Red Hat</h3>
       <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Looking for more technical guidelines on how to take photos for Red Hat? You’ve landed in the right spot.</p>
-      <rh-cta variant="primary" slot="cta"><a href="https://docs.google.com/presentation/d/1PpShMxM1NavtUWrYUno9bUnBu74UMHtqJUZ8nAEfPWI/edit?usp=sharing"></a>Learn More</rh-cta>
+      <rh-cta variant="primary" slot="cta"><a href="https://docs.google.com/presentation/d/1PpShMxM1NavtUWrYUno9bUnBu74UMHtqJUZ8nAEfPWI/edit?usp=sharing">Learn More</a></rh-cta>
     </rhb-card>
   </rhb-container>
 </rhb-band>
