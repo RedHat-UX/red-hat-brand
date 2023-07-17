@@ -167,7 +167,7 @@ tags:
         <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Product logo</strong></p>
-        <p slot="content">Product logos incorporate the Red Hat logo and the full name of the product. When you’re representing a single product and you have the space, use a product logo.</p>
+        <p slot="content">Product logos incorporate the Red Hat logo and the full name of the product. When you’re representing a single product and you have the space, use a product logo. They create instant recognition for our parent brand and the product.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
@@ -179,6 +179,7 @@ tags:
       </rhb-card>
     </rhb-grid>
     <rhb-content>
+      <p></p>
       <p>Technology icons should always be used in the context of the Red Hat brand. The Red Hat logo, the product’s logo, or (at the very least) the full name of the product should always be visible nearby. Without this context, our customers might not recognize the icon as representing a Red Hat product.</p>
     </rhb-content>
   </rhb-container>
