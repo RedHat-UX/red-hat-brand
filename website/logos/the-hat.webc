@@ -25,7 +25,7 @@ tags:
 
     <rhb-content>
       <h3>General guidance</h3>
-      <p>Regardless of how the hat is being used, make sure the hat is being used correctly and that we're protecting our trademarks.</p>
+      <p>Regardless of where the hat is being used, make sure the hat is being used correctly and that we're protecting our trademarks.</p>
     </rhb-content>
 
     <rhb-grid columns="four">
@@ -86,7 +86,7 @@ tags:
       </rhb-recommend>
       <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Funcational-Not_this-2-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used in one-color black for the profile photo.">
-        <p slot="content">Do not use the hat in any color other than red when representing Red Hat.</p>
+        <p slot="content">Do not use the hat in any color other than red when representing Red Hat. We are Red Hat, not black hat.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img slot="image" src="/assets/images/logos/the-hat/Asset-Red_Hat-Logo_page-Functional-Not_this-3-RGB.svg" alt="Image of the Red Hat corporate Twitter profile photo and username, with the hat used backwards as the profile photo.">
@@ -175,7 +175,7 @@ tags:
 
     <rhb-content>
       <h4>Using the hat in/as a frame</h4>
-      <p>Sometimes we place the hat inside of a frame or use it as a frame for other artwork. This technique is used in limited circumstances when the context of the Red Hat brand is very clear.</p>
+      <p>Sometimes we place the hat inside of a frame or use it as a frame for other artwork. This technique is used in limited circumstances when the context of the Red Hat brand is very clear. Share it with the Brand and Creative team before use.</p>
     </rhb-content>
 
     <rhb-grid columns="two">
@@ -194,7 +194,7 @@ tags:
 
 <rhb-band>
   <rhb-container>
-    <rhb-card full-width style="display: block; text-align: center; padding: var(--rh-spacer-xl, 24px);">
+    <rhb-card full-width style="display: block; background-color: var(--rh-color-surface-lighter, #f2f2f2); text-align: center; padding: var(--rh-spacer-xl, 24px);">
       <h3 slot="headline">Red Hat Trademarks</h3>
       <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Aside from the Red Hat logo and hat, our trademarks include the Red Hat wordmark and the names of certain products, services, and technologies. Using our trademarks correctly in documentation, web pages, marketing materials, and collateral is as important as using the logo correctly.</p>
       <rh-cta variant="primary" slot="cta"><a href="/en/about/trademark-guidelines-and-policies"></a>Learn More</rh-cta>
