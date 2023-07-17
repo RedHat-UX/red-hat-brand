@@ -38,6 +38,7 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
+    "@lit-labs/eleventy-plugin-lit": "^1.0.1",
     "@patternfly/elements": "^2.3.2",
     "@rhds/elements": "^1.1.0",
     "lite-youtube-embed": "^0.2.0"
