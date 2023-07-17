@@ -1,0 +1,16 @@
+---
+layout: layouts/backpage.webc
+title: Not Found
+permalink: 404.html
+---
+
+<rhb-band>
+  <rhb-container>
+    <rhb-four-oh-four>
+      <h2>Status 404</h2>
+      <h3>It's true, we've lost this page</h3>
+      <rh-cta variant="primary"><a href="/">Back to brand.redhat.com</a></rh-cta>
+    </rhb-four-oh-four>
+  </rhb-container>
+</rhb-band>
+

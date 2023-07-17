@@ -10,88 +10,16 @@
   <meta webc:nokeep webc:is="meta-social">
   <link webc:nokeep webc:is="link-canonical">
 
-    <!--
-      JSPM Generator Import Map
-      Edit URL: https://generator.jspm.io/#rZFNbsMgEEZZ9Ai9QpeYJCfIJXoAfsYxNZlxYUjkVa9eqCxFkRrLSF7AwOh9DwQfb0K8/wjxiew5gBPnSTNDxD7MCgJcATmdT92hO6qpl94Sqjol1WtThgVDNHZfqS0YPI7gPDYH+e4r3JybKXM2sDG31D86Di49uGPhDv82VRykCWTH70wMz7tXokpZ1ktZo3oqmvhYyeAvAzu6djY1pDL6G8SkQ8tZayzqm79o9oQyQXkyp+P8qi9dpMnRHXcTbnqEJmPJ5rqt7d2uWaW7yah8YNDzXr41D2uTlionjRA2whuxVLhfQiRbq4AE
-    -->
-    <script webc:keep type="importmap">
-      {
-        "imports": {
-          "@patternfly/elements/pf-icon/icons/fab/facebook.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/facebook.js",
-          "@patternfly/elements/pf-icon/icons/fab/linkedin.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/linkedin.js",
-          "@patternfly/elements/pf-icon/icons/fab/twitter.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/twitter.js",
-          "@patternfly/elements/pf-icon/icons/fab/youtube.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/icons/fab/youtube.js",
-          "@patternfly/elements/pf-icon/pf-icon.js": "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/pf-icon/pf-icon.js",
-          "@rhds/elements": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/rhds.min.js",
-          "@rhds/elements/rh-blockquote/rh-blockquote.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-blockquote/rh-blockquote.js",
-          "@rhds/elements/rh-cta/rh-cta.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-cta/rh-cta.js",
-          "@rhds/elements/rh-footer/rh-footer-lightdom.css": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-lightdom.css",
-          "@rhds/elements/rh-footer/rh-footer-universal.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-universal.js",
-          "@rhds/elements/rh-footer/rh-footer.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer.js",
-          "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-dropdown.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-dropdown.js",
-          "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css",
-          "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-menu-section.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-menu-section.js",
-          "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-menu.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-menu.js",
-          "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary-overlay.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-overlay.js",
-          "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary.js",
-          "@rhds/elements/rh-tabs/rh-tab-panel.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-tabs/rh-tab-panel.js",
-          "@rhds/elements/rh-tabs/rh-tab.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-tabs/rh-tab.js",
-          "@rhds/elements/rh-tabs/rh-tabs.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-tabs/rh-tabs.js"
-        },
-        "scopes": {
-          "https://ga.jspm.io/": {
-            "@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/reactive-element.js",
-            "@lit/reactive-element/decorators/": "https://ga.jspm.io/npm:@lit/reactive-element@1.6.1/development/decorators/",
-            "@patternfly/elements/": "https://ga.jspm.io/npm:@patternfly/elements@2.0.5/",
-            "@patternfly/pfe-core": "https://ga.jspm.io/npm:@patternfly/pfe-core@2.2.0/core.js",
-            "@patternfly/pfe-core/": "https://ga.jspm.io/npm:@patternfly/pfe-core@2.2.0/",
-            "@rhds/elements/rh-accordion/rh-accordion.js": "https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-accordion/rh-accordion.js",
-            "@rhds/tokens/media.js": "https://ga.jspm.io/npm:@rhds/tokens@1.0.0/js/media.js",
-            "lit": "https://ga.jspm.io/npm:lit@2.7.2/index.js",
-            "lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@3.3.1/development/lit-element.js",
-            "lit-html": "https://ga.jspm.io/npm:lit-html@2.7.2/development/lit-html.js",
-            "lit-html/": "https://ga.jspm.io/npm:lit-html@2.7.2/development/",
-            "lit/": "https://ga.jspm.io/npm:lit@2.7.2/",
-            "tslib": "https://ga.jspm.io/npm:tslib@2.5.0/tslib.es6.js"
-          },
-          "https://ga.jspm.io/npm:@patternfly/elements@2.0.1/": {
-            "lit": "https://ga.jspm.io/npm:lit@2.6.1/index.js",
-            "lit/decorators/": "https://ga.jspm.io/npm:lit@2.6.1/decorators/"
-          },
-          "https://ga.jspm.io/npm:@patternfly/elements@2.0.5/": {
-            "lit": "https://ga.jspm.io/npm:lit@2.6.1/index.js",
-            "lit/": "https://ga.jspm.io/npm:lit@2.6.1/"
-          },
-          "https://ga.jspm.io/npm:@patternfly/pfe-core@2.2.0/": {
-            "lit": "https://ga.jspm.io/npm:lit@2.6.1/index.js"
-          }
-        }
-      }
-    </script>
-  <!-- ES Module Shims: Import maps polyfill for modules browsers without import maps support (Safari 16.3) -->
-  <script webc:keep async src="https://ga.jspm.io/npm:es-module-shims@1.5.1/dist/es-module-shims.js" crossorigin="anonymous"></script>
-      
-
-  <script webc:keep type="module">
-    import "@rhds/elements/rh-cta/rh-cta.js";
-    import "@rhds/elements/rh-navigation-secondary/rh-navigation-secondary.js";
-    import "@rhds/elements/rh-footer/rh-footer.js";
-    import "@rhds/elements/rh-footer/rh-footer-universal.js";
-    import "@rhds/elements/rh-tabs/rh-tabs.js";
-    import "@rhds/elements/rh-blockquote/rh-blockquote.js";
-  </script>
-
   <link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;500;700&amp;family=Noto+Sans+JP:wght@300;500;700&amp;family=Noto+Sans+KR:wght@300;500;700&amp;family=Noto+Sans+Malayalam:wght@300;500;700&amp;family=Noto+Sans+SC:wght@300;500;700&amp;family=Noto+Sans+TC:wght@300;500;700&amp;family=Noto+Sans+Tamil:wght@300;500;700&amp;family=Noto+Sans+Thai:wght@300;500;700&amp;display=swap">
-
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css">
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-lightdom.css">
 
+  <link rel="stylesheet" href="../../../public/assets/stylesheets/red-hat-font.css">
   <link rel="stylesheet" href="../../../public/assets/stylesheets/base.css">
-
-  <script webc:keep src="https://www.youtube.com/iframe_api"></script>
-
 	<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep>
-	<script :src="getBundleFileUrl('js')" webc:keep></script>
+
+  <script type="module" src="/assets/javascript/bundle.js" webc:keep></script>
+  <script :src="getBundleFileUrl('js')" webc:keep></script>
   
   </head>
 
