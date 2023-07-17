@@ -18,11 +18,11 @@ tags:
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_Clearspace1.svg" alt="The Red Hat Summit logo with clear space.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_Clearspace1.svg" alt="The Red Hat Summit logo with clear space.">
         <p slot="content">Clear space is the area around the logo that should not have text, distracting graphics, or other logos. The clear space should be at least double the height of the letter "e" all the way around the logo.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_Clearspace2.svg" alt="The Red Hat Summit logo with the Red Hat logo underneath, separated by clear space.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_Clearspace2.svg" alt="The Red Hat Summit logo with the Red Hat logo underneath, separated by clear space.">
         <p slot="content">When using the Red Hat logo and the Red Hat Summit logo together, clear space rules still apply but the size of the Red Hat logo can change. The width of the Red Hat logo should be no smaller than the width of the word "Red Hat" in the Red Hat Summit logo, and no larger than the overall width of the Red Hat Summit logo.</p>
       </rhb-card>
     </rhb-grid>
