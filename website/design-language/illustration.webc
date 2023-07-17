@@ -32,8 +32,8 @@ tags:
         </rhb-card>
       </rhb-grid>
 
-      <p><rh-cta><a href="https://docs.google.com/presentation/d/1pJNpi7myXRIQb6zF83YhtZ753STdRjYb3CPbbAIcdJs/edit?usp=sharing"></a>Access illustration repository</a></rh-cta></p>
-      <p><rh-cta><a href="https://docs.google.com/presentation/d/1Ft09upnBwXmtuZSjwrn2I0hHAJuEKWZDdfm2-XAsG00/edit?usp=sharing"></a>Learn more about creating illustrations for Red Hat</a></rh-cta></p>
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1pJNpi7myXRIQb6zF83YhtZ753STdRjYb3CPbbAIcdJs/edit?usp=sharing">Access illustration repository</a></rh-cta></p>
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1Ft09upnBwXmtuZSjwrn2I0hHAJuEKWZDdfm2-XAsG00/edit?usp=sharing">Learn more about creating illustrations for Red Hat</a></rh-cta></p>
 
       <rhb-content>
         <h2>Types of Illustration</h2>

@@ -225,7 +225,7 @@ tags:
     <rhb-card full-width style="display: block; background-color: var(--rh-color-surface-lighter, #f2f2f2); text-align: center; padding: var(--rh-spacer-xl, 24px);">
       <h3 slot="headline">Red Hat Trademarks</h3>
       <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Aside from the Red Hat logo, our trademarks include the Red Hat wordmark and the names of certain products, services, and technologies. Using our trademarks correctly in documentation, web pages, marketing materials, and collateral is as important as using the logo correctly.</p>
-      <rh-cta variant="primary" slot="cta"><a href="/foundations/naming-and-trademarks/"></a>Learn More</rh-cta>
+      <rh-cta variant="primary" slot="cta"><a href="/foundations/naming-and-trademarks/">Learn More</a></rh-cta>
     </rhb-card>
   </rhb-container>
 </rhb-band>

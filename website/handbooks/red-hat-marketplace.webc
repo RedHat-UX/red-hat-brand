@@ -31,8 +31,7 @@ tags:
             stands for and what to expect from our content. Red Hat Marketplace is no different. Use Red Hat’s voice and
             tone, not IBM’s.</p>
           <rh-cta slot="cta"><a
-              href="https://docs.google.com/document/d/1pbFcwFa5I26FlY1F_AiI70HXqrFJ4UU6vQXqOh1Zl34/edit#heading=h.66y4kqbj468a">See
-              the Red Hat Marketplace messaging guide</a></rh-cta>
+              href="https://docs.google.com/document/d/1pbFcwFa5I26FlY1F_AiI70HXqrFJ4UU6vQXqOh1Zl34/edit#heading=h.66y4kqbj468a">See the Red Hat Marketplace messaging guide</a></rh-cta>
         </div>
       </rhb-card>
       <rhb-card class="border-sm border-subtle">
@@ -58,8 +57,7 @@ tags:
       <p>Available in both horizontal and stacked layouts, the Red Hat Marketplace logo follows the Red Hat universal
         logo format. Clear space is the area around the logo that should not have text, distracting graphics, or other
         logos. This space ensures that nothing interferes with the visual impact of the logo.</p>
-      <rh-cta><a href="https://drive.google.com/drive/folders/1KYaKbIJz6ozjq2WifSSHmRuNjj1owJWU">Download Red Hat
-          Marketplace logos</a></rh-cta>
+      <rh-cta><a href="https://drive.google.com/drive/folders/1KYaKbIJz6ozjq2WifSSHmRuNjj1owJWU">Download Red Hat Marketplace logos</a></rh-cta>
     </rhb-content>
 
     <rh-tabs centered>
@@ -122,10 +120,8 @@ tags:
         alt="Diagram of two Red Hat Marketplace partner buttons calling out">
     </rhb-container>
     <rhb-content>
-      <p><rh-cta><a href="https://redhat-partner.highspot.com/items/5ea6e1f9429d7b3eff307fc3?lfrm=srp.0">Red Hat
-            Marketplace partner standards</a></rh-cta></p>
-      <p><rh-cta><a href="https://ibm.ent.box.com/s/b7ih6xvlewccof4plvvp9oli09y9wrmv">Download Red Hat Marketplace
-            partner buttons</a></rh-cta></p>
+      <p><rh-cta><a href="https://redhat-partner.highspot.com/items/5ea6e1f9429d7b3eff307fc3?lfrm=srp.0">Red Hat Marketplace partner standards</a></rh-cta></p>
+      <p><rh-cta><a href="https://ibm.ent.box.com/s/b7ih6xvlewccof4plvvp9oli09y9wrmv">Download Red Hat Marketplace partner buttons</a></rh-cta></p>
     </rhb-content>
   </rhb-container>
 </rhb-band>
@@ -252,7 +248,7 @@ tags:
         and should complement and enhance the content they accompany. Red Hat Marketplace illustrations use the Red Hat
         illustration style and focus on using shades of light blue and white. Dark blue, black, and limited pops of red
         are used to create shadows, contrast, and highlights.</p>
-      <rh-cta>Download Red Hat Marketplace illustrations</rh-cta>
+        <p><rh-cta><a href="">Download Red Hat Marketplace illustrations</a></rh-cta></p>
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card flush-top>

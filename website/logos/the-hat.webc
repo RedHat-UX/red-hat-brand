@@ -14,8 +14,8 @@ tags:
         <div slot="content" webc:nokeep>
     <p>When we need to represent Red Hat in a small space, or when the context of the Red Hat® brand is already clear, we can use the hat separately from <a href="/en/about/brand/standards/logo">the Red Hat logo</a>.</p>
     <p>Clear space around the hat should be approximately the height of the brim. Clear space is the area around the hat that should not have text, distracting graphics, or other logos.</p>  
-    <p><rh-cta><a href="https://drive.google.com/drive/folders/1dtl_rz3CZwn05Y45iUtODMJWyJMGcwpu?usp=sharing"></a>Red Hat associates can download the hat here</a></rh-cta></p>
-    <p><rh-cta><a href="/en/about/brand/standards/logo"></a>Learn more about the Red Hat logo</a></rh-cta></p>
+    <p><rh-cta><a href="https://drive.google.com/drive/folders/1dtl_rz3CZwn05Y45iUtODMJWyJMGcwpu?usp=sharing">Red Hat associates can download the hat here</a></rh-cta></p>
+    <p><rh-cta><a href="/en/about/brand/standards/logo">Learn more about the Red Hat logo</a></rh-cta></p>
   </div>
   </rhb-card>
   <rhb-card flush-top>
@@ -197,7 +197,7 @@ tags:
     <rhb-card full-width style="display: block; background-color: var(--rh-color-surface-lighter, #f2f2f2); text-align: center; padding: var(--rh-spacer-xl, 24px);">
       <h3 slot="headline">Red Hat Trademarks</h3>
       <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Aside from the Red Hat logo and hat, our trademarks include the Red Hat wordmark and the names of certain products, services, and technologies. Using our trademarks correctly in documentation, web pages, marketing materials, and collateral is as important as using the logo correctly.</p>
-      <rh-cta variant="primary" slot="cta"><a href="/en/about/trademark-guidelines-and-policies"></a>Learn More</rh-cta>
+      <rh-cta variant="primary" slot="cta"><a href="/en/about/trademark-guidelines-and-policies">Learn More</a></rh-cta>
     </rhb-card>
   </rhb-container>
 </rhb-band>

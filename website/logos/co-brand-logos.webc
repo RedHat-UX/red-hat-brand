@@ -13,8 +13,8 @@ tags:
       <p>Co-branding shows a partnership between Red Hat and another company and represents an exchange of credibility between brands. We use co-branded logos where both brands have ownership, like a collaborative whitepaper or presentation related to our partnership.</p>
       <p>Before you use a co-branded logo, it is your responsibility to obtain and understand the right permissions from Red Hat and the partner or customer.</p>
       <p>Carefully follow the standards for using a partner’s logo just as you would for Red Hat’s. The partner’s brand standards are usually available upon request.</p>
-      <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/b-376558/Partner_Cobrands"></a>Download co-brand logos</rh-cta></p>
-      <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/p-14152325/Guide-Red_Hat...and_Logos.pdf"></a>Learn more about creating co-brand logos</rh-cta></p>
+      <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/b-376558/Partner_Cobrands">Download co-brand logos</a></rh-cta></p>
+      <p><rh-cta slot="cta"><a href="https://pnt.redhat.com/pnt/p-14152325/Guide-Red_Hat...and_Logos.pdf">Learn more about creating co-brand logos</a></rh-cta></p>
     </rhb-content>
  
     <rhb-content>
