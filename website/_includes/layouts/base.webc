@@ -20,15 +20,12 @@
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css">
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-lightdom.css">
 
+  <link rel="stylesheet" href="../../../public/assets/stylesheets/red-hat-font.css">
   <link rel="stylesheet" href="../../../public/assets/stylesheets/base.css">
-
-  <script webc:keep src="https://www.youtube.com/iframe_api"></script>
-
 	<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep>
 
   <script type="module" src="/assets/javascript/bundle.js" webc:keep></script>
-
-	<script :src="getBundleFileUrl('js')" webc:keep></script>
+  <script :src="getBundleFileUrl('js')" webc:keep></script>
   
   </head>
 
