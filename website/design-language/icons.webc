@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Icons
+description: Learn about Red Hat&#039;s icon types and read more about how and when to use them in your own branding and messaging.
 order: 70
 tags:
   - design-language

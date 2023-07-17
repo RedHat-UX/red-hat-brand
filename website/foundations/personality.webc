@@ -1,6 +1,8 @@
 ---
 layout: layouts/backpage.webc
 title: Personality
+description: |
+  Red Hat’s brand personality is encompassed by four main traits: open, authentic, helpful, and brave.
 order: 20
 tags:
   - foundations

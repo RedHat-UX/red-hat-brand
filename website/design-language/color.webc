@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Color
+description: Use these guidelines for details on how and when to incorporate Red Hat’s most recognizable asset, color, into your own branding and messaging.
 order: 0
 tags:
   - design-language

@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Strategy
+description: Our brand strategy is to promote openness, which is reflected in our personality and platform, and in how we name our offerings.
 order: 10
 tags:
   - foundations

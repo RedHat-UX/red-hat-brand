@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Not Found
+description: Page Not Found
 permalink: 404.html
 ---
 

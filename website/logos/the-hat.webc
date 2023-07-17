@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: The hat
+description: Learn more about the hat in the Red Hat logo and how to use it in your own branding and messaging.
 order: 10
 tags: 
   - logos

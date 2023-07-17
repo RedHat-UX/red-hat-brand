@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Illustration
+description: Red Hat illustrations showcase nuanced ideas in authentic, compelling ways. Learn when and how to use them with this guide.
 order: 30
 tags:
   - design-language
