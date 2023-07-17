@@ -30,9 +30,8 @@ tags:
     </rhb-grid>
     <rhb-content>
       <p>Universal logos are produced in standard and reverse full-color versions, as well as 1-color versions in white, red, and black.</p>
-      <p><rh-cta><a href="https://docs.google.com/presentation/d/1-ZNJenGFgTzYxCvRMLtl0Q7lYJQTHwX9CbS743FJATE/edit#slide=id.g102154f9c17_0_6957">Learn more about creating universal logos</a></rh-cta></p>
-      <p><rh-cta><a href="https://drive.google.com/drive/folders/1k7htdxAVA2bym7tUT_9IeItaEdpVa4qu?usp=sharing">View our universal logo repository</a></rh-cta></p>
-      <p><rh-cta><a href="https://docs.google.com/presentation/d/1-ZNJenGFgTzYxCvRMLtl0Q7lYJQTHwX9CbS743FJATE/edit#slide=id.g102154f9c17_0_6957">Request a univeral logo</a></rh-cta></p>
+      <p><rh-cta><a href="https://docs.google.com/presentation/d/1-ZNJenGFgTzYxCvRMLtl0Q7lYJQTHwX9CbS743FJATE/edit#slide=id.g102154f9c17_0_6957">Request a Univeral logo</a></rh-cta></p>
+      <p><rh-cta><a href="https://drive.google.com/drive/folders/1k7htdxAVA2bym7tUT_9IeItaEdpVa4qu?usp=sharing">View existing Universal logos</a></rh-cta></p>
     </rhb-content>
   </rhb-container>
 </rhb-band>

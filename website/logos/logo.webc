@@ -18,11 +18,22 @@ tags:
     </rhb-grid>
     <rhb-content>
       <p>Our logo is made up of two parts: the hat and the wordmark. The hat is the same fedora worn by Shadowman–the figure <a href="/en/about/brand/standards/history">featured in our previous logo</a>–and is an embodiment of the trust and goodwill we’ve built with customers, partners, and the community as we’ve grown. Our company name appears in bold in the wordmark, created from our open source font.</p>
-      <p><rh-cta><a href="https://drive.google.com/drive/folders/1dtl_rz3CZwn05Y45iUtODMJWyJMGcwpu?usp=sharing">Red Hat associates can download the logo here</a></rh-cta></p>
-      <p><rh-cta><a href="https://www.redhat.com/en/about/brand/standards/the-hat">Learn more about using the hat alone</a></rh-cta></p>
     </rhb-content>
-  </rhb-container>
+    <rhb-grid columns="two">
+      <rhb-card bordered>
+         <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+         <rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/1dtl_rz3CZwn05Y45iUtODMJWyJMGcwpu?usp=sharing">Red Hat associates can download the logo here</a></rh-cta>
+       </rhb-card>
+       <rhb-card bordered>
+        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+        <rh-cta slot="cta"><a href="https://www.redhat.com/en/about/brand/standards/the-hat">Learn more about using the hat alone</a></rh-cta>
+      </rhb-card>
+          </rhb-grid>
 
+  </rhb-container>
+  </rhb-band>
+
+  <rhb-band>
   <rhb-container>
     <rhb-content>
       <h3>Logo variations and clear space</h3>
@@ -80,26 +91,22 @@ tags:
   </rhb-container>
   <rhb-container>
     <rhb-grid columns="four">
-      <rhb-card>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-This%20copy-RGB.svg" alt="Horizontal email header image using the Logo version A.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Use the version of the logo that fits best in the available space.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-Not_this-1%20copy-RGB.svg" alt="Email header image with the Logo version C, which does not fit well.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not use a version of the logo that is too wide or tall for the available space.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-Not_this-3%20copy-RGB.jpg" alt="Red Hat logo used on a web card with proper clear space and margins around the elements.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Use appropriate margins around the logo.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-Not_this-2%20copy-RGB.jpg" alt="The Red hat logo used on a web card without proper clear space and margins, nearly touching the photograph and the text in the card.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not use small margins that make the logo feel cramped.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -128,26 +135,22 @@ tags:
       <p>If you’re placing the logo on an image or video, place the logo somewhere without visual clutter and use the version of the logo with the best color contrast.</p>
     </rhb-content>
     <rhb-grid columns="two">
-      <rhb-card>
+      <rhb-recommend>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Image-This-1-RGB.jpg" alt="Image of a woman using her computer with the Red Hat logo added in the upper left where it is on a clear background." >
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Place the logo in an area with a clean and simple background.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Image-Not_this-1-RGB.jpg" alt="Photograph of a man in an office using a computer with the Red Hat logo overlayed on a busy part of the image. The logo is difficult to see.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not place the logo on a background that is complex or cluttered.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Image-This-2-RGB.jpg" alt="Image of a building with the Red Hat logo placed in the bottom right corner where it is clear and has good contrast against the white background.">
-        <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="lg"></pf-icon> <span class="font-2xl">This</span></div>
         <p slot="content">Ensure that the logo is easy to read and has sufficient contrast against background colors.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-xl border-update" slot="image" src="/assets/images/Asset-Red_Hat-Image-Not_this-2-RGB.jpg" alt="Photograph of Red Hat CEO Paul Cormier with the Red Hat logo placed on a dark gray background beside him, where it has low contrast and is difficult to see.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not place the logo on a background that doesn’t have enough contrast. Use the version of the logo with the most contrast.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -158,46 +161,38 @@ tags:
       <p>We’re protective of our logo. Why? Because as an open source company, our trademarks are the most important intellectual property we own. By using our logo consistently and correctly, we make sure it’s protected and will serve us well for years to come.</p>
     </rhb-content>
     <rhb-grid columns="four">
-      <rhb-card>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-1-RGB.svg" alt="Image of the Red Hat logo without the hat band">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not change the color of the band or remove it.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle"  slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-2-RGB.png" alt="Image of the Red Hat logo with a gradient and drop shadow.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not add shadows or gradients to the logo.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-3-RGB.svg" alt="Image of the Red Hat logo with the colors changed to shades of blue">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not change the colors of the logo.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-4-RGB.svg" alt="Image of the Red Hat logo with the width reduced so that the logo is squished.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not stretch or distort the logo.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-5-RGB.svg" alt="Image of the Red Hat logo with the hat moved to the right side and enlarged.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not scale or move parts of the logo independently of each other.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-6-RGB.png" alt="Image of Shadowman, who was part of the previous Red Hat logo, and Tux the penguin.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not use legacy logos or Tux the penguin, the Linux mascot, with or without the Red Hat logo.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-7-RGB.svg" alt="Image of the Red Hat hat placed on top of the IBM logo.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not use the logo or the hat icon as part of another logo or for parody purposes.</p>
-      </rhb-card>
-      <rhb-card>
+      </rhb-recommend>
+      <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-8-RGB.svg" alt="Image of the Red Hat wordmark used alone.">
-        <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not use the wordmark alone. Instead, type "Red Hat" in our font.</p>
-      </rhb-card>
+      </rhb-recommend>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -205,22 +200,22 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-grid columns="two">
-      <rhb-image-with-text>
+      <rhb-card full-width>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy-RGB_0.svg" alt="Screenshot of a browser window showing the hat used as the favicon for the Red Hat website.">
         <p slot="content">For small spaces where the logo can’t fit, like a favicon, you can use the hat. <a href="/the-hat">Read more about using the hat alone.</a></p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy%202-RGB.jpg" alt="Photograph of a coffee tumbler with Red Hat logo B version printed on the front.">
         <p slot="content">The stacked logo with large type (Logo B) makes the best use of the available space on this travel mug.</a></p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy%203-RGB.jpg" alt="Photograph of the north side of Red Hat Tower in downtown Raleigh, NC, featuring the Red Hat logo version A">
         <p slot="content">The space on top of Red Hat Tower is wide and narrow, so we chose a horizontal logo. We also needed our name to be visible from far away, so we chose the version with large type (Logo A).</a></p>
-      </rhb-image-with-text>
-      <rhb-image-with-text>
+      </rhb-card>
+      <rhb-card full-width>
         <img slot="image" src="/assets/images/1019_RH_OBP_Outro_CC_Black_SFX%20copy_0.jpg" alt="Screenshot of the Red Hat video outro, featuring the Red Hat logo and Creative Commons icons.">
         <p slot="content">In video, we use an animated version of the Red Hat logo for outros. <a href="https://docs.google.com/presentation/d/1EDo4PA69x14OVBkpN0YK20dzmFPdYMnCxqNV-OcWLc8/edit#slide=id.g7f31431ecd_0_0">Read more in the Red Hat video&nbsp;standards.</a></p>
-      </rhb-image-with-text>
+      </rhb-card>
     </rhb-grid>
   </rhb-container>
 </rhb-band>
@@ -230,7 +225,7 @@ tags:
     <rhb-card full-width style="display: block; background-color: var(--rh-color-surface-lighter, #f2f2f2); text-align: center; padding: var(--rh-spacer-xl, 24px);">
       <h3 slot="headline">Red Hat Trademarks</h3>
       <p slot="content" style="font-size: var(--rh-font-size-body-text-lg, 1.125rem);">Aside from the Red Hat logo, our trademarks include the Red Hat wordmark and the names of certain products, services, and technologies. Using our trademarks correctly in documentation, web pages, marketing materials, and collateral is as important as using the logo correctly.</p>
-      <rh-cta variant="primary" slot="cta"><a href="https://www.redhat.com/en/about/trademark-guidelines-and-policies"></a>Learn More</rh-cta>
+      <rh-cta variant="primary" slot="cta"><a href="/foundations/naming-and-trademarks/"></a>Learn More</rh-cta>
     </rhb-card>
   </rhb-container>
 </rhb-band>
