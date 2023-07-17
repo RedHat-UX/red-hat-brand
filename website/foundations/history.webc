@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: History
+description: Red Hat was born 1995 when Bob Young and Marc Ewing joined forces to sell Ewing’s distribution of Linux® on CDs.
 order: 0
 tags:
   - foundations

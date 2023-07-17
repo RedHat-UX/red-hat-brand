@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Product logos
+description: Use these guidelines for details on how and when to incorporate Red Hat product logos into your own messaging.
 order: 60
 tags: 
   - logos

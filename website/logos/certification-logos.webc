@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Certification logos
+description: Use these guidelines for details on how and when to use a digital badge issued by the Red Hat Digital Credentialing program.
 order: 90
 tags: 
   - logos

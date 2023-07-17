@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Additional resources
+description: Applications
 order: 10
 tags:
   - templates-and-resources

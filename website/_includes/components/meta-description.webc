@@ -1,0 +1,4 @@
+<script webc:type="js">
+  const description = $data.description ?? $data.site.description;
+	`<meta name="description" content="${description}"/>`;
+</script>

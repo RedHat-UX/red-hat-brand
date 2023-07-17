@@ -1,11 +1,12 @@
 <script webc:type="js">
-	const description = $data.description ?? $data.site.description;
-	const title = $data.title ?? $data.site.title;
-	`<meta property="og:title" content="${title}">
-		<meta property="og:name" content="${title}">
-		<meta property="og:url" content="${$data.site.url}">
-		<meta name="description" property="og:description" content="${description}">
-		<meta property="og:type" content="website">
-		<meta property="og:image" content="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg">
-	`;
+  const description = $data.description ?? $data.site.description;
+  const title = $data.title ?? $data.site.title;
+  const url = $data.url ?? $data.site.url;
+  `<meta property="og:type" content="website">
+  <meta property="og:url" content="${url}">
+  <meta property="og:title" content="${title}">
+  <meta property="og:description" content="${description}">
+  <meta property="og:image" content="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="${title}" />`;
 </script>

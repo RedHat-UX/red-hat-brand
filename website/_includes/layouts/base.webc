@@ -2,16 +2,18 @@
 <html lang="en">
   <head>
   <meta webc:keep charset="utf-8">
-  <meta webc:keep http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link webc:keep rel="shortcut icon" href="https://www.redhat.com/misc/favicon.ico" type="image/x-icon">
-
-  <title webc:nokeep webc:is="meta-title"></title>
-  <meta webc:nokeep webc:is="meta-social">
   <link webc:nokeep webc:is="link-canonical">
 
-  <link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;500;700&amp;family=Noto+Sans+JP:wght@300;500;700&amp;family=Noto+Sans+KR:wght@300;500;700&amp;family=Noto+Sans+Malayalam:wght@300;500;700&amp;family=Noto+Sans+SC:wght@300;500;700&amp;family=Noto+Sans+TC:wght@300;500;700&amp;family=Noto+Sans+Tamil:wght@300;500;700&amp;family=Noto+Sans+Thai:wght@300;500;700&amp;display=swap">
+  <meta http-equiv="content-language" content="en" />
 
+  <title webc:nokeep webc:is="meta-title"></title>
+  <meta name="description" webc:is="meta-description" />
+  <meta webc:nokeep webc:is="meta-social">
+
+  <meta name="MobileOptimized" content="width" />
+  <meta webc:keep http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;500;700&amp;family=Noto+Sans+JP:wght@300;500;700&amp;family=Noto+Sans+KR:wght@300;500;700&amp;family=Noto+Sans+Malayalam:wght@300;500;700&amp;family=Noto+Sans+SC:wght@300;500;700&amp;family=Noto+Sans+TC:wght@300;500;700&amp;family=Noto+Sans+Tamil:wght@300;500;700&amp;family=Noto+Sans+Thai:wght@300;500;700&amp;display=swap">
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-navigation-secondary/rh-navigation-secondary-lightdom.css">
   <link webc:keep rel="stylesheet" href="https://ga.jspm.io/npm:@rhds/elements@1.0.0/elements/rh-footer/rh-footer-lightdom.css">
 

@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Photography
+description: Discover how Red Hat photography shows subjects in their real environments in an effort to capture their spirit in meaningful, authentic ways.
 order: 20
 tags:
   - design-language

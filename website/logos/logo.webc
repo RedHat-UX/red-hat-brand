@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Red Hat logo
+description: The red hat in our logo symbolizes software freedom. Find out the story behind our iconic logo and how to work with it.
 order: 0
 tags: 
   - logos

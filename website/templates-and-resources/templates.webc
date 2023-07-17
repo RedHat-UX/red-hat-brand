@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Templates
+description: Combine Red Hat&#039;s brand elements for a crisp, consistent look.
 order: 0
 tags:
   - templates-and-resources

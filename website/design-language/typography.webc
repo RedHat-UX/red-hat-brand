@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Fonts and typography
+description: Use this Red Hat typography guide to explore how and when to incorporate the various fonts available within the Red Hat font family.
 order: 10
 tags:
   - design-language
