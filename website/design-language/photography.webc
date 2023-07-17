@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Photography
+order: 20
 tags:
   - design-language
   - popular
@@ -139,7 +140,7 @@ tags:
       <rh-tab-panel>
         <rhb-grid columns="two">
           <rhb-card full-width>
-          <img slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock-100.jpg" alt="alt text goes here">
+          <img class="border-xl border-update" slot="image" src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock-100.jpg" alt="alt text goes here">
           </rhb-card>
           <rhb-content>
             <h6>Purchased stock</h6>

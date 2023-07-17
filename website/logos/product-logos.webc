@@ -98,7 +98,7 @@ tags:
         <p slot="content">Product logos consist of the Red Hat logo and the product name spelled out. They create instant recognition for our parent brand and the product.</p>
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductIcon-Example.svg" alt="Red Hat Ansible Automation Platform product icon.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductIcon-Example.svg" alt="Red Hat Ansible Automation Platform product icon.">
         <p slot="content">Product icons consist of a visual metaphor encased in a bounding shape. They can be developed for any Red Hat offering that needs to be visualized at a small scale where a product logo would not fit.</p>
       </rhb-image-with-text>
     </rhb-grid>
@@ -132,12 +132,12 @@ tags:
       </rhb-recommend>
 
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-This3.svg" alt="The Red Hat Virtualization full color logo with black text, on a light gray background.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-This3.svg" alt="The Red Hat Virtualization full color logo with black text, on a light gray background.">
         <p slot="content">Use dark color logos on light backgrounds, and vice versa.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-NotThis3.svg" alt="The Red Hat Virtualization full color logo with white text, on a light gray background.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-NotThis3.svg" alt="The Red Hat Virtualization full color logo with white text, on a light gray background.">
         <p slot="content">Do not use a product logo on a background that is too light or dark, obscuring visibility.</p>
       </rhb-recommend>
 
@@ -163,7 +163,7 @@ tags:
         <p slot="content">There is no need to add a separate Red Hat logo on a swag item because product logos already include the Red Hat logo.</p>
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img slot="image" src="/assets/images/logos/product-logos/BrandStandard-Logo-Product_Logos-Example2.jpg" alt="Example of Red Hat OpenShift logo used on a social media image.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/product-logos/BrandStandard-Logo-Product_Logos-Example2.jpg" alt="Example of Red Hat OpenShift logo used on a social media image.">
         <p slot="content">Product logos can combine with other visual elements to promote our products, like this social media post.</p>
       </rhb-image-with-text>
     </rhb-grid>

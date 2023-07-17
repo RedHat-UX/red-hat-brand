@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: Standard icons
+order: 40
 tags:
   - design-language
 ---
@@ -67,11 +68,11 @@ tags:
                 <p slot="content">Do not add elements to create a different shape or combine icons. Use an <a href="https://www.redhat.com/en/about/brand/standards/illustration">illustration</a> for complex concepts.</p>
             </rhb-recommend>
             <rhb-recommend>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-TNT-Row_1-This_2-RGB-UPDATE.svg" alt="A quote with the talk bubble icon beside it at 32 pixels.">
+                <img class="border-xl border-update" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-TNT-Row_1-This_2-RGB-UPDATE.svg" alt="A quote with the talk bubble icon beside it at 32 pixels.">
                 <p slot="content">Use icons to complement text or other small design elements. They work best between 32 and 100 pixels in size.</p>
             </rhb-recommend>
             <rhb-recommend no>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-TNT-Row_1-Not_this_2-RGB-UPDATED.svg" alt="A quote with the talk bubble icon beside it at 150 pixels.">
+                <img class="border-xl border-update" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-TNT-Row_1-Not_this_2-RGB-UPDATED.svg" alt="A quote with the talk bubble icon beside it at 150 pixels.">
                 <p slot="content">Do not make the icon too large. The icon should complement other design elements, not be the dominating visual.</p>
             </rhb-recommend>
 
@@ -133,7 +134,7 @@ tags:
                 <p slot="content">Icon patterns are a great way to customize a piece of swag for a team, product, or program while staying true to the Red Hat brand.</p>
             </rhb-card>
             <rhb-card full-width>
-                <img slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-Icon_pattern_use_2-RGB_0.png" alt="An email with a header image that includes an icon pattern.">
+                <img class="border-xl border-update" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-Icon_pattern_use_2-RGB_0.png" alt="An email with a header image that includes an icon pattern.">
                 <p slot="content">Icon patterns can be added to small spaces on documents or email headers to add visual interest without adding clutter.</p>
             </rhb-card>
         </rhb-grid>
@@ -164,11 +165,11 @@ tags:
                 <p slot="content">Do not combine icons together in a way that makes them lose their meaning.</p>
             </rhb-recommend>
             <rhb-recommend>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-Patterns-TNT-Row_2-This_2-RGB.svg" alt="A pattern of the container, sheild, and server stack icons spaced uniformly.">
+                <img class="border-xl border-update" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-Patterns-TNT-Row_2-This_2-RGB.svg" alt="A pattern of the container, sheild, and server stack icons spaced uniformly.">
                 <p slot="content">Only use standard icons in an icon pattern.</p>
             </rhb-recommend>
             <rhb-recommend no>
-                <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-Patterns-TNT-Row_2-Not_this_2-RGB.svg" alt="A pattern with the sheild and server stack icons mixed with a container illustration that is not an icon.">
+                <img class="border-xl border-update" slot="image" src="/assets/images/design-language/standard-icons-page/Brand_Standards-Red_Hat-Standard_Icons-Patterns-TNT-Row_2-Not_this_2-RGB.svg" alt="A pattern with the sheild and server stack icons mixed with a container illustration that is not an icon.">
                 <p slot="content">Do not mix different styles of icons or illustrations in a pattern.</p>
             </rhb-recommend>
         </rhb-grid>

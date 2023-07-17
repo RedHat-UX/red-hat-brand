@@ -1,17 +1,16 @@
 ---
 layout: layouts/backpage.webc
-title: Red Hat Marketplace
-order: 0
+title: Red Hat Marketplace handbook
+order: 10
 tags:
-- expression
-- popular
+- handbooks
 ---
 
 <rhb-band>
   <rhb-container>
-    <h2>Red Hat Marketplace brand guidelines</h2>
+    <h2>Red Hat Marketplace handbook</h2>
     <rhb-content>
-      <p>These guidelines are designed to help writers and designers create content and assets for Red Hat® Marketplace,
+      <p>This handbook is designed to help writers and designers create content and assets for Red Hat® Marketplace,
         a centralized location for trying, buying, and managing certified enterprise software for container-based
         environments in public clouds and on-premise.</p>
     </rhb-content>

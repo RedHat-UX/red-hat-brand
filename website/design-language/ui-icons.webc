@@ -1,6 +1,7 @@
 ---
 layout: layouts/backpage.webc
 title: UI icons
+order: 60
 tags:
   - design-language
 ---

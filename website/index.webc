@@ -5,7 +5,7 @@ layout: layouts/homepage.webc
 <rhb-band>
   <rhb-container>
     <rhb-hero>
-      <img 
+      <img class="border-xl border-update"
         slot="image" 
         src="/assets/images/Asset-Red_Hat_Standards-Landing_Page-Hero.svg" 
         alt="Brand Standards Illustration"
@@ -75,11 +75,11 @@ layout: layouts/homepage.webc
     <rh-tabs vertical>
       <rh-tab slot="tab">Functional</rh-tab>
       <rh-tab-panel>
-        <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
+        <img class="border-xl border-update" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
       </rh-tab-panel>
       <rh-tab slot="tab">Expressive</rh-tab>
       <rh-tab-panel>
-        <img src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
+        <img class="border-xl border-update" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
       </rh-tab-panel>
     </rh-tabs>
 

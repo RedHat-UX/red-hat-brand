@@ -144,7 +144,7 @@ tags:
         <p slot="content">Ensure that the logo is easy to read and has sufficient contrast against background colors.</p>
       </rhb-card>
       <rhb-card>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Image-Not_this-2-RGB.jpg" alt="Photograph of Red Hat CEO Paul Cormier with the Red Hat logo placed on a dark gray background beside him, where it has low contrast and is difficult to see.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/Asset-Red_Hat-Image-Not_this-2-RGB.jpg" alt="Photograph of Red Hat CEO Paul Cormier with the Red Hat logo placed on a dark gray background beside him, where it has low contrast and is difficult to see.">
         <div slot="headline" class="flex-center danger"><pf-icon icon="circle-xmark" size="lg"></pf-icon> <span class="font-2xl">Not this</span></div>
         <p slot="content">Do not place the logo on a background that doesn’t have enough contrast. Use the version of the logo with the most contrast.</p>
       </rhb-card>

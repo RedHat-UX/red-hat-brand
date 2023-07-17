@@ -1,10 +1,9 @@
 ---
 layout: layouts/backpage.webc
-title: Applications
-order: 0
+title: Additional resources
+order: 10
 tags:
-  - expression
-  - popular
+  - templates-and-resources
 ---
 
 <rhb-band>
