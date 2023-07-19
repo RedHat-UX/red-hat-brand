@@ -49,7 +49,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two" offset-left>
       <rhb-card>
-        <img class="border-xl border-update" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Platform-Minispot-RGB.svg" alt="Six example rover badges.">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Platform-Minispot-RGB.svg" alt="Six example rover badges.">
       </rhb-card>
       <rhb-card>
         <h2 slot="headline">The essence of our platform</h2>
@@ -68,19 +68,19 @@ tags:
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Social-RGB.png">
+        <img slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Social-RGB.png" alt="[ERROR: MISSING ALT TAG]">
         <p slot="content">We have different social media accounts for different parts of our business, but all accounts use the Red Hat logo in their avatars and account headers.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" class="border-sm border-subtle" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Product_icons-RGB.png">
+        <img class="border-xl border-update" slot="image" class="border-sm border-subtle" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Product_icons-RGB.png" alt="[ERROR: MISSING ALT TAG]">
         <p slot="content">In small contexts where the Red Hat logo does not fit, like with <a href="/design-language/technology-icons">technology icons</a>, we use the text to make it clear that the offering or content is from Red Hat.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Compiler-RGB.png">
+        <img slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Compiler-RGB.png" alt="[ERROR: MISSING ALT TAG]">
         <p slot="content">External initiatives or programs that have their own name or look and feel, like our podcasts, always include the full Red Hat logo on any asset so that it’s clear that it’s coming from Red Hat.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Endorsement-RGB.png">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Endorsement-RGB.png" alt="[ERROR: MISSING ALT TAG]">
         <p slot="content">Open source communities that are created or supported by Red Hat use an <a href="https://www.redhat.com/en/about/brand/standards/endorsement-logos">endorsement logo</a> so that it’s clear to community members and contributors that Red Hat supports the project.</p>
       </rhb-card>
     </rhb-grid>
@@ -103,12 +103,12 @@ tags:
         <rh-tab-panel>
           <rhb-grid columns="two">
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Diagram-Products-RGB.svg" alt="Diagram of a standard digital badge highlighting the dark gray outline and gray background.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Diagram-Products-RGB.svg" alt="Diagram of a standard digital badge highlighting the dark gray outline and gray background.">
               <div slot="headline"><span class="font-lg"><strong>Product names</strong></span></div>
               <p slot="content">Product names start with Red Hat followed by a name that describes what the offering is and what it does. Product names that include a subbrand like OpenShift® or Ansible® always include additional descriptive text in their name.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Logos-Products-RGB.svg" alt="Four icons that represent knowledge development, awards, contribution and impact, and program membership.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Logos-Products-RGB.svg" alt="Four icons that represent knowledge development, awards, contribution and impact, and program membership.">
               <div slot="headline"><span class="font-lg"><strong>Product logos</strong></span></div>
               <p slot="content">Every product logo starts by connecting the Red Hat logo with the full name of the product. Learn more about Red Hat product logos.</p>
             </rhb-image-with-text>
@@ -119,12 +119,12 @@ tags:
         <rh-tab-panel>
           <rhb-grid columns="two">
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Diagram-Teams_Tools_Programs-RGB.svg" alt="Diagram of a Red Hat Certification digital badge highlighting the dark gray outline and black background.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Diagram-Teams_Tools_Programs-RGB.svg" alt="Diagram of a Red Hat Certification digital badge highlighting the dark gray outline and black background.">
               <div slot="headline"><span class="font-lg"><strong>Team, tool, and program names</strong></span></div>
               <p slot="content">Teams, tools, and programs start with the Red Hat name followed by a professional and customer-facing descriptive name. They should also include a descriptor like "Program" or "Team" in the name to make their relationship to Red Hat clear.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Logos-Teams_Tools_Programs-RGB.svg" alt="Icon representing certification.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Logos-Teams_Tools_Programs-RGB.svg" alt="Icon representing certification.">
               <div slot="headline"><span class="font-lg"><strong>Universal logos</strong></span></div>
               <p slot="content">Teams, tools, and programs use the universal logo format. This format pairs the name with the fedora icon and a dividing line, making the relationship to the company clear. Learn more about Red Hat universal logos.</p>
             </rhb-image-with-text>
@@ -135,12 +135,12 @@ tags:
         <rh-tab-panel>
           <rhb-grid columns="two">
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Diagram-Initiatives-RGB.svg" alt="Diagram of a Red Hat Certification digital badge highlighting the dark gray outline and black background.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Diagram-Initiatives-RGB.svg" alt="Diagram of a Red Hat Certification digital badge highlighting the dark gray outline and black background.">
               <div slot="headline"><span class="font-lg"><strong>Initiative names</strong></span></div>
               <p slot="content">Initiatives are groups or programs that engage with Red Hat employees, communities, partners, and customers in unique ways. Like other Red Hat groups, their name always starts with Red Hat followed by a descriptive name.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Logos-Initiatives-RGB-01.svg" alt="Icon representing certification.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/foundations/strategy/Asset-Red_Hat-Brand_Strategy-Logos-Initiatives-RGB-01.svg" alt="Icon representing certification.">
               <div slot="headline"><span class="font-lg"><strong>Initiative logos</strong></span></div>
               <p slot="content">Initiative logos don’t include the fedora icon so they must always be used in conjunction with the full Red Hat logo. Learn more about Red Hat initiative logos.</p>
             </rhb-image-with-text>

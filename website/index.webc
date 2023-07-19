@@ -7,8 +7,9 @@ layout: layouts/homepage.webc
     <rhb-hero>
       <img class="border-xl border-update"
         slot="image" 
-        src="/assets/images/Asset-Red_Hat_Standards-Landing_Page-Hero.svg" 
+        webc:is="rhb-img" src="assets/images/Asset-Red_Hat_Standards-Landing_Page-Hero.svg" 
         alt="Brand Standards Illustration"
+        loading="eager"
       >
       <h2 slot="headline">Brand Standards</h2>
       <p slot="content">
@@ -38,26 +39,26 @@ layout: layouts/homepage.webc
     <rhb-grid columns="two">
       <h3 slot="header">Core brand elements</h3>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" alt="We always lead with Red Hat">
+        <img slot="image" webc:is="rhb-img" src="assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-04.svg" alt="We always lead with Red Hat">
         <h3 slot="headline">We always lead with Red Hat.</h3>
         <rh-cta slot="cta"><a href="/foundations/strategy">Brand Strategy</a></rh-cta>
       </rhb-card>
       <rhb-card full-width>
-        <video slot="image" class="mt-6" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
+        <video slot="image" class="mt-6" poster="/assets/posters/Asset-Red_Hat-Brand_Standards-Landing_Page-core-01.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
           <source type="video/mp4" src="/assets/videos/01_Asset-Red_Hat-Brand_Standards-Logo_and_clearspace_animation.mp4" width="100%">
         </video>
         <h3 slot="headline">Our logo is a red hat with the words Red Hat.</h3>
         <rh-cta slot="cta"><a href="/logos/logo">Red Hat logo</a></rh-cta>
       </rhb-card>
       <rhb-card full-width>
-        <video slot="image" poster="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
+        <video slot="image" poster="/assets/posters/Asset-Red_Hat-Brand_Standards-Landing_Page-core-02_0.svg" width="100%" autoplay="" loop="" muted="" playsinline="">
           <source type="video/mp4" src="/assets/videos/02_Asset-Red_Hat-Brand_Standards-Color_animation.mp4" width="100%">
         </video>
         <h3 slot="headline">Our core colors are red, black, and white.</h3>
         <rh-cta slot="cta"><a href="/logos/logo">Colors</a></rh-cta>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg" alt="Our font family has three styles">
+        <img slot="image" webc:is="rhb-img" src="assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-core-03.svg" alt="Our font family has three styles">
         <h3 slot="headline">Our font family has three styles.</h3>
         <rh-cta slot="cta"><a href="/logos/the-hat">Typography</a></rh-cta>
       </rhb-card>
@@ -75,11 +76,11 @@ layout: layouts/homepage.webc
     <rh-tabs vertical>
       <rh-tab slot="tab">Functional</rh-tab>
       <rh-tab-panel>
-        <img class="border-xl border-update" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
+        <img class="border-xl border-update" webc:is="rhb-img" src="assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Functional.svg" alt="Examples of functional brand expression at Red Hat" loading="lazy">
       </rh-tab-panel>
       <rh-tab slot="tab">Expressive</rh-tab>
       <rh-tab-panel>
-        <img class="border-xl border-update" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
+        <img class="border-xl border-update" webc:is="rhb-img" src="assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Expressive.svg" alt="Examples of expressive brand expression at Red Hat" loading="lazy">
       </rh-tab-panel>
     </rh-tabs>
 
@@ -91,25 +92,25 @@ layout: layouts/homepage.webc
     <rhb-grid columns="two">
       <h3 slot="header">What's new</h3>
       <rhb-card bordered>
-        <img slot="image" src="/assets/images/Standard-Landing_Page-History_update-RGB-01.jpg" alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history." loading="lazy">
+        <img slot="image" webc:is="rhb-img" src="assets/images/Standard-Landing_Page-History_update-RGB-01.jpg" alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history." loading="lazy">
         <h3 slot="headline">History page updates</h3>
         <p slot="content">(February 2023) We’ve updated our history page to include more details, including information about the Open Brand Project, the IBM acquisition, and recent leadership changes.</p>
         <rh-cta slot="cta"><a href="/foundations/history">Learn more</a></rh-cta>
       </rhb-card>
       <rhb-card bordered>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Artboard-01.svg" alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history." loading="lazy">
+        <img slot="image" webc:is="rhb-img" src="assets/images/Asset-Red_Hat-Brand_Standards-Landing_Page-Artboard-01.svg" alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history." loading="lazy">
         <h3 slot="headline">Digital badges page</h3>
         <p slot="content">(May 2022) We’ve created a new page for Red Hat digital badges–shareable and verifiable credentials issued through our partner, Credly.</p>
         <rh-cta slot="cta"><a href="/logos/certification-logos">Learn more</a></rh-cta>
       </rhb-card>
       <rhb-card bordered>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Brand_Standards-Landing_page-Logo-RGB.svg" alt="Image of the Red Hat logo used on various color background." loading="lazy">
+        <img slot="image" webc:is="rhb-img" src="assets/images/Asset-Red_Hat-Brand_Standards-Landing_page-Logo-RGB.svg" alt="Image of the Red Hat logo used on various color background." loading="lazy">
         <h3 slot="headline">Red Hat logo updates</h3>
         <p slot="content">(March 2022) We’ve updated our Red Hat logo page with more specific information about our logo variations, using the logo on various background colors and images, and what the logo looks like in real-life applications.</p>
         <rh-cta slot="cta"><a href="/logos/logo">Learn more</a></rh-cta>
       </rhb-card>
       <rhb-card bordered>
-        <img slot="image" src="/assets/images/Notebooks-Landing_page.png" alt="Photo of Red Hat branded notebooks with the hat on the cover." loading="lazy">
+        <img slot="image" webc:is="rhb-img" src="assets/images/Notebooks-Landing_page.png" alt="Photo of Red Hat branded notebooks with the hat on the cover." loading="lazy">
         <h3 slot="headline">The hat page</h3>
         <p slot="content">(March 2022) We’ve created a new page that goes into detail about the hat, including how to determine when it’s appropriate to use the hat alone and how to apply the hat as artwork versus using it to represent Red Hat.</p>
         <rh-cta slot="cta"><a href="/logos/the-hat">Learn more</a></rh-cta>

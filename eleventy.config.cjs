@@ -1,17 +1,43 @@
 const fs = require("fs");
 const pluginWebC = require("@11ty/eleventy-plugin-webc");
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
+const { eleventyImagePlugin } = require("@11ty/eleventy-img");
 
 const NOT_FOUND_PATH = "_site/404.html";
 
 module.exports = function(eleventyConfig) {
-	eleventyConfig.addPlugin(pluginWebC, {
-		components: "website/_includes/components/*.webc",
-	});
+
   eleventyConfig.addPlugin(bundlerPlugin);
 
-	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
-	eleventyConfig.addPassthroughCopy({ public: "." });
+	eleventyConfig.addPlugin(pluginWebC, {
+		components: [
+      "website/_includes/components/*.webc"
+    ],
+	});
+
+	// Image plugin
+	eleventyConfig.addPlugin(eleventyImagePlugin, {
+    urlPath: "/assets/images/",
+    outputDir: "./_site/assets/images/",
+    svgShortCircuit: true,
+		defaultAttributes: {
+			loading: "lazy",
+			decoding: "async"
+		}
+	});
+
+  function filterPaths(path) {
+    console.log('this path:', path);
+    return true;
+  };
+
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+	eleventyConfig.addPassthroughCopy({ "assets/fonts": "assets/fonts" });
+  eleventyConfig.addPassthroughCopy({ "assets/javascript": "assets/javascript" });
+  eleventyConfig.addPassthroughCopy({ "assets/stylesheets": "assets/stylesheets" });
+  eleventyConfig.addPassthroughCopy({ "assets/posters": "assets/posters" });
+  eleventyConfig.addPassthroughCopy({ "assets/videos": "assets/videos" });
+  eleventyConfig.addPassthroughCopy({ "assets/favicon.ico": "assets/favicon.ico" });
 
   eleventyConfig.setServerOptions({
 		module: "@11ty/eleventy-server-browsersync",

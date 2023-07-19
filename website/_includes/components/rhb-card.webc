@@ -16,10 +16,6 @@
     border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #d2d2d2);
   }
 
-  :host > img {
-    width: 100%;
-  }
-
   .card-content {
    margin: var(--rh-space-xl, 32px);
   }
