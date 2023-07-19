@@ -31,7 +31,7 @@ module.exports = function(eleventyConfig) {
     return true;
   };
 
-  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+  eleventyConfig.setServerPassthroughCopyBehavior("copy");
 	eleventyConfig.addPassthroughCopy({ "assets/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "assets/javascript": "assets/javascript" });
   eleventyConfig.addPassthroughCopy({ "assets/stylesheets": "assets/stylesheets" });
