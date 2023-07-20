@@ -16,12 +16,12 @@ tags:
     </rhb-content>
   
   <rhb-grid columns="three">
-      <img webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-01-100.jpg" alt="Customer portrait photo">
-      <img webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-02-100.jpg" alt="Custom stock photo">
-      <img webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-03-100.jpg" alt="Purchased stock photo">
-      <img webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-04-100.jpg" alt="Red Hat event photo">
-      <img webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-05-100.jpg" alt="Red Hat custom stock photo">
-      <img webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-06-100.jpg" alt="Red Hat photojournalism photo">
+      <img webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-01-100.jpg" alt="Customer portrait photo">
+      <img webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-02-100.jpg" alt="Custom stock photo">
+      <img webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-03-100.jpg" alt="Purchased stock photo">
+      <img webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-04-100.jpg" alt="Red Hat event photo">
+      <img webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-05-100.jpg" alt="Red Hat custom stock photo">
+      <img webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-06-100.jpg" alt="Red Hat photojournalism photo">
   </rhb-grid>
 
     <rh-cta><a href=https://drive.google.com/drive/folders/1Ju4hRf5GXamJl57jKREoTlcmGQzJ_GMp?usp>Access Red Hat's Photography Library</a></rh-cta>
@@ -39,7 +39,7 @@ tags:
     </rhb-content>
         <rhb-grid columns="two" offset-right>
           <rhb-card flush-top>
-            <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-01-100.jpg" alt="Red Hat photo that reflects brand attributes">
+            <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-01-100.jpg" alt="Red Hat photo that reflects brand attributes">
           </rhb-card>
           <rhb-content flush-top>
             <ul>
@@ -56,11 +56,11 @@ tags:
         </rhb-grid>
         <rhb-grid columns="two">
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-03-100.jpg" alt="Red Hat photo with a person as the subject">
+            <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-03-100.jpg" alt="Red Hat photo with a person as the subject">
             <p slot="content">Features a Red Hatter or a model that represents our associates and company culture accurately.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-02-100.jpg" alt="Red Hat photo with a person focused on an activity">
+            <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Attributes-02-100.jpg" alt="Red Hat photo with a person focused on an activity">
             <p slot="content">Focuses on an activity if a person is in the photo but is not the subject of the photo.</p>
           </rhb-card>
     </rhb-grid>
@@ -78,7 +78,7 @@ tags:
       <rh-tab-panel>
         <rhb-grid columns="two">
           <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock copy-100.jpg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock copy-100.jpg" alt="alt text goes here">
           </rhb-card>
           <rhb-content>
             <h6>Event photography</h6>
@@ -86,7 +86,7 @@ tags:
             <p>When shooting photography at an event, it is important to capture wide shots that showcase the environment, like the expo hall at Red Hat Summit.</p>
           </rhb-content>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Events-02-100.jpg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Events-02-100.jpg" alt="alt text goes here">
           </rhb-card>
             <rhb-content>
               <h6>Attendee photography</h6>
@@ -100,14 +100,14 @@ tags:
       <rh-tab-panel>
         <rhb-grid columns="two">
           <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Portraits-01-100.jpg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Portraits-01-100.jpg" alt="alt text goes here">
           </rhb-card>
           <rhb-content>
             <h6>Employee headshots</h6>
             <p>Employee headshots are taken in a studio with a solid background and studio lighting to highlight the subject’s personality instead of the environment.</p>
           </rhb-content>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Portraits-02-100.jpg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Portraits-02-100.jpg" alt="alt text goes here">
           </rhb-card>
             <rhb-content>
               <h6>Customer photography</h6>
@@ -120,14 +120,14 @@ tags:
       <rh-tab-panel>
         <rhb-grid columns="two">
           <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Photojournalism-01-100.jpg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Photojournalism-01-100.jpg" alt="alt text goes here">
           </rhb-card>
           <rhb-content>
             <h6>Customer stories</h6>
             <p>These photos show our customers’ journeys with our technologies and often depict a change in the culture of their companies. We want to document what life is like for customers in their daily environments.</p>
           </rhb-content>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Photojournalism-02-100.jpg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Brand_Standards-Photography-Photojournalism-02-100.jpg" alt="alt text goes here">
           </rhb-card>
             <rhb-content>
               <h6>Life at Red Hat</h6>
@@ -140,14 +140,14 @@ tags:
       <rh-tab-panel>
         <rhb-grid columns="two">
           <rhb-card full-width>
-          <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock-100.jpg" alt="alt text goes here">
+          <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Purchased-stock-100.jpg" alt="alt text goes here">
           </rhb-card>
           <rhb-content>
             <h6>Purchased stock</h6>
             <p>Stock photos are licensed through stock photography agencies. Look for royalty-free photos without licensing restrictions that don’t feature people as the subject of the photo, and make sure you know what you are buying.</p>
           </rhb-content>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Custom-stock-100.jpg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Custom-stock-100.jpg" alt="alt text goes here">
           </rhb-card>
             <rhb-content>
               <h6>Custom stock</h6>
@@ -160,7 +160,7 @@ tags:
       <rh-tab-panel>
         <rhb-grid columns="two">
           <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Associate-100.jpg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Associate-100.jpg" alt="alt text goes here">
           </rhb-card>
           <rhb-content>
             <h6>Associate photography</h6>
@@ -182,27 +182,27 @@ tags:
  
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-In_use-01-100.jpg" alt="alt text goes here">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-In_use-01-100.jpg" alt="alt text goes here">
         <p slot="content">Photography is often featured in web headers and cards on redhat.com to add a human element to our products and offerings.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-In_use-02-100.jpg" alt="alt text goes here">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-In_use-02-100.jpg" alt="alt text goes here">
         <p slot="content">Photography works well in presentations when we’re highlighting the experience of a customer, partner, associate, or industry.</p>
       </rhb-card>
       <rhb-recommend>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-This-1-100.jpg" alt="alt text goes here">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-This-1-100.jpg" alt="alt text goes here">
         <p slot="content">Take and choose photos that are authentic and true to Red Hat’s personality.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-1-100.jpg" alt="alt text goes here">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-1-100.jpg" alt="alt text goes here">
         <p slot="content">Do not take or choose photos that feel staged.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-This-2-100.jpg" alt="alt text goes here">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-This-2-100.jpg" alt="alt text goes here">
         <p slot="content">Take and choose photos that are free of overlays or additional graphic elements.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-2-100.jpg" alt="alt text goes here">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Not_this-2-100.jpg" alt="alt text goes here">
         <p slot="content">Do not overlay or add additional elements onto Red Hat photos.</p>
       </rhb-recommend>
     </rhb-grid>

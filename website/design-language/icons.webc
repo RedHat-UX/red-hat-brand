@@ -17,17 +17,17 @@ tags:
 
     <rhb-grid columns="three">
       <rhb-card full-width>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Product_icons-RGB.svg" alt="Red Hat Ansible Automation Platform product icon and content navigator service icon">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Product_icons-RGB.svg" alt="Red Hat Ansible Automation Platform product icon and content navigator service icon">
         <div slot="headline" class="center" style="text-align:center"><span class="font-xl"><strong>Product icons</strong></span></div>
         <p slot="content" style="text-align:center">Product icons are used to represent Red Hat products and offerings in marketplaces.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Icons-RGB.svg" alt="User interface icon for link and standard icon for collaboration">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Icons-RGB.svg" alt="User interface icon for link and standard icon for collaboration">
         <div slot="headline" class="center" style="text-align:center"><span class="font-xl"><strong>Icons</strong></span></div>
         <p slot="content" style="text-align:center">Icons show a single, simple concept. They’re usually small and used along with text or a label.</p>      
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Illustration-RGB.svg" alt="Illustration in red and light red showing an application">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Illustration-RGB.svg" alt="Illustration in red and light red showing an application">
         <div slot="headline" class="center" style="text-align:center"><span class="font-xl"><strong>Illustrations</strong></span></div>
         <p slot="content" style="text-align:center">Illustrations are larger, more detailed, and tell a more nuanced story.</p>  
       </rhb-card>
@@ -39,7 +39,7 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-card vertical-center style="padding: var(--rh-spacer-xl, 24px);">
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Thumbnail-Standard_icons-RGB.png" alt="Screenshot of a presentation slide with three red icons">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Thumbnail-Standard_icons-RGB.png" alt="Screenshot of a presentation slide with three red icons">
       </rhb-card>
       <rhb-card vertical-center style="padding: var(--rh-spacer-xl, 24px);">
         <h3 slot="headline">Standard icons</h3>
@@ -55,13 +55,13 @@ tags:
         <rh-cta variant="primary" slot="cta"><a href="/en/about/brand/standards/icons/ui-icons">Read more about UI icons</a></rh-cta>
       </rhb-card>
       <rhb-card vertical-center style="padding: var(--rh-spacer-xl, 24px);">
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Thumbnail-UI_icons-RGB_0.png" alt="Screenshot of the Red Hat homepage with UI icons in white">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/icons-page/Brand_Standards-Red_Hat-Icon_landing_page-Thumbnail-UI_icons-RGB_0.png" alt="Screenshot of the Red Hat homepage with UI icons in white">
       </rhb-card>
     </rhb-grid>
 
     <rhb-grid columns="two">
       <rhb-card vertical-center style="padding: var(--rh-spacer-xl, 24px);">
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/icons-page/Asset-Red_Hat-Thumbnail-Product_icons-RGB.png" alt="Example of a product icon being used in the interface">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/icons-page/Asset-Red_Hat-Thumbnail-Product_icons-RGB.png" alt="Example of a product icon being used in the interface">
       </rhb-card>
       <rhb-card vertical-center style="padding: var(--rh-spacer-xl, 24px);">
         <h3 slot="headline">Product icons</h3>

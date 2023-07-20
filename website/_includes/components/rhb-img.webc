@@ -7,7 +7,7 @@
 
 	<img
 	webc:is="eleventy-image"
-	src="./src/img/possum-geri.png"
+	inputPath="./src/img/possum-geri.png"
 	alt="The possum is Eleventy’s mascot"
 	width="222, 350"
 	class="some-custom-class"
@@ -23,8 +23,9 @@
   const path = require("path");
   
   async function imagePlugin(attributes, globalPluginOptions) {
-    if(!attributes.src) {
-      throw new Error("Missing `src` attribute on <eleventy-image>");
+    
+    if(!attributes.inputPath) {
+      throw new Error("Missing `inputPath` attribute on <eleventy-image>");
     }
   
     // TODO allow remote optimization automatically on full urls
@@ -60,7 +61,7 @@
       delete attributes.formats;
     }
     // always export using defined format given by image extension
-    instanceOptions.formats = attributes.src.split(".").pop();
+    instanceOptions.formats = attributes.inputPath.split(".").pop();
   
     // These defaults are set only if addPlugin was **not** called:
     if(!globalPluginOptions) {
@@ -91,9 +92,9 @@
   
     let options = Object.assign({}, globalPluginOptions, instanceOptions);
   
-    let metadata = await Image(src, options);
+    let metadata = await Image(inputPath, options);
 
-    attributes['data-original-src'] = attributes.src;
+    attributes['data-original-inputPath'] = attributes.inputPath;
 
     let imageAttributes = Object.assign({}, defaultGlobalAttributes, attributes);
   

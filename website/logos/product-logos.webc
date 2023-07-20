@@ -24,11 +24,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Clearspace_standard-RGB.svg" alt="Diagram showing appropriate clear space around the Red Hat Enterprise Linux logo, measured with the letter 'e' from the word Red Hat.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Clearspace_standard-RGB.svg" alt="Diagram showing appropriate clear space around the Red Hat Enterprise Linux logo, measured with the letter 'e' from the word Red Hat.">
         <p slot="content">Standard product logo, minimum clear space</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Clearspace_variant-RGB.svg" alt="Diagram showing appropriate clear space around the Red Hat Enterprise Linux Atomic Host logo, measured with the letter 'e' from the word Red Hat.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Clearspace_variant-RGB.svg" alt="Diagram showing appropriate clear space around the Red Hat Enterprise Linux Atomic Host logo, measured with the letter 'e' from the word Red Hat.">
         <p slot="content">Product logo with variant, minimum clear space</p>
       </rhb-card>
     </rhb-grid>
@@ -39,16 +39,16 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-image-with-text>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Artboard 15-RGB_2.svg" alt="The full color Red Hat Enterprise Linux logo with black text.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Artboard 15-RGB_2.svg" alt="The full color Red Hat Enterprise Linux logo with black text.">
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Color_example_reverse-RGB.svg" alt="The full color Red Hat Enterprise Linux logo with white text.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Color_example_reverse-RGB.svg" alt="The full color Red Hat Enterprise Linux logo with white text.">
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Color_example_white-RGB_0.svg" alt="The one-color Red Hat Enterprise Linux logo in white.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Color_example_white-RGB_0.svg" alt="The one-color Red Hat Enterprise Linux logo in white.">
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Color_example_black-RGB.svg" alt="The one-color Red Hat Enterprise Linux logo in black.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Color_example_black-RGB.svg" alt="The one-color Red Hat Enterprise Linux logo in black.">
       </rhb-image-with-text>
     </rhb-grid>
     <rhb-content>
@@ -61,19 +61,19 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ASSETS_Version_numbers.svg" alt="Red Hat Enterprise Linux 8 logo.">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ASSETS_Version_numbers.svg" alt="Red Hat Enterprise Linux 8 logo.">
         <p slot="content">Add version numbers only for major releases</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Stacked_logos-RGB.svg" alt="Red Hat Enterprise Linux logo with Linux stacked below Enterprise.">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-Stacked_logos-RGB.svg" alt="Red Hat Enterprise Linux logo with Linux stacked below Enterprise.">
         <p slot="content">Longer product names may have horizontal and stacked logo versions. The stacked versions fit better in vertical spaces.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-One_line.svg" alt="Red Hat Enterprise Linux logo on one line.">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-One_line.svg" alt="Red Hat Enterprise Linux logo on one line.">
         <p slot="content">Only use one-line logos for product interfaces where the product logo is too tall, or if space is limited. <a href="https://docs.google.com/presentation/d/123J-JkhRTzloY2NoD2HAcKv1FHKxRDe-j3FGeyu0c6E/edit?usp=sharing">Learn more about UI branding.</a></p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-Written_out.svg" alt="Red Hat Enterprise Linux name written in the Red Hat font.">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-Written_out.svg" alt="Red Hat Enterprise Linux name written in the Red Hat font.">
         <p slot="content">If the product logo is too tall, or space is limited, for any application aside from the product UI, write out the product name and use a Red Hat logo in a separate imprint area.</p>
       </rhb-card>
     </rhb-grid>
@@ -92,14 +92,14 @@ tags:
     <rhb-grid columns="two">
       <rhb-card full-width>
         <div slot="content" webc:nokeep>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductLogo-Example.svg" alt="Red Hat Ansible Automation Platform logo.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductLogo-Example.svg" alt="Red Hat Ansible Automation Platform logo.">
         <p slot="content"><strong>Product logos</strong></p>
         <p slot="content">Product logos incorporate the Red Hat logo and the full name of the product. When you’re representing a single product and you have the space, use a product logo. They create instant recognition for our parent brand and the product.</p>
       </div>
       </rhb-card>
       <rhb-card full-width>
         <div slot="content" webc:nokeep>
-        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductIcon-Example.svg" alt="Red Hat Ansible Automation Platform product icon.">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/BrandStandards-Logo-Product_Logos-ProductIcon-Example.svg" alt="Red Hat Ansible Automation Platform product icon.">
         <p slot="content"><strong>Technology icons</strong></p>
         <p slot="content">In a space that’s too small for a product logo, or when you’re referring to multiple Red Hat products at the same time, use a technology icon. This avoids squished logos and visual clutter that might be created by using too many product logos in one layout.</p>
       </div>
@@ -117,43 +117,43 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-This1-RGB_2.svg" alt="Red Hat Enterprise Linux 8 logo.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-This1-RGB_2.svg" alt="Red Hat Enterprise Linux 8 logo.">
         <p slot="content">Use version numbers for major product releases.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis1-RGB.svg" alt="Red Hat Enterprise Linux 8.1 logo.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis1-RGB.svg" alt="Red Hat Enterprise Linux 8.1 logo.">
         <p slot="content">Do not add version numbers for minor or "dot" releases.</p>
       </rhb-recommend>
 
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-This2-RGB_0.svg" alt="Red Hat CoreOS logo.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-This2-RGB_0.svg" alt="Red Hat CoreOS logo.">
         <p slot="content">Use product logos to represent our products and solutions.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis2-RGB_0.svg" alt="An outdated CoreOS logo.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis2-RGB_0.svg" alt="An outdated CoreOS logo.">
         <p slot="content">Do not use legacy product or project logos to represent enterprise products.</p>
       </rhb-recommend>
 
       <rhb-recommend>
-        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-This3.svg" alt="The Red Hat Virtualization full color logo with black text, on a light gray background.">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-This3.svg" alt="The Red Hat Virtualization full color logo with black text, on a light gray background.">
         <p slot="content">Use dark color logos on light backgrounds, and vice versa.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-NotThis3.svg" alt="The Red Hat Virtualization full color logo with white text, on a light gray background.">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standars-Product_logos-ASSETS-NotThis3.svg" alt="The Red Hat Virtualization full color logo with white text, on a light gray background.">
         <p slot="content">Do not use a product logo on a background that is too light or dark, obscuring visibility.</p>
       </rhb-recommend>
 
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-This4-RGB.svg" alt="Red Hat Integration logo.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-This4-RGB.svg" alt="Red Hat Integration logo.">
         <div slot="headline" class="flex-center success"><pf-icon icon="circle-check" size="md"></pf-icon> <span class="font-xl">This</span></div>
         <p slot="content">Use the logo as provided, with the Red Hat icon and product name together.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis4-RGB.svg" alt="The Red Hat Integration logo with the hat removed.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Red_Hat-NotThis4-RGB.svg" alt="The Red Hat Integration logo with the hat removed.">
         <p slot="content">Do not remove the hat icon from the product logo.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -164,11 +164,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-image-with-text>
-        <img slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/Brand_Standards-Product_logos-ASSETS-Example1_0.png" alt="Photograph of a collection of Red Hat Enterprise Linux merchandise.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/Brand_Standards-Product_logos-ASSETS-Example1_0.png" alt="Photograph of a collection of Red Hat Enterprise Linux merchandise.">
         <p slot="content">There is no need to add a separate Red Hat logo on a swag item because product logos already include the Red Hat logo.</p>
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/logos/product-logos/BrandStandard-Logo-Product_Logos-Example2.jpg" alt="Example of Red Hat OpenShift logo used on a social media image.">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/product-logos/BrandStandard-Logo-Product_Logos-Example2.jpg" alt="Example of Red Hat OpenShift logo used on a social media image.">
         <p slot="content">Product logos can combine with other visual elements to promote our products, like this social media post.</p>
       </rhb-image-with-text>
     </rhb-grid>

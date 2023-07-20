@@ -25,7 +25,7 @@
 
   <body>
     <rhb-header relative>
-      <img webc:is="rhb-img" width="169" height="40" alt="Red Hat logo" src="assets/images/logo--on-dark.svg" />
+      <img webc:is="rhb-img" input-path="assets/images/logo--on-dark.svg" width="169" height="40" alt="Red Hat logo" />
     </rhb-header>
     <div webc:nokeep webc:is="rhb-nav-secondary"></div>
     <main @raw="content"></main>
