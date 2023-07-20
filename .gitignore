@@ -1,6 +1,6 @@
 _site
 node_modules
+.wireit
 .DS_Store
-
 bundle.js
 assets/stylesheets/rhds
