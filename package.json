@@ -65,7 +65,7 @@
       ]
     },
     "debug": {
-      "command": "ls -1 ./assets/images"
+      "command": "tree ./assets/images"
     }
   }
 }
