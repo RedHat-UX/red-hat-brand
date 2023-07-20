@@ -61,7 +61,7 @@ layout: layouts/homepage.webc
         <h3 slot="headline">Our font family has three styles.</h3>
         <rh-cta slot="cta"><a href="/logos/the-hat">Typography</a></rh-cta>
       </rhb-card>
-    </rhb-card-grid>
+    </rhb-grid>
   </rhb-container>
 </rhb-band> 
 
