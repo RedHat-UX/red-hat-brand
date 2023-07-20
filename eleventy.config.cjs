@@ -26,11 +26,6 @@ module.exports = function(eleventyConfig) {
 		}
 	});
 
-  function filterPaths(path) {
-    console.log('this path:', path);
-    return true;
-  };
-
   eleventyConfig.setServerPassthroughCopyBehavior("copy");
 	eleventyConfig.addPassthroughCopy({ "assets/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "assets/javascript": "assets/javascript" });
