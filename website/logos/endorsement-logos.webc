@@ -12,7 +12,7 @@ tags:
       <h2 @text="title"></h2>
       <p>An endorsement logo is used to lend Red Hat’s credibility and reputation to an initiative or another brand. Endorsements allow us to have a presence in stories and messaging that are different from our core brand, strategically market ourselves to different audiences, and link initiatives back to Red Hat.</p>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Clearspace.svg" alt="endorsement logo with minimum clear space">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Clearspace.svg" alt="endorsement logo with minimum clear space">
         <p slot="content">Endorsement logo, minimum clear space</p>
       </rhb-card>
       <p><rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/10-es2EWQzuI0yVtQGsyBpm-qcBbHTaAo?usp=sharing">Download endorsement logos</a></rh-cta></p>
@@ -24,19 +24,19 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Supported_By.svg" alt="supported by red hat endorsement logo">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Supported_By.svg" alt="supported by red hat endorsement logo">
         <p slot="content">Supported by Red Hat means Red Hat provides funding and resources, but the endorsed brand has its own look and feel apart from Red Hat. The Red Hat® brand gives additional equity and credibility to the endorsed brand.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Sponsored_By.svg" alt="sponsored by red hat endorsement logo">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Sponsored_By.svg" alt="sponsored by red hat endorsement logo">
         <p slot="content">Sponsored by Red Hat means Red Hat is providing funding and resources in a long-term initiative with the endorsed brand, which should follow Red Hat’s corporate guidelines to the best of its ability.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Built_On.svg" alt="built on red hat endorsement logo">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Built_On.svg" alt="built on red hat endorsement logo">
         <p slot="content">Built on Red Hat means Red Hat software is embedded in another technology, solution, software, or hardware. This logo can be used to show that solutions are running on Red Hat software.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Presented_By.svg" alt="presented by red hat endoresment logo">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Presented_By.svg" alt="presented by red hat endoresment logo">
         <p slot="content">Presented by Red Hat means that Red Hat is curating content,  experiences, or initiatives that are focused on principles (like open source) that Red Hat believes in, rather than our products.</p>
       </rhb-card>
     </rhb-grid>
@@ -47,7 +47,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two" offset-left>
       <rhb-card vertical-center>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Alignment.svg" alt="Mini-spot illustration representing alignment">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Alignment.svg" alt="Mini-spot illustration representing alignment">
       </rhb-card>
       <rhb-card vertical-center>
         <h3 slot="headline">What if none of the endorsement types align to Red Hat’s relationship with my brand or initiative?</h3>
@@ -65,19 +65,19 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-OSDC-Example1.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-OSDC-Example1.png" alt="alt text goes here">
         <p slot="content">Opensource.com is a community that is funded and supported by Red Hat. The website maintains its own brand apart from Red Hat, and uses the "Supported by Red Hat" endorsement logo.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-WOSA-Example2.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-WOSA-Example2.png" alt="alt text goes here">
         <p slot="content">The Women in Open Source Award is a long-term sponsorship to celebrate open source innovations contributed by women. It uses the "Sponsored by Red Hat" endorsement logo.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-IBM-Example3.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-IBM-Example3.png" alt="alt text goes here">
         <p slot="content">IBM uses the "Built on Red Hat" endorsement logo when featuring content about IBM software that is built on, runs on, or is certified by, Red Hat technology.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Compiler-Example4.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Compiler-Example4.png" alt="alt text goes here">
         <p slot="content">Compiler worked with the Brand Team to create a modified version of the "Presented by Red Hat" endorsement to more accurately describe the relationship between Red Hat and the initiative.</p>
       </rhb-card>
     </rhb-grid>
@@ -88,19 +88,19 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-This1.svg" alt="alt text goes here">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-This1.svg" alt="alt text goes here">
         <p slot="content">Use the full endorsement logo to clearly show the type of endorsement Red Hat has given.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-NotThis1.svg" alt="alt text goes here">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-NotThis1.svg" alt="alt text goes here">
         <p slot="content">Do not rearrange, distort, or remove any elements of the endorsement logo.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-This2.svg" alt="alt text goes here">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-This2.svg" alt="alt text goes here">
         <p slot="content">Size and place the endorsement logo appropriately in order to complement the main message.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-NotThis2.svg" alt="alt text goes here">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-NotThis2.svg" alt="alt text goes here">
         <p slot="content">Do not make the endorsement logo more prominent than the endorsed brand or initiative.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -111,7 +111,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two" offset-left>
       <rhb-card vertical-center>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Events.svg" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Events.svg" alt="alt text goes here">
       </rhb-card>
       <rhb-card vertical-center>
         <h3 slot="headline">Should I use an endorsement logo at my next event?</h3>
@@ -125,11 +125,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-recommend>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-This3.png" alt="Sponsorship logo wall example (correct application)">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-This3.png" alt="Sponsorship logo wall example (correct application)">
         <p slot="content">Use the Red Hat logo for a short-term sponsorship or when our logo will stand beside other companies’ logos.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-NotThis3.png" alt="Sponsorship logo wall example (incorrect application)">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/endorsement-logos/Asset-Red_Hat-Brand_Standards-Endorsement_logos-NotThis3.png" alt="Sponsorship logo wall example (incorrect application)">
         <p slot="content">Do not use an endorsement logo in applications where there will be other companies’ logos.</p>
       </rhb-recommend>
   </rhb-container>

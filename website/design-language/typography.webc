@@ -17,7 +17,7 @@ tags:
       <p>In our font family, each character is made up of perfect circles and straight, even lines. The effect is a
         geometric, rational, and engineered font with human touches inspired by our brand’s history. The open feeling of
         the individual letters balances the tight spacing in between letters.</p>
-      <img src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-FontFamily-Feature.svg"
+      <img webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-FontFamily-Feature.svg"
         alt="Red Hat font family hero image">
       <p>Our fonts are open licensed under the SIL International license and are available for anyone to download and
         use. To use our fonts, you can: access them preloaded in <a
@@ -31,13 +31,13 @@ tags:
     <rhb-grid columns="two">
       <rhb-recommend>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-This1.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-This1.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Download our Red Hat fonts to create Red Hat materials.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-NotThis1.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-NotThis1.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Do not use other fonts for Red Hat materials.</p>
       </rhb-recommend>
@@ -51,7 +51,7 @@ tags:
       <h3 slot="header">Red Hat fonts</h3>
       <rhb-card flush-top>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Display-Feature.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Display-Feature.svg"
           alt="Red Hat Display weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -68,7 +68,7 @@ tags:
     <rhb-grid columns="two" margin-bottom="xl">
       <rhb-card flush-top>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Text-Feature_0.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Text-Feature_0.svg"
           alt="Red Hat Text weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -87,7 +87,7 @@ tags:
     <rhb-grid columns="two" margin-bottom="xl">
       <rhb-card flush-top>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Mono-Feature.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Mono-Feature.svg"
           alt="Red Hat Mono weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -104,7 +104,7 @@ tags:
     <rhb-grid columns="two">
       <rhb-card flush-top>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Global-Feature.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Global-Feature.svg"
           alt="Noto Sans weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -128,7 +128,7 @@ tags:
     <rhb-grid columns="two" offset-left>
       <rhb-card vertical-center>
         <img class="border-xl border-update" slot="image"
-          src="/assets/images/design-language/typography-page/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Alignment.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/Asset-Red_Hat-Brand_Standards-Endorsement_logos-Minispot-Alignment.svg"
           alt="Mini-spot illustration representing alignment">
       </rhb-card>
       <rhb-card vertical-center>
@@ -166,13 +166,13 @@ tags:
     <rhb-grid columns="two">
       <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_This_0.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_This_0.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Always use sentence case in Red Hat materials, even for headlines.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_NotThis.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_NotThis.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Do not use all caps or title case.</p>
       </rhb-recommend>
@@ -193,13 +193,13 @@ tags:
     <rhb-grid columns="two">
       <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_This.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_This.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Use 1 treatment to create hierarchy or emphasis.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_NotThis.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_NotThis.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Do not use more than 1 type of emphasis at a time.</p>
       </rhb-recommend>
@@ -221,7 +221,7 @@ tags:
       <rhb-band>
         <rhb-recommend>
           <img class="border-xl border-update" slot="image"
-            src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-This.svg"
+            webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-This.svg"
             alt="Red Hat materials using Red Hat fonts">
           <p slot="content">Use a lot of white space and minimal text, and leave a margin.</p>
         </rhb-recommend>
@@ -230,7 +230,7 @@ tags:
       <rhb-band>
         <rhb-recommend no>
           <img class="border-xl border-update" slot="image"
-            src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-NotThis.svg"
+            webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Whitespace-NotThis.svg"
             alt="Red Hat materials using Red Hat fonts">
           <p slot="content">Do not crowd a small space with a lot of text or eliminate a margin to create space for
             text.</p>
@@ -246,7 +246,7 @@ tags:
     <rhb-grid columns="two">
       <rhb-card bordered>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-FunctionalType.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-FunctionalType.svg"
           alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.">
         <h3 slot="headline">Functional type</h3>
         <div slot="content" webc:nokeep>
@@ -261,7 +261,7 @@ tags:
       </rhb-card>
       <rhb-card bordered>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-ExpressiveType.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-ExpressiveType.svg"
           alt="Photograph of a Red Hat Summit 2019 display showcasing Red Hat brand history.">
         <h3 slot="headline">Expressive type</h3>
         <div slot="content" webc:nokeep>
@@ -287,21 +287,21 @@ tags:
     <rhb-grid columns="two">
       <rhb-card full-width>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-FunctionalType-example.png"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-FunctionalType-example.png"
           alt="Functional type in Red Hat presentation templates">
         <p slot="content">Our presentation templates use Red Hat Display and Red Hat Text as functional type to clearly
           communicate to our customers, partners, and associates while looking and feeling like Red Hat.</p>
       </rhb-card>
       <rhb-card full-width>
         <img class="border-xl border-update" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Artboard%20178%20copy.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Artboard 178 copy.svg"
           alt="Social media graphic using expressive type">
         <p slot="content">Expressive type is used successfully as imagery in support of the functional type in this
           social graphic.</p>
       </rhb-card>
       <rhb-card full-width>
         <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-DigitalDesign-example.png"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-DigitalDesign-example.png"
           alt="Red Hat's Digital Design guidelines webpage">
         <p slot="content">Using Red Hat fonts on our web properties allows for consistency and extends our brand
           presence. <a href="https://ux.redhat.com/foundations/typography/">Learn more about how to use type on the
@@ -309,7 +309,7 @@ tags:
       </rhb-card>
       <rhb-card full-width>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Accessibility-example.png"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Accessibility-example.png"
           alt="Red Hat's Visual Accessibility guidelines presentation deck">
         <p slot="content">It’s important to consider how people with different abilities perceive text in your asset.
           Consider size, spacing, emphasis for hierarchy, and legibility. <a
@@ -334,7 +334,7 @@ tags:
     <rhb-grid columns="three">
       <rhb-card full-width>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS-Liberation-Sans.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS-Liberation-Sans.svg"
           alt="Description goes here.">
         <p slot="content">Liberation was created in 2007 to ease formatting issues when documents moved between open and
           proprietary office tools. It is built in 4 <a href="https://en.wikipedia.org/wiki/TrueType">TrueType font
@@ -342,7 +342,7 @@ tags:
       </rhb-card>
       <rhb-card full-width>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Overpass.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Overpass.svg"
           alt="Description goes here.">
         <p slot="content"><a href="https://overpassfont.org/">Overpass</a> was created in 2016 and has expanded several
           times since then. Based on Highway Gothic, the font was originally used on U.S. highway signs and features 20
@@ -351,7 +351,7 @@ tags:
       </rhb-card>
       <rhb-card full-width>
         <img slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Because_we_had_to.svg"
+          webc:is="rhb-img" input-path="./assets/images/design-language/typography-page/BrandStandards-Visual_System-Typography-ASSETS_Because_we_had_to.svg"
           alt="Functional type in Red Hat presentation templates">
         <p slot="content">We created and open sourced a family of handwriting fonts for the <a
             href="https://www.redhat.com/en/open-source-stories/because-we-had-to">Because we had to</a> article series

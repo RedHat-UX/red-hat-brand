@@ -18,6 +18,7 @@
   
   .logo {
     margin-inline-start: var(--rh-space-md, 8px);
+    height: 100%;
   }
   
   a {
@@ -28,7 +29,7 @@
 
   img, 
   svg {
-    max-width: 136px;
+    max-width: 169px;
   }
 
   @media screen and (min-width: 768px) {
@@ -40,9 +41,5 @@
       margin-inline-start: var(--rh-space-2xl, 32px);
     } 
 
-    img,
-    svg {
-      max-width: 188px;
-    }
   }
 </style>

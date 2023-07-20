@@ -13,7 +13,7 @@ tags:
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-image-with-text>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Clear_space-RGB.svg" alt="Example of two digital badges with a diagram showing appropriate clear space.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Clear_space-RGB.svg" alt="Example of two digital badges with a diagram showing appropriate clear space.">
     </rhb-grid>
     </rhb-image-with-text>
     <rhb-content>
@@ -26,7 +26,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card bordered>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-1-RGB.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-1-RGB.svg" alt="">
         <div slot="content" webc:nokeep>
         <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1mrQd094Q7kse_rDb1BpcO7RDShsauoaZjxvEf6eW1cI/edit?usp=sharing"> View existing Red Hat digital badges on Credly</a></rh-cta>
         <p></p>
@@ -34,7 +34,7 @@ tags:
         </div>
       </rhb-card>
       <rhb-card class="border-sm border-subtle">
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Learn_more-2-RGB.svg" alt="">
         <div slot="content" webc:nokeep>
           <rh-cta slot="cta"><a href="https://www.redhat.com/en/about/digital-credential-program">Learn more about the Red Hat Digital Credentialing program</a></rh-cta>
           <p></p>
@@ -59,32 +59,32 @@ tags:
         <rh-tab-panel>
           <rhb-grid columns="three">
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Background-RGB.svg" alt="Diagram of a standard digital badge highlighting the dark gray outline and gray background.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Background-RGB.svg" alt="Diagram of a standard digital badge highlighting the dark gray outline and gray background.">
               <div slot="headline"><span class="font-lg"><strong>Background and icon</strong></span></div>
               <p slot="content">Regardless of the height or content of the badge, standard digital badges always have a gray background with curved corners, surrounded by a darker gray outline.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Icons-RGB.svg" alt="Four icons that represent knowledge development, awards, contribution and impact, and program membership.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Icons-RGB.svg" alt="Four icons that represent knowledge development, awards, contribution and impact, and program membership.">
               <div slot="headline"><span class="font-lg"><strong>Icons</strong></span></div>
               <p slot="content">The icon used in the upper right of each standard digital badge denotes the type of credential the badge represents and always appears in black. Learn more about the types of digital credentials.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Type-RGB.svg" alt="Diagram highlighting the text in Red Hat Display Medium font on a standard digital badge.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Type-RGB.svg" alt="Diagram highlighting the text in Red Hat Display Medium font on a standard digital badge.">
               <div slot="headline"><span class="font-lg"><strong>Typography</strong></span></div>
               <p slot="content">For maximum legibility, all text is typed in Red Hat Display at the same point size.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_1-RGB.svg" alt="Example digital badge with a black secondary box.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_1-RGB.svg" alt="Example digital badge with a black secondary box.">
               <div slot="headline"><span class="font-lg"><strong>Default color</strong></span></div>
               <p slot="content">For an individual badge, the default color for the secondary box is black.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_2-RGB_0.png" alt="Three example badges with secondary boxes in three shadres of red.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_2-RGB_0.png" alt="Three example badges with secondary boxes in three shadres of red.">
               <div slot="headline"><span class="font-lg"><strong>Tiers or levels</strong></span></div>
               <p slot="content">For badges that represent tiers or levels, like Ready, Advanced, and Premier, the secondary box can be set to shades of red.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_3-RGB.svg" alt="Example digital badge with a gold secondary box.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Standard_style-Color_3-RGB.svg" alt="Example digital badge with a gold secondary box.">
               <div slot="headline"><span class="font-lg"><strong>Programs with existing brand kits</strong></span></div>
               <p slot="content">If the program represented by the digital badge has an existing brand kit, a color from the program color palette can be used for the secondary box.</p>
             </rhb-image-with-text>
@@ -95,22 +95,22 @@ tags:
         <rh-tab-panel>
           <rhb-grid columns="three">
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Background-RGB.svg" alt="Diagram of a Red Hat Certification digital badge highlighting the dark gray outline and black background.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Background-RGB.svg" alt="Diagram of a Red Hat Certification digital badge highlighting the dark gray outline and black background.">
               <div slot="headline"><span class="font-lg"><strong>Background and outline</strong></span></div>
               <p slot="content">Regardless of the height or content of the badge, <a href="https://www.redhat.com/en/services/training-and-certification">Red Hat Certification</a> badges always have a black background with curved corners, surrounded by a gray outline.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Icon-RGB.svg" alt="Icon representing certification.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Icon-RGB.svg" alt="Icon representing certification.">
               <div slot="headline"><span class="font-lg"><strong>Icon</strong></span></div>
               <p slot="content">Red Hat Certification badges always use the same icon in the upper left corner of the badge. The icon is always white.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Type-RGB.svg" alt="Diagram highlighting the text in Red Hat Display Medium and Bold font on a Red Hat Certification digital badge.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Type-RGB.svg" alt="Diagram highlighting the text in Red Hat Display Medium and Bold font on a Red Hat Certification digital badge.">
               <div slot="headline"><span class="font-lg"><strong>Typography</strong></span></div>
               <p slot="content">Red Hat Certification badges always use the same icon in the upper left corner of the badge. The icon is always white.</p>
             </rhb-image-with-text>
             <rhb-image-with-text>
-              <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Color_1-RGB.svg" alt="Example digital badge with a red secondary box.">
+              <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Certification_style-Color_1-RGB.svg" alt="Example digital badge with a red secondary box.">
               <div slot="headline"><span class="font-lg"><strong>Color</strong></span></div>
               <p slot="content">Red Hat Certification badges always use the same icon in the upper left corner of the badge. The icon is always white.</p>
             </rhb-image-with-text>
@@ -125,7 +125,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two" offset-left>
       <rhb-card flush-top>
-        <img class="border-xl border-update" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Rover_badges-RGB-2023-01.svg" alt="Six example rover badges.">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Rover_badges-RGB-2023-01.svg" alt="Six example rover badges.">
       </rhb-card>
       <rhb-card flush-top>
         <h3 slot="headline">Are digital badges the same as Rover badges?</h3>
@@ -146,19 +146,19 @@ tags:
   <rhb-container>
   <rhb-grid columns="two">
       <rhb-image-with-text>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-2-RGB.svg" alt="Two digital badges on a personal website.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-2-RGB.svg" alt="Two digital badges on a personal website.">
         <p slot="content">In an email signature, ensure that the badge has proper clear space and is large enough for the text to be legible. <a href="https://support.credly.com/hc/en-us/articles/360021221691-Can-I-attach-my-badge-to-my-email-signature-">Link the image to your verification page on Credly</a> so others can verify the achievements.</p>
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-1-RGB.svg" alt="A digital badge shared on a social media platform.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-1-RGB.svg" alt="A digital badge shared on a social media platform.">
         <p slot="content">On a personal website or blog, use the full digital badge image with proper clear space. <a href="https://support.credly.com/hc/en-us/articles/360043782632-How-can-I-embed-my-badge-in-a-website-">Embed the badge using Credly’s instructions</a> so others can verify the achievement.</p>        
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-3-RGB.svg" alt="Two digital badges in an email signature.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-3-RGB.svg" alt="Two digital badges in an email signature.">
         <p slot="content">Credly works with popular social and professional networking platforms. <a href="https://support.credly.com/hc/en-us/articles/360021222231-How-do-I-manage-and-share-my-digital-badge-">Follow Credly’s instructions</a> to share a digital badge to a LinkedIn profile or other social media.</p>  
       </rhb-image-with-text>
       <rhb-image-with-text>
-        <img slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-4-RGB.svg" alt="A certificate showcasing a digital badge that was earned.">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-In_use-4-RGB.svg" alt="A certificate showcasing a digital badge that was earned.">
         <p slot="content">Digital badges are available as <a href="https://support.credly.com/hc/en-us/articles/360026639872-Can-I-download-my-badge-certificate-">downloadable certificates on Credly</a>. Certificates include an image of the digital badge and can be printed as a physical record of the achievement.</p>
       </rhb-image-with-text>
     </rhb-grid>
@@ -169,22 +169,22 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-1-RGB.svg" alt="A digital badge that has been squished vertically.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-1-RGB.svg" alt="A digital badge that has been squished vertically.">
         <p slot="content">Do not stretch or distort digital badges. Always resize the image proportionally if resizing is necessary.</p>
       </rhb-recommend>
       
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-2-RGB.svg" alt="A digital badge that has been cropped on the sides.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-2-RGB.svg" alt="A digital badge that has been cropped on the sides.">
         <p slot="content">Do not crop or alter the shape of digital badges.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-3-RGB.svg" alt="A digital badge with a partner's logo pasted on top.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-3-RGB.svg" alt="A digital badge with a partner's logo pasted on top.">
         <p slot="content">Do not add other logos, badges, text, or other elements to digital badges.</p>
       </rhb-recommend>
 
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-4-RGB.png" alt="A digital badge with a drop shadow.">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/logos/digital-badges/Image-Red_Hat-Brand_Standards-Digital_Badges-Not_this-4-RGB.png" alt="A digital badge with a drop shadow.">
         <p slot="content">Do not add any additional bounding shape or effects, like drop shadows, to digital badges.</p>
       </rhb-recommend>
     </rhb-grid>

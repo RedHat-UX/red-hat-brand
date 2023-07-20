@@ -22,14 +22,15 @@ export default {
     }),
     copy({ targets: 
       [
-        { src: 'node_modules/@patternfly/icons/**/*', dest: './_site/assets/javascript/icons' }
+        { src: 'node_modules/@patternfly/icons/**/*', dest: './_site/assets/javascript/icons' },
+        { src: 'node_modules/@rhds/elements/**/*-lightdom.css', dest: './assets/stylesheets/rhds' }
       ]
     }),
   ],
   // Single bundle example
-  input: 'public/assets/javascript/main.js',
+  input: 'assets/javascript/main.js',
   output: [{
-    dir: 'public/assets/javascript/',
+    dir: 'assets/javascript/',
     entryFileNames: 'bundle.js',
     chunkFileNames: 'bundle-chunk.js',
     format: 'esm'

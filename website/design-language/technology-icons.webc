@@ -13,7 +13,7 @@ tags:
       <p>Similar to app icons on a phone, technology icons help our customers and partners to quickly identify Red Hat® products and offerings. We use them in small spaces where a logo won’t fit, like marketplaces and catalogs, diagrams, and favicons on browser tabs.</p>
     </rhb-content>
     <rhb-card>
-      <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Hero-071223.svg" alt="Examples of product icons in both the product icon and service icon styles">
+      <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Hero-071223.svg" alt="Examples of product icons in both the product icon and service icon styles">
     </rhb-card>
     <rhb-content>
       <p>Technology icons are designed to illustrate the functionality of the technology as simply as possible at small sizes. To build recognition for the icon outside of the interface, they can also be adapted for use as artwork in marketing materials.</p>
@@ -26,7 +26,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card bordered>
-          <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+          <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
           <div slot="content" webc:nokeep>
           <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1M1DhoaO3Rnkv5IKWSSZnZvH0SOxsbVDHyDz0k2SgzTY/edit?usp=sharing">View our Google Slides technology icon repository</a></rh-cta>
           <p></p>
@@ -34,7 +34,7 @@ tags:
           </div>
         </rhb-card>
         <rhb-card bordered>
-          <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+          <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
           <div slot="content" webc:nokeep>
           <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1M1DhoaO3Rnkv5IKWSSZnZvH0SOxsbVDHyDz0k2SgzTY/edit?usp=sharing">View our product artwork guidelines</a></rh-cta>
           <p></p>
@@ -53,21 +53,21 @@ tags:
     </rhb-content>
     <rhb-grid columns="three">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_1-071223.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_1-071223.svg" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Rounded rectangle</strong></p>
         <p slot="content">Technology icons use a rounded rectangle with a 9pt corner radius. Products use a black rounded rectangle and a #4d4d4d outline. Other offerings use a white rounded rectangle with a #dfdfdf outline.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_2-071223.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_2-071223.svg" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Icon</strong></p>
         <p slot="content">The icon uses 1.25pt strokes with rounded corners and ends. Products use red and white strokes, while all other offerings use red and black. For balance, we aim for a 50:50 ratio of the two colors.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_3-071223.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_3-071223.svg" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Icon placement</strong></p>
         <p slot="content">The icon is built on key lines that align it to the center of the rounded rectangle and create consistency in the icon set.</p>
@@ -81,19 +81,19 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_This_1-071223.svg" alt="Red Hat AMQ product icon in the product icon style">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_This_1-071223.svg" alt="Red Hat AMQ product icon in the product icon style">
         <p slot="content">Use the icons as provided without modifications.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_NotThis_1-071223.svg" alt="Example of incorrectly scaling and altering the colors of elements of a product icon">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_NotThis_1-071223.svg" alt="Example of incorrectly scaling and altering the colors of elements of a product icon">
         <p slot="content">Do not alter the colors or scale parts of an icon.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_This_2-071223.svg" alt="A product icon in the product icon style on a black background with a white drop shadow to add separation from the background">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_This_2-071223.svg" alt="A product icon in the product icon style on a black background with a white drop shadow to add separation from the background">
         <p slot="content">Use the full technology icon, including the rounded rectangle.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_NotThis_2-071223.svg" alt="Example of incorrectly adding an outline to the product icon style to create separation on a black background">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Design_NotThis_2-071223.svg" alt="Example of incorrectly adding an outline to the product icon style to create separation on a black background">
         <p slot="content">Do not remove the icon from the rounded rectangle or place the icon in a different shape.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -108,21 +108,21 @@ tags:
     </rhb-content>
     <rhb-grid columns="three">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_1-071223.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_1-071223.svg" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Products</strong></p>
         <p slot="content">One-color icons for products maintain the full rounded rectangle, with the icon cut out and transparent.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_2-071223.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_2-071223.svg" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Other offerings</strong></p>
         <p slot="content">Icons for other offerings maintain only the outer stroke of the rounded rectangle. The icon is merged into one object.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_3-071223.svg" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_3-071223.svg" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Colorways</strong></p>
         <p slot="content">One-color technology icons should only be used in Red Hat core colors: Red Hat red, black, white, or gray.</p>
@@ -136,19 +136,19 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_This_1-071223.svg" alt="A product icon and product logo being used in separate imprint areas">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_This_1-071223.svg" alt="A product icon and product logo being used in separate imprint areas">
         <p slot="content">Use the one-color version of the icon in <a href="/visual-system/color">our core colors</a> only (Red Hat red, black, white, or gray).</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_NotThis_1-071223.svg" alt="Example of what not to do when using product icons and logos together">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_NotThis_1-071223.svg" alt="Example of what not to do when using product icons and logos together">
         <p slot="content">Do not use the one-color version of the icon in a color that’s outside of our core colors.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_This_2-071223.svg" alt="Example of product icons being used correctly in context of the Red Hat brand">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_This_2-071223.svg" alt="Example of product icons being used correctly in context of the Red Hat brand">
         <p slot="content">Use a one-color icon in a color that has sufficient contrast against the background.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_NotThis_2-071223.svg" alt="Example of product icons being used incorrectly without the context of the Red Hat brand">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-OneColor_NotThis_2-071223.svg" alt="Example of product icons being used incorrectly without the context of the Red Hat brand">
         <p slot="content">Do not add an outline or a shape to a one-color icon in order to make it visible. Choose a different color icon instead.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -164,14 +164,14 @@ tags:
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Product logo</strong></p>
         <p slot="content">Product logos incorporate the Red Hat logo and the full name of the product. When you’re representing a single product and you have the space, use a product logo. They create instant recognition for our parent brand and the product.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
         <div slot="content" webc:nokeep>
         <p slot="content"><strong>Technology icon</strong></p>
         <p slot="content">In a space that’s too small for a product logo, or when you’re referring to multiple Red Hat products at the same time, use a technology icon. This avoids squished logos and visual clutter that might be created by using too many product logos in one layout.</p>
@@ -192,36 +192,36 @@ tags:
     </rhb-content>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_1-071223.svg" alt="A product icon and product logo being used in separate imprint areas">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_1-071223.svg" alt="A product icon and product logo being used in separate imprint areas">
         <p slot="content">Use technology icons as separate and distinct elements from logos.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_1-071223.svg" alt="Example of what not to do when using product icons and logos together">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_1-071223.svg" alt="Example of what not to do when using product icons and logos together">
         <p slot="content">Do not merge icons and logos together.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_2-071223.svg" alt="Example of product icons being used correctly in context of the Red Hat brand">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_2-071223.svg" alt="Example of product icons being used correctly in context of the Red Hat brand">
         <p slot="content">Use technology icons as they are provided without modification.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_2-071223.svg" alt="Example of product icons being used incorrectly without the context of the Red Hat brand">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_2-071223.svg" alt="Example of product icons being used incorrectly without the context of the Red Hat brand">
         <p slot="content">Do not add drop shadows, outlines, or other effects to technology icons.</p>
       </rhb-recommend>
 
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_3-071223.svg" alt="A product icon and product logo being used in separate imprint areas">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_3-071223.svg" alt="A product icon and product logo being used in separate imprint areas">
         <p slot="content">Use all Red Hat icons and technology icons as they are provided.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_3-071223.svg" alt="Example of what not to do when using product icons and logos together">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_3-071223.svg" alt="Example of what not to do when using product icons and logos together">
         <p slot="content">Do not modify or combine Red Hat icon styles to create your own icon.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_4-071223.svg" alt="Example of product icons being used correctly in context of the Red Hat brand">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_This_4-071223.svg" alt="Example of product icons being used correctly in context of the Red Hat brand">
         <p slot="content">Use the Red Hat logo when co-branding with a partner or customer logo.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_4-071223.svg" alt="Example of product icons being used incorrectly without the context of the Red Hat brand">
+        <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Application_NotThis_4-071223.svg" alt="Example of product icons being used incorrectly without the context of the Red Hat brand">
         <p slot="content">Do not co-brand a technology icon with a partner or customer logo.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -232,22 +232,22 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card>
-      <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_1-071223.png" alt="">
+      <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_1-071223.png" alt="">
       </rhb-card>
       <rhb-card>
-      <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_2-071223.png" alt="">
+      <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_2-071223.png" alt="">
       </rhb-card>
       <rhb-card>
-      <img class="border-sm border-subtle" slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_3-071223.png" alt="">
+      <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_3-071223.png" alt="">
       </rhb-card>
       <rhb-card>
-      <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+      <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
       </rhb-card>
       <rhb-card>
-      <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+      <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
       </rhb-card>
       <rhb-card>
-      <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+      <img slot="image" webc:is="rhb-img" input-path="./assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
       </rhb-card>
     </rhb-grid>
   </rhb-container>

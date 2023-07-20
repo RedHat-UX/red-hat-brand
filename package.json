@@ -4,10 +4,8 @@
   "description": "Red Hat Brand Website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf _site",
-    "bundle": "rollup -c rollup.config.js",
-    "start": "npm run clean && npm run bundle && eleventy --serve --incremental",
-    "build": "npm run bundle && eleventy"
+    "start": "wireit",
+    "build": "wireit"
   },
   "type": "module",
   "repository": {
@@ -25,6 +23,7 @@
   "homepage": "https://github.com/RedHat-UX/red-hat-brand#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-plugin-bundle": "^1.0.4",
     "@11ty/eleventy-plugin-webc": "^0.11.0",
     "@11ty/eleventy-server-browsersync": "^1.0.2",
@@ -35,11 +34,34 @@
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-import-css": "^3.3.1",
     "rollup-plugin-minify-html-literals": "^1.2.6",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-terser": "^7.0.2",
+    "wireit": "^0.10.0"
   },
   "dependencies": {
     "@patternfly/elements": "^2.3.2",
     "@rhds/elements": "^1.1.0",
     "lite-youtube-embed": "^0.2.0"
+  },
+  "wireit": {
+    "start": {
+      "command": "eleventy --serve --incremental",
+      "dependencies": [
+        "clean",
+        "bundle"
+      ]
+    },
+    "clean": {
+      "command": "rm -rf _site"
+    },
+    "bundle": {
+      "command": "rollup -c rollup.config.js"
+    },
+    "build": {
+      "command": "eleventy",
+      "dependencies": [
+        "clean",
+        "bundle"
+      ]
+    }
   }
 }

@@ -33,10 +33,6 @@
     border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #d2d2d2);
   }
 
-  .recommend-wrapper > img {
-    width: 100%;
-  }
-
   .content-container {
     margin: var(--rh-space-md, 8px) 0; 
   }

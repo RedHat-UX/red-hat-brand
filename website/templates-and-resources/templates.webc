@@ -29,7 +29,7 @@ tags:
         </div>
       </rhb-card>
       <rhb-card flush-top>
-        <img class="border-xl border-update" slot="image" src="/assets/images/expression/templates/Brand-Standards_PERSONALITY_Collateral_0.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/expression/templates/Brand-Standards_PERSONALITY_Collateral_0.png" alt="alt text goes here">
       </rhb-card>
     </rhb-grid>
   </rhb-container>
@@ -49,7 +49,7 @@ tags:
         </div>
       </rhb-card>
       <rhb-card flush-top>
-        <img class="border-xl border-update" slot="image" src="/assets/images/expression/templates/Brand-Standards_PERSONALITY_Presentation_0.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/expression/templates/Brand-Standards_PERSONALITY_Presentation_0.png" alt="alt text goes here">
       </rhb-card>
     </rhb-grid>
   </rhb-container>
@@ -72,7 +72,7 @@ tags:
         </div>
       </rhb-card>
       <rhb-card flush-top>
-        <img class="border-xl border-update" slot="image" src="/assets/images/expression/templates/Brand-Standards_APPLICATION_Assets_Business-Card.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/expression/templates/Brand-Standards_APPLICATION_Assets_Business-Card.png" alt="alt text goes here">
       </rhb-card>
     </rhb-grid>
   </rhb-container>
@@ -92,7 +92,7 @@ tags:
         </div>
       </rhb-card>
       <rhb-card flush-top>
-        <img class="border-xl border-update" slot="image" src="/assets/images/expression/templates/Brand-Standards_APPLICATION_Assets_Email-signature.png" alt="alt text goes here">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" input-path="./assets/images/expression/templates/Brand-Standards_APPLICATION_Assets_Email-signature.png" alt="alt text goes here">
       </rhb-card>
     </rhb-grid>
   </rhb-container>
