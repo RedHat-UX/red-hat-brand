@@ -25,11 +25,11 @@ tags:
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core_example-1-RGB.png" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core_example-1-RGB.png" alt="">
         <p slot="content">Use a white or neutral background that is open and not cluttered with too many design elements. Spacious and open designs help the most important elements of our message stand out.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core_example-2-RGB.svg" alt="">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core_example-2-RGB.svg" alt="">
         <p slot="content">Red Hat red is one of our most recognizable brand assets. Always use Red Hat red as the main accent in your color palette to make sure your design looks and feels like Red Hat.</p>
       </rhb-card>
     </rhb-grid>
@@ -41,25 +41,25 @@ tags:
     <rhb-grid columns="four">
       <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-This-1-RGB.png"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-This-1-RGB.png"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">Use a neutral background with pops of red and plenty of white space.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-Not_this-1-RGB_0.svg"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-Not_this-1-RGB_0.svg"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">Red is a strong color. Try using a neutral background before filling a space with Red Hat red.</p>
       </rhb-recommend>
       <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-This-2-RGB.png"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-This-2-RGB.png"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">Use Red Hat red as the main accent color.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-Not_this-2-RGB.png"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Core-Not_this-2-RGB.png"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">Do not use a tint or shade of red as the main accent color.</p>
       </rhb-recommend>
@@ -77,22 +77,22 @@ tags:
     <rh-tabs vertical>
       <rh-tab slot="tab">Palette 1</rh-tab>
       <rh-tab-panel>
-        <img webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_1-RGB.svg" alt="">
+        <img webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_1-RGB.svg" alt="">
       </rh-tab-panel>
 
       <rh-tab slot="tab">Palette 2</rh-tab>
       <rh-tab-panel>
-        <img webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_2-RGB.svg" alt="">
+        <img webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_2-RGB.svg" alt="">
       </rh-tab-panel>
       
       <rh-tab slot="tab">Palette 3</rh-tab>
       <rh-tab-panel>
-        <img webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_3-RGB.svg" alt="">
+        <img webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_3-RGB.svg" alt="">
       </rh-tab-panel>
 
       <rh-tab slot="tab">Palette 4</rh-tab>
       <rh-tab-panel>
-        <img webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_4-RGB.svg" alt="">
+        <img webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended_Palette_4-RGB.svg" alt="">
       </rh-tab-panel>
     </rh-tabs>
   </rhb-container>
@@ -130,28 +130,28 @@ tags:
     <rhb-grid columns="two">
       <rhb-card full-width>
         <div slot="content" webc:nokeep>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Lead_with_white_space-RGB.svg" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Lead_with_white_space-RGB.svg" alt="">
         <p slot="content"><strong>Lead with white space</strong></p>
         <p slot="content">White space isn’t always white. Use an open background with a simple layout that is not cluttered with too many design elements.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
         <div slot="content" webc:nokeep>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Use_Red_Main_Accent-RGB.png" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Use_Red_Main_Accent-RGB.png" alt="">
         <p slot="content"><strong>Use red as the main accent</strong></p>
         <p slot="content">Red Hat red should be used in every palette. We can use red to create hierarchy and balance within the composition.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
         <div slot="content" webc:nokeep>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-No_more_2_saturated-RGB.png" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-No_more_2_saturated-RGB.png" alt="">
         <p slot="content"><strong>Use no more than 2 saturated colors</strong></p>
         <p slot="content">To create a palette that feels like Red Hat, avoid adding more than 2 saturated colors beyond Red Hat red. More saturated colors can feel chaotic or silly.</p>
         </div>
       </rhb-card>
       <rhb-card full-width>
         <div slot="content" webc:nokeep>
-        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Use_blue_purple_carefully-RGB.svg" alt="">
+        <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Use_blue_purple_carefully-RGB.svg" alt="">
         <p slot="content"><strong>Use blue and purple thoughtfully</strong></p>
         <p slot="content">Purple and blue could unintentionally symbolize our relationship with IBM. When you use them, be mindful that the Red Hat brand should always be independent.</p>
         </div>
@@ -165,25 +165,25 @@ tags:
     <rhb-grid columns="four">
       <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-This-1-RGB.svg"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-This-1-RGB.svg"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">Use colors that work together and have good contrast.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Not_this-1-RGB.svg"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Not_this-1-RGB.svg"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">Do not use colors together that vibrate or have low contrast.</p>
       </rhb-recommend>
       <rhb-recommend>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-This-2-RGB.svg"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-This-2-RGB.svg"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">When using limited colors, use red as the main accent with tints and shades to create balance and hierarchy.</p>
       </rhb-recommend>
       <rhb-recommend no>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Not_this-2-RGB.svg"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Extended-Not_this-2-RGB.svg"
           alt="Red Hat Open Studio Community logo with color added to the icon.">
         <p slot="content">Avoid using three saturated colors in a limited color palette.</p>
       </rhb-recommend>
@@ -200,7 +200,7 @@ tags:
     <rhb-grid columns="two" margin-bottom="xl">
       <rhb-card flush-top>
         <img class="border-xl border-update" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Presentation-RGB.png"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Presentation-RGB.png"
           alt="Red Hat Display weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -212,7 +212,7 @@ tags:
       </rhb-card>
       <rhb-card flush-top>
         <img slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Illustration-RGB.png"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Illustration-RGB.png"
           alt="Red Hat Display weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -224,7 +224,7 @@ tags:
       </rhb-card>
       <rhb-card flush-top>
         <img slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Accessibility-RGB.svg"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Accessibility-RGB.svg"
           alt="Red Hat Display weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -236,7 +236,7 @@ tags:
       </rhb-card>
       <rhb-card flush-top>
         <img class="border-sm border-subtle" slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-UX-RGB.svg"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-UX-RGB.svg"
           alt="Red Hat Display weights and styles">
       </rhb-card>
       <rhb-card flush-top>
@@ -248,7 +248,7 @@ tags:
       </rhb-card>
       <rhb-card flush-top>
         <img slot="image"
-          webc:is="rhb-img" src="assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Swag-RGB_1.png"
+          webc:is="rhb-img" src="./assets/images/design-language/color-page/Red_Hat-Brand_standards-Color-Swag-RGB_1.png"
           alt="Red Hat Display weights and styles">
       </rhb-card>
       <rhb-card flush-top>

@@ -28,7 +28,7 @@ tags:
       </div>
       </rhb-card>
       <rhb-card flush-top>
-        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Writing-RGB.jpg" alt="Red Hat Mono weights and styles">
+        <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Writing-RGB.jpg" alt="Red Hat Mono weights and styles">
       </rhb-card>
     </rhb-grid>
   </rhb-container>
@@ -38,7 +38,7 @@ tags:
   <rhb-container>
     <rhb-grid columns="three">
       <rhb-card bordered>
-        <img slot="image" webc:is="rhb-img" src="assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Video-RGB.jpg" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Video-RGB.jpg" alt="">
         <div slot="content" webc:nokeep>
         <h3>Video</h3>  
         <p>Our goal with video is to tell authentic stories about Red Hat and our customers while helping to simplify complex technologies. These standards help lead the way.</p>
@@ -47,7 +47,7 @@ tags:
       </rhb-card>
 
       <rhb-card bordered>
-        <img slot="image" webc:is="rhb-img" src="assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Social-Media-RGB.png" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Social-Media-RGB.png" alt="">
         <div slot="content" webc:nokeep>
         <h3>Social media</h3>  
         <p>The social media team amplifies the Red Hat brand and offers a consistent user experience through creative, strategic, data-driven processes.</p>
@@ -60,7 +60,7 @@ tags:
       </rhb-card>
 
       <rhb-card bordered>
-        <img slot="image" webc:is="rhb-img" src="assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Diagrams-RGB.png" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Diagrams-RGB.png" alt="">
         <div slot="content" webc:nokeep>
         <h3>Diagrams</h3>
         <p>Our diagrams aim to convey complex technical concepts more clearly and effectively. These guidelines, templates, and standards offer a strong visual language on which to build.</p>
@@ -71,7 +71,7 @@ tags:
       </rhb-card>
 
       <rhb-card bordered>
-        <img slot="image" webc:is="rhb-img" src="assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Animation-RGB.jpg" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Animation-RGB.jpg" alt="">
         <div slot="content" webc:nokeep>
         <h3>Animation</h3>  
         <p>With our animations, we attempt to visualize complex technologies in simpler, more relatable ways to give them more meaning while also conveying emotion and imagination.</p>
@@ -80,7 +80,7 @@ tags:
       </rhb-card>
 
       <rhb-card bordered>
-        <img slot="image" webc:is="rhb-img" src="assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Marketplace-RGB.png" alt="">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/expression/applications/Brand_Standards-Red_Hat-Applications-Marketplace-RGB.png" alt="">
         <div slot="content" webc:nokeep>
         <h3>Red Hat Marketplace</h3>  
         <p>Use these guidelines to create content and assets that represent Red Hat Marketplace, a centralized location for buying and deploying container-based software across clouds.</p>

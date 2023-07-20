@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
 	// Image plugin
 	eleventyConfig.addPlugin(eleventyImagePlugin, {
     urlPath: "/assets/images/",
-    outputDir: "_site/assets/images/",
+    outputDir: "./_site/assets/images/",
     svgShortCircuit: true,
 		defaultAttributes: {
 			loading: "lazy",

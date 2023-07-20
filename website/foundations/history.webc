@@ -25,11 +25,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" alt="A red top hat with the text Red Hat underneath." webc:is="rhb-img" src="assets/images/foundations/history/red-hat-history-software.png">
+        <img slot="image" alt="A red top hat with the text Red Hat underneath." webc:is="rhb-img" src="./assets/images/foundations/history/red-hat-history-software.png">
         <p slot="content">Red Hat's first logo appeared on an early invoice. It was a simple, bright red brimmed top hat placed above the words "Red Hat Software."</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image"  alt="A modified piece of clip art of a man holding a briefcase walking while holding a red fedora on his head." webc:is="rhb-img" src="assets/images/foundations/history/red-hat-history-running-man.png">
+        <img slot="image"  alt="A modified piece of clip art of a man holding a briefcase walking while holding a red fedora on his head." webc:is="rhb-img" src="./assets/images/foundations/history/red-hat-history-running-man.png">
         <p slot="content">The next logo would be the "running man" logo, as it was affectionately known. This logo was used on early ads and manuals. It was created by one of Red Hat’s engineers, who modified a piece of existing clip art.</p>
       </rhb-card>
     </rhb-grid>
@@ -50,11 +50,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" alt="The Shadowman icon with the text redhat beside it in a red type-writer-style font." webc:is="rhb-img" src="assets/images/foundations/history/red-hat-history-first-shadowman.png">
+        <img slot="image" alt="The Shadowman icon with the text redhat beside it in a red type-writer-style font." webc:is="rhb-img" src="./assets/images/foundations/history/red-hat-history-first-shadowman.png">
         <p slot="content">As Red Hat grew, it became vital for the logo to be able to be registered as a trademark. The first Shadowman logo was created by Blank in 1996 and made its first public appearance in 1997.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image"  alt="The Shadowman icon with the text redhat beside it in Myriad Pro font." webc:is="rhb-img" src="assets/images/foundations/history/red-hat-history-shadowman.png">
+        <img slot="image"  alt="The Shadowman icon with the text redhat beside it in Myriad Pro font." webc:is="rhb-img" src="./assets/images/foundations/history/red-hat-history-shadowman.png">
         <p slot="content">When Red Hat went public in 1999 with <a href="https://www.wired.com/1999/08/red-hat-stock-soars-high-higher/">a record-setting IPO</a>, this newsworthy success validated Red Hat’s unwavering belief and trust in the power of open source. Shadowman was updated to "clean up" the icon and Red Hat was spelled in a more professional font.</p>
       </rhb-card>
     </rhb-grid>
@@ -87,11 +87,11 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" webc:is="rhb-img" src="assets/images/foundations/history/rh_history_summit_new_orleans.jpg" alt="Red Hat New Orleans 2005 Summit advertisement.">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/history/rh_history_summit_new_orleans.jpg" alt="Red Hat New Orleans 2005 Summit advertisement.">
         <p slot="content">Held for the first time in New Orleans in 2005, <a href="https://www.redhat.com/en/summit">Red Hat Summit</a> is a chance for Red Hat's customers, partners, and community to learn, network, and experience all that enterprise open source has to offer.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" webc:is="rhb-img" src="assets/images/foundations/history/rh_history_unfakeable_linux_shirt.jpg" alt="Red t-shirt with Shadowman and the text Unfakeable Linux.">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/history/rh_history_unfakeable_linux_shirt.jpg" alt="Red t-shirt with Shadowman and the text Unfakeable Linux.">
         <p slot="content">In 2006, Oracle released a clone of Red Hat Enterprise Linux it called "Unbreakable Linux" at Oracle OpenWorld. The next day, Red Hat distributed hundreds of T-shirts with a simple response: "Unfakeable Linux."</p>
       </rhb-card>
     </rhb-grid>

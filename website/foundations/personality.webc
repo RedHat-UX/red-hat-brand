@@ -24,30 +24,30 @@ tags:
       </rhb-content>
       <rhb-grid columns="four">
         <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/open_open-source.svg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/open_open-source.svg" alt="alt text goes here">
           <p slot="content">We follow and support the <a href="https://opensource.com/open-source-way">principles of open source</a>.</p>
         </rhb-card>
         <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/open_transparency_0.svg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/open_transparency_0.svg" alt="alt text goes here">
           <p slot="content">We are transparent with our customers and each other.</p>
         </rhb-card>
         <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/open_feedback.svg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/open_feedback.svg" alt="alt text goes here">
           <p slot="content">We solicit ideas and feedback widely and often.</p>
         </rhb-card>
         <rhb-card full-width>
-          <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/open_airy-layouts.svg" alt="alt text goes here">
+          <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/open_airy-layouts.svg" alt="alt text goes here">
           <p slot="content">We use airy layouts with plenty of white space.</p>
         </rhb-card>
       </rhb-grid>
    
       <rhb-grid columns="two">
         <rhb-card full-width>
-          <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Open1.png" alt="alt text goes here">
+          <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Open1.png" alt="alt text goes here">
             <p slot="content">Our latest brand campaign messaging positions Red Hat as a leader in open source and continues to amplify and defend open source principles on behalf of our customers and communities.</p>
         </rhb-card>
         <rhb-card full-width>
-          <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Open2_0.png" alt="alt text goes here">
+          <img class="border-sm border-subtle" slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Open2_0.png" alt="alt text goes here">
           <p slot="content">In this social media graphic, we used an airy layout with plenty of white space to convey our open personality.</p>
         </rhb-card>
       </rhb-grid>
@@ -63,30 +63,30 @@ tags:
         </rhb-content>
         <rhb-grid columns="four">
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/authentic_speak-plainly.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/authentic_speak-plainly.svg" alt="alt text goes here">
             <p slot="content">We speak plainly, honestly, and without hyperbole.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/open_transparency_0 copy.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/open_transparency_0 copy.svg" alt="alt text goes here">
             <p slot="content">We deliver what we promise.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/authentic_real-customers.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/authentic_real-customers.svg" alt="alt text goes here">
             <p slot="content">We let our customers, partners, and associates tell their own stories.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/authentic_straightforward.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/authentic_straightforward.svg" alt="alt text goes here">
             <p slot="content">We keep our designs straightforward and direct.</p>
           </rhb-card>
         </rhb-grid> 
      
         <rhb-grid columns="two">
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Authentic1.png" alt="Red illustration of a desktop computer and a messy desk, featuring the Red Hat YouTube show Ask an OpenShift Admin.">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Authentic1.png" alt="Red illustration of a desktop computer and a messy desk, featuring the Red Hat YouTube show Ask an OpenShift Admin.">
               <p slot="content">We use illustrations to highlight authentic situations, technologies, and environments that our audiences experience.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Authentic2-2021.png" alt="Two men speaking to each other at a table in the office, one wearing a Red Hat sweater.">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Authentic2-2021.png" alt="Two men speaking to each other at a table in the office, one wearing a Red Hat sweater.">
             <p slot="content">Our photographs always highlight real customers, partners, and associates. We give them space to tell their own authentic stories.</p>
           </rhb-card>
         </rhb-grid>
@@ -101,30 +101,30 @@ tags:
         </rhb-content>
         <rhb-grid columns="four">
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/helpful_solve-problems.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/helpful_solve-problems.svg" alt="alt text goes here">
             <p slot="content">We solve customers’ problems whether or not our technology is at fault.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/helpful_contribute-code.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/helpful_contribute-code.svg" alt="alt text goes here">
             <p slot="content">We contribute code and support to the open source community.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/helpful_time-considerate.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/helpful_time-considerate.svg" alt="alt text goes here">
             <p slot="content">We are considerate of our audience’s time and attention.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/helpful_communicate.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/helpful_communicate.svg" alt="alt text goes here">
             <p slot="content">We communicate in an approachable, friendly, and informative way.</p>
           </rhb-card>
         </rhb-grid>   
       
         <rhb-grid columns="two">
           <rhb-card full-width>
-            <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Helpful1.png" alt="alt text goes here">
+            <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Helpful1.png" alt="alt text goes here">
               <p slot="content">We developed a series of isometric illustrations to help customers and partners understand how our technologies work together and bring value to their business.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Helpful2_0.png" alt="alt text goes here">
+            <img class="border-xl border-update" slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Helpful2_0.png" alt="alt text goes here">
             <p slot="content"><a href="/en/open-source-stories/colab">Co.Lab</a> is a Red Hat initiative that helps children explore open source principles and aims to inspire them to use these principles in their own communities.</p>
           </rhb-card>
         </rhb-grid>
@@ -139,30 +139,30 @@ tags:
         </rhb-content>
         <rhb-grid columns="four">
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/brave_defend-os.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/brave_defend-os.svg" alt="alt text goes here">
             <p slot="content">We defend open source principles on behalf of our customers and communities.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/brave_protect-os.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/brave_protect-os.svg" alt="alt text goes here">
             <p slot="content">We fight legal and policy battles to protect open source liberties for ourselves and everyone else.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/brave_keep-simple.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/brave_keep-simple.svg" alt="alt text goes here">
             <p slot="content">We keep the design simple and clean, using just the elements we need to communicate our point.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/brave_reevaluate.svg" alt="alt text goes here">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/brave_reevaluate.svg" alt="alt text goes here">
             <p slot="content">We’re not afraid to reevaluate what we’ve done to make sure it’s working as intended.</p>
           </rhb-card>
         </rhb-grid> 
     
         <rhb-grid columns="two">
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Brave1.png" alt="Screenshot of Red Hat approach to hybrid cloud webpage.">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Brave1.png" alt="Screenshot of Red Hat approach to hybrid cloud webpage.">
               <p slot="content">Our thought leadership web pages, <a href="/en/topics/cloud/open-hybrid-cloud-approach">like this one</a>, explore the ways that new technologies are impacting the world and demonstrate these concepts through bold 3D, abstract, and interactive visuals.</p>
           </rhb-card>
           <rhb-card full-width>
-            <img slot="image" webc:is="rhb-img" src="assets/images/foundations/personality/Brand_Standards-Personality-Brave2.png" alt="Social media ad from Red Hat Enterprise Linux 8 campaign in 2019.">
+            <img slot="image" webc:is="rhb-img" src="./assets/images/foundations/personality/Brand_Standards-Personality-Brave2.png" alt="Social media ad from Red Hat Enterprise Linux 8 campaign in 2019.">
             <p slot="content">When we launched Red Hat Enterprise Linux 8, our promotional graphics used a bold typographic treatment centered around the ‘8’ while maintaining white space and legibility.</p>
           </rhb-card>
         </rhb-grid>

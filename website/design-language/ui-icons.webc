@@ -14,9 +14,9 @@ tags:
     </rhb-content>  
 
     <rhb-grid columns="three">
-      <img webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-Color_example-Red-RGB.svg" alt="UI icons on red background">
-      <img webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-Color_example-Black-RGB_0.svg" alt="UI icons on black background">
-      <img webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-Color_example-Grey-RGB.svg" alt="UI icons on grey background">
+      <img webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-Color_example-Red-RGB.svg" alt="UI icons on red background">
+      <img webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-Color_example-Black-RGB_0.svg" alt="UI icons on black background">
+      <img webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-Color_example-Grey-RGB.svg" alt="UI icons on grey background">
     </rhb-grid>
 
     <rhb-content>
@@ -27,11 +27,11 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-card bordered>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-UI_icon-Repo-RGB_1.svg" alt="Image of UI icon repository">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-UI_icon-Repo-RGB_1.svg" alt="Image of UI icon repository">
         <rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/1VTbDN3N0j7xQVkpx0L6Z8lwSae3Y1k_6?usp=sharing" target="_blank">Download our UI icon library</a></rh-cta>
        </rhb-card>
        <rhb-card bordered>
-         <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-UI_icon-Creating-RGB_1.svg" alt="Ui icons on a grid">           
+         <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-UI_icon-Creating-RGB_1.svg" alt="Ui icons on a grid">           
          <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/1F4Lwu83_Y_c0y5R-XGwN1PqdIx0VfW1P6bfbiDYGKws/edit?usp=sharing" target="_blank">Learn more about creating UI icons</a></rh-cta>
        </rhb-card>
     </rhb-grid>
@@ -46,11 +46,11 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-In_use-001-RGB.png" alt="Highlighting the navigation bar on a Red Hat web page">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-In_use-001-RGB.png" alt="Highlighting the navigation bar on a Red Hat web page">
         <p slot="content">In the interface of redhat.com, UI icons allow users to more quickly and intuitively navigate our site.</p>
       </rhb-card>
       <rhb-card full-width>
-        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-In_use-002-RGB_1.svg" alt="Example showing UI icons in use on a web card">
+        <img class="background-color-subtle" slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-In_use-002-RGB_1.svg" alt="Example showing UI icons in use on a web card">
         <p slot="content">UI icons can be paired with text to draw attention to different types of content.</p>           
       </rhb-card>
     </rhb-grid>
@@ -62,35 +62,35 @@ tags:
 
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-This-001-RGB.svg" alt="UI icon representing">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-This-001-RGB.svg" alt="UI icon representing">
         <p slot="content">Use UI icons as designed, without modifications.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-001-RGB.svg" alt="Combination of two UI icons">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-001-RGB.svg" alt="Combination of two UI icons">
         <p slot="content">Do not distort, combine, or otherwise modify existing UI icons.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-This-002-RGB.jpg" alt="Highlighting the navigation bar on a Red Hat web page">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-This-002-RGB.jpg" alt="Highlighting the navigation bar on a Red Hat web page">
         <p slot="content">Use UI icons in interfaces at a small size.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-002-RGB.jpg" alt="Example of UI icons placed in a slide deck">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-002-RGB.jpg" alt="Example of UI icons placed in a slide deck">
         <p slot="content">Do not substitute UI icons for standard icons, that is not their purpose.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-This-003-RGB.svg" alt="UI icon representing">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-This-003-RGB.svg" alt="UI icon representing">
         <p slot="content">Use UI icons so that they maintain a color contrast ratio of at least 3:1, per <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">WCAG 2.1 guidance</a>.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-003-RGB.svg" alt="UI icon representing">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-003-RGB.svg" alt="UI icon representing">
         <p slot="content">Do not place UI icons on a background without sufficient contrast.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-This-004-RGB.svg" alt="Gear UI icon next to the word">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-This-004-RGB.svg" alt="Gear UI icon next to the word">
         <p slot="content">Use UI icons purposefully to facilitate navigation or denote content.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" webc:is="rhb-img" src="assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-004-RGB.svg" alt="Sample mockup of a web card">
+        <img slot="image" webc:is="rhb-img" src="./assets/images/design-language/ui-icons/Asset-Red_Hat-Not_this-004-RGB.svg" alt="Sample mockup of a web card">
         <p slot="content">Do not scale UI icons to use as decorative artwork.</p>
       </rhb-recommend>
     </rhb-grid>
