@@ -1,3 +1,4 @@
+Error.stackTraceLimit = Infinity;
 const fs = require("fs");
 const pluginWebC = require("@11ty/eleventy-plugin-webc");
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");

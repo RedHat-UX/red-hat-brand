@@ -60,12 +60,8 @@
       "command": "eleventy",
       "dependencies": [
         "clean",
-        "bundle",
-        "debug"
+        "bundle"
       ]
     },
-    "debug": {
-      "command": "tree ./assets/images"
-    }
   }
 }
