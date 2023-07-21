@@ -44,7 +44,7 @@ tags:
         <div slot="content" webc:nokeep>
           <p>All universal logos are built on a template which places the words "Red Hat" first, followed by a group name written in bold. We utilize descriptive naming to differentiate between teams, tools, and programs.</p>
           <p>Names should be professional and customer-facing, and must include an identifying descriptor like Red Hat Technical Account Manager or Red Hat Certification Team.</p>
-          <p>Contact <a href="mailto: naming@redhat.com">naming@redhat.com</a> to ensure that the name of your group meets all of the existing requirements before requesting a new universal logo.</p>
+          <p><rh-cta><a href="/foundations/naming-and-trademarks/">Learn more about naming and trademarks</a></rh-cta></p>
         </div>
       </rhb-card>
       <rhb-card>

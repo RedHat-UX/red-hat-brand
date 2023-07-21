@@ -13,19 +13,29 @@ tags:
     <rhb-content>
       <p>Our logo was introduced in 2019 as part of the <a href="/en/about/our-brand/open-brand-project">Open Brand Project</a>, an initiative to update and simplify our corporate logo and brand system in collaboration with the Red Hat® community.</p>
     </rhb-content>
-    <rhb-grid columns="two">
-      <img src="/assets/images/Asset-Red_Hat-Logo_page-Logo-RGB.svg" alt="The Red Hat logo">
+
+    <rhb-grid columns="three">
+      <rhb-card>
+      <img slot="image" src="/assets/images/logos/red-hat-logo/Brand_Standards-Red_Hat_Logo-Hero_1-072123.svg" alt="The Red Hat logo on dark background">
+    </rhb-card>
+    <rhb-card>
+      <img slot="image" src="/assets/images/logos/red-hat-logo/Brand_Standards-Red_Hat_Logo-Hero_2-072123.svg" alt="The Red Hat logo on light background">
+    </rhb-card>
+    <rhb-card>
+      <img slot="image" src="/assets/images/logos/red-hat-logo/Brand_Standards-Red_Hat_Logo-Hero_3-072123.svg" alt="The Red Hat logo on red background">
+    </rhb-card>
     </rhb-grid>
+
     <rhb-content>
       <p>Our logo is made up of two parts: the hat and the wordmark. The hat is the same fedora worn by Shadowman–the figure <a href="/en/about/brand/standards/history">featured in our previous logo</a>–and is an embodiment of the trust and goodwill we’ve built with customers, partners, and the community as we’ve grown. Our company name appears in bold in the wordmark, created from our open source font.</p>
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card bordered>
-         <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+         <img slot="image" src="/assets/images/logos/red-hat-logo/Brand_Standards-Red_Hat_Logo-download_logo-072123.svg" alt="Red Hat logo">
          <rh-cta slot="cta"><a href="https://drive.google.com/drive/folders/1dtl_rz3CZwn05Y45iUtODMJWyJMGcwpu?usp=sharing">Red Hat associates can download the logo here</a></rh-cta>
        </rhb-card>
        <rhb-card bordered>
-        <img slot="image" src="/assets/images/design-language/technology-icons/Brand_Standards-Technology_icons-Gallery_Placeholder-071223.png" alt="">
+        <img slot="image" src="/assets/images/logos/red-hat-logo/Brand_Standards-Red_Hat_Logo-the_hat-072123.svg" alt="Red Hat icon">
         <rh-cta slot="cta"><a href="https://www.redhat.com/en/about/brand/standards/the-hat">Learn more about using the hat alone</a></rh-cta>
       </rhb-card>
           </rhb-grid>
@@ -50,7 +60,7 @@ tags:
             <p><strong>Logo A is the preferred logo for most applications.</strong> It fits best in spaces that are wider than they are tall.</p>
             <p>The clear space should be at least the height of the letter "e" all the way around the logo.</p>
           </div>
-          <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoA-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for spaces that are wider than they are tall">
+          <img src="/assets/images/logos/red-hat-logo/Logo-Red_Hat-Clear_space_LogoA-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for spaces that are wider than they are tall">
         </rhb-grid> 
       </rh-tab-panel>
       <rh-tab slot="tab">Logo B</rh-tab>
@@ -61,7 +71,7 @@ tags:
             <p><strong>Logo B fits best in spaces that are more square.</strong> The hat and wordmark are the same size as they are in logo A, but they’re stacked instead of side by side.</p>
             <p>The clear space should be at least the height of the letter "e" all the way around the logo.</p>
           </div>
-          <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoB-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for spaces that are more square">
+          <img src="/assets/images/logos/red-hat-logo/Logo-Red_Hat-Clear_space_LogoB-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for spaces that are more square">
         </rhb-grid> 
       </rh-tab-panel>
       <rh-tab slot="tab">Logo C</rh-tab>
@@ -72,7 +82,7 @@ tags:
             <p><strong>Logo C&nbsp;should only be used for large-scale signage.</strong> The combination of small text and a stacked layout is ideal for making the most of larger square spaces, like signage.</p>
             <p>The clear space should be at least twice the height of the letter "e" all the way around the logo.</p>
           </div>
-          <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoD-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for large scale signage">
+          <img src="/assets/images/logos/red-hat-logo/Logo-Red_Hat-Clear_space_LogoD-clearspace.svg" alt="Red Hat logo diagram showing the best spacing for large scale signage">
         </rhb-grid> 
       </rh-tab-panel>
       <rh-tab slot="tab">The hat</rh-tab>
@@ -83,7 +93,7 @@ tags:
             <p>The hat can be used independently in some situations, but only when the context of the Red Hat brand is clear.</p>
             <p><rh-cta><a href="/logos/the-hat">Learn more about using the hat alone</a></rh-cta></p>
           </div>
-          <img src="/assets/images/Logo-Red_Hat-Clear_space_LogoA-clearspace.svg">
+          <img src="/assets/images/logos/red-hat-logo/Logo-Red_Hat-Clear_space_Hat-clearspace.svg">
         </rhb-grid> 
       </rh-tab-panel>
       </rh-tab-panel>
@@ -92,19 +102,19 @@ tags:
   <rhb-container>
     <rhb-grid columns="four">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-This%20copy-RGB.svg" alt="Horizontal email header image using the Logo version A.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-General-This%20copy-RGB.svg" alt="Horizontal email header image using the Logo version A.">
         <p slot="content">Use the version of the logo that fits best in the available space.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-Not_this-1%20copy-RGB.svg" alt="Email header image with the Logo version C, which does not fit well.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-General-Not_this-1%20copy-RGB.svg" alt="Email header image with the Logo version C, which does not fit well.">
         <p slot="content">Do not use a version of the logo that is too wide or tall for the available space.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-Not_this-3%20copy-RGB.jpg" alt="Red Hat logo used on a web card with proper clear space and margins around the elements.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-General-Not_this-3%20copy-RGB.jpg" alt="Red Hat logo used on a web card with proper clear space and margins around the elements.">
         <p slot="content">Use appropriate margins around the logo.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-General-Not_this-2%20copy-RGB.jpg" alt="The Red hat logo used on a web card without proper clear space and margins, nearly touching the photograph and the text in the card.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-General-Not_this-2%20copy-RGB.jpg" alt="The Red hat logo used on a web card without proper clear space and margins, nearly touching the photograph and the text in the card.">
         <p slot="content">Do not use small margins that make the logo feel cramped.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -118,37 +128,37 @@ tags:
       <p>When the logo has color behind it, the first priority is visibility. Switch the color of the wordmark accordingly. Black type is best for light backgrounds, while white type is best for dark backgrounds. You can learn more about color contrast in <a href="https://docs.google.com/presentation/d/1SAmWeXEKKJWoMrji5ZBzPnUz66eeyET2kaMdIHYNG00/edit?usp=sharing" target="_blank" rel="noreferrer nofollow">Visual Accessibility at Red Hat</a>.</p>
     </rhb-content>
     <rhb-grid columns="four">
-      <img src="/assets/images/Brand_Standars-Red_Hat-_color_on-black.svg" alt="Red Hat logo on black background">
-      <img class="border-sm border-subtle" src="/assets/images/Brand_Standars-Red_Hat-_color_on-white.svg" alt="Red Hat logo on white background">
-      <img src="/assets/images/Brand_Standars-Red_Hat-_color_on-lightgray.svg" alt="Red Hat logo on light grey background">
-      <img src="/assets/images/Brand_Standars-Red_Hat-_color_on-darkgray.svg" alt="Red Hat logo on dark grey background">
+      <img src="/assets/images/logos/red-hat-logo/Brand_Standars-Red_Hat-_color_on-black.svg" alt="Red Hat logo on black background">
+      <img class="border-sm border-subtle" src="/assets/images/logos/red-hat-logo/Brand_Standars-Red_Hat-_color_on-white.svg" alt="Red Hat logo on white background">
+      <img src="/assets/images/logos/red-hat-logo/Brand_Standars-Red_Hat-_color_on-lightgray.svg" alt="Red Hat logo on light grey background">
+      <img src="/assets/images/logos/red-hat-logo/Brand_Standars-Red_Hat-_color_on-darkgray.svg" alt="Red Hat logo on dark grey background">
     </rhb-grid>
     <rhb-content>
       <p>Sometimes printing costs or visual constraints mean that we need to use the logo in one color. When you can, choose the red version so that the hat is red. Use the white version on a red background.</p>
     </rhb-content>
     <rhb-grid columns="three">
-      <img src="/assets/images/Brand_Standars-Red_Hat-_one-color_on-white.svg" alt="red and black Red Hat logo on a white background">
-      <img src="/assets/images/Brand_Standars-Red_Hat-_one-color_on-black.svg" alt="red and white Red Hat logo on a black background">
-      <img src="/assets/images/Brand_Standars-Red_Hat-_one-color_on-red.svg" alt="white Red Hat logo on red background">
+      <img src="/assets/images/logos/red-hat-logo/Brand_Standars-Red_Hat-_one-color_on-white.svg" alt="red and black Red Hat logo on a white background">
+      <img src="/assets/images/logos/red-hat-logo/Brand_Standars-Red_Hat-_one-color_on-black.svg" alt="red and white Red Hat logo on a black background">
+      <img src="/assets/images/logos/red-hat-logo/Brand_Standars-Red_Hat-_one-color_on-red.svg" alt="white Red Hat logo on red background">
     </rhb-grid>
     <rhb-content>
       <p>If you’re placing the logo on an image or video, place the logo somewhere without visual clutter and use the version of the logo with the best color contrast.</p>
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-recommend>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Image-This-1-RGB.jpg" alt="Image of a woman using her computer with the Red Hat logo added in the upper left where it is on a clear background." >
+        <img slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Image-This-1-RGB.jpg" alt="Image of a woman using her computer with the Red Hat logo added in the upper left where it is on a clear background." >
         <p slot="content">Place the logo in an area with a clean and simple background.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Image-Not_this-1-RGB.jpg" alt="Photograph of a man in an office using a computer with the Red Hat logo overlayed on a busy part of the image. The logo is difficult to see.">
+        <img slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Image-Not_this-1-RGB.jpg" alt="Photograph of a man in an office using a computer with the Red Hat logo overlayed on a busy part of the image. The logo is difficult to see.">
         <p slot="content">Do not place the logo on a background that is complex or cluttered.</p>
       </rhb-recommend>
       <rhb-recommend>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Image-This-2-RGB.jpg" alt="Image of a building with the Red Hat logo placed in the bottom right corner where it is clear and has good contrast against the white background.">
+        <img slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Image-This-2-RGB.jpg" alt="Image of a building with the Red Hat logo placed in the bottom right corner where it is clear and has good contrast against the white background.">
         <p slot="content">Ensure that the logo is easy to read and has sufficient contrast against background colors.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-xl border-update" slot="image" src="/assets/images/Asset-Red_Hat-Image-Not_this-2-RGB.jpg" alt="Photograph of Red Hat CEO Paul Cormier with the Red Hat logo placed on a dark gray background beside him, where it has low contrast and is difficult to see.">
+        <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Image-Not_this-2-RGB.jpg" alt="Photograph of Red Hat CEO Paul Cormier with the Red Hat logo placed on a dark gray background beside him, where it has low contrast and is difficult to see.">
         <p slot="content">Do not place the logo on a background that doesn’t have enough contrast. Use the version of the logo with the most contrast.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -162,35 +172,35 @@ tags:
     </rhb-content>
     <rhb-grid columns="four">
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-1-RGB.svg" alt="Image of the Red Hat logo without the hat band">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-1-RGB.svg" alt="Image of the Red Hat logo without the hat band">
         <p slot="content">Do not change the color of the band or remove it.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle"  slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-2-RGB.png" alt="Image of the Red Hat logo with a gradient and drop shadow.">
+        <img class="border-sm border-subtle"  slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-2-RGB.png" alt="Image of the Red Hat logo with a gradient and drop shadow.">
         <p slot="content">Do not add shadows or gradients to the logo.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-3-RGB.svg" alt="Image of the Red Hat logo with the colors changed to shades of blue">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-3-RGB.svg" alt="Image of the Red Hat logo with the colors changed to shades of blue">
         <p slot="content">Do not change the colors of the logo.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-4-RGB.svg" alt="Image of the Red Hat logo with the width reduced so that the logo is squished.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-4-RGB.svg" alt="Image of the Red Hat logo with the width reduced so that the logo is squished.">
         <p slot="content">Do not stretch or distort the logo.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-5-RGB.svg" alt="Image of the Red Hat logo with the hat moved to the right side and enlarged.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-5-RGB.svg" alt="Image of the Red Hat logo with the hat moved to the right side and enlarged.">
         <p slot="content">Do not scale or move parts of the logo independently of each other.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-6-RGB.png" alt="Image of Shadowman, who was part of the previous Red Hat logo, and Tux the penguin.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-6-RGB.png" alt="Image of Shadowman, who was part of the previous Red Hat logo, and Tux the penguin.">
         <p slot="content">Do not use legacy logos or Tux the penguin, the Linux mascot, with or without the Red Hat logo.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-7-RGB.svg" alt="Image of the Red Hat hat placed on top of the IBM logo.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-7-RGB.svg" alt="Image of the Red Hat hat placed on top of the IBM logo.">
         <p slot="content">Do not use the logo or the hat icon as part of another logo or for parody purposes.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image" src="/assets/images/Asset-Red_Hat-Logo_page-Not_this-8-RGB.svg" alt="Image of the Red Hat wordmark used alone.">
+        <img class="border-sm border-subtle" slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Logo_page-Not_this-8-RGB.svg" alt="Image of the Red Hat wordmark used alone.">
         <p slot="content">Do not use the wordmark alone. Instead, type "Red Hat" in our font.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -201,19 +211,19 @@ tags:
   <rhb-container>
     <rhb-grid columns="two">
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy-RGB_0.svg" alt="Screenshot of a browser window showing the hat used as the favicon for the Red Hat website.">
+        <img slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Frame-1%20copy-RGB_0.svg" alt="Screenshot of a browser window showing the hat used as the favicon for the Red Hat website.">
         <p slot="content">For small spaces where the logo can’t fit, like a favicon, you can use the hat. <a href="/the-hat">Read more about using the hat alone.</a></p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy%202-RGB.jpg" alt="Photograph of a coffee tumbler with Red Hat logo B version printed on the front.">
+        <img slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Frame-1%20copy%202-RGB.jpg" alt="Photograph of a coffee tumbler with Red Hat logo B version printed on the front.">
         <p slot="content">The stacked logo with large type (Logo B) makes the best use of the available space on this travel mug.</a></p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/Asset-Red_Hat-Frame-1%20copy%203-RGB.jpg" alt="Photograph of the north side of Red Hat Tower in downtown Raleigh, NC, featuring the Red Hat logo version A">
+        <img slot="image" src="/assets/images/logos/red-hat-logo/Asset-Red_Hat-Frame-1%20copy%203-RGB.jpg" alt="Photograph of the north side of Red Hat Tower in downtown Raleigh, NC, featuring the Red Hat logo version A">
         <p slot="content">The space on top of Red Hat Tower is wide and narrow, so we chose a horizontal logo. We also needed our name to be visible from far away, so we chose the version with large type (Logo A).</a></p>
       </rhb-card>
       <rhb-card full-width>
-        <img slot="image" src="/assets/images/1019_RH_OBP_Outro_CC_Black_SFX%20copy_0.jpg" alt="Screenshot of the Red Hat video outro, featuring the Red Hat logo and Creative Commons icons.">
+        <img slot="image" src="/assets/images/logos/red-hat-logo/1019_RH_OBP_Outro_CC_Black_SFX%20copy_0.jpg" alt="Screenshot of the Red Hat video outro, featuring the Red Hat logo and Creative Commons icons.">
         <p slot="content">In video, we use an animated version of the Red Hat logo for outros. <a href="https://docs.google.com/presentation/d/1EDo4PA69x14OVBkpN0YK20dzmFPdYMnCxqNV-OcWLc8/edit#slide=id.g7f31431ecd_0_0">Read more in the Red Hat video&nbsp;standards.</a></p>
       </rhb-card>
     </rhb-grid>
