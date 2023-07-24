@@ -14,7 +14,6 @@ tags:
       <p><a href="https://www.redhat.com/en/summit">Red Hat® Summit</a> is our annual open source technology event for thousands of IT professionals. At the event, we announce new products and programs to customers, partners, and prospects. We also communicate our technology vision to the world by spending time with analysts, members of the press, and other industry influencers.</p>
       <p>Red Hat Summit is our largest annual event, and as such it is the only event with a dedicated logo. Events like Red Hat Forums take the Red Hat Summit experience around the world using the same look and feel, but do not receive dedicated logos. No other Red Hat events have dedicated logos.</p>
       <p>The theme for Red Hat Summit changes each year, and themed graphics are placed throughout the event. The Red Hat Summit logo, however, remains the same.</p>
-      <rh-cta><a href="https://docs.google.com/presentation/d/1NQyr7i8D3C6jCqJYyFoxrT5JK7ssFVvYtiPEE2V-9qA/edit?usp=sharing">See this year's theme</a></rh-cta>
     </rhb-content>
     <rhb-grid columns="two">
       <rhb-card full-width>
@@ -55,8 +54,8 @@ tags:
     <rhb-card full-width>
       <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use1.svg" alt="A presentation slide with the Red Hat Summit logo in the upper left and the Red Hat logo in the lower right.">
       <p slot="content">Using the Red Hat Summit logo and Red Hat logo in opposite corners works well for materials like presentation slides, handouts, and marketing collateral.</p>
-    </rhb-card full-width>
-    <rhb-card>
+    </rhb-card>
+    <rhb-card full-width>
       <img class="border-xl border-update" slot="image" src="/assets/images/logos/red-hat-summit-logo/BrandStandards-Logo-Summit_Logos-ASSETS_in_use2.svg" alt="A t-shirt with the Red Hat Summit logo on the front and the Red Hat logo on the back.">
       <p slot="content">For t-shirts, use one logo on the pocket and the other on the back or sleeve, or incorporate one of the logos into the t-shirt graphic.</p>
     </rhb-card>

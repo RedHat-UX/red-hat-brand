@@ -22,7 +22,10 @@ export default {
     }),
     copy({ targets: 
       [
-        { src: 'node_modules/@patternfly/icons/**/*', dest: './_site/assets/javascript/icons' }
+        { src: 'node_modules/@patternfly/icons/fas/*', dest: './_site/assets/javascript/icons/fas' },
+        { src: 'node_modules/@patternfly/icons/far/*', dest: './_site/assets/javascript/icons/far' },
+        { src: 'node_modules/@patternfly/icons/fab/*', dest: './_site/assets/javascript/icons/fab' },
+        { src: 'node_modules/@patternfly/icons/patternfly/*', dest: './_site/assets/javascript/icons/patternfly' }
       ]
     }),
   ],

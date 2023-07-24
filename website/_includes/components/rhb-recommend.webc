@@ -6,12 +6,12 @@
         <script webc:type="js">
           if(webc.attributes.hasOwnProperty('no')) {
             `<div class="flex-center danger">
-              <pf-icon icon="circle-xmark" size="md"></pf-icon> 
+              <pf-icon icon="times-circle" size="md"></pf-icon> 
               <span class="font-xl">Not this</span>
             </div>`
           } else {
             `<div class="flex-center success">
-              <pf-icon icon="circle-check" size="md"></pf-icon> 
+              <pf-icon icon="check-circle" size="md"></pf-icon> 
               <span class="font-xl">This</span>
             </div>`
           }
