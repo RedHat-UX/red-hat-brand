@@ -12,7 +12,29 @@ tags:
     <rhb-content>
       <p>Aside from our logo, Red Hat® red is our most recognizable brand asset. Our core colors–red, black, and white–are in the Red Hat logo and are most closely associated with our brand. We use them to make a big impression. Every project starts with our core colors.</p>
     </rhb-content>
-    <h3>Start with our core color palette</h3>
+    <h4>Start with our core color palette</h4>
+    <div class="red-boxes">
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #fddbdb; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #fab6b6; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #f56d6d; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 554px; height: 10em; background-color: #ee0000; margin-right: 3px; margin-left: 3px; color: white; border-radius: 3px"><p>Red Hat red</p><p>#ee0000</p></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #be0000; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #8f0000; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #5f0000; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+    </div>
+    <div class="red-boxes">
+      <div style="display: inline-block; width: 178px; height: 10em; background-color: #ffffff; border-color: #f3f3f3; border-width: 2px; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #f3f3f3; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #dedede; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #c9c9c9; margin-right: 3px; margin-left: 3px; color: white; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #aaaaaa; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #8b8b8b; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #6c6c6c; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #4d4d4d; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 84.5px; height: 10em; background-color: #2e2e2e; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      <div style="display: inline-block; width: 178px; height: 10em; background-color: #000000; margin-right: 3px; margin-left: 3px; border-radius: 3px"></div>
+      
+    </div>
   </rhb-container>
 </rhb-band>
 
