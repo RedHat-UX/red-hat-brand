@@ -17,8 +17,8 @@
 	.st11{fill:#689B7A;}
 	.st12{fill:#ED1C24;}
 	.st13{fill:#383838;}
-	.st14{clip-path:url(#SVGID_00000111904298864123844350000016910689965213364875_);}
-	.st15{clip-path:url(#SVGID_00000096753539673071179200000007817881120006421939_);}
+	.st14{clip-path:url(#SVGID_00000068659250007020705900000006985895050723801022_);}
+	.st15{clip-path:url(#SVGID_00000021842418291756152250000006937666852251622278_);}
 	.st16{fill:#151515;}
 	.st17{fill:#F2F2F2;}
 	.st18{fill:none;stroke:#1E67CD;stroke-width:0.75;stroke-miterlimit:10;}
@@ -44,7 +44,7 @@
 	.st38{opacity:0.25;}
 	.st39{fill:#0066CC;}
 	.st40{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-	.st41{clip-path:url(#SVGID_00000065051689390131745540000011858978483924988834_);}
+	.st41{clip-path:url(#SVGID_00000135674619705688512590000008655186802219761076_);}
 	.st42{fill:none;stroke:#1E67CD;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
 	.st43{fill:none;stroke:#1E67CD;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,1.002;}
 	.st44{fill:none;stroke:#1E67CD;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
@@ -52,18 +52,21 @@
 	.st46{fill:none;stroke:#1E67CD;stroke-miterlimit:10;}
 	.st47{fill:#FFFFFF;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st48{fill:#8F0000;}
-	.st49{clip-path:url(#SVGID_00000142862966473127513070000003666889757915681156_);}
-	.st50{clip-path:url(#SVGID_00000036250584175005328280000015353637890444861576_);}
+	.st49{clip-path:url(#SVGID_00000003074783353830623510000013800248128499183002_);}
+	.st50{clip-path:url(#SVGID_00000063602579176585829230000014982838387726677142_);}
 	.st51{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:5.000000e-02;stroke-miterlimit:10;}
 	.st52{fill:none;stroke:#FFFFFF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st53{opacity:0.5;fill:#1E67CD;}
 	.st54{fill:#151515;stroke:#1E67CD;stroke-miterlimit:10;}
 	.st55{fill:#151515;stroke:#316DC1;stroke-width:0.25;stroke-miterlimit:10;}
 	.st56{fill:none;stroke:#FFFFFF;stroke-width:0.45;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st57{fill:#27579A;}
-	.st58{fill:#C65E2B;}
-	.st59{fill:#4E745C;}
-	.st60{fill:#F7823C;}
+	.st57{fill:#F7823C;}
+	.st58{fill:#27579A;}
+	.st59{fill:#C65E2B;}
+	.st60{fill:#4E745C;}
+	.st61{fill:#F2F2F2;stroke:#D2D2D2;stroke-miterlimit:10;}
+	.st62{fill:#241A49;}
+	.st63{fill:#E3EAF5;}
 </style>
 <rect y="0" class="st16" width="555" height="288"/>
 <rect x="51" y="41" class="st17" width="452.9" height="206"/>
@@ -125,7 +128,7 @@
 		</g>
 		<g>
 			<ellipse class="st25" cx="173.1" cy="217.9" rx="3.2" ry="3.2"/>
-			<path class="st30" d="M185.9,216.8h-25.7v-3.8l0,0c1.3,0,2.3-1.1,2.3-2.5v-5c0-6.2,4.7-11.3,10.5-11.3h0c5.8,0,10.5,5,10.5,11.3
+			<path class="st35" d="M185.9,216.8h-25.7v-3.8l0,0c1.3,0,2.3-1.1,2.3-2.5v-5c0-6.2,4.7-11.3,10.5-11.3h0c5.8,0,10.5,5,10.5,11.3
 				v5c0,1.4,1,2.5,2.3,2.5l0,0V216.8z"/>
 			<circle class="st25" cx="173.1" cy="191.6" r="2.7"/>
 		</g>
