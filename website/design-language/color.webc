@@ -256,7 +256,7 @@ tags:
         <p slot="content">
           Branded merchandise, also known as swag, is more than just pens and T-shirts. We use swag to engage our audience in our brand experience and to increase brand impressions, so start with our core color palette. If you use other colors, be consistent with what your program or group is using in other applications.
         </p>
-        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/10QIaXpgNWmvwtHCt1VXxrOp9cJZkbfyy9MeisH27ZQk/edit?usp=sharing">View the Red Hat merchandise handbook</a></rh-cta>
+        <rh-cta slot="cta"><a href="https://docs.google.com/presentation/d/10QIaXpgNWmvwtHCt1VXxrOp9cJZkbfyy9MeisH27ZQk/edit#slide=id.p">View the Red Hat merchandise handbook</a></rh-cta>
       </rhb-card>
     </rhb-grid>
   </rhb-container>

@@ -13,6 +13,8 @@ tags:
       <h2 @text="title"></h2>
       <p>Red Hat® photos capture the spirit of their subjects in authentic and meaningful ways. Through photography, we add context and depth to our messages. Every photo, no matter its type, serves the same purpose: to tell a true, coherent, and compelling story. </p>
       <p>Photography is best used when you want to highlight the human experience, a specific customer, partner, or associate, or when you need to visually represent an abstract concept for a technology or industry.</p>
+      <rh-cta><a href=https://drive.google.com/drive/folders/1Ju4hRf5GXamJl57jKREoTlcmGQzJ_GMp?usp>Access Red Hat's photography library</a></rh-cta>
+
     </rhb-content>
   
   <rhb-grid columns="three">
@@ -24,7 +26,6 @@ tags:
       <img src="/assets/images/design-language/photography-page/Asset-Red_Hat-Level_Up_Hour-Hero-06-100.jpg" alt="Red Hat photojournalism photo">
   </rhb-grid>
 
-    <rh-cta><a href=https://drive.google.com/drive/folders/1Ju4hRf5GXamJl57jKREoTlcmGQzJ_GMp?usp>Access Red Hat's Photography Library</a></rh-cta>
   </rhb-container>
 </rhb-band>
 
@@ -177,7 +178,7 @@ tags:
 <rhb-band>
   <rhb-container>
     <rhb-content>
-      <h4>Using photography at Red Hat</h4>
+      <h4>Photogprahy in use</h4>
     </rhb-content>
  
     <rhb-grid columns="two">

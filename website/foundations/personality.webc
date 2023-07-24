@@ -25,7 +25,7 @@ tags:
       <rhb-grid columns="four">
         <rhb-card full-width>
           <img slot="image" src="/assets/images/foundations/personality/open_open-source.svg" alt="alt text goes here">
-          <p slot="content">We follow and support the <a href="https://opensource.com/open-source-way">principles of open source</a>.</p>
+          <p slot="content">We follow and support the <a href="https://www.redhat.com/en/about/open-source">principles of open source</a>.</p>
         </rhb-card>
         <rhb-card full-width>
           <img slot="image" src="/assets/images/foundations/personality/open_transparency_0.svg" alt="alt text goes here">
@@ -41,6 +41,7 @@ tags:
         </rhb-card>
       </rhb-grid>
    
+
       <rhb-grid columns="two">
         <rhb-card full-width>
           <img class="border-xl border-update" slot="image" src="/assets/images/foundations/personality/Brand_Standards-Personality-Open1.png" alt="alt text goes here">
@@ -135,7 +136,7 @@ tags:
         <rhb-content>
           <h2>Brave</h2>
           <p>It’s taken a lot of faith and courage, sustained over many years, to build Red Hat. We had to believe we were right when our industry thought we were wrong.</p>
-          <p>And we had to fight for the right to share code and ensure that intellectual property law was not improperly used to stop us. (This is an important and fascinating chapter of Red Hat history. Learn more about our important role in shaping legal opinions that <a href="/en/about/press-releases/amicus">extended software freedoms</a> for everyone.)</p>
+          <p>And we had to fight for the right to share code and ensure that intellectual property law was not improperly used to stop us. (This is an important and fascinating chapter of Red Hat history. Learn more about our important role in shaping legal opinions that <a href="https://www.redhat.com/en/about/press-releases/amicus">extended software freedoms</a> for everyone.)</p>
         </rhb-content>
         <rhb-grid columns="four">
           <rhb-card full-width>

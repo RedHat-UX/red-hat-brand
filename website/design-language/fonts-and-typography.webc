@@ -24,7 +24,7 @@ tags:
           href="https://www.redhat.com/en/about/brand/standards/application" target="_blank" rel="noreferrer nofollow">templates</a>, download and
         install them from&nbsp;<a href="https://github.com/RedHatOfficial/RedHatFont" target="_blank" rel="noreferrer nofollow">GitHub</a>, use
         them as <a href="https://ux.redhat.com/foundations/typography/" target="_blank" rel="noreferrer nofollow">web type</a>, add them to your
-        <a href="https://fonts.google.com/" target="_blank" rel="noreferrer nofollow">Google Fonts</a> options, or find them pre-installed on Red
+        <a href="https://fonts.google.com/?query=Red+Hat" target="_blank" rel="noreferrer nofollow">Google Fonts</a> options, or find them pre-installed on Red
         Hat-issued computers.</p>
     </rhb-content>
 
@@ -165,15 +165,11 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_This_0.svg"
-          alt="Red Hat materials using Red Hat fonts">
+        <img class="background-color-subtle" slot="image" src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_This_0.svg" alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Always use sentence case in Red Hat materials, even for headlines.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image"
-          src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_NotThis.svg"
-          alt="Red Hat materials using Red Hat fonts">
+        <img class="background-color-subtle" slot="image" src="/assets/images/design-language/typography-page/BrandStandards-Typography-ASSETS-Sentence-case_NotThis.svg" alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Do not use all caps or title case.</p>
       </rhb-recommend>
     </rhb-grid>
@@ -192,13 +188,13 @@ tags:
 
     <rhb-grid columns="two">
       <rhb-recommend>
-        <img class="border-sm border-subtle" slot="image"
+        <img class="background-color-subtle" slot="image"
           src="/assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_This.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Use 1 treatment to create hierarchy or emphasis.</p>
       </rhb-recommend>
       <rhb-recommend no>
-        <img class="border-sm border-subtle" slot="image"
+        <img class="background-color-subtle" slot="image"
           src="/assets/images/design-language/typography-page/Red_Hat-Typography-Emphasis_NotThis.svg"
           alt="Red Hat materials using Red Hat fonts">
         <p slot="content">Do not use more than 1 type of emphasis at a time.</p>
