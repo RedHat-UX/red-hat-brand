@@ -1,6 +1,7 @@
 const fs = require("fs");
 const pluginWebC = require("@11ty/eleventy-plugin-webc");
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
+const litPlugin = require('@lit-labs/eleventy-plugin-lit');
 
 const NOT_FOUND_PATH = "_site/404.html";
 
@@ -9,6 +10,13 @@ module.exports = function(eleventyConfig) {
 		components: "website/_includes/components/*.webc",
 	});
   eleventyConfig.addPlugin(bundlerPlugin);
+
+  eleventyConfig.addPlugin(litPlugin, {
+    mode: 'worker',
+    componentModules: [
+      'node_modules/@rhds/elements/elements/rh-card/rh-card.js',
+    ],
+  });
 
 	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 	eleventyConfig.addPassthroughCopy({ public: "." });
